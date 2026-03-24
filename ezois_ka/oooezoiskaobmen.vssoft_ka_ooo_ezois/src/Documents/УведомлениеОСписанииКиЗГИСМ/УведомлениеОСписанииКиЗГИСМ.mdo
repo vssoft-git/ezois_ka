@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="27063334-6a22-4933-90ff-a2c42053de72" extendedConfigurationObject="d85651a9-8b45-4df3-b6f9-354a89a57c2a">
+  <producedTypes>
+    <objectType typeId="9352841d-f6cc-4fa5-b809-1d05f14870d6" valueTypeId="b0a1c0e6-c30d-4651-8214-c5e5dcb09ddb"/>
+    <refType typeId="4dac9e3a-818e-4b36-8edb-ed37bfa77bf3" valueTypeId="6a19e166-ae6a-44cd-ba95-56d1c0373513"/>
+    <selectionType typeId="de273306-d23d-4f26-92e8-1003ee3391ac" valueTypeId="4fe896a6-63a7-4492-9a40-c9365aa2e834"/>
+    <listType typeId="a4c7bf2d-e982-4d68-8a8a-76dc8fafc10a" valueTypeId="b7c14d13-5ed1-4fb8-97ee-36456dd26216"/>
+    <managerType typeId="bc486817-55e2-4e10-8ad7-1493528ba101" valueTypeId="4bae9a4f-a4c4-442e-be8c-5f27499409fb"/>
+  </producedTypes>
+  <name>УведомлениеОСписанииКиЗГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8e5f90f6-5f59-42dc-bec6-722bcf7d17fb" extendedConfigurationObject="b560ddce-8d0f-4239-b450-8ddb62ec5d77">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеУведомленияОСписанииКиЗГИСМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

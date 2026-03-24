@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2db74df9-4bc9-421c-9185-fff4da3cbebb">
+  <producedTypes>
+    <managerType typeId="ed48a37f-8144-4425-915d-aabca45d1b2b" valueTypeId="1ac94de0-0a5d-4fc1-8267-fe8552b78e58"/>
+    <valueManagerType typeId="4763e318-eb25-4015-b8c2-83f880d899d2" valueTypeId="4703f387-f0c7-4cd7-afbc-ed6ded375c1c"/>
+    <valueKeyType typeId="ab4f5b9c-419c-4428-b71d-315c10b88a06" valueTypeId="cefa3e36-0947-4881-85b8-010fa8fc21d5"/>
+  </producedTypes>
+  <name>vs_СтатьяДоизготовления</name>
+  <synonym>
+    <key>ru</key>
+    <value># статья доизготовления</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    <types>ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="523ecf5b-f3a0-4447-905b-08aace106c76" extendedConfigurationObject="6512539c-3bb6-4c1f-a349-42d2ed009033">
+  <producedTypes>
+    <objectType typeId="5934f6ac-76fe-46ae-b475-f2ae06ffc2c6" valueTypeId="f0631c55-825c-4990-b4e3-6510dd86f6a0"/>
+    <refType typeId="36eaaca9-a969-439c-ab72-a6913047c859" valueTypeId="abb14d36-1cc3-4f21-aa15-fb690f5df73f"/>
+    <selectionType typeId="f896144d-953d-4840-88b1-b0b9db0dd69a" valueTypeId="931df4f1-e105-4f5c-a070-10d9d96b276c"/>
+    <listType typeId="b7066096-8fe6-498a-bced-f3d56b33d0dd" valueTypeId="7a125ee0-c453-4784-819e-fbff3e1c7085"/>
+    <managerType typeId="10cf7e0e-fedf-4aee-8601-031d8d0a005a" valueTypeId="1f472dec-6614-4dfc-8892-0bef6a8249a2"/>
+  </producedTypes>
+  <name>ИзменениеПараметровНМА2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="7c3c3cd7-eca4-4185-b302-3bf240d4dd50" extendedConfigurationObject="e734018e-dae5-4e24-803d-20072607d0ac">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="08654ca0-5a1e-4974-8582-132b823d81fb" extendedConfigurationObject="17974787-945e-4e4b-a8fd-5e5c00226fe5">
+    <name>ДокументВДругомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИзменениеПараметровНМА2_4</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

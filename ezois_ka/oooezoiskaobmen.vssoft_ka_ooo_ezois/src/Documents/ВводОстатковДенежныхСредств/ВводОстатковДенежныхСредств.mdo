@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70d402a8-c0bb-40de-9615-9c545dee9152" extendedConfigurationObject="ca1f2ee8-41ba-4083-8cd9-10b2a6f09fda">
+  <producedTypes>
+    <objectType typeId="80006532-ca47-418c-a4d8-d7bfae882ceb" valueTypeId="8db17570-e6d8-41b4-a48f-c09fbae64d55"/>
+    <refType typeId="24fb2f11-50f3-47d1-a057-9844134e9be1" valueTypeId="900dec05-1dc6-47e3-be53-245c06dea877"/>
+    <selectionType typeId="e1fc24a9-2431-43db-b3c1-2c31c62f0bcd" valueTypeId="ab4c6d45-472d-4e48-ae62-ffb272272f92"/>
+    <listType typeId="e1bee2f3-1f06-43ab-9b06-1e305cfb2fbd" valueTypeId="854a64db-cea4-4a00-acb6-dd7eac5fdafb"/>
+    <managerType typeId="d60320c1-a31d-45dd-a874-9fbd494acac2" valueTypeId="8bd80d79-fdac-46e4-9504-c95c27cfd092"/>
+  </producedTypes>
+  <name>ВводОстатковДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="68f19a6e-7337-4faa-abcc-864fdae6de98" extendedConfigurationObject="937799b9-c2a5-40d7-97a7-5447a7265872">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ВводОстатковДенежныхСредств</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

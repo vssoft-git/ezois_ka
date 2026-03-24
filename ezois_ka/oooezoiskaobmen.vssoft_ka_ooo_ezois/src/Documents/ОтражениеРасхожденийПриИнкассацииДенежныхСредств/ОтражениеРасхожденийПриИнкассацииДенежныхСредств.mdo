@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="048ed348-9a3f-4038-95ee-cfe65babdf34" extendedConfigurationObject="f61c5730-bd21-4187-8594-05516264a271">
+  <producedTypes>
+    <objectType typeId="201abced-4b05-4848-b290-f06904d184eb" valueTypeId="a245e058-f13d-4696-ba6d-c7ae84194fff"/>
+    <refType typeId="e2524138-e42a-42c3-872b-4808f2f875d3" valueTypeId="955fb8b7-f5d8-42ed-afd7-28426084ee0b"/>
+    <selectionType typeId="cf1487bd-8b11-4fae-97ac-0b45681bdf6e" valueTypeId="f297aaaa-8301-45a6-b2e6-54b8e1a4053c"/>
+    <listType typeId="cbaeb6fe-9708-4e4e-8d0e-5a95455a6b53" valueTypeId="ce229885-e0dd-4da6-ad0f-3be170791b3b"/>
+    <managerType typeId="2d4f692b-68e2-4375-a2bf-3825423d1a58" valueTypeId="c0573486-877a-4834-984c-1870daf1dac8"/>
+  </producedTypes>
+  <name>ОтражениеРасхожденийПриИнкассацииДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="bd0fd8aa-e1fa-4f67-a770-791584649bb3" extendedConfigurationObject="70892897-9092-4be4-a4db-8520922f743e">
+    <name>РасходныйКассовыйОрдер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.РасходныйКассовыйОрдер</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

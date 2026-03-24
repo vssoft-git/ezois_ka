@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92897846-81d1-46f5-a7d3-fac93dd6d650">
+  <name>vs_ИспользованиеОтчетаvs_АнализПлановогоИФактическогоПотребленияМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчетаvs анализ планового и фактического потребления материалов (vs_АнализПлановогоИФактическогоПотребленияМатериалов (vssoft)</value>
+  </synonym>
+</mdclass:Role>

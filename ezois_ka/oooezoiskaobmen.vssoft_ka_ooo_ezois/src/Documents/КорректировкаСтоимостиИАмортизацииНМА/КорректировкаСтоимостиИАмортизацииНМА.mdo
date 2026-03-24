@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e4c011ed-709c-49ab-a73e-55a7499edfb0" extendedConfigurationObject="9a10cf19-e56f-44c2-ad62-6b7524bd28e8">
+  <producedTypes>
+    <objectType typeId="6ef3dbdf-eecc-4eac-bfd2-62e7a7bd6d92" valueTypeId="454ed0f7-d8b4-4dd2-bb3b-0a026c1fe715"/>
+    <refType typeId="57e926cd-5be0-4855-bb32-5a06f504dd87" valueTypeId="bbbb9ff6-84b0-485b-9052-a578b027720b"/>
+    <selectionType typeId="edd0d589-3b07-4586-9412-ab5ead4b080a" valueTypeId="39a067be-876d-4b91-9ea3-b4c2488060c2"/>
+    <listType typeId="da237345-47f2-4103-84e4-545c6fbcad93" valueTypeId="ff24d0df-139a-4c26-8bf2-0491e91b8d57"/>
+    <managerType typeId="a220175a-f777-488f-829e-aa399ca20981" valueTypeId="37b849a9-1748-4127-9402-c9e3eecb2611"/>
+  </producedTypes>
+  <name>КорректировкаСтоимостиИАмортизацииНМА</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f414eba8-7df5-4db9-bdd3-d4645b887f69" extendedConfigurationObject="8043115a-07e4-4a9c-9988-ef49a0e38ea1">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5a429a93-034c-476a-b294-90af10d66729" extendedConfigurationObject="ae27108f-2346-438f-bdd8-92a19ef04a5a">
+    <name>АналитикаДоходовУменьшениеДоходовЦФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиДоходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="27feb102-974e-4938-8714-c408fc217898" extendedConfigurationObject="a766e103-057d-49d6-9e97-10fc577c0c4e">
+    <name>АналитикаРасходовУменьшениеАмортизацииТекущегоГода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="407b6ad9-8b2e-4a65-b043-5ca8d25e27e3" extendedConfigurationObject="f7a74b5f-73b8-4231-8d78-6b9ecd00794c">
+    <name>АналитикаРасходовУменьшениеСтоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e26cb482-b89d-4042-9717-3b1bfc991e8e" extendedConfigurationObject="8d1c64a1-b354-4443-8b83-4c5b52d6d551">
+    <name>АналитикаДоходовУменьшениеАмортизации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиДоходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a3c03028-f0a9-487b-8e91-d75421d3f6e4" extendedConfigurationObject="7ed945e7-5896-4767-8752-c1fbd0d84e6f">
+    <name>АналитикаДоходовУвеличениеСтоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиДоходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b4fcb50d-09e4-4c53-8224-0979b8084a8a" extendedConfigurationObject="7fba5466-0e90-45be-88a8-165878a3596f">
+    <name>АналитикаРасходовУвеличениеАмортизации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="0cb44f3c-ddec-40d0-acc5-c083f540fa1c" extendedConfigurationObject="fd49c57b-9f02-4715-9a2d-54aa2bbd7553">
+    <name>АналитикаРасходовУвеличениеДоходовЦФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

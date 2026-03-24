@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b8247d06-9e88-4ef7-add6-9148d94b77b1" extendedConfigurationObject="fc11f981-e0ed-427b-aeb6-00389317fb18">
+  <producedTypes>
+    <containerType typeId="a495345f-eaf8-4f34-8c1b-d1e60aa7a4bf" valueTypeId="9bbaee33-58b9-45d8-94eb-bcf4236c651f"/>
+  </producedTypes>
+  <name>ОснованиеУведомленияОВвозеИзЕАЭСГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ПриобретениеТоваровУслуг</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

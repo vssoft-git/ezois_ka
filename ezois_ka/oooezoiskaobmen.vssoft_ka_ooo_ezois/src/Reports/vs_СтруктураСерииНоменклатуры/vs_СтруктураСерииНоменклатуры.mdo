@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3577424-313c-4428-82da-b698d9605c96">
+  <producedTypes>
+    <objectType typeId="474f3893-a110-4981-b4d9-f1d29a469191" valueTypeId="173fb529-6b93-4b79-b357-1ffd2e8b218f"/>
+    <managerType typeId="c0b4063a-b616-41a8-9fe4-596a9aa70318" valueTypeId="35258a0d-5187-4bfb-b2f3-a4e06e6ed6ff"/>
+  </producedTypes>
+  <name>vs_СтруктураСерииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура серии номенклатуры (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_СтруктураСерииНоменклатуры.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="3aa2f798-a926-4150-a91d-f1949a97a867">
+    <name>ПФ_MXL_СтруктураСерииНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL структура серии номенклатуры</value>
+    </synonym>
+  </templates>
+  <templates uuid="a9f14419-8862-45a7-8328-6e0bb1e50620">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="09bdf5a4-8ea8-4ed5-9abe-cf505eac5501">
+    <name>ПФ_MXL_СтруктураСерииНоменклатурыСЦеной</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL структура серии номенклатуры с ценой</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

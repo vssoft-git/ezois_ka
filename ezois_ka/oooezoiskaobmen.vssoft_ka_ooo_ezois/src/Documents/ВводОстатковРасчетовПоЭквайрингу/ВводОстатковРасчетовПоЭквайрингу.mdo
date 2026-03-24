@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="165d3350-ca52-4118-9a25-9f032e51d37f" extendedConfigurationObject="510f8225-3cb5-4e9d-8bf8-b8944fa06df1">
+  <producedTypes>
+    <objectType typeId="ab562cfe-b7f2-4f9f-81f1-f2cf3c536921" valueTypeId="bb1eeef2-e79a-4870-ba35-0ca5be40bb77"/>
+    <refType typeId="afa7bbd7-34f9-4ea0-b01f-373a2c023fc8" valueTypeId="5472a3ef-d345-4f11-9514-94d1c6eebfdc"/>
+    <selectionType typeId="2a765694-c828-4d47-89b7-7f9d3b983a6f" valueTypeId="b9cc5fbb-428c-4a1e-9f68-b272e709af52"/>
+    <listType typeId="d808d3c0-b0c3-4ccd-b6cc-3d2a37f23925" valueTypeId="46e1cba3-1dae-4817-861f-9e4c9e7f8090"/>
+    <managerType typeId="04a34583-73fa-4d19-9c22-65e527e61b74" valueTypeId="1408d658-6209-40ee-9703-7682472d8c89"/>
+  </producedTypes>
+  <name>ВводОстатковРасчетовПоЭквайрингу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8b37458a-f8fe-4dbb-9d2d-0b136b2e8bbc" extendedConfigurationObject="f5a44ac9-3aa7-47f5-a36e-ac2b12ad82f3">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ВводОстатковРасчетовПоЭквайрингу</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

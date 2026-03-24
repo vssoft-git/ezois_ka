@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70687052-734a-4bda-b60c-d67448bd174b" extendedConfigurationObject="1db90ce2-2519-4774-8990-53b191d16d4e">
+  <producedTypes>
+    <objectType typeId="49dd9828-42c5-445e-b66c-b52c74ce7f59" valueTypeId="d72a701f-75ff-432a-b166-971ad8f453ed"/>
+    <refType typeId="ec93e651-6cdd-4a4b-8cfa-ea07f3f81628" valueTypeId="24481ec2-1683-423a-931a-421b09537095"/>
+    <selectionType typeId="83db0274-147d-410f-8675-ea70e0b9b930" valueTypeId="78c78883-b837-4b0a-8f59-cdf5fc5dfc41"/>
+    <listType typeId="84f2dbdf-c7f7-4f46-87ea-0ec4c065ad56" valueTypeId="4d969b17-c846-4b8b-bf77-7dea65279e8d"/>
+    <managerType typeId="2e732986-e3a6-4cc2-9b9f-4202a0608f46" valueTypeId="70be6ddb-992b-404d-bbc2-8ed675f7ca96"/>
+  </producedTypes>
+  <name>НачислениеРетроБонусовПоставщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c95b3505-3d5f-4391-bcd1-e81f92ea1d3f" extendedConfigurationObject="c8e36d62-9c6c-4f3f-b94b-92d027d61b79">
+    <name>ДокументУсловий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.УсловияРетроБонусовПоставщика</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

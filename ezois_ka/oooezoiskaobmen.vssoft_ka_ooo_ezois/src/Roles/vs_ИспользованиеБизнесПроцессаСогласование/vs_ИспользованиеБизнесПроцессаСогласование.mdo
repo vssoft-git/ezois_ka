@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2fab5f9-28fc-4438-9f1a-6ce28569c202">
+  <name>vs_ИспользованиеБизнесПроцессаСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование бизнес процесса согласование (vssoft)</value>
+  </synonym>
+</mdclass:Role>

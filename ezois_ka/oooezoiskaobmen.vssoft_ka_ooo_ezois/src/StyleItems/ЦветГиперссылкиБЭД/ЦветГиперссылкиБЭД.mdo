@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="532a5273-1d38-4429-8c7e-88f2114e6f26" extendedConfigurationObject="8f5d5ef6-9944-4c4a-b6d0-8441a7de72b7">
+  <name>ЦветГиперссылкиБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <type>Checked</type>
+  </extension>
+</mdclass:StyleItem>

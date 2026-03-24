@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="82cf15e7-2069-429f-9720-0b1337c419e0" extendedConfigurationObject="50305208-96e1-49c6-bfc4-ae30e28f0586">
+  <producedTypes>
+    <objectType typeId="83b2ee8a-b7aa-4d35-b53d-4aa44affc28f" valueTypeId="27e1834c-065c-4716-91de-8ca19089225a"/>
+    <refType typeId="2ad405c5-cfed-4be9-a4a2-07b6e3b1d32e" valueTypeId="c667649a-ce62-4e12-954b-58ea7140192c"/>
+    <selectionType typeId="13b8d8d7-1771-4e54-b695-43879510da53" valueTypeId="696b1b09-96e9-4521-99b0-9b1ec31dea20"/>
+    <listType typeId="f0f08a84-57d3-407e-b04a-6436a5cedb5c" valueTypeId="6302c146-2a32-452e-ad6d-409036ac5a0b"/>
+    <managerType typeId="2acc6bfc-3cbf-49f2-99df-827a1c926a13" valueTypeId="8b076754-5d4d-4a92-93bd-f44de9677657"/>
+    <routePointRef typeId="cadf451b-0aaf-402c-8c80-f36de85acc95" valueTypeId="22ba5ca3-6e13-45b4-9c1d-7f04f038a106"/>
+  </producedTypes>
+  <name>СогласованиеПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BusinessProcessExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="055bebf5-2542-4c60-a83c-9ba10e2638d0">
+    <name>Сделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделка</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.СделкиСКлиентами</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Агрегирует все документы в рамках продажи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СделкиСКлиентами.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:BusinessProcess>

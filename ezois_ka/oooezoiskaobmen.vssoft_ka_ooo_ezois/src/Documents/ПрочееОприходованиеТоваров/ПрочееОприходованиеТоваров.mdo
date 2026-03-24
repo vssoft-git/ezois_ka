@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d478859-530b-436c-b1df-2de358c630a0" extendedConfigurationObject="95235683-1cbf-4ee6-889a-15da50701439">
+  <producedTypes>
+    <objectType typeId="9fcd4c05-33e3-4d88-bf29-b6c85eaa4fd4" valueTypeId="4a000e5e-f509-48af-bef1-abd3ce58532b"/>
+    <refType typeId="fbff51c6-5992-4238-a990-0361879e9aa1" valueTypeId="579e0683-4038-421d-a5e4-f7add97506ce"/>
+    <selectionType typeId="3693de4d-b534-4f26-97d8-aed58f5d3e6d" valueTypeId="2a12b939-0806-463a-b981-356371b71c31"/>
+    <listType typeId="b53322de-ae56-45c4-8660-2301d4b1c122" valueTypeId="f88dca27-0309-4fcd-89dc-de492ad9135e"/>
+    <managerType typeId="ea647c39-450a-4fff-b150-a3b51075ca22" valueTypeId="a4bccbe3-22e4-4055-b629-04f0b0421e20"/>
+  </producedTypes>
+  <name>ПрочееОприходованиеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="64915d3a-1057-499b-a5b9-ed083ffc371f" extendedConfigurationObject="f6340746-171c-4685-9e17-44aa125387f5">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПрочееОприходованиеТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="41036fcc-7a42-4336-b0f1-f89b039f165e" extendedConfigurationObject="b51048df-e764-4276-bfcb-daec524df60a">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="a8c8d131-2319-4913-a8ce-f8239fce3f9a" extendedConfigurationObject="f171a516-96ed-466a-8749-9fc499a2b72e">
+    <producedTypes>
+      <objectType typeId="f1b44be1-fc03-454f-ac84-1ace556cc210" valueTypeId="37795618-fa9c-42b0-a29c-a02992ec66bf"/>
+      <rowType typeId="beba3f42-6c64-4bbd-bb50-9301531a3985" valueTypeId="74efe04e-e999-4480-9af2-a0c59eba9282"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="fad3589a-8a2c-44ab-aafa-1d191d8596c5" extendedConfigurationObject="24fda0dc-f208-4f91-b211-3fbfec448dae">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="6ead8a1d-1d35-45fd-9f42-3301b1802dc7" extendedConfigurationObject="ae37c90f-ba83-46e1-b4a9-06172d207318">
+      <name>АналитикаРасходов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.СтатьиРасходов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

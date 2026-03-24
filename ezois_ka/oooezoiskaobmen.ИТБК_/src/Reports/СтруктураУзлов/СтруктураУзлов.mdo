@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18fdb9d3-43ac-4caa-b79b-7a3f10e778c2">
+  <producedTypes>
+    <objectType typeId="0b373513-4378-46e1-bb8e-b052faa18a89" valueTypeId="9f68639b-035d-46a3-9887-7b73f6ae02e2"/>
+    <managerType typeId="6dde9bb9-4f18-4a66-8951-dcf820b14f87" valueTypeId="02a25176-86d7-489d-a783-0442171d8da2"/>
+  </producedTypes>
+  <name>СтруктураУзлов</name>
+  <synonym>
+    <key>ru</key>
+    <value># Структура узлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтруктураУзлов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="fef29a40-17fc-496f-a6f6-636006c907b7">
+    <name>ВариантКомплектации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант комплектации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыКомплектацииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ccede77-780f-46af-8321-1079382d99e4">
+    <name>ВариантФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант формирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1245224e-c48e-410b-81b1-ec2626063077">
+    <name>ИзКомплектации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из комплектации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="31430065-f0b2-4efc-8f3c-10f099e11f34">
+    <producedTypes>
+      <objectType typeId="2e659c0f-16d9-485a-9e3e-7eff98ffdb43" valueTypeId="a6bfc88a-3d99-4183-a1fc-dc58f62402d6"/>
+      <rowType typeId="851acc0a-4723-47ed-93fa-16e5ea0fd0cc" valueTypeId="f9402aa2-d35a-4ef8-a174-008495f28ea4"/>
+    </producedTypes>
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="46b12a3c-621a-42f3-9b7e-813fb6ab62fd">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8ea88acc-999b-4807-b483-e1896561e4d4">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24158811-4047-431e-8bee-4f2a988cd257">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <templates uuid="2eb67fce-cbd5-4846-a1c3-847ee70d04b5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="9f9934db-22ab-4bac-9f02-ce70367038f6">
+    <name>УзловоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value># узловое описание</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ВариантыКомплектацииНоменклатуры</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+  </commands>
+</mdclass:Report>

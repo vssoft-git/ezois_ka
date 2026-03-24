@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a805cc44-19af-4fa8-a32f-2c05d5c513e2" extendedConfigurationObject="8502b653-32a8-4d01-a12e-5fe4cede91ef">
+  <producedTypes>
+    <objectType typeId="b9861a37-d5a4-4904-a955-5b6f71eac844" valueTypeId="f3c4f4f9-6a3d-4052-bb57-7c68368ad64d"/>
+    <refType typeId="9895432c-ef9b-4069-b5d8-582d1058e221" valueTypeId="1e0e530c-d676-4fa0-bbc3-96fe41884a52"/>
+    <selectionType typeId="3174cd78-6cca-4447-9df7-6a9c0bec347c" valueTypeId="2a175a10-c587-4113-aff5-edfd74874c20"/>
+    <listType typeId="6fe0065b-7d4e-4931-9ebc-45f6d3507b91" valueTypeId="25125e46-113a-4ec8-a8cd-eb237c3dd462"/>
+    <managerType typeId="34fbff24-86f5-48c1-a879-14bcefe4fbbe" valueTypeId="80547e99-5850-4edc-b723-59e5cea0f92e"/>
+  </producedTypes>
+  <name>СписаниеБезналичныхДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="51c7ff55-b633-4eb7-8327-2a8fbb90b845" extendedConfigurationObject="8b40c3d0-1712-4ad2-a058-15db2db4e8ca">
+    <name>ПроведеноБанком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

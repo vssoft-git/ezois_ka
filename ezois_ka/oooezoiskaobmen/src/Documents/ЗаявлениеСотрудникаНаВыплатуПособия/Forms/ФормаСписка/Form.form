@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
+    <id>42</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа пользовательских настроек</value>
+    </title>
+    <extendedTooltip>
+      <name>СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка</name>
+      <id>43</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>СписокНастройкиОтбора</name>
+    <id>44</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные условия</value>
+    </title>
+    <extendedTooltip>
+      <name>СписокНастройкиОтбораРасширеннаяПодсказка</name>
+      <id>45</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ОсновнаяКоманднаяПанель</name>
+    <id>46</id>
+    <items xsi:type="form:Button">
+      <name>ФормаРегистрСведенийНастройкиПрямыхВыплатФСССотрудниковНастройкиСотрудников</name>
+      <id>51</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаРегистрСведенийНастройкиПрямыхВыплатФСССотрудниковНастройкиСотрудниковРасширеннаяПодсказка</name>
+        <id>52</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>InformationRegister.НастройкиПрямыхВыплатФСССотрудников.Command.ФормаСписка</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Основная командная панель</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
+      <id>47</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <commandSource>Form</commandSource>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Table">
+    <name>Список</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>ЕстьФайлы</name>
+      <id>48</id>
+      <title>
+        <key>ru</key>
+        <value>Есть файлы</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ЕстьФайлы</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <extendedTooltip>
+        <name>ЕстьФайлыРасширеннаяПодсказка</name>
+        <id>50</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЕстьФайлыКонтекстноеМеню</name>
+        <id>49</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>PictureField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Скрепка</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:ImageFieldExtInfo">
+        <width>2</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.КоллекцияСкрепка</picture>
+        </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Дата</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Дата</segments>
+      </dataPath>
+      <defaultItem>true</defaultItem>
+      <extendedTooltip>
+        <name>ДатаРасширеннаяПодсказка</name>
+        <id>34</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаКонтекстноеМеню</name>
+        <id>5</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <width>10</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Номер</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Номер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НомерРасширеннаяПодсказка</name>
+        <id>35</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НомерКонтекстноеМеню</name>
+        <id>7</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Организация</name>
+      <id>22</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Организация</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОрганизацияРасширеннаяПодсказка</name>
+        <id>36</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОрганизацияКонтекстноеМеню</name>
+        <id>23</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Сотрудник</name>
+      <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Сотрудник</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СотрудникРасширеннаяПодсказка</name>
+        <id>37</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СотрудникКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВидПособия</name>
+      <id>18</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВидПособия</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВидПособияРасширеннаяПодсказка</name>
+        <id>38</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВидПособияКонтекстноеМеню</name>
+        <id>19</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Комментарий</name>
+      <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Комментарий</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КомментарийРасширеннаяПодсказка</name>
+        <id>40</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КомментарийКонтекстноеМеню</name>
+        <id>17</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Ссылка</name>
+      <id>20</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ссылка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СсылкаРасширеннаяПодсказка</name>
+        <id>41</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СсылкаКонтекстноеМеню</name>
+        <id>21</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>СписокКоманднаяПанель</name>
+      <id>3</id>
+      <horizontalAlign>Left</horizontalAlign>
+    </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
+    <searchStringAddition>
+      <name>СписокСтрокаПоиска</name>
+      <id>25</id>
+      <extendedTooltip>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>27</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСтрокаПоискаКонтекстноеМеню</name>
+        <id>26</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>Список</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <name>СписокСостояниеПросмотра</name>
+      <id>28</id>
+      <extendedTooltip>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>30</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
+        <id>29</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>Список</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <name>СписокУправлениеПоиском</name>
+      <id>31</id>
+      <extendedTooltip>
+        <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>33</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокУправлениеПоискомКонтекстноеМеню</name>
+        <id>32</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>Список</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>СписокРасширеннаяПодсказка</name>
+      <id>24</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СписокКонтекстноеМеню</name>
+      <id>2</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <initialTreeView>ExpandTopLevel</initialTreeView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>Список.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>BeforeLoadUserSettingsAtServer</event>
+        <name>СписокПередЗагрузкойПользовательскихНастроекНаСервере</name>
+      </handlers>
+      <handlers>
+        <event>OnUpdateUserSettingSetAtServer</event>
+        <name>СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</name>
+      </handlers>
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+      <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Список</name>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ВидПособия</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ВидРеестра</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Дата</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ИзмененыСведенияОЗастрахованномЛице</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Перерасчет</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Ссылка КАК Ссылка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Номер КАК Номер,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Дата КАК Дата,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Проведен КАК Проведен,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.АдресПолучателяРегистрации КАК АдресПолучателяРегистрации,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.АдресПолучателяФактический КАК АдресПолучателяФактический,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Банк КАК Банк,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.БИКБанка КАК БИКБанка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВерсияДокумента КАК ВерсияДокумента,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидДокументаНаПроживание КАК ВидДокументаНаПроживание,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидДокументаУдостоверяющегоЛичностьЗаявителя КАК ВидДокументаУдостоверяющегоЛичностьЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидДокументаУдостоверяющегоЛичностьПолучателя КАК ВидДокументаУдостоверяющегоЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидОсобойЗоныПроживанияРаботы КАК ВидОсобойЗоныПроживанияРаботы,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидПособия КАК ВидПособия,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВидРеестра КАК ВидРеестра,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВторойЗамененныйГод КАК ВторойЗамененныйГод,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ВторойРасчетныйГод КАК ВторойРасчетныйГод,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Гражданство КАК Гражданство,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаВыдачиДокументаНаПроживание КАК ДатаВыдачиДокументаНаПроживание,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаВыдачиДокументаУдостоверяющегоЛичностьЗаявителя КАК ДатаВыдачиДокументаУдостоверяющегоЛичностьЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаВыдачиДокументаУдостоверяющегоЛичностьПолучателя КАК ДатаВыдачиДокументаУдостоверяющегоЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаДействияДокументаУдостоверяющегоЛичностьПолучателя КАК ДатаДействияДокументаУдостоверяющегоЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаДоговораОПередачеРебенкаВПриемнуюСемью КАК ДатаДоговораОПередачеРебенкаВПриемнуюСемью,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаЗаявленияОЗаменеРасчетныхГодов КАК ДатаЗаявленияОЗаменеРасчетныхГодов,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаИногоДокументаПодтверждающегоРождение КАК ДатаИногоДокументаПодтверждающегоРождение,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаЛисткаНетрудоспособности КАК ДатаЛисткаНетрудоспособности,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаНачалаОтпускаПоУходуЗаРебенком КАК ДатаНачалаОтпускаПоУходуЗаРебенком,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаНачалаРасчетногоПериода КАК ДатаНачалаРасчетногоПериода,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаНачалаТрудовогоДоговораПолучателя КАК ДатаНачалаТрудовогоДоговораПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаОкончанияОтпускаПоУходуЗаРебенком КАК ДатаОкончанияОтпускаПоУходуЗаРебенком,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаОкончанияРасчетногоПериода КАК ДатаОкончанияРасчетногоПериода,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаОкончанияТрудовогоДоговораПолучателя КАК ДатаОкончанияТрудовогоДоговораПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаПредставленияПакетаДокументов КАК ДатаПредставленияПакетаДокументов,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаПриказаОЗаменеПослеродовогоОтпуска КАК ДатаПриказаОЗаменеПослеродовогоОтпуска,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаПриказаОПредоставленииОтпускаПоУходуЗаРебенком КАК ДатаПриказаОПредоставленииОтпускаПоУходуЗаРебенком,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаРешенияОбОпеке КАК ДатаРешенияОбОпеке,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаРешенияОбУсыновлении КАК ДатаРешенияОбУсыновлении,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаРожденияПолучателя КАК ДатаРожденияПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаРожденияРебенка КАК ДатаРожденияРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСвидетельстваОРождении КАК ДатаСвидетельстваОРождении,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСправкиОНеполученииПособияОтМатери КАК ДатаСправкиОНеполученииПособияОтМатери,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСправкиОНеполученииПособияОтОтца КАК ДатаСправкиОНеполученииПособияОтОтца,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСправкиОНеполученииПособияПоДругимМестамРаботы КАК ДатаСправкиОНеполученииПособияПоДругимМестамРаботы,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСправкиОПостановкеНаУчетВРанниеСрокиБеременности КАК ДатаСправкиОПостановкеНаУчетВРанниеСрокиБеременности,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДатаСправкиОРожденииРебенка КАК ДатаСправкиОРожденииРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДокументОснование КАК ДокументОснование,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДолжностнойОклад КАК ДолжностнойОклад,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДолжностьПредставителяСФР КАК ДолжностьПредставителяСФР,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ДоляВремени КАК ДоляВремени,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ЗамененыКалендарныеГодыРасчетаСреднегоЗаработка КАК ЗамененыКалендарныеГодыРасчетаСреднегоЗаработка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ЗаработокВторойГодРасчета КАК ЗаработокВторойГодРасчета,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ЗаработокПервыйГодРасчета КАК ЗаработокПервыйГодРасчета,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИдентификаторСтрокиОснования КАК ИдентификаторСтрокиОснования,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИмяЗаявителя КАК ИмяЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИмяПолучателя КАК ИмяПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИмяРебенка КАК ИмяРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИННПолучателя КАК ИННПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.КемВыданДокументУдостоверяющийЛичностьЗаявителя КАК КемВыданДокументУдостоверяющийЛичностьЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.КемВыданДокументУдостоверяющийЛичностьПолучателя КАК КемВыданДокументУдостоверяющийЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.КодПричиныПерерасчета КАК КодПричиныПерерасчета,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.КоличествоОплаченныхДнейНетрудоспособностиИнвалида КАК КоличествоОплаченныхДнейНетрудоспособностиИнвалида,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Комментарий КАК Комментарий,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.МРОТ КАК МРОТ,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НаименованиеБанка КАК НаименованиеБанка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НаименованиеОрганизации КАК НаименованиеОрганизации,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НаименованиеТерриториальногоОрганаФСС КАК НаименованиеТерриториальногоОрганаФСС,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НаличиеОдногоИзДокументовНаПредыдущихДетей КАК НаличиеОдногоИзДокументовНаПредыдущихДетей,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НаличиеСвидетельстваОСмертиПредыдущихДетей КАК НаличиеСвидетельстваОСмертиПредыдущихДетей,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НеоплачиваемыйПериодДатаНачала КАК НеоплачиваемыйПериодДатаНачала,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НеоплачиваемыйПериодДатаОкончания КАК НеоплачиваемыйПериодДатаОкончания,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерДоговораОПередачеРебенкаВПриемнуюСемью КАК НомерДоговораОПередачеРебенкаВПриемнуюСемью,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерДокументаНаПроживание КАК НомерДокументаНаПроживание,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерДокументаУдостоверяющегоЛичностьЗаявителя КАК НомерДокументаУдостоверяющегоЛичностьЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерДокументаУдостоверяющегоЛичностьПолучателя КАК НомерДокументаУдостоверяющегоЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерЗаявленияОЗамененРасчетныхГодов КАК НомерЗаявленияОЗамененРасчетныхГодов,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерИногоДокументаПодтверждающегоРождение КАК НомерИногоДокументаПодтверждающегоРождение,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.КартаМИР КАК КартаМИР,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерЛисткаНетрудоспособности КАК НомерЛисткаНетрудоспособности,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерЛицевогоСчета КАК НомерЛицевогоСчета,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерПриказаОЗаменеПослеродовогоОтпуска КАК НомерПриказаОЗаменеПослеродовогоОтпуска,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерПриказаОПредоставленииОтпускаПоУходуЗаРебенком КАК НомерПриказаОПредоставленииОтпускаПоУходуЗаРебенком,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерРешенияОбОпеке КАК НомерРешенияОбОпеке,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерРешенияОбУсыновлении КАК НомерРешенияОбУсыновлении,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСвидетельстваОРождении КАК НомерСвидетельстваОРождении,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСправкиОНеполученииПособияОтМатери КАК НомерСправкиОНеполученииПособияОтМатери,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСправкиОНеполученииПособияОтОтца КАК НомерСправкиОНеполученииПособияОтОтца,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСправкиОНеполученииПособияПоДругимМестамРаботы КАК НомерСправкиОНеполученииПособияПоДругимМестамРаботы,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСправкиОПостановкеНаУчетВРанниеСрокиБеременности КАК НомерСправкиОПостановкеНаУчетВРанниеСрокиБеременности,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.НомерСправкиОРожденииРебенка КАК НомерСправкиОРожденииРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Организация КАК Организация,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ОснованиеПодписиПредставителяСФР КАК ОснованиеПодписиПредставителяСФР,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Ответственный КАК Ответственный,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ОтношениеКОсобойЗоне КАК ОтношениеКОсобойЗоне,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ОтчествоЗаявителя КАК ОтчествоЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ОтчествоПолучателя КАК ОтчествоПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ОтчествоРебенка КАК ОтчествоРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПервыйЗамененныйГод КАК ПервыйЗамененныйГод,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПервыйРасчетныйГод КАК ПервыйРасчетныйГод,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Перерасчет КАК Перерасчет,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя1ДатаНачала КАК ПериодПростоя1ДатаНачала,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя1ДатаОкончания КАК ПериодПростоя1ДатаОкончания,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя1СреднийЗаработок КАК ПериодПростоя1СреднийЗаработок,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя2ДатаНачала КАК ПериодПростоя2ДатаНачала,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя2ДатаОкончания КАК ПериодПростоя2ДатаОкончания,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПериодПростоя2СреднийЗаработок КАК ПериодПростоя2СреднийЗаработок,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПолучательНеЯвляетсяЗаявителем КАК ПолучательНеЯвляетсяЗаявителем,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПорядокРасчетаСреднегоЗаработка КАК ПорядокРасчетаСреднегоЗаработка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.РайонныйКоэффициент КАК РайонныйКоэффициент,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СерияДокументаНаПроживание КАК СерияДокументаНаПроживание,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СерияДокументаУдостоверяющегоЛичностьЗаявителя КАК СерияДокументаУдостоверяющегоЛичностьЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СерияДокументаУдостоверяющегоЛичностьПолучателя КАК СерияДокументаУдостоверяющегоЛичностьПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СерияСвидетельстваОРождении КАК СерияСвидетельстваОРождении,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СНИЛСПолучателя КАК СНИЛСПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.Сотрудник КАК Сотрудник,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СпособВыплатыПособия КАК СпособВыплатыПособия,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СправкаОНеполученииПособия КАК СправкаОНеполученииПособия,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СреднийЗаработокЗаРасчетныйПериод КАК СреднийЗаработокЗаРасчетныйПериод,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СтатусНалогоплательщикаПолучателя КАК СтатусНалогоплательщикаПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.СчитатьПоПравилам2010Года КАК СчитатьПоПравилам2010Года,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ТелефонПолучателя КАК ТелефонПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ТелефонУполномоченногоПредставителя КАК ТелефонУполномоченногоПредставителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ТипЗанятостиРаботника КАК ТипЗанятостиРаботника,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ПредставительСФР КАК ПредставительСФР,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФамилияЗаявителя КАК ФамилияЗаявителя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФамилияПолучателя КАК ФамилияПолучателя,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФамилияРебенка КАК ФамилияРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФизическоеЛицо КАК ФизическоеЛицо,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФинансированиеФедеральнымБюджетом КАК ФинансированиеФедеральнымБюджетом,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ФормаСправкиОРожденииРебенка КАК ФормаСправкиОРожденииРебенка,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ЧислоКалендарныхДнейРасчетногоПериода КАК ЧислоКалендарныхДнейРасчетногоПериода,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.МоментВремени КАК МоментВремени,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы,
+	ДокументЗаявлениеСотрудникаНаВыплатуПособия.ИзмененыСведенияОЗастрахованномЛице КАК ИзмененыСведенияОЗастрахованномЛице
+ИЗ
+	Документ.ЗаявлениеСотрудникаНаВыплатуПособия КАК ДокументЗаявлениеСотрудникаНаВыплатуПособия
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументЗаявлениеСотрудникаНаВыплатуПособия.Ссылка = НаличиеФайлов.ОбъектСФайлами}</queryText>
+      <mainTable>Document.ЗаявлениеСотрудникаНаВыплатуПособия</mainTable>
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ПараметрыПодключаемыхКоманд</name>
+    <id>2</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <parameters>
+    <name>МножественныйВыбор</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
+</form:Form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a97f2f-704b-44fa-9706-28b85e7f2af9">
+  <name>vs_СозданиеОбновлениеДокументовУстановкаЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание обновление документов установка цен номенклатуры (vssoft)</value>
+  </synonym>
+  <methodName>CommonModule.vs_УстановкаЦенПереопределяемый.vs_СозданиеОбновлениеДокументовУстановкаЦенНоменклатуры</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

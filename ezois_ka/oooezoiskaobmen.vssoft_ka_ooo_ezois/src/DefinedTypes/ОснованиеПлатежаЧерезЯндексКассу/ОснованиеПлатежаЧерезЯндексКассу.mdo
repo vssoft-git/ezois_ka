@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="27735227-b1bd-4ff2-ba67-458d9161efae" extendedConfigurationObject="187ab917-b60b-4f5c-b76d-5672ddf02c58">
+  <producedTypes>
+    <containerType typeId="0bf8738c-a749-451e-af31-77576bcf5808" valueTypeId="e71a3a37-8aef-4c00-9869-4d46e1136292"/>
+  </producedTypes>
+  <name>ОснованиеПлатежаЧерезЯндексКассу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

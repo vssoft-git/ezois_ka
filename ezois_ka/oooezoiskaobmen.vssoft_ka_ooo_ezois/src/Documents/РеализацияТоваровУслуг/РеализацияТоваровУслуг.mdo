@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46f275d0-5c76-4033-8d6a-0a39ee67df69" extendedConfigurationObject="8eac9a31-ed8b-4965-85f9-086b89e1764b">
+  <producedTypes>
+    <objectType typeId="f96a626a-84cd-4e10-9b3d-ffd4b47f805d" valueTypeId="4673eb6c-1dee-4ae4-b814-1620549dca27"/>
+    <refType typeId="2010f411-478d-4d2a-8a8e-6d664d3b0c3b" valueTypeId="c744b8a6-c8e4-45e8-8347-e0a7eaa8383d"/>
+    <selectionType typeId="3a3f85dc-55ee-40f3-8fc7-5762f9ae992e" valueTypeId="1ddf6de0-0d44-4f4e-b873-20f5429e0fb2"/>
+    <listType typeId="b8ba0914-1deb-4d14-844f-cccab40f6cbe" valueTypeId="6d9604dd-1c93-46a4-99a9-c98136a9ffcb"/>
+    <managerType typeId="8cc0680c-02ce-46b8-ac7d-550a62ad83cb" valueTypeId="a63ea2db-f23d-4702-b419-3ec218599cdc"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="fbb067fe-edce-4bec-aa55-36024d281d50" extendedConfigurationObject="d59a9f62-153a-481d-bab6-3f178d0606f1">
+    <name>ЗаказКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="0755988d-83e8-4dab-90be-cc6f73d9d16b" extendedConfigurationObject="c6d7cf2e-b9f9-4ff3-8578-9b565c26699e">
+    <name>ДоверенностьНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Notify</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Extended</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="61a97b59-521c-4ef1-a1b4-43622779d55c" extendedConfigurationObject="8139626e-8ad5-43ef-8108-a207607b40b5">
+    <producedTypes>
+      <objectType typeId="587611b2-8482-4987-9192-c47da37a162b" valueTypeId="e0cd88b3-8c27-4f2e-8b3d-1e2426afb1de"/>
+      <rowType typeId="8e7381f1-4bbf-4b73-a15a-0082ea1a59ba" valueTypeId="463dbbc2-7c46-44a0-af17-b4786f00bd87"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="b1232be4-b126-4b38-88fa-8cb9d572f7bc" extendedConfigurationObject="6067ffa5-2788-47af-b233-3eaecb858e38">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="237d82f7-d6e8-4555-b9d5-f5779e0fe9b3" extendedConfigurationObject="c3e7b9be-3656-4800-8e46-0709bd569743">
+      <name>ЗаказКлиента</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5cc06e1e-8cdf-40fa-b839-1cf83b0ac1b5" extendedConfigurationObject="8b5edf9d-182d-49ae-acc0-af59ac327193">
+    <producedTypes>
+      <objectType typeId="fda64f66-aaa3-431e-a566-7ea7cdfec432" valueTypeId="54c39374-d17b-4df4-aaed-29e3da721403"/>
+      <rowType typeId="151c8458-93fe-4a18-81f2-3604d96034b2" valueTypeId="ea81e54a-3b15-414a-8b51-d4a610deaed4"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="af171478-ca09-4a82-a6a4-a2030c63c0e6" extendedConfigurationObject="05936dfd-7396-410f-88bf-a2c6c4adf099">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

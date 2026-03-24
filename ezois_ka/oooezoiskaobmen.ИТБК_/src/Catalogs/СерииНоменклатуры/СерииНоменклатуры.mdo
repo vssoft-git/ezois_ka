@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef29eb8e-d9ee-46e6-967c-a20d1e6fdcae" extendedConfigurationObject="8965f225-afbc-4ff7-ac96-b5f31f39e808">
+  <producedTypes>
+    <objectType typeId="c847e3aa-875a-4007-a1b2-7d0fae42a509" valueTypeId="de349478-51e3-4321-a356-f14367fc9036"/>
+    <refType typeId="4f24a5ed-868a-4579-a3ea-ecb602de21fd" valueTypeId="964356fb-dd7c-4c0f-902a-990aa6c11a0c"/>
+    <selectionType typeId="f12ce424-e6e1-4886-b013-8411e53f7051" valueTypeId="7293c006-5c26-47ef-ad79-725e62d47a61"/>
+    <listType typeId="8657f31b-8d1a-443b-a7f0-960d78df8bbb" valueTypeId="bb94fac0-0a9d-4782-a6d8-9d9a907857b2"/>
+    <managerType typeId="b10fdeb1-d795-4dee-b64c-f868b579b0ab" valueTypeId="8140a4db-c23e-4e90-b95e-81d51066a09e"/>
+  </producedTypes>
+  <name>СерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8fc459c8-6ee1-487a-b0f7-26ae55b9d7c9" extendedConfigurationObject="43c7d80b-bd8e-4151-b0e1-084444292845">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.НомерСерии</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

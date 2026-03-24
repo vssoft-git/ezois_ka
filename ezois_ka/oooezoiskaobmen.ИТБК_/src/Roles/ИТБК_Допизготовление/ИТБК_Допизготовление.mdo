@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56d0d9be-ff25-4f0b-bdd6-5d2fa8268e62">
+  <name>ИТБК_Допизготовление</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИТБК допизготовление</value>
+  </synonym>
+</mdclass:Role>

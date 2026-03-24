@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5bacd46b-ee8e-4028-aa48-6129e242c275" extendedConfigurationObject="00b11c35-fca8-4a36-9d01-41b637204d02">
+  <producedTypes>
+    <containerType typeId="199e8d43-a5b8-4ba5-ab73-4100b9b7f958" valueTypeId="7ba37a58-918b-408f-80d6-c0ccefe53594"/>
+  </producedTypes>
+  <name>ВедомостьЗарплатаКадры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

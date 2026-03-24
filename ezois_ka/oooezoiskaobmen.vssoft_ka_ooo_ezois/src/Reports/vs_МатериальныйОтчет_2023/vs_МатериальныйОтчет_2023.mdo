@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e950792-c137-4a30-9525-f7c81938b63a">
+  <producedTypes>
+    <objectType typeId="145b4ee9-b020-438c-8ae9-63a1bd52bcd1" valueTypeId="cfb3fcf6-3c78-429f-baf8-11e3bc211907"/>
+    <managerType typeId="383aae39-c52d-4f0e-b96d-e0ee2dd39b96" valueTypeId="e6c9f2b9-6a87-4b1f-b8e1-345a025dfee8"/>
+  </producedTypes>
+  <name>vs_МатериальныйОтчет_2023</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материальный отчет (vssoft 2023)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_МатериальныйОтчет_2023.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="bf6593ed-c5bb-4222-8503-a1dcc320ac0a">
+    <name>ФормироватьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98d67fbf-be64-4463-bb3d-cf83e3083016">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57b66afb-df2e-4598-8ab5-854e2c722079">
+    <name>СкладЦеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цеховая кладовая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dc973125-d3c6-4aa0-8234-27cf96a42240">
+    <name>ФормаПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма передачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2e89639e-c4a4-4077-bb1e-e12bd6438ce0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

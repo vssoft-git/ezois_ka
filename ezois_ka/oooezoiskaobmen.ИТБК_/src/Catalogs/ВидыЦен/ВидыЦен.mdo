@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="362da9bf-23d1-4d0d-b85d-49fbe08ee841" extendedConfigurationObject="1a6593e1-d0c4-428d-af64-b1161601c46b">
+  <producedTypes>
+    <objectType typeId="5938c87b-db09-49a4-a041-f54a3820e030" valueTypeId="961e59d2-130e-4fb0-a4d9-afc53861d3ac"/>
+    <refType typeId="6a82cc24-2800-4add-9871-2dcbed12de29" valueTypeId="7181ac92-d1c4-4347-97a1-f1dc2e38f39d"/>
+    <selectionType typeId="494f79bb-1f51-4290-87b1-a0adad048727" valueTypeId="2bb5773a-e3ad-4e8e-9c3b-ed3bb1fbb5e0"/>
+    <listType typeId="b339b988-97c4-4cb1-acd0-42fbccab295a" valueTypeId="f500eb9f-07c1-4b2a-8c9a-cbf612df4d83"/>
+    <managerType typeId="c563b964-5d99-47d8-b648-4ae96b444c55" valueTypeId="0de02cbb-f6b3-4dae-a60f-4bf87f07d61c"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

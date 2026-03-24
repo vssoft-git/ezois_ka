@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="931234f0-8bae-4c3a-aec0-e653e5569ed6" extendedConfigurationObject="d32e7159-13c4-4ac8-9058-9848ec019475">
+  <producedTypes>
+    <refType typeId="3f33d9fa-e620-4640-a219-ee30e6c1bc0d" valueTypeId="174d41ff-4f60-4ceb-b61d-5ac5e0a415ce"/>
+    <listType typeId="ef84c673-de60-41ad-99b7-5fb121bfe6af" valueTypeId="9ac39acb-5f4c-45f2-b3ae-7e8c635e5e83"/>
+    <managerType typeId="30c42854-cb77-4740-982e-930cc7e37db1" valueTypeId="a9698a0e-a4f4-47c3-b4f3-e89eb6f2a63e"/>
+  </producedTypes>
+  <name>СтатусыСборокТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="0d7321fd-67c7-4b74-8d13-fdb386e9975a" extendedConfigurationObject="c5d672fd-488c-4858-89d0-05a9afcde29b">
+    <name>ВРаботе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d16fbd4c-6ad1-4e4b-b537-b3491f8d6098" extendedConfigurationObject="73cc6264-ff74-4ff1-a2a7-0fd6e2fc6e85">
+    <name>СобраноРазобрано</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

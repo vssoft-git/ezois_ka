@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7296c55a-896a-42ef-b64a-d56e600db8b0" extendedConfigurationObject="adb6b3d2-7194-4e09-9ad0-477d9f88721b">
+  <producedTypes>
+    <objectType typeId="1da3d465-b4d8-4ae7-841c-e9fcf4976519" valueTypeId="547c7342-5b63-42f5-b82f-f2701c4b6b3d"/>
+    <refType typeId="65f545fe-9555-48e8-8680-7f4abb41dae0" valueTypeId="12c1d9cb-5508-4e54-952d-169503b0bf73"/>
+    <selectionType typeId="a946b47d-0c90-47a6-b4ab-c1b2ec620c34" valueTypeId="d1112c75-47f1-4775-b105-56ab619952ad"/>
+    <listType typeId="a5b18a89-5391-424c-a6f0-f805f8605606" valueTypeId="7b58fb37-905f-4bad-a275-12a58ef9c3a1"/>
+    <managerType typeId="31bbd07a-fd2e-434c-8ef9-c2027ee38afd" valueTypeId="184f9d41-ee70-4529-bcac-ae164a42edd5"/>
+  </producedTypes>
+  <name>ДоговорЗаймаСотруднику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

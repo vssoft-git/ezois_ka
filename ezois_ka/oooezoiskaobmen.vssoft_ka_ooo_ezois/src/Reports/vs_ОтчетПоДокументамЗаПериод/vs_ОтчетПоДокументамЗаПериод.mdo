@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a651bea0-10f5-4fdd-8656-17d2f55ca04b">
+  <producedTypes>
+    <objectType typeId="26daae6e-654b-4ed9-9b05-31907af85a7d" valueTypeId="d80e3791-eae6-4e90-a25b-eece2087bb5f"/>
+    <managerType typeId="c2b25079-8a58-41e0-a82d-74c1d2ce75cd" valueTypeId="da974569-e25a-4363-be7e-eff3adb16177"/>
+  </producedTypes>
+  <name>vs_ОтчетПоДокументамЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по документам за период (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_ОтчетПоДокументамЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d777525c-d2f8-46b1-aa27-cd271a0797a2">
+    <name>ПФ_MXL_СтруктураОтчетаПоДокументамЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура отчета по документам за период</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1d81c7d-6c87-404c-877d-44e9e387be48">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

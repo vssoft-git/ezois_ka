@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="194f47a1-0214-48ac-993e-93718362027c">
+  <producedTypes>
+    <objectType typeId="0b4e3e2f-7140-4caa-abb1-cb11d059fb88" valueTypeId="d17475f8-1bab-476d-9e18-da1639d3d31c"/>
+    <managerType typeId="b754dadb-66ab-4306-bb1b-f04472527b39" valueTypeId="80d66a8a-4380-4585-9b75-1e9f5f539075"/>
+  </producedTypes>
+  <name>vs_НевыполненныеОбязательстваПоИзготовлениюПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Невыполненные обязательства по изготовлению продукции (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_НевыполненныеОбязательстваПоИзготовлениюПродукции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9b479dd1-9996-498e-a9e6-bcfce170cf5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

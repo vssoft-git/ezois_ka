@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bcf9e775-389b-4ee6-9d85-196ddf471519" extendedConfigurationObject="cca02b23-7fe1-4579-ae52-f671d0212468">
+  <producedTypes>
+    <objectType typeId="fafedf9e-59b5-4599-9b1b-43988ebed8b0" valueTypeId="643027f6-9d24-4d28-9e60-5420523cab4d"/>
+    <refType typeId="471051b7-2884-44b0-91a0-5a6511498a27" valueTypeId="e40f1b3d-fe92-43d1-ba2c-28a674073553"/>
+    <selectionType typeId="7a89650a-8c37-4f5b-b465-8d8abfe5b190" valueTypeId="6265b216-6b6e-4275-a6ad-fd2d29044f42"/>
+    <listType typeId="ddb270b5-2a62-408d-89ac-f9fd60ec6a7f" valueTypeId="9dc56bed-7841-424b-a9d7-8c300f8de9d8"/>
+    <managerType typeId="e4928619-7e82-487f-8ec5-617ace151fb0" valueTypeId="8921e4d2-7ab1-4cd7-adef-019b390c8800"/>
+  </producedTypes>
+  <name>ИмпортПродукцииСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e009ff3a-d071-4898-968e-0e1bafcee79f" extendedConfigurationObject="dbb6eb33-9a8c-4f46-a3c8-72e0b691c45a">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеИмпортПродукцииСАТУРН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

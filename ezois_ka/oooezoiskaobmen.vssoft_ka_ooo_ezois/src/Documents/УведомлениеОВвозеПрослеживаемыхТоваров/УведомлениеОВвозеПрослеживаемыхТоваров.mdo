@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4f7865b1-8660-4363-a4c7-ff9752db7a74" extendedConfigurationObject="ec9e2b72-ac49-442d-9852-248818b41bb0">
+  <producedTypes>
+    <objectType typeId="1599013b-5398-4c46-b288-c06589fe6480" valueTypeId="130ac3b8-6a8e-4256-883c-947b28b746e9"/>
+    <refType typeId="43335211-6483-4510-8f30-a748b0a978f8" valueTypeId="2a9ee453-b89e-4b05-a96e-53e33a11cd12"/>
+    <selectionType typeId="bc34bd60-b0e2-479b-8a12-fd8724fc542f" valueTypeId="f7a6b89b-30cb-4378-9bc9-7d6ba5701224"/>
+    <listType typeId="b6392c48-c742-4e3e-aadc-ac42854762b4" valueTypeId="4788067b-7120-4b5c-9c15-7870210fa40d"/>
+    <managerType typeId="b19438bb-5bf4-4491-8468-91944db05285" valueTypeId="e4e28861-ddfd-4c6d-8648-4b2c7e8edbbf"/>
+  </producedTypes>
+  <name>УведомлениеОВвозеПрослеживаемыхТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="1aac126d-eecf-45df-bcfa-b67cf02ffab0" extendedConfigurationObject="0dcb25ca-93b1-43d9-a073-68a4c3a4b6f1">
+    <name>ПервичныйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПриобретениеТоваровУслуг</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

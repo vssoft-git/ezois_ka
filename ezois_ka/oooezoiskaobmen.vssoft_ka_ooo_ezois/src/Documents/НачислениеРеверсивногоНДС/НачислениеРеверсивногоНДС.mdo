@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5cbe28b-9baf-486a-b6cf-7addd5fda7f0" extendedConfigurationObject="09da3eaf-6f43-4a9a-b4e9-b2442a176486">
+  <producedTypes>
+    <objectType typeId="0cab4e10-eb0a-4739-9d47-1c1a7f78599a" valueTypeId="57db2261-74da-47c1-b9bb-5d0923a32f63"/>
+    <refType typeId="6f7ca56e-52fb-4aaf-8050-fb9512ac4103" valueTypeId="d6a47268-c36b-4ff5-a833-86ffa764bebe"/>
+    <selectionType typeId="a98e07c0-088c-4ffe-a5c0-a9b6e3550db2" valueTypeId="3eb9343f-c9ba-4d7e-97f5-ac2ca8d093e3"/>
+    <listType typeId="a867ca36-2010-400a-98c3-c04ea0fe1820" valueTypeId="58fd3447-a54c-4ec7-b028-a26db5645f1b"/>
+    <managerType typeId="bb02da7c-4a16-4109-ad23-49ea4a07c751" valueTypeId="ea1f7ce8-cc7b-433c-86e2-b5ed86a675ea"/>
+  </producedTypes>
+  <name>НачислениеРеверсивногоНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="ee5453c9-e5c1-4706-9d86-ec28d2d1ff79" extendedConfigurationObject="11f9de1a-3841-4fcb-8521-4213a3907d11">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

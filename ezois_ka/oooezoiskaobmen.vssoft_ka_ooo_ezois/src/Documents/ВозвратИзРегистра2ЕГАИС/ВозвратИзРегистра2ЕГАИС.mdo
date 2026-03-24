@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6352dac8-faff-42f0-8793-0c3907d43665" extendedConfigurationObject="b7c6233d-4b6a-4970-8176-571e66f9717c">
+  <producedTypes>
+    <objectType typeId="515dc7e8-23a6-40c8-ba5e-1dde5c810d8c" valueTypeId="fdd6bd53-8243-4723-b0da-aea2fb1cd378"/>
+    <refType typeId="2a49b7ee-c25a-4c13-bbb2-be093690cd35" valueTypeId="05c3c102-80cf-498f-a0a9-a9fdf6705d93"/>
+    <selectionType typeId="7b624f21-7064-4bec-ae89-249690c75b45" valueTypeId="cb4eb784-f9fa-4dde-adf4-675010cdedd6"/>
+    <listType typeId="b7c6ef06-12ba-48ac-8086-fb4dc5a13d2d" valueTypeId="3028b6d1-8bd3-42bc-8348-ab3e4a1e640b"/>
+    <managerType typeId="e934eb2a-5770-419c-9a08-35c93d7457ca" valueTypeId="4863e8c2-86b5-4980-bb60-9ef6dfaf535b"/>
+  </producedTypes>
+  <name>ВозвратИзРегистра2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="76cda278-92db-4f20-9bb9-8e6ffc99a11b" extendedConfigurationObject="1a474402-f97a-413e-90e7-c7810ce951e4">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеВозвратаИзРегистра2ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

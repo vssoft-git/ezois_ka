@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b66f0e5f-fb88-4b86-aa8f-5c73eabf8a81" extendedConfigurationObject="8ee14ec2-ccd5-40a4-9865-39e13d6790d5">
+  <producedTypes>
+    <objectType typeId="a68ef152-e639-41b7-9f37-f1f62aba77a5" valueTypeId="4833397d-9e39-4d3f-bc76-f70f1e0d36d6"/>
+    <refType typeId="dd557287-044e-4ee3-9d22-b5a6c3b9d587" valueTypeId="7d9a8b15-8826-4e92-8344-61b32ef698ed"/>
+    <selectionType typeId="d92ba7d2-2f4d-4ab1-9fa1-da77fbd380c4" valueTypeId="ee95401b-f7cf-41e6-8e9a-bac7ccfde0b3"/>
+    <listType typeId="32b3ef65-3751-45e0-87fe-63eabf1f0013" valueTypeId="3b219d07-5c0b-4995-982c-9a486ef33568"/>
+    <managerType typeId="6af6590e-8523-43f8-a6b6-958f292eee79" valueTypeId="0b4aa655-42a9-45f6-a9f6-642c5cc1f6d2"/>
+  </producedTypes>
+  <name>ПеремаркировкаТоваровИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="54832c7b-afad-4aa7-9c81-d0677c17656b" extendedConfigurationObject="2753ef65-b157-43af-bcb7-fe58d7ca16f8">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПеремаркировкиТоваровИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

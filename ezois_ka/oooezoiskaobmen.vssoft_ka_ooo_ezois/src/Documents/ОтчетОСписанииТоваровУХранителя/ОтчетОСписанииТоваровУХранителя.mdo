@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f221553f-2d37-4eb5-9f8c-16cd738614c0" extendedConfigurationObject="7155d921-3d57-400d-b22c-6e0bae52fe6f">
+  <producedTypes>
+    <objectType typeId="50fbf040-b518-4490-ace9-db20e360fa62" valueTypeId="2a0e1402-b6c9-4066-93e3-a4a7cd3ac3f4"/>
+    <refType typeId="1621820d-df66-4773-a84d-20a35b396b0a" valueTypeId="8d500c4b-3552-4fbe-93b2-676ddd81e477"/>
+    <selectionType typeId="983e63a9-575c-40dd-882f-4f7cc07a2ec1" valueTypeId="0729a021-b378-4d17-9cbf-d3a52f2781f2"/>
+    <listType typeId="45dea205-a633-4141-8dc0-790696d476ac" valueTypeId="c1a39e94-023f-491f-94a9-284fb1948b20"/>
+    <managerType typeId="47ae6589-30d4-4fea-bdac-54232ba6d298" valueTypeId="2285a44d-49aa-4de4-ab44-d37dc59b971a"/>
+  </producedTypes>
+  <name>ОтчетОСписанииТоваровУХранителя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="6317ee1a-63d3-4a73-bda3-d3c657cfa682" extendedConfigurationObject="e52ef311-31b3-4b07-91bc-af033bc68ffc">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетОСписанииТоваровУХранителя</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5fa20c62-9120-401b-85c7-b1e97b17d5cc" extendedConfigurationObject="9c435d6d-f33c-44de-a71e-32aea5858588">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетОСписанииТоваровСХранения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

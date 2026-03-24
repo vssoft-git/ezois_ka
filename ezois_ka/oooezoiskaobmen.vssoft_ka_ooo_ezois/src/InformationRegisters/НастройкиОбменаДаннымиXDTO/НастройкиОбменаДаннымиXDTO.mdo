@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b5a8fbc1-a773-4df8-96f5-95aaf85db577" extendedConfigurationObject="28dd22df-07cc-4e6d-89b2-b15a13f76615">
+  <producedTypes>
+    <selectionType typeId="0e183f4e-76b5-4668-96da-bee5c727382c" valueTypeId="06283f1b-06da-4f0b-8884-4275d67f6c27"/>
+    <listType typeId="2678d416-31cb-4341-8676-88d251a97832" valueTypeId="6b54cfa0-3f9f-4698-8810-5ea526da93ed"/>
+    <managerType typeId="ab5145c9-5567-49fa-b6bb-5a7627ccb4d7" valueTypeId="dc714a5d-2973-4f9d-b8de-da9001504dc5"/>
+    <recordSetType typeId="8df6e86a-21c1-4adb-a85a-491fd23230d1" valueTypeId="fcfe3f4e-319c-4646-acac-a3cb3415111d"/>
+    <recordKeyType typeId="d53cf576-35e0-4e37-b730-77144cf94366" valueTypeId="82564de5-623b-4518-8df5-b5a0351f7237"/>
+    <recordType typeId="77725598-bf02-475f-82cd-a4dab7505ba2" valueTypeId="9fd1c4cd-f52f-444e-b9fb-1479aecf77b3"/>
+    <recordManagerType typeId="f7bbfa87-81bc-474f-a796-2121cca3559d" valueTypeId="6dd15c15-56e9-42e7-942b-870ea0b6b63a"/>
+  </producedTypes>
+  <name>НастройкиОбменаДаннымиXDTO</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <forms uuid="db657d7f-cef6-4484-b930-ac9be54120cb" extendedConfigurationObject="c8116351-4487-40f3-ae04-1e0741cc5df6">
+    <name>ФормаЗаписи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:InformationRegister>

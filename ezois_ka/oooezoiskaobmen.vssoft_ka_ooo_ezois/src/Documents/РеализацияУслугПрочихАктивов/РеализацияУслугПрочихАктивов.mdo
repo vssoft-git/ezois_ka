@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7705a1fa-a5ab-4b2a-ae75-156f1737c9a2" extendedConfigurationObject="3baeaac4-09f4-47a0-88a9-8f88e0159168">
+  <producedTypes>
+    <objectType typeId="79161d41-0d05-45d5-a3fc-a4a37de28a37" valueTypeId="d68d4b80-f816-4d90-ab82-3bc7d6a144a4"/>
+    <refType typeId="24ff1dad-2e25-4061-9097-d86672373b4a" valueTypeId="b9d2bc4b-87d2-448d-84d2-544aca32fc36"/>
+    <selectionType typeId="34ee0e10-77bd-42ad-a593-0288de303a8a" valueTypeId="c201879a-95d1-4fc7-a0ee-109981aa4a84"/>
+    <listType typeId="22b736ee-7bff-4475-a97b-c6f0b8f59400" valueTypeId="08607866-650b-4b0c-a92d-fee7049f5339"/>
+    <managerType typeId="d5185a17-233e-42b8-a8d3-b9902ced8db9" valueTypeId="e5a7d190-ff01-498e-b0d7-e2f2c69f3a28"/>
+  </producedTypes>
+  <name>РеализацияУслугПрочихАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="bcd63b36-fa6f-4fe9-a138-3c991968abbb" extendedConfigurationObject="a1705dc7-528c-4baa-9298-2911942ea449">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="4d1701f3-78e0-4a7a-bc04-ddb11f324ced" extendedConfigurationObject="191d5568-2d5d-4135-8bef-16cbf7588c25">
+    <producedTypes>
+      <objectType typeId="49a1761a-3ffa-4954-8b84-d11007026de8" valueTypeId="4da82ac6-1e8c-41a8-99f8-bd5d7aa6a6ef"/>
+      <rowType typeId="b2dfcc82-4c31-48d6-a68b-bb7ae32f7dfc" valueTypeId="0dc51049-f145-4e61-bd85-2ae6d873c89d"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="9c50cd2e-0ede-43ec-aa94-1cec69e9eb74" extendedConfigurationObject="b34e837b-0997-4205-983f-4640fee29a1d">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="02587ac9-9e11-4a94-bf41-832f03c93a37" extendedConfigurationObject="a48ec094-4686-4644-9437-6899ba9b1a5b">
+    <producedTypes>
+      <objectType typeId="01f85972-8e91-4f26-9fbd-4509e9bca9f4" valueTypeId="a1c17a04-8a92-46c8-9767-a3dacb409bee"/>
+      <rowType typeId="f5f08f31-b2f3-4051-a609-0af9f57373c9" valueTypeId="2532ef8a-0d6e-4e89-8e55-24fb05fc0a4a"/>
+    </producedTypes>
+    <name>Доходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="4804f556-a1ab-47d6-9dea-8a576f6d7fd6" extendedConfigurationObject="4305e0b3-dccc-4031-bfae-c3cdb022aea5">
+      <name>АналитикаДоходов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.СтатьиДоходов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

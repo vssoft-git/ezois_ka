@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c7932a54-94e6-437f-9217-457f13e0974a" extendedConfigurationObject="8b6ed3e6-dc92-41d7-b600-031bf0a81f1e">
+  <producedTypes>
+    <objectType typeId="06702529-a4c6-4aff-8f4c-f0ca9880dff3" valueTypeId="c0c5abfd-729d-4139-98c3-b11269025633"/>
+    <refType typeId="ca86d0bc-a4f5-4a48-a730-b666c0ffc04e" valueTypeId="9edd22cb-69d4-4425-81e2-b72cfa579bd0"/>
+    <selectionType typeId="f845c8ea-933c-4f28-9b9d-133235ada6b0" valueTypeId="16544656-8c68-41b7-afab-178693813f53"/>
+    <listType typeId="139c55ea-6182-4a29-b9ac-1e21b48966ac" valueTypeId="0c61e002-2bc1-4e09-b78d-db1aab24865b"/>
+    <managerType typeId="5fb2d8cc-7659-42fa-ab07-72764c44de80" valueTypeId="00b1aef3-3c92-4d56-9768-9632a85fa6c1"/>
+  </producedTypes>
+  <name>ПереносРНПТМатериаловНаПродукцию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="a3f00060-005b-488f-88de-2cdd84dc0029" extendedConfigurationObject="8856de71-f469-406c-852a-26708b61e660">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПереносРНПТМатериаловНаПродукцию</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="78933fe1-a7cd-4e34-b6e1-9cded935cc0c" extendedConfigurationObject="8104ac33-98a7-4a74-b5e0-a82dfcebcabf">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="9bee45d6-5066-4e8b-be12-dd33bf80c1ca" extendedConfigurationObject="5b19b310-feac-496a-96a4-ec074492f259">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПроизводствоБезЗаказа</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="db5c3481-5ef0-4a89-8c82-c57ebc8aa76b" extendedConfigurationObject="6df098a4-b49f-4c91-99af-dc7e9ef97e57">
+    <producedTypes>
+      <objectType typeId="80d2832f-0723-4d96-9333-9be3b21e9144" valueTypeId="4aa83ed0-ab0a-45bb-a889-b4f905b3a1dd"/>
+      <rowType typeId="83cebff9-23b4-449d-9020-01b3d9fac0a2" valueTypeId="8f3f724d-03da-43fc-9337-1a5bc197583e"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="7be6b1b6-b5c3-4e8c-b369-19c7d0f722f9" extendedConfigurationObject="bc1ea89b-8653-417f-8a31-f17fd9835e6b">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="6f2be38c-d8f4-43ef-acda-89242c909f1a" extendedConfigurationObject="ad918e10-e67d-43ae-9963-ac2290d1fa30">
+      <name>ПартияПроизводства</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ПартииПроизводства</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

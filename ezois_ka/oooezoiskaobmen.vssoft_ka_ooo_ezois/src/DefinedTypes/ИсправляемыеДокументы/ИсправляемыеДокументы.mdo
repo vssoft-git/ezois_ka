@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d358b905-8600-42ac-a899-5544515a340a" extendedConfigurationObject="3bf6b572-1ea6-42d8-b8c5-e2a5621e7e7e">
+  <producedTypes>
+    <containerType typeId="769e3f44-5f33-40ac-99ca-8dcf21a039f2" valueTypeId="6753b73d-7ab8-4800-bd58-ee0f2a32e3ab"/>
+  </producedTypes>
+  <name>ИсправляемыеДокументы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

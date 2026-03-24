@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34b3f757-461b-4146-ba1e-e6b65ae2c7c8">
+  <producedTypes>
+    <objectType typeId="c5d9cc00-79b7-4d5b-99cb-fbce2b632531" valueTypeId="e0533f7e-0661-42d1-994e-d4c044fe3d2c"/>
+    <managerType typeId="c2e79ac2-cafa-47cc-a930-51a0cd7b6cd8" valueTypeId="e0158122-8ef3-4f24-b82d-0915d11c369e"/>
+  </producedTypes>
+  <name>ИТБК_ОплатаЗаявокНаРасходованиеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата заявок на расходование денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИТБК_ОплатаЗаявокНаРасходованиеДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3d0d54b7-141d-48bf-a7f1-fd8b73994732">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

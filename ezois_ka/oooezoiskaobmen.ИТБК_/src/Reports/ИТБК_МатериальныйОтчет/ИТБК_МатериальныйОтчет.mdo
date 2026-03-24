@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e9f20c-5e58-423b-a2e0-fcddc99002a4">
+  <producedTypes>
+    <objectType typeId="7a688bd1-9352-428d-84ec-18105beb1a67" valueTypeId="2e822137-2439-489c-a30a-a45e6dae05cf"/>
+    <managerType typeId="c69b97fa-a169-4ac0-a927-f8cc35e86035" valueTypeId="38dbc782-f260-493e-83d5-d7af245c59e8"/>
+  </producedTypes>
+  <name>ИТБК_МатериальныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материальный отчет (ИТБК)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИТБК_МатериальныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="791ee9c8-bf44-4f2b-87d3-32dab63e0c7c">
+    <name>ФормироватьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="efd7238c-0935-4100-a604-f906156118f2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94e18b4d-590f-420d-bb2c-5bc430112253">
+    <name>СкладЦеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цеховая кладовая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dc828b84-abb4-4520-8b22-8d3e048c6877">
+    <name>ФормаПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма передачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9e9f80a4-0a99-437f-b4d6-d70cb6668407">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="65e3f414-8251-4187-9454-b889be1cd187">
+    <name>ИТБК_ЗаполнитьМатериальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить материальный отчет (ИТБК)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b755ebb-1937-4b07-923e-db0eea5ff4f6" extendedConfigurationObject="953b25e8-654c-421a-abe0-920a32b1e064">
+  <producedTypes>
+    <containerType typeId="d77482e0-0378-4389-af0b-4045133db9cd" valueTypeId="2723a084-450d-4213-8eec-85086e8cb864"/>
+  </producedTypes>
+  <name>ОснованиеПеремаркировкиТоваровИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

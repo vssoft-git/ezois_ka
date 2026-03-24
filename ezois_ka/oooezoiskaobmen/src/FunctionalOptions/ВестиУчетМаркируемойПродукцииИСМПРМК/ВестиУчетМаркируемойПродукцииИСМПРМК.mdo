@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0127d3d-8b6b-40f7-8cd4-fcfed9372611">
+  <name>ВестиУчетМаркируемойПродукцииИСМПРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет маркируемой продукции ИС МП РМК</value>
+  </synonym>
+  <location>Constant.ВестиУчетМаркируемойПродукцииИСМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.НастройкиСканированияКодовМаркировкиИСМП</content>
+  <content>Enum.ТипыТокеновАвторизации</content>
+  <content>InformationRegister.ВскрытыеПотребительскиеУпаковкиИС</content>
+  <content>Enum.ПрочиеЗоныПересчетаПродукцииИСМП</content>
+  <content>Enum.ВариантыИспользованияЕдиницыХраненияИС</content>
+  <content>Enum.СтатусыВскрытыхПотребительскихУпаковокИС</content>
+  <content>Enum.ВидыОперацийИСМП</content>
+  <content>InformationRegister.ДанныеКлючаСессииИСМП</content>
+  <content>CommonForm.АварийныйРежимИСМП</content>
+  <content>InformationRegister.СостоянияCDNПлощадокИСМП</content>
+  <content>Document.ПодключениеКегаКОборудованиюРозливаИСМП</content>
+  <content>Enum.ДальнейшиеДействияПоВзаимодействиюИСМП</content>
+  <content>Catalog.ИСМППрисоединенныеФайлы</content>
+  <content>Catalog.ОтветственныеЗаАктуализациюТокеновАвторизацииИСМП</content>
+  <content>InformationRegister.СтатусыДокументовИСМП</content>
+  <content>Enum.СтатусыОбработкиПодключениеКОборудованиюРозливаИСМП</content>
+  <content>InformationRegister.НастройкиПодключенияЛокальныхМодулейИСМП</content>
+  <content>InformationRegister.НастройкиПодключенияТСПИоТ</content>
+  <content>CommonForm.ФормаПроверкиСтатусовГотовностиТСПИоТ</content>
+</mdclass:FunctionalOption>

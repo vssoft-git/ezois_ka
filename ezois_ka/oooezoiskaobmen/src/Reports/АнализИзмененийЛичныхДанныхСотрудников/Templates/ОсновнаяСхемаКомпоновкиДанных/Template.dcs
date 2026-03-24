@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Работники</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Организация</dcscor:choiceParameter>
+							<dcscor:value>Организация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГоловнаяОрганизация</dataPath>
+			<field>ГоловнаяОрганизация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.ТекущаяОрганизация</dcscor:choiceParameter>
+							<dcscor:value>Организация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.ТекущееПодразделение</dcscor:choiceParameter>
+							<dcscor:value>Подразделение</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИНН</dataPath>
+			<field>ИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоРождения</dataPath>
+			<field>МестоРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пол</dataPath>
+			<field>Пол</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтраховойНомерПФР</dataPath>
+			<field>СтраховойНомерПФР</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабельныйНомер</dataPath>
+			<field>ТабельныйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрежнееЗначение</dataPath>
+			<field>ПрежнееЗначение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Было</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗанятости</dataPath>
+			<field>ВидЗанятости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПриема</dataPath>
+			<field>ДатаПриема</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаУвольнения</dataPath>
+			<field>ДатаУвольнения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Должность</dataPath>
+			<field>Должность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Отбор.Владелец</dcscor:choiceParameter>
+							<dcscor:value>Организация</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КатегорияСведений</dataPath>
+			<field>КатегорияСведений</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УстановленноеЗначение</dataPath>
+			<field>УстановленноеЗначение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стало</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтношениеКВоинскойОбязанности</dataPath>
+			<field>ОтношениеКВоинскойОбязанности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтношениеКВоинскомуУчету</dataPath>
+			<field>ОтношениеКВоинскомуУчету</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Сотрудники.Ссылка КАК Сотрудник,
+	&amp;Период КАК Период
+ПОМЕСТИТЬ ВТСотрудники
+{ВЫБРАТЬ
+	Сотрудник.*}
+ИЗ
+	Справочник.Сотрудники КАК Сотрудники
+{ГДЕ
+	Сотрудники.Ссылка.* КАК Сотрудник,
+	Сотрудники.Код КАК ТабельныйНомер,
+	Сотрудники.ФизическоеЛицо.*,
+	Сотрудники.ГоловнаяОрганизация.*,
+	Сотрудники.ФизическоеЛицо.Пол КАК Пол,
+	Сотрудники.ФизическоеЛицо.ДатаРождения КАК ДатаРождения,
+	Сотрудники.ФизическоеЛицо.ИНН КАК ИНН,
+	Сотрудники.ФизическоеЛицо.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	Сотрудники.ФизическоеЛицо.МестоРождения КАК МестоРождения}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	"" КАК ТабельныйНомер,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.ПустаяСсылка) КАК ВидЗанятости,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК Организация,
+	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка) КАК Подразделение,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК Должность,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаПриема,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаУвольнения
+ПОМЕСТИТЬ Представления_КадровыеДанныеСотрудников
+ИЗ
+	ВТСотрудники КАК Сотрудники
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВоинскийУчетСрезПоследних.ФизическоеЛицо КАК ФизическоеЛицо,
+	ВоинскийУчетСрезПоследних.ОтношениеКВоинскойОбязанности КАК ОтношениеКВоинскойОбязанности,
+	ВоинскийУчетСрезПоследних.ОтношениеКВоинскомуУчету КАК ОтношениеКВоинскомуУчету
+ПОМЕСТИТЬ ВТДанныеВоинскогоУчета
+ИЗ
+	РегистрСведений.ВоинскийУчет.СрезПоследних(
+			&amp;Период,
+			ФизическоеЛицо В
+				(ВЫБРАТЬ
+					КадровыеДанныеСотрудников.ФизическоеЛицо
+				ИЗ
+					Представления_КадровыеДанныеСотрудников КАК КадровыеДанныеСотрудников)) КАК ВоинскийУчетСрезПоследних
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	КадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	КадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	КадровыеДанныеСотрудников.ВидЗанятости КАК ВидЗанятости,
+	КадровыеДанныеСотрудников.Организация КАК Организация,
+	КадровыеДанныеСотрудников.Подразделение КАК Подразделение,
+	КадровыеДанныеСотрудников.Должность КАК Должность,
+	КадровыеДанныеСотрудников.ДатаПриема КАК ДатаПриема,
+	КадровыеДанныеСотрудников.ДатаУвольнения КАК ДатаУвольнения,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
+	&amp;Период КАК ДатаОкончания,
+	ДанныеВоинскогоУчета.ОтношениеКВоинскойОбязанности КАК ОтношениеКВоинскойОбязанности,
+	ДанныеВоинскогоУчета.ОтношениеКВоинскомуУчету КАК ОтношениеКВоинскомуУчету
+ПОМЕСТИТЬ ВТКадровыеДанные
+ИЗ
+	Представления_КадровыеДанныеСотрудников КАК КадровыеДанныеСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТДанныеВоинскогоУчета КАК ДанныеВоинскогоУчета
+		ПО КадровыеДанныеСотрудников.ФизическоеЛицо = ДанныеВоинскогоУчета.ФизическоеЛицо
+{ГДЕ
+	КадровыеДанныеСотрудников.Сотрудник.*,
+	КадровыеДанныеСотрудников.ФизическоеЛицо.*,
+	КадровыеДанныеСотрудников.ВидЗанятости.*,
+	КадровыеДанныеСотрудников.Организация.*,
+	КадровыеДанныеСотрудников.Подразделение.*,
+	КадровыеДанныеСотрудников.Должность.*,
+	КадровыеДанныеСотрудников.ДатаПриема,
+	КадровыеДанныеСотрудников.ДатаУвольнения,
+	ДанныеВоинскогоУчета.ОтношениеКВоинскойОбязанности,
+	ДанныеВоинскогоУчета.ОтношениеКВоинскомуУчету}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
+	&amp;Период КАК ДатаОкончания
+ПОМЕСТИТЬ ВТСотрудникиДаты
+ИЗ
+	Представления_КадровыеДанныеСотрудников КАК КадровыеДанныеСотрудников
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ДАТАВРЕМЯ(1, 1, 1) КАК Период,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ГоловнаяОрганизация,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК Организация,
+	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка) КАК Подразделение,
+	ЗНАЧЕНИЕ(Справочник.ШтатноеРасписание.ПустаяСсылка) КАК ДолжностьПоШтатномуРасписанию,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК Должность,
+	0 КАК КоличествоСтавок,
+	ЗНАЧЕНИЕ(Перечисление.ВидыКадровыхСобытий.ПустаяСсылка) КАК ВидСобытия,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ПервичныйДокумент
+ПОМЕСТИТЬ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников
+ИЗ
+	ВТСотрудникиДаты КАК СотрудникиДаты
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КадроваяИсторияСотрудников.Сотрудник КАК Сотрудник,
+	КадроваяИсторияСотрудников.Период КАК ДатаИзменения,
+	МАКСИМУМ(КадроваяИсторияСотрудниковВспомогательная.Период) КАК Период
+ПОМЕСТИТЬ ВТПодразделенияМаксимальныеДаты
+ИЗ
+	Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудников
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудниковВспомогательная
+		ПО КадроваяИсторияСотрудников.Сотрудник = КадроваяИсторияСотрудниковВспомогательная.Сотрудник
+			И КадроваяИсторияСотрудников.Период &gt; КадроваяИсторияСотрудниковВспомогательная.Период
+			И КадроваяИсторияСотрудников.Подразделение &lt;&gt; КадроваяИсторияСотрудниковВспомогательная.Подразделение
+			И (КадроваяИсторияСотрудников.Период МЕЖДУ &amp;ДатаНачала И &amp;Период)
+
+СГРУППИРОВАТЬ ПО
+	КадроваяИсторияСотрудников.Сотрудник,
+	КадроваяИсторияСотрудников.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КадроваяИсторияСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	КадроваяИсторияСотрудников.Период КАК Период,
+	КадроваяИсторияСотрудников.Подразделение КАК Подразделение,
+	КадроваяИсторияСотрудниковПредыдущая.Подразделение КАК ПредыдущееПодразделение
+ПОМЕСТИТЬ ВТПодразделения
+ИЗ
+	ВТПодразделенияМаксимальныеДаты КАК ПодразделенияМаксимальныеДаты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудников
+		ПО ПодразделенияМаксимальныеДаты.Сотрудник = КадроваяИсторияСотрудников.Сотрудник
+			И ПодразделенияМаксимальныеДаты.ДатаИзменения = КадроваяИсторияСотрудников.Период
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудниковПредыдущая
+		ПО ПодразделенияМаксимальныеДаты.Сотрудник = КадроваяИсторияСотрудниковПредыдущая.Сотрудник
+			И ПодразделенияМаксимальныеДаты.Период = КадроваяИсторияСотрудниковПредыдущая.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КадроваяИсторияСотрудников.Сотрудник КАК Сотрудник,
+	КадроваяИсторияСотрудников.Период КАК ДатаИзменения,
+	МАКСИМУМ(КадроваяИсторияСотрудниковВспомогательная.Период) КАК Период
+ПОМЕСТИТЬ ВТДолжностиМаксимальныеДаты
+ИЗ
+	Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудников
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудниковВспомогательная
+		ПО КадроваяИсторияСотрудников.Сотрудник = КадроваяИсторияСотрудниковВспомогательная.Сотрудник
+			И КадроваяИсторияСотрудников.Период &gt; КадроваяИсторияСотрудниковВспомогательная.Период
+			И КадроваяИсторияСотрудников.Должность &lt;&gt; КадроваяИсторияСотрудниковВспомогательная.Должность
+			И (КадроваяИсторияСотрудников.Период МЕЖДУ &amp;ДатаНачала И &amp;Период)
+
+СГРУППИРОВАТЬ ПО
+	КадроваяИсторияСотрудников.Сотрудник,
+	КадроваяИсторияСотрудников.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КадроваяИсторияСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	КадроваяИсторияСотрудников.Период КАК Период,
+	КадроваяИсторияСотрудников.Должность КАК Должность,
+	КадроваяИсторияСотрудниковПредыдущая.Должность КАК ПредыдущаяДолжность
+ПОМЕСТИТЬ ВТДолжности
+ИЗ
+	ВТДолжностиМаксимальныеДаты КАК ДолжностиМаксимальныеДаты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудников
+		ПО ДолжностиМаксимальныеДаты.Сотрудник = КадроваяИсторияСотрудников.Сотрудник
+			И ДолжностиМаксимальныеДаты.ДатаИзменения = КадроваяИсторияСотрудников.Период
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_КадроваяИсторияСотрудников КАК КадроваяИсторияСотрудниковПредыдущая
+		ПО ДолжностиМаксимальныеДаты.Сотрудник = КадроваяИсторияСотрудниковПредыдущая.Сотрудник
+			И ДолжностиМаксимальныеДаты.Период = КадроваяИсторияСотрудниковПредыдущая.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	КадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
+	&amp;Период КАК ДатаОкончания
+ПОМЕСТИТЬ ВТФизическиеЛицаДаты
+ИЗ
+	Представления_КадровыеДанныеСотрудников КАК КадровыеДанныеСотрудников
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ДАТАВРЕМЯ(1, 1, 1) КАК Период,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК Инвалидность
+ПОМЕСТИТЬ Представления_ТаблицаРегистра_СведенияОбИнвалидностиФизическихЛиц
+ИЗ
+	ВТФизическиеЛицаДаты КАК ФизическиеЛицаДаты
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СведенияОбИнвалидностиФизическихЛиц.ФизическоеЛицо КАК ФизическоеЛицо,
+	СведенияОбИнвалидностиФизическихЛиц.Период КАК ДатаИзменения,
+	МАКСИМУМ(СведенияОбИнвалидностиФизическихЛицВспомогательная.Период) КАК Период
+ПОМЕСТИТЬ ВТСведенияОбИнвалидностиМаксимальныеДаты
+ИЗ
+	Представления_ТаблицаРегистра_СведенияОбИнвалидностиФизическихЛиц КАК СведенияОбИнвалидностиФизическихЛиц
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СведенияОбИнвалидностиФизическихЛиц КАК СведенияОбИнвалидностиФизическихЛицВспомогательная
+		ПО СведенияОбИнвалидностиФизическихЛиц.ФизическоеЛицо = СведенияОбИнвалидностиФизическихЛицВспомогательная.ФизическоеЛицо
+			И СведенияОбИнвалидностиФизическихЛиц.Период &gt; СведенияОбИнвалидностиФизическихЛицВспомогательная.Период
+			И СведенияОбИнвалидностиФизическихЛиц.Инвалидность &lt;&gt; СведенияОбИнвалидностиФизическихЛицВспомогательная.Инвалидность
+			И (СведенияОбИнвалидностиФизическихЛиц.Период МЕЖДУ &amp;ДатаНачала И &amp;Период)
+
+СГРУППИРОВАТЬ ПО
+	СведенияОбИнвалидностиФизическихЛиц.ФизическоеЛицо,
+	СведенияОбИнвалидностиФизическихЛиц.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СведенияОбИнвалидностиФизическихЛиц.ФизическоеЛицо КАК ФизическоеЛицо,
+	СведенияОбИнвалидностиФизическихЛиц.Период КАК Период,
+	СведенияОбИнвалидностиФизическихЛиц.Инвалидность КАК Инвалидность,
+	СведенияОбИнвалидностиФизическихЛицПредыдущая.Инвалидность КАК ПредыдущаяИнвалидность
+ПОМЕСТИТЬ ВТСведенияОбИнвалидности
+ИЗ
+	ВТСведенияОбИнвалидностиМаксимальныеДаты КАК СведенияОбИнвалидностиМаксимальныеДаты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СведенияОбИнвалидностиФизическихЛиц КАК СведенияОбИнвалидностиФизическихЛиц
+		ПО СведенияОбИнвалидностиМаксимальныеДаты.ФизическоеЛицо = СведенияОбИнвалидностиФизическихЛиц.ФизическоеЛицо
+			И СведенияОбИнвалидностиМаксимальныеДаты.ДатаИзменения = СведенияОбИнвалидностиФизическихЛиц.Период
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СведенияОбИнвалидностиФизическихЛиц КАК СведенияОбИнвалидностиФизическихЛицПредыдущая
+		ПО СведенияОбИнвалидностиМаксимальныеДаты.ФизическоеЛицо = СведенияОбИнвалидностиФизическихЛицПредыдущая.ФизическоеЛицо
+			И СведенияОбИнвалидностиМаксимальныеДаты.Период = СведенияОбИнвалидностиФизическихЛицПредыдущая.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ДАТАВРЕМЯ(1, 1, 1) КАК Период,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК СостояниеВБраке
+ПОМЕСТИТЬ Представления_ТаблицаРегистра_СостоянияВБракеФизическихЛиц
+ИЗ
+	ВТФизическиеЛицаДаты КАК ФизическиеЛицаДаты
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СостоянияВБракеФизическихЛиц.ФизическоеЛицо КАК ФизическоеЛицо,
+	СостоянияВБракеФизическихЛиц.Период КАК ДатаИзменения,
+	МАКСИМУМ(СостоянияВБракеФизическихЛицВспомогательная.Период) КАК Период
+ПОМЕСТИТЬ ВТСостоянияВБракеМаксимальныеДаты
+ИЗ
+	Представления_ТаблицаРегистра_СостоянияВБракеФизическихЛиц КАК СостоянияВБракеФизическихЛиц
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СостоянияВБракеФизическихЛиц КАК СостоянияВБракеФизическихЛицВспомогательная
+		ПО СостоянияВБракеФизическихЛиц.ФизическоеЛицо = СостоянияВБракеФизическихЛицВспомогательная.ФизическоеЛицо
+			И СостоянияВБракеФизическихЛиц.Период &gt; СостоянияВБракеФизическихЛицВспомогательная.Период
+			И СостоянияВБракеФизическихЛиц.СостояниеВБраке &lt;&gt; СостоянияВБракеФизическихЛицВспомогательная.СостояниеВБраке
+			И (СостоянияВБракеФизическихЛиц.Период МЕЖДУ &amp;ДатаНачала И &amp;Период)
+
+СГРУППИРОВАТЬ ПО
+	СостоянияВБракеФизическихЛиц.ФизическоеЛицо,
+	СостоянияВБракеФизическихЛиц.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СостоянияВБракеФизическихЛиц.ФизическоеЛицо КАК ФизическоеЛицо,
+	СостоянияВБракеФизическихЛиц.Период КАК Период,
+	СостоянияВБракеФизическихЛиц.СостояниеВБраке КАК СостояниеВБраке,
+	СостоянияВБракеФизическихЛицПредыдущая.СостояниеВБраке КАК ПредыдущееСостояниеВБраке
+ПОМЕСТИТЬ ВТСостоянияВБраке
+ИЗ
+	ВТСостоянияВБракеМаксимальныеДаты КАК СостоянияВБракеМаксимальныеДаты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СостоянияВБракеФизическихЛиц КАК СостоянияВБракеФизическихЛиц
+		ПО СостоянияВБракеМаксимальныеДаты.ФизическоеЛицо = СостоянияВБракеФизическихЛиц.ФизическоеЛицо
+			И СостоянияВБракеМаксимальныеДаты.ДатаИзменения = СостоянияВБракеФизическихЛиц.Период
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Представления_ТаблицаРегистра_СостоянияВБракеФизическихЛиц КАК СостоянияВБракеФизическихЛицПредыдущая
+		ПО СостоянияВБракеМаксимальныеДаты.ФизическоеЛицо = СостоянияВБракеФизическихЛицПредыдущая.ФизическоеЛицо
+			И СостоянияВБракеМаксимальныеДаты.Период = СостоянияВБракеФизическихЛицПредыдущая.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Подразделения.Период КАК Период,
+	Подразделения.ФизическоеЛицо КАК ФизическоеЛицо,
+	Подразделения.ПредыдущееПодразделение КАК ПрежнееЗначение,
+	Подразделения.Подразделение КАК УстановленноеЗначение,
+	ЗНАЧЕНИЕ(Перечисление.КатегорииСведенийОФизическихЛицах.Подразделение) КАК КатегорияСведений
+ПОМЕСТИТЬ ВТСведенияОбИзменениях
+ИЗ
+	ВТПодразделения КАК Подразделения
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Должности.Период,
+	Должности.ФизическоеЛицо,
+	Должности.ПредыдущаяДолжность,
+	Должности.Должность,
+	ЗНАЧЕНИЕ(Перечисление.КатегорииСведенийОФизическихЛицах.Должность)
+ИЗ
+	ВТДолжности КАК Должности
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СведенияОбИнвалидности.Период,
+	СведенияОбИнвалидности.ФизическоеЛицо,
+	СведенияОбИнвалидности.ПредыдущаяИнвалидность,
+	СведенияОбИнвалидности.Инвалидность,
+	ЗНАЧЕНИЕ(Перечисление.КатегорииСведенийОФизическихЛицах.Инвалидность)
+ИЗ
+	ВТСведенияОбИнвалидности КАК СведенияОбИнвалидности
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СостоянияВБраке.Период,
+	СостоянияВБраке.ФизическоеЛицо,
+	СостоянияВБраке.ПредыдущееСостояниеВБраке,
+	СостоянияВБраке.СостояниеВБраке,
+	ЗНАЧЕНИЕ(Перечисление.КатегорииСведенийОФизическихЛицах.СемейноеПоложение)
+ИЗ
+	ВТСостоянияВБраке КАК СостоянияВБраке
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ИзменениеСведенийФизическихЛиц.ДатаЗаписи,
+	ИзменениеСведенийФизическихЛиц.ФизическоеЛицо,
+	ИзменениеСведенийФизическихЛиц.ПрежнееЗначение,
+	ИзменениеСведенийФизическихЛиц.УстановленноеЗначение,
+	ИзменениеСведенийФизическихЛиц.КатегорияСведений
+ИЗ
+	РегистрСведений.ИзменениеСведенийФизическихЛиц КАК ИзменениеСведенийФизическихЛиц
+ГДЕ
+	ИзменениеСведенийФизическихЛиц.ДатаЗаписи МЕЖДУ &amp;ДатаНачала И &amp;Период
+	И ИзменениеСведенийФизическихЛиц.ФизическоеЛицо В
+			(ВЫБРАТЬ
+				КадровыеДанные.ФизическоеЛицо
+			ИЗ
+				ВТКадровыеДанные КАК КадровыеДанные)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	КадровыеДанные.Сотрудник КАК Сотрудник,
+	КадровыеДанные.ФизическоеЛицо КАК ФизическоеЛицо,
+	КадровыеДанные.ВидЗанятости КАК ВидЗанятости,
+	КадровыеДанные.Организация КАК Организация,
+	КадровыеДанные.Подразделение КАК Подразделение,
+	КадровыеДанные.Должность КАК Должность,
+	КадровыеДанные.ДатаПриема КАК ДатаПриема,
+	КадровыеДанные.ДатаУвольнения КАК ДатаУвольнения,
+	НАЧАЛОПЕРИОДА(СведенияОбИзменениях.Период, ДЕНЬ) КАК Период,
+	СведенияОбИзменениях.ПрежнееЗначение КАК ПрежнееЗначение,
+	СведенияОбИзменениях.УстановленноеЗначение КАК УстановленноеЗначение,
+	СведенияОбИзменениях.КатегорияСведений КАК КатегорияСведений
+ИЗ
+	ВТСведенияОбИзменениях КАК СведенияОбИзменениях
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТКадровыеДанные КАК КадровыеДанные
+		ПО СведенияОбИзменениях.ФизическоеЛицо = КадровыеДанные.ФизическоеЛицо</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ПрежнееЗначение</dataPath>
+		<expression>Минимум(ПрежнееЗначение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>УстановленноеЗначение</dataPath>
+		<expression>Минимум(УстановленноеЗначение)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>АнализИзмененийЛичныхДанныхСотрудников</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Анализ изменений личных данных сотрудников</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>66849507-82f5-497d-a9f5-b4f6bde4fcf6</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>ddd9ac3f-8866-4887-b029-321f7ae3d51e</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Должность</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>d4939469-cef7-459a-be71-137b54e8ac4d</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Должности</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>5189f307-9153-403a-b86b-1802cc877cb0</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудники</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ВидЗанятости</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыЗанятости.ОсновноеМестоРаботы</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ОтношениеКВоинскойОбязанности</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.ОтношениеКВоинскойОбязанности.Военнообязанный</dcsset:right>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.ОтношениеКВоинскойОбязанности.Призывник</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ОтношениеКВоинскомуУчету</dcsset:left>
+					<dcsset:comparisonType>NotInList</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.ОтношениеКВоинскомуУчету.СнятПоВозрасту</dcsset:right>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.ОтношениеКВоинскомуУчету.СнятПоСостояниюЗдоровья</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>AndGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДатаПриема</dcsset:left>
+						<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">ПараметрыДанных.Период</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ДатаПриема</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>OrGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДатаУвольнения</dcsset:left>
+							<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:Field">Период</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДатаУвольнения</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>658ab545-7eb7-473e-b014-a04f359c097b</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Подразделение.РеквизитДопУпорядочивания</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Должность.РеквизитДопУпорядочивания</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ФизическоеЛицо.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>КатегорияСведений</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Анализ изменений личных данных сотрудников</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:selection/>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>Шрифт</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							</dcscor:item>
+						</dcsset:appearance>
+					</dcsset:item>
+				</dcsset:conditionalAppearance>
+				<dcsset:item xsi:type="dcsset:StructureItemTable">
+					<dcsset:column>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КатегорияСведений</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">КатегорияСведений</dcsset:left>
+								<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.КатегорииСведенийОФизическихЛицах.КонтактнаяИнформация</dcsset:right>
+							</dcsset:item>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:conditionalAppearance>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ПрежнееЗначение</dcsset:field>
+									</dcsset:item>
+									<dcsset:item>
+										<dcsset:field>УстановленноеЗначение</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter/>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+										<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+									</dcscor:item>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+										<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+								<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+								<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+								<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+								<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+								<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+								<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+							</dcsset:item>
+						</dcsset:conditionalAppearance>
+					</dcsset:column>
+					<dcsset:column>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КатегорияСведений</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">КатегорияСведений</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.КатегорииСведенийОФизическихЛицах.КонтактнаяИнформация</dcsset:right>
+							</dcsset:item>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:conditionalAppearance>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ПрежнееЗначение</dcsset:field>
+									</dcsset:item>
+									<dcsset:item>
+										<dcsset:field>УстановленноеЗначение</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter/>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+										<dcscor:value xsi:type="xs:decimal">45</dcscor:value>
+									</dcscor:item>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+										<dcscor:value xsi:type="xs:decimal">45</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+								<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+								<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+								<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+								<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+								<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+								<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+							</dcsset:item>
+						</dcsset:conditionalAppearance>
+					</dcsset:column>
+					<dcsset:row>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Период</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Сотрудник</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:row>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Период</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Сотрудник</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПрежнееЗначение</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>УстановленноеЗначение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Сотрудник</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>Период</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+									<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+									<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
+									<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+									<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
+					<dcsset:outputParameters>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+						</dcscor:item>
+					</dcsset:outputParameters>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

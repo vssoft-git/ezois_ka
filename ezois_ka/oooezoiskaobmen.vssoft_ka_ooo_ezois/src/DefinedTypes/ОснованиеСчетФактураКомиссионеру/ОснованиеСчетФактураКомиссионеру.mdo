@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aecb7284-097e-470b-8a86-ee9a1c33ac65" extendedConfigurationObject="fe66156e-917a-4a6d-8f16-266b44515654">
+  <producedTypes>
+    <containerType typeId="37dd2cb2-d736-451d-859f-36669e27511f" valueTypeId="5761b41c-1427-4698-827a-5bb819e4bb21"/>
+  </producedTypes>
+  <name>ОснованиеСчетФактураКомиссионеру</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="21d65dde-c6b1-45bc-b3ea-5fda39c7621c" extendedConfigurationObject="bede821d-790b-4bd7-99cc-6e71a487b872">
+  <producedTypes>
+    <objectType typeId="3c39dd5f-f6a5-4cce-b438-c170a12f288b" valueTypeId="3acccf06-a0e6-49ee-a59f-506555cb7ca0"/>
+    <refType typeId="b7b31585-8836-4041-89cc-035e6ee52600" valueTypeId="710f10a8-7306-4b74-ac04-8455fd74ff43"/>
+    <selectionType typeId="c0566fc0-a29c-493f-9d94-749efce278b3" valueTypeId="1211707f-7a64-44c9-a757-4f0050c99975"/>
+    <listType typeId="abf507c3-f4ce-4946-9ef4-e56687357a38" valueTypeId="f87eae18-4d20-497f-bf28-0e68c431bace"/>
+    <managerType typeId="9593779e-edd1-429a-9e8e-3038ffbc1821" valueTypeId="0e88d42b-97dd-4f83-9e5a-2260f611e2c9"/>
+  </producedTypes>
+  <name>ПогашениеСДИЗЗЕРНО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="b13afb1c-d59b-477c-b5cc-7152f8718580" extendedConfigurationObject="4df1b08d-e2b5-45e3-b545-50d279059dae">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПогашениеСДИЗЗЕРНО</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

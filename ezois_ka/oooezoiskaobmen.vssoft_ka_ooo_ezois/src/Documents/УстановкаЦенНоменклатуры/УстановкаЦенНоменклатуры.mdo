@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="458fb818-ceba-4dad-9528-b1779773e50f" extendedConfigurationObject="d69e99a6-b6b4-4e1c-95d1-d7997206773c">
+  <producedTypes>
+    <objectType typeId="ba49df19-0ad7-4736-a8f9-7aa5d8935a5e" valueTypeId="6b7398f8-2385-4070-a01b-25fe543d33c8"/>
+    <refType typeId="7912407d-83fd-43f5-a24a-8a6b0437b4e7" valueTypeId="e5ea8a79-1298-4745-adf0-3c1190d15006"/>
+    <selectionType typeId="3e07859b-1c57-4c3f-b357-844b2b1a5ad7" valueTypeId="03597e49-eee4-41d4-bcde-179ab66652fe"/>
+    <listType typeId="3ebb211d-4c01-4e01-81bb-99c617fe7dc6" valueTypeId="c7d45d10-b97e-4eb9-8e50-ddea6042eb2e"/>
+    <managerType typeId="9b3c496b-103c-40d5-ac9f-0c2a3f164ef4" valueTypeId="15996790-897d-4119-8178-be8af579d142"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="9665fb17-3914-439c-b5e1-150b77ae84fc" extendedConfigurationObject="ad250547-2a10-4fa4-a78b-d723090e5045">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

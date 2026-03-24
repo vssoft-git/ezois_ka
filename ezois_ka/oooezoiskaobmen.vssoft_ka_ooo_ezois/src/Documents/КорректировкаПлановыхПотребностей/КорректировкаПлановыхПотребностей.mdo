@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0237895b-ec40-47c8-8093-d4b25ede7fff" extendedConfigurationObject="79f760ff-7ef5-46cd-a032-89f1d7828347">
+  <producedTypes>
+    <objectType typeId="0bfae59f-94ce-4db8-ad2b-a0efb98713e6" valueTypeId="08254cbd-59de-4b93-bd96-f2f334bd5723"/>
+    <refType typeId="130502f6-f1a2-4cef-82e2-2d8add153665" valueTypeId="7ba410de-4b24-4d4a-ab6c-a7a7944f38ae"/>
+    <selectionType typeId="c47c512f-69a4-4aa6-8d09-1eb3077bf9b9" valueTypeId="14d42208-e57f-40b1-a839-f3c5ddc64b16"/>
+    <listType typeId="2033f76c-e6c8-47c8-a9da-b8211b475ad0" valueTypeId="8a14c9c3-3e49-4d20-bd38-d413c2b3c976"/>
+    <managerType typeId="7478ee67-7679-4953-bc34-bf3ca23d0871" valueTypeId="1478ffcb-0adc-41b6-8825-dc187b7697eb"/>
+  </producedTypes>
+  <name>КорректировкаПлановыхПотребностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="169dfe22-de90-4644-a23e-4534ada82c46" extendedConfigurationObject="b2d83ac9-8b81-4fe9-aae6-99f3110131cb">
+    <name>План</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

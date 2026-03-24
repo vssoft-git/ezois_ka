@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="13b34b69-5f14-4a49-b2a9-f450377427c5" extendedConfigurationObject="c88dd1c3-fe23-4633-b059-a06a2a03f233">
+  <producedTypes>
+    <managerType typeId="f09ca2a8-503e-49d0-bbce-07113243b586" valueTypeId="775cd77e-bf5b-4cd7-83d6-b2ee3008fe91"/>
+    <valueManagerType typeId="a18c4e77-56db-4501-b1bd-08ca27f2bf2b" valueTypeId="d463f649-62fc-46b7-9cbd-31abb0164b4b"/>
+    <valueKeyType typeId="fade24e1-949e-476e-ae5b-81da61b127d5" valueTypeId="e4294b4b-01fd-4ed5-a1de-f1b6ac2c6984"/>
+  </producedTypes>
+  <name>ИТБК_СтатьяДоизготовления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>AnyRef</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

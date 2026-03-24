@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9d113a2-3c17-4352-a1a5-7abe1263e921" extendedConfigurationObject="696200f0-aa2b-4577-8473-b7add45f9848">
+  <producedTypes>
+    <objectType typeId="2893f927-56d2-4046-bd61-2a72e234feba" valueTypeId="165ee368-8848-4af4-a97e-70e80fbd3ac7"/>
+    <refType typeId="9d75839e-98e3-439b-b78f-41ca8ebceece" valueTypeId="88c0dd3d-2862-4717-b54b-d56a1d3848e4"/>
+    <selectionType typeId="0aa437d3-5e87-4536-a38c-ade7fc17099d" valueTypeId="be41fbce-d374-457b-968e-b6e67d06fa60"/>
+    <listType typeId="9294c48e-31e2-4107-b5a0-c57c130bc889" valueTypeId="e5ddcdf4-c8a4-4628-bfb8-74736a14c3a4"/>
+    <managerType typeId="9a71b48d-cf4f-4cc1-b6d3-2b270f5d3ab5" valueTypeId="105744b5-0730-4ebd-bcbf-5f442505e3f3"/>
+  </producedTypes>
+  <name>ПередачаОСВАренду2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

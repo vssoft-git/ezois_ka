@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06f41ff7-b6c1-447c-9ed1-5d8d17cedc64" extendedConfigurationObject="554c1799-5a99-4af4-b2bd-32795b7d1770">
+  <producedTypes>
+    <selectionType typeId="48c9c0b9-8ea1-43f8-8f99-ff9886f351e8" valueTypeId="f8fcc81b-ea04-43ea-9aa8-58c3a449c249"/>
+    <listType typeId="831ba6bb-19f7-4a89-8ddc-1e5f3438d2e3" valueTypeId="a91e1248-1c4f-45ef-afac-e46f5e953cee"/>
+    <managerType typeId="b9dd0f48-7399-4840-bedd-b6126d70ae5f" valueTypeId="0e3e2a6f-a471-422c-80dc-aa82f50351c6"/>
+    <recordSetType typeId="e8673f2b-b048-4015-a236-cbd63c84295b" valueTypeId="f8e3888b-a2e4-402c-9c9f-0cb5daaa9701"/>
+    <recordKeyType typeId="ac8ea691-f4fa-46bf-a674-39ccb84c1189" valueTypeId="22d9e070-4a13-4be9-a114-e5c7c4332b10"/>
+    <recordType typeId="c1fc0053-60e0-4f93-b375-4ae3bb2c12f5" valueTypeId="a3a8e058-f209-4d14-8d37-00d5bb9a6e51"/>
+    <recordManagerType typeId="9b49f19b-d33e-4d47-9ab0-c8efedbb2559" valueTypeId="b44f0ef1-2775-4fbf-b65e-a9a52b875896"/>
+  </producedTypes>
+  <name>ИТБК_ДанныеАвтоизготовления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

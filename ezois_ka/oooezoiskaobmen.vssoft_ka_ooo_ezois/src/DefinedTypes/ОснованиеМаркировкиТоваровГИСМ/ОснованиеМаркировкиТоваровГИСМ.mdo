@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="596990b6-a037-44fd-835b-6424345b7b45" extendedConfigurationObject="624525f9-e6d0-4f71-b66a-bdf18d348571">
+  <producedTypes>
+    <containerType typeId="d1e13e9b-f429-4b90-a18f-9871096bc6d3" valueTypeId="cde5ec4c-74c0-453f-b7be-47f1ebc00bac"/>
+  </producedTypes>
+  <name>ОснованиеМаркировкиТоваровГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0813948e-986a-4227-a01f-b8f0c8ed033c" extendedConfigurationObject="f0442962-5a65-433f-a7ef-1d4968ea3e4a">
+  <producedTypes>
+    <objectType typeId="a871cdb5-8bfd-441f-9988-247d3c3fa195" valueTypeId="713401d7-a7b0-4db5-bfb0-5f466bf991d0"/>
+    <refType typeId="ad66c31c-ce84-4be9-a776-2c5d712f96a8" valueTypeId="7af9c101-3500-48f9-9f3c-0a72d67444de"/>
+    <selectionType typeId="63099ac8-f16c-447a-8b8b-83d594b6c94c" valueTypeId="bd40ca67-990f-4a6e-aaa4-057e690cf822"/>
+    <listType typeId="d12652f3-287f-49b4-9588-e650050fc4ac" valueTypeId="53c4e1c3-37a1-4628-a3e6-d69d02d6148c"/>
+    <managerType typeId="7590447a-d553-4e86-a721-495d35c0bf1b" valueTypeId="3b8c23bb-290a-4c17-a3c2-a620401ab8fb"/>
+  </producedTypes>
+  <name>Сторно</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="bedb955d-b37b-4c44-a401-e8970e7d5e9b" extendedConfigurationObject="b3fa5ad6-4445-455f-b5a7-4af501f891ab">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ИсправляемыеДокументы</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

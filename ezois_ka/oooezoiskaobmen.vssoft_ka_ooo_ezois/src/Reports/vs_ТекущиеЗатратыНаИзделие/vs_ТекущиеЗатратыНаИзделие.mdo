@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13ffda66-2d04-4d13-b82f-f650a8696d91">
+  <producedTypes>
+    <objectType typeId="ce9a3a7f-b4df-46ed-964a-24f17e443c5e" valueTypeId="ce5644c4-c79c-40ee-bb5a-7d069e408ed2"/>
+    <managerType typeId="13299185-daa0-4402-b6c4-661bbd228e54" valueTypeId="b0b26d67-1888-47e7-b063-515c4cbeba1f"/>
+  </producedTypes>
+  <name>vs_ТекущиеЗатратыНаИзделие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие затраты на изделие (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_ТекущиеЗатратыНаИзделие.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="59a8a1d4-920a-4e57-9e46-5f848eafe8a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

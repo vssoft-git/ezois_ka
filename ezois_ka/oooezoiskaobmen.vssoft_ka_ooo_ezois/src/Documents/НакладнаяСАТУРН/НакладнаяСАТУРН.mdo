@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c73f03cb-bf4d-47ba-94bf-0350f222dfd6" extendedConfigurationObject="b6ac6ae3-ea8e-44b8-b38c-558dddfa2a7e">
+  <producedTypes>
+    <objectType typeId="654f2a6f-b6c4-4eca-a8c9-c9644aa76911" valueTypeId="a781d9e2-97f7-42e6-8581-7d18b888ce60"/>
+    <refType typeId="12f5d720-2d36-4dba-addb-839eeb545451" valueTypeId="33dae381-f125-4d3a-b94b-a9af99c20afd"/>
+    <selectionType typeId="8daef529-0916-4996-88f1-ed0450879038" valueTypeId="3217e57a-86ea-4b01-985f-dc5fe4100ee9"/>
+    <listType typeId="9a82ddd7-1357-4e7f-a41d-6c4c5d22501f" valueTypeId="e32e7604-0a5f-4c83-b7dc-23b26945ec22"/>
+    <managerType typeId="e23a6e29-753b-4ffa-a216-90a3951298b7" valueTypeId="3d844d21-4bbb-4b63-954e-cf214bff14cd"/>
+  </producedTypes>
+  <name>НакладнаяСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="158188bc-1908-4197-aed8-edfbc6959992" extendedConfigurationObject="7ef2f86d-ce2a-47ce-94fb-f7ce685831fc">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеНакладнаяСАТУРН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

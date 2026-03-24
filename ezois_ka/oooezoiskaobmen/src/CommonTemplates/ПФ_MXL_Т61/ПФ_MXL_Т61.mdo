@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea4d684-461a-48bc-9c22-bebba2a74549">
+  <name>ПФ_MXL_Т61</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записка - расчет при увольнении (Т61)</value>
+  </synonym>
+</mdclass:CommonTemplate>

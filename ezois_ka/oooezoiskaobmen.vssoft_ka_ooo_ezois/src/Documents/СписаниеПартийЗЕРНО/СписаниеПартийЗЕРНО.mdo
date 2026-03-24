@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5a983915-22ba-4e82-8b5a-8df878bae6f8" extendedConfigurationObject="ca29d1ad-1adc-49c9-a5ef-6005838f9572">
+  <producedTypes>
+    <objectType typeId="42921808-b504-47b6-9ef2-84edbdf0bb29" valueTypeId="51677b7b-7957-4787-a634-4146a3770726"/>
+    <refType typeId="89b870d6-322b-4244-b2e3-14bff15a045e" valueTypeId="7d300f63-47b8-4675-af6f-625bf3fc8348"/>
+    <selectionType typeId="be2f05f4-7d44-4b05-8c68-7aeae576862e" valueTypeId="5706c3c9-b683-4950-906d-ec3688e34ef0"/>
+    <listType typeId="d72f0e78-99c3-470f-bbff-bb21d3340abe" valueTypeId="1015f3c9-6ff5-4044-970c-ae7dc309d765"/>
+    <managerType typeId="9938f3a3-5cb3-4c17-8ef3-39f626daa781" valueTypeId="9b4ecc76-69a5-43db-96cd-99c076f92338"/>
+  </producedTypes>
+  <name>СписаниеПартийЗЕРНО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c526804d-5977-49ef-9f39-b2966fc6e3e4" extendedConfigurationObject="1cf96f7d-f4cf-4118-8cd0-a1ee31b07703">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеСписаниеПартийЗЕРНО</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

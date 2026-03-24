@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff078ccc-a7e0-4083-a0eb-017bbeeb28e7" extendedConfigurationObject="0c63c420-1408-4fda-bc68-dec3f2dc1214">
+  <producedTypes>
+    <objectType typeId="8e526b20-c889-4184-b9b0-b3a6bead846f" valueTypeId="1c1dde35-bad1-4900-a9c4-e0b3ca2c2520"/>
+    <refType typeId="eb1c9c76-d457-4c95-81b3-f9507d8c3b54" valueTypeId="f6b09ebf-842f-4bf9-81ba-11f6e98044a7"/>
+    <selectionType typeId="bbf26a2b-2a46-40ec-b9ad-502be1634e2e" valueTypeId="1ae89584-b2a5-40f9-805c-c15c80295b44"/>
+    <listType typeId="34c47d54-e751-4a79-8da8-814be62207ca" valueTypeId="a3fe4135-327d-4fa0-811b-df0f1020edd6"/>
+    <managerType typeId="4655cb8f-415e-4a00-bad0-fefba54c99e3" valueTypeId="44df95a3-59eb-4725-9ecc-3444e1354351"/>
+  </producedTypes>
+  <name>ВыемкаДенежныхСредствИзКассыККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="50f2b1a0-4cb4-4d03-baed-33f22b15195c" extendedConfigurationObject="3ed863fa-93ef-4c90-b678-98be7992f4b1">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ВыемкаДенежныхСредствИзКассыККМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

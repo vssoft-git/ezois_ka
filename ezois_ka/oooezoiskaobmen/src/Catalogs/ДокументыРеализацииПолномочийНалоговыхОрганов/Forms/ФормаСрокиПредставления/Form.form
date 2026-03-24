@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Нормативные сроки</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>СрокПодтвержденияПриемаЗаголовок</name>
+    <id>19</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Срок отправки подтверждения о приеме&lt;/>&lt;/>&lt;/></value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокПодтвержденияПриемаЗаголовокРасширеннаяПодсказка</name>
+      <id>21</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокПодтвержденияПриемаЗаголовокКонтекстноеМеню</name>
+      <id>20</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>СрокПодтвержденияПриемаТекст</name>
+    <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Срок зависит от того, обязателен ли для организации, согласно &lt;link https://its.1c.ru/db/garant#content:10800200:hdoc:803>п.3 ст. 80 НК РФ&lt;/>, электронный документооборот или нет:
+- Если обязателен, то, согласно &lt;link https://its.1c.ru/db/garant#content:409393587:hdoc:106>п. 6 ст. 1 ФЗ от 08.08.2024 № 259-ФЗ&lt;/>, отправлять подтверждение приема не нужно.
+- Если не обязателен, то, согласно &lt;link https://its.1c.ru/db/garant#content:74425072:hdoc:1016>Приказу ФНС от 16.07.2020 N ЕД-7-2/448@&lt;/>, налогоплательщик обязан отправить подтверждение приема в течение 6 рабочих дней со дня отправки требования из ФНС.</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокПодтвержденияПриемаТекстРасширеннаяПодсказка</name>
+      <id>6</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокПодтвержденияПриемаТекстКонтекстноеМеню</name>
+      <id>5</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ЦветФонаТекущейОтправки</color>
+      </backColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>СрокиОтветаЗаголовок</name>
+    <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Сроки ответа на требования&lt;/>&lt;/>&lt;/></value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокиОтветаЗаголовокРасширеннаяПодсказка</name>
+      <id>15</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокиОтветаЗаголовокКонтекстноеМеню</name>
+      <id>14</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>Сноска</name>
+    <id>16</id>
+    <title>
+      <key>ru</key>
+      <value>Дата получения требования рассчитывается в зависимости от того, обязателен ли для организации, согласно &lt;link https://its.1c.ru/db/garant#content:10800200:hdoc:803>п.3 ст. 80 НК РФ&lt;/>, электронный документооборот или нет:
+- Если обязателен, то, согласно &lt;link https://its.1c.ru/db/garant#content:10800200:hdoc:3140>п.4 ст. 31 ч.1 НК РФ&lt;/>, датой получения требования считается 6-й рабочий день со дня направления требования из ФНС. 
+- Если не обязателен, то, согласно &lt;link https://its.1c.ru/db/garant#content:74425072:hdoc:1010>Приказу ФНС от 16.07.2020 N ЕД-7-2/448@&lt;/>, датой получения требования является дата отправки подтверждения приема налогоплательщиком.</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СноскаРасширеннаяПодсказка</name>
+      <id>18</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СноскаКонтекстноеМеню</name>
+      <id>17</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ЦветФонаТекущейОтправки</color>
+      </backColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>СрокиОтветаНаТребованиеПояснения</name>
+    <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 12>&lt;colorstyle -16>Требования о представлении пояснений&lt;/>&lt;/>
+&lt;colorstyle -16>5 рабочих дней со дня получения требования&lt;/>
+- При выявлении ошибок в налоговой декларации (расчете) и (или) противоречия между сведениями, содержащимися в представленных документах, либо при выявлении несоответствия сведений, представленных налогоплательщиком, сведениям, содержащимся в документах, имеющихся у налогового органа, и полученным им в ходе налогового контроля (&lt;link https://its.1c.ru/db/garant#content:10800200:1:883>п.3 ст.88 НК РФ&lt;/>).
+
+За непредставление (несвоевременное представление) пояснений по требованию налогового органа предусмотрена ответственность в виде штрафа (&lt;link https://its.1c.ru/db/garant#content:10800200:1:129>ст. 129 НК РФ&lt;/>).</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокиОтветаНаТребованиеПоясненияРасширеннаяПодсказка</name>
+      <id>9</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокиОтветаНаТребованиеПоясненияКонтекстноеМеню</name>
+      <id>8</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>СрокиОтветаНаТребованиеИнформации</name>
+    <id>10</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 12>&lt;colorstyle -16>Требования о представлении документов (информации)&lt;/>&lt;/>
+&lt;colorstyle -16>5 рабочих дней со дня получения требования&lt;/>
+- При проведении встречной проверки контрагента или иного лица (&lt;link https://its.1c.ru/db/garant#content:10800200:1:9301>ст.93.1 НК РФ&lt;/>). 
+Если документы по этому контрагенту отсутствуют, то об этом также нужно сообщить в течение 5 дней (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93015>п.5 ст.93.1 НК РФ&lt;/>).
+
+&lt;colorstyle -16>10 рабочих дней со дня получения требования&lt;/>
+- В рамках проведения выездных и камеральных проверок (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>).
+- При проведении дополнительных мероприятий налогового контроля (&lt;link https://its.1c.ru/db/garant#content:10800200:1:1016>п.6 ст.101 НК РФ&lt;/>).
+
+&lt;colorstyle -16>20 рабочих дней со дня получения требования&lt;/>
+- В рамках проведения налоговой проверки консолидированной группы налогоплательщиков (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>).
+
+&lt;colorstyle -16>30 рабочих дней со дня получения требования&lt;/>
+- В рамках проведения налоговой проверки иностранной организации, подлежащей постановке на учет в налоговом органе в соответствии с п.4.6 ст. 83 НК РФ (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>).
+
+Если представить документы в указанные сроки невозможно, то следует в течение 1 дня уведомить об этом налоговый орган. В письменном уведомлении следует указать причины и срок, в течение которого документы могут быть представлены.
+
+За непредставление (несвоевременное представление) документов (информации) по требованию налогового органа предусмотрена ответственность в виде штрафа (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>, &lt;link https://its.1c.ru/db/garant#content:10800200:1:126>ст.126 НК РФ&lt;/>).</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокиОтветаНаТребованиеИнформацииРасширеннаяПодсказка</name>
+      <id>12</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокиОтветаНаТребованиеИнформацииКонтекстноеМеню</name>
+      <id>11</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>88</width>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <verticalSpacing>Double</verticalSpacing>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>ВидДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>EnumRef.ВидыНалоговыхДокументов</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

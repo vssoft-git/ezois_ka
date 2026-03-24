@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АктИзготовления</dataPath>
+			<field>АктИзготовления</field>
+			<title xsi:type="xs:string"># акт изготовления</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>Периоды</dataPath>
+			<title xsi:type="xs:string">Периоды</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодСекунда</dataPath>
+			<field>ПериодСекунда</field>
+			<title xsi:type="xs:string">Период секунда</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодМинута</dataPath>
+			<field>ПериодМинута</field>
+			<title xsi:type="xs:string">Период минута</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодЧас</dataPath>
+			<field>ПериодЧас</field>
+			<title xsi:type="xs:string">Период час</title>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодДень</dataPath>
+			<field>ПериодДень</field>
+			<title xsi:type="xs:string">Период день</title>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодНеделя</dataPath>
+			<field>ПериодНеделя</field>
+			<title xsi:type="xs:string">Период неделя</title>
+			<role>
+				<dcscom:periodNumber>4</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодДекада</dataPath>
+			<field>ПериодДекада</field>
+			<title xsi:type="xs:string">Период декада</title>
+			<role>
+				<dcscom:periodNumber>5</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодМесяц</dataPath>
+			<field>ПериодМесяц</field>
+			<title xsi:type="xs:string">Период месяц</title>
+			<role>
+				<dcscom:periodNumber>6</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодКвартал</dataPath>
+			<field>ПериодКвартал</field>
+			<title xsi:type="xs:string">Период квартал</title>
+			<role>
+				<dcscom:periodNumber>7</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодПолугодие</dataPath>
+			<field>ПериодПолугодие</field>
+			<title xsi:type="xs:string">Период полугодие</title>
+			<role>
+				<dcscom:periodNumber>8</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Периоды.ПериодГод</dataPath>
+			<field>ПериодГод</field>
+			<title xsi:type="xs:string">Период год</title>
+			<role>
+				<dcscom:periodNumber>9</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоизготовитьНачальныйОстаток</dataPath>
+			<field>ДоизготовитьНачальныйОстаток</field>
+			<title xsi:type="xs:string">Доизготовить нач. остаток</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоизготовитьОборот</dataPath>
+			<field>ДоизготовитьОборот</field>
+			<title xsi:type="xs:string">Доизготовить оборот</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоизготовитьПриход</dataPath>
+			<field>ДоизготовитьПриход</field>
+			<title xsi:type="xs:string">Доизготовить приход</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоизготовитьРасход</dataPath>
+			<field>ДоизготовитьРасход</field>
+			<title xsi:type="xs:string">Доизготовить расход</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоизготовитьКонечныйОстаток</dataPath>
+			<field>ДоизготовитьКонечныйОстаток</field>
+			<title xsi:type="xs:string">Доизготовить кон. остаток</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаСборку</dataPath>
+			<field>ЗаказНаСборку</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на сборку</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресОбъекта</dataPath>
+			<field>АдресОбъекта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес объекта</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаводскойНомер</dataPath>
+			<field>ЗаводскойНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заводской номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзготовленнаяПродукцияКод</dataPath>
+			<field>ИзготовленнаяПродукцияКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураКДоизготовлению</dataPath>
+			<field>НоменклатураКДоизготовлению</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура к доизготовлению</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзготовленнаяПродукция</dataPath>
+			<field>ИзготовленнаяПродукция</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изготовленная продукция</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураКДоизготовлениюКод</dataPath>
+			<field>НоменклатураКДоизготовлениюКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИТБК_Серия</dataPath>
+			<field>ИТБК_Серия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content># серия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сделка</dataPath>
+			<field>Сделка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сделка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫРАЗИТЬ(vs_Доизготовление.АктИзготовления КАК Документ.ЗаказНаСборку) КАК ЗаказНаСборку,
+	vs_Доизготовление.Номенклатура КАК НоменклатураКДоизготовлению,
+	vs_Доизготовление.ПериодСекунда КАК ПериодСекунда,
+	vs_Доизготовление.ПериодМинута КАК ПериодМинута,
+	vs_Доизготовление.ПериодЧас КАК ПериодЧас,
+	vs_Доизготовление.ПериодДень КАК ПериодДень,
+	vs_Доизготовление.ПериодНеделя КАК ПериодНеделя,
+	vs_Доизготовление.ПериодДекада КАК ПериодДекада,
+	vs_Доизготовление.ПериодМесяц КАК ПериодМесяц,
+	vs_Доизготовление.ПериодКвартал КАК ПериодКвартал,
+	vs_Доизготовление.ПериодПолугодие КАК ПериодПолугодие,
+	vs_Доизготовление.ПериодГод КАК ПериодГод,
+	vs_Доизготовление.Регистратор КАК Регистратор,
+	vs_Доизготовление.НомерСтроки КАК НомерСтроки,
+	vs_Доизготовление.ДоизготовитьНачальныйОстаток КАК ДоизготовитьНачальныйОстаток,
+	vs_Доизготовление.ДоизготовитьОборот КАК ДоизготовитьОборот,
+	vs_Доизготовление.ДоизготовитьПриход КАК ДоизготовитьПриход,
+	vs_Доизготовление.ДоизготовитьРасход КАК ДоизготовитьРасход,
+	vs_Доизготовление.ДоизготовитьКонечныйОстаток КАК ДоизготовитьКонечныйОстаток,
+	ДРАдресОбъекта.Значение КАК АдресОбъекта,
+	ДРЗаводскойНомер.Значение КАК ЗаводскойНомер,
+	Заказ.Номенклатура КАК ИзготовленнаяПродукция,
+	СпрНоменклатураИзготовления.Код КАК ИзготовленнаяПродукцияКод,
+	СпрНоменклатура.Код КАК НоменклатураКДоизготовлениюКод,
+	СборкаТоваров.ИТБК_Серия КАК ИТБК_Серия,
+	ВЫБОР
+		КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.ЗаказНаСборку
+			ТОГДА Заказ.Сделка
+		КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.СборкаТоваров
+			ТОГДА СборкаТоваров.Сделка
+		КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.ВнутреннееПотребление
+			ТОГДА ВнутреннееПотребление.Сделка
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК Сделка
+{ВЫБРАТЬ
+	ЗаказНаСборку.*,
+	НоменклатураКДоизготовлению.* КАК НоменклатураКДоизготовлению,
+	ПериодСекунда,
+	ПериодМинута,
+	ПериодЧас,
+	ПериодДень,
+	ПериодНеделя,
+	ПериодДекада,
+	ПериодМесяц,
+	ПериодКвартал,
+	ПериодПолугодие,
+	ПериодГод,
+	Регистратор.*,
+	НомерСтроки,
+	ДоизготовитьНачальныйОстаток,
+	ДоизготовитьОборот,
+	ДоизготовитьПриход,
+	ДоизготовитьРасход,
+	ДоизготовитьКонечныйОстаток,
+	АдресОбъекта.*,
+	ЗаводскойНомер.*,
+	ИзготовленнаяПродукция.* КАК ИзготовленнаяПродукция,
+	ИзготовленнаяПродукцияКод КАК ИзготовленнаяПродукцияКод,
+	НоменклатураКДоизготовлениюКод КАК НоменклатураКДоизготовлениюКод,
+	ИТБК_Серия.*,
+	Сделка.*}
+ИЗ
+	РегистрНакопления.vs_Доизготовление.ОстаткиИОбороты(&amp;НачалоПериода {(&amp;НачалоПериода)}, &amp;КонецПериода {(&amp;КонецПериода)}, Авто {(2) КАК Периодичность}, ДвиженияИГраницыПериода, {(ВЫРАЗИТЬ(АктИзготовления КАК Документ.ЗаказНаСборку)).* КАК ЗаказНаСборку, (Номенклатура).* КАК НоменклатураКДоизготовлению}) КАК vs_Доизготовление
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказНаСборку.ДополнительныеРеквизиты КАК ДРАдресОбъекта
+		ПО ((ВЫРАЗИТЬ(vs_Доизготовление.АктИзготовления КАК Документ.ЗаказНаСборку)) = ДРАдресОбъекта.Ссылка)
+			И (ДРАдресОбъекта.Свойство.Имя = "АдресОбьекта_1fcfffb6dec04931b434c6bd236edac8")
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказНаСборку.ДополнительныеРеквизиты КАК ДРЗаводскойНомер
+		ПО ((ВЫРАЗИТЬ(vs_Доизготовление.АктИзготовления КАК Документ.ЗаказНаСборку)) = ДРЗаводскойНомер.Ссылка)
+			И (ДРЗаводскойНомер.Свойство.Имя = "ЗаводскойНомер_cdb9e40e0e5b4ad992c20ffc0222725e")
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказНаСборку КАК Заказ
+		ПО ((ВЫРАЗИТЬ(vs_Доизготовление.АктИзготовления КАК Документ.ЗаказНаСборку)) = Заказ.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СпрНоменклатураИзготовления
+		ПО (Заказ.Номенклатура = СпрНоменклатураИзготовления.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СпрНоменклатура
+		ПО vs_Доизготовление.Номенклатура = СпрНоменклатура.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.СборкаТоваров КАК СборкаТоваров
+		ПО vs_Доизготовление.Регистратор = СборкаТоваров.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ВнутреннееПотребление КАК ВнутреннееПотребление
+		ПО vs_Доизготовление.Регистратор = ВнутреннееПотребление.Ссылка
+{ГДЕ
+	(ВЫРАЗИТЬ(vs_Доизготовление.АктИзготовления КАК Документ.ЗаказНаСборку)).* КАК ЗаказНаСборку,
+	vs_Доизготовление.Номенклатура.* КАК НоменклатураКДоизготовлению,
+	Заказ.Номенклатура.* КАК ИзготовленнаяПродукция,
+	vs_Доизготовление.Регистратор.*,
+	СборкаТоваров.ИТБК_Серия.*,
+	(ВЫБОР
+			КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.ЗаказНаСборку
+				ТОГДА Заказ.Сделка
+			КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.СборкаТоваров
+				ТОГДА СборкаТоваров.Сделка
+			КОГДА vs_Доизготовление.Регистратор ССЫЛКА Документ.ВнутреннееПотребление
+				ТОГДА ВнутреннееПотребление.Сделка
+			ИНАЧЕ НЕОПРЕДЕЛЕНО
+		КОНЕЦ).* КАК Сделка}
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.Номенклатура)
+	ВИДЫХАРАКТЕРИСТИК ПланВидовХарактеристик.ДополнительныеРеквизитыИСведения
+	ПОЛЕКЛЮЧА Ссылка
+	ПОЛЕИМЕНИ Наименование
+	ПОЛЕТИПАЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯХАРАКТЕРИСТИК РегистрСведений.ДополнительныеСведения
+	ПОЛЕОБЪЕКТА Объект
+	ПОЛЕВИДА Свойство
+	ПОЛЕЗНАЧЕНИЯ Значение }</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>КоличествоПодчиненныхЗаписей</dataPath>
+		<expression>1</expression>
+		<title xsi:type="xs:string">Количество записей</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>КоличествоПодчиненныхЗаписей</dataPath>
+		<expression>Сумма(КоличествоПодчиненныхЗаписей)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ВыводитьКоличествоПодчиненныхЗаписей</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выводить количество подчиненных записей</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">true</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Периодичность</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Периодичность</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="xs:decimal">13</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>vs_НевыполненныеОбязательстваПоИзготовлениюПродукции</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Невыполненные обязательства по изготовлению продукции (vssoft)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нач.остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоизготовитьНачальныйОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доизготовить</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приход</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоизготовитьПриход</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доизготовить</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расход</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоизготовитьРасход</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доизготовить</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кон.остаток</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДоизготовитьКонечныйОстаток</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доизготовить</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзготовленнаяПродукцияКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзготовленнаяПродукция</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НоменклатураКДоизготовлениюКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НоменклатураКДоизготовлению</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаСборку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИТБК_Серия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сделка</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АктИзготовления</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>c30e6d86-67e6-483a-a4a9-393dbd0b9fc1</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ИзготовленнаяПродукция</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>c69d38f9-27b1-4545-9b53-d2f00c37610d</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>60febb46-2215-4d7a-ac48-eac4758847c6</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьКоличествоПодчиненныхЗаписей</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>a3a6ec07-fa61-401b-9a36-84b845f2f021</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ЗаказНаСборку</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НоменклатураКДоизготовлению</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Невыполненные обязательства по изготовлению продукции (vssoft)</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ИзготовленнаяПродукцияКод</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ИзготовленнаяПродукция</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+							<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+							<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>НоменклатураКДоизготовлениюКод</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>НоменклатураКДоизготовлению</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ЗаказНаСборку</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Регистратор</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ИТБК_Серия</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>АдресОбъекта</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Сделка</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Регистратор</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7bc993b8-030e-4911-aa03-df63242010d9" extendedConfigurationObject="ce48ef4c-823a-46fa-98c1-ffb9cc5facd9">
+  <producedTypes>
+    <objectType typeId="69520f8b-b95a-4749-b160-43dbdf02dca2" valueTypeId="2ebb30e9-0444-45e6-9e73-b70019d4a7e4"/>
+    <refType typeId="27d4d6ff-7698-4a19-b9c5-aa48ff1014cc" valueTypeId="ecd02851-6de0-4dd7-88df-cee8ab47b609"/>
+    <selectionType typeId="c36feb9a-6e81-41ac-bd89-0158b7176bba" valueTypeId="58b9bcb3-8f54-4f83-9f76-fa910ec1453e"/>
+    <listType typeId="8fd931e4-db43-4a21-8996-8f19b9652fd4" valueTypeId="d335f03e-e5ed-4224-b400-bcd20d8ab22e"/>
+    <managerType typeId="9af89318-5a54-4f11-8bf0-51dd7cb6ac77" valueTypeId="a8fd04f4-8f5a-48c4-b8cd-d56558baf720"/>
+  </producedTypes>
+  <name>ИзменениеУсловийДоговораЗаймаСотруднику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="45748292-839b-4e38-8a8f-200f8d62accd" extendedConfigurationObject="ab468750-4c19-4b7f-9f25-98b51fd76ba5">
+    <name>ДоговорЗайма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ДоговорЗаймаСотруднику</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

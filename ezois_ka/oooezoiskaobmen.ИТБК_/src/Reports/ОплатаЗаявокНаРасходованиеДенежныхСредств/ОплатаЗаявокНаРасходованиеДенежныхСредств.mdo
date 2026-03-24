@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="388fed76-bc8c-43cf-b5a1-6524c49ea980" extendedConfigurationObject="7d40a26f-9b31-4653-9cb0-7fd46eb0a53e">
+  <producedTypes>
+    <objectType typeId="777d79d5-b4ca-4d93-933c-f0e67b0caeb0" valueTypeId="b0c09b78-0176-4f64-8399-121e5a14c224"/>
+    <managerType typeId="77bfe265-82a1-48bb-bdf6-2c5eb97baf08" valueTypeId="8d836183-307a-4146-a2e1-8e8c47aa81a9"/>
+  </producedTypes>
+  <name>ОплатаЗаявокНаРасходованиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+  </extension>
+  <mainDataCompositionSchema>Report.ОплатаЗаявокНаРасходованиеДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных2</mainDataCompositionSchema>
+  <templates uuid="45e7b61f-ef6d-4ea4-9476-a89c781977d1">
+    <name>ОсновнаяСхемаКомпоновкиДанных2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных2</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

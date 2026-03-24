@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c56dc299-1417-4293-a1b5-245c391353c5" extendedConfigurationObject="d105348f-68ec-4e69-9728-44cd6e76e271">
+  <producedTypes>
+    <objectType typeId="2d1f09e0-1605-46f6-8ce4-aad6fc008f52" valueTypeId="d394f80b-bee0-4b08-b181-c5719ac3c853"/>
+    <refType typeId="ee26c703-569a-4242-a8ef-d00c740e0d19" valueTypeId="94d20884-0be7-436e-9561-ce51521376e0"/>
+    <selectionType typeId="79befbae-4542-4fc4-a504-f758e431ba64" valueTypeId="46c81901-ef5f-4e8e-bca6-3fe432606938"/>
+    <listType typeId="39e01491-9304-4de3-a6ab-d4b11bf41feb" valueTypeId="5477dfbf-7718-4a3d-9a50-846d2b1253e4"/>
+    <managerType typeId="24a0deea-dd83-48e3-99fb-b47a2a49a6f2" valueTypeId="a625a1c6-02fd-4632-be7c-096915007867"/>
+  </producedTypes>
+  <name>ФормированиеПартийПриПроизводствеЗЕРНО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="5943ed1b-e5e8-4670-b811-db98a000b500" extendedConfigurationObject="8a5449b5-2cb6-44b7-825f-2bf3b58ef89e">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеФормированиеПартииПриПроизводствеЗЕРНО</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

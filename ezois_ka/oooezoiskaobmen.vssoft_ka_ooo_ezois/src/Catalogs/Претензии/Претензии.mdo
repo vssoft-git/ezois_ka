@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cd2cc315-eada-4c91-ae9c-016e58aacaa4" extendedConfigurationObject="7d3ce2db-bc30-4d21-9d2a-fed41a8f8e49">
+  <producedTypes>
+    <objectType typeId="9807717f-8cb3-4f7e-8b7d-46d82093c1a1" valueTypeId="be60427e-0080-4cc6-bae8-f24dad990cab"/>
+    <refType typeId="74ce1c72-6af9-49e6-8122-5c63de9ecbc5" valueTypeId="2565c149-0424-45fa-943d-4d0009692bac"/>
+    <selectionType typeId="b0cc9147-06db-4153-95de-216330a246e4" valueTypeId="2b5aa1cc-7860-4d55-b250-906ed7d94c4f"/>
+    <listType typeId="1290d118-ea55-4827-a92e-7507612542c4" valueTypeId="a9ab854b-8265-4715-b097-05b45a3b25a5"/>
+    <managerType typeId="64fe24dd-9b83-48d4-a466-0e64be7f98c6" valueTypeId="b249e3e5-fe61-442a-a089-3d7626dc27c0"/>
+  </producedTypes>
+  <name>Претензии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="269d63ed-0c87-4627-b510-430bfacc31fc" extendedConfigurationObject="470f012a-8851-440d-8344-0878675af0a7">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

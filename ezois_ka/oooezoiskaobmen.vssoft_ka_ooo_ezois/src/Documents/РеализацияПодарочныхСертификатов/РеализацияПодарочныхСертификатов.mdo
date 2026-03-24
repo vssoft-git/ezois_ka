@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="44468c8e-4bc8-4f2b-9e97-1b2c7518ad17" extendedConfigurationObject="d89f5145-dfd9-4af3-8c13-af7651405561">
+  <producedTypes>
+    <objectType typeId="7da9e9b8-7632-41b5-a7d4-3d7e975ea680" valueTypeId="135f6582-2ff9-4b1a-89cc-7fba621bdccd"/>
+    <refType typeId="d4e8fa59-0fd4-4569-83c6-7fd3d29f76d2" valueTypeId="b267474f-8cb7-4398-8ab8-e6b3d4d9eb8a"/>
+    <selectionType typeId="9a3633ed-aec8-46a4-8217-30a67b4ae9dd" valueTypeId="ce343c27-b48d-4bbf-886e-e893a8eded53"/>
+    <listType typeId="834428fd-34c3-43e0-b6e7-3cb225318c80" valueTypeId="24ab0916-814e-4e70-9a8a-561ba482045a"/>
+    <managerType typeId="f90f426c-6abe-42f0-a1ab-d30fce93fb25" valueTypeId="5007842d-f871-4110-9f50-14b5301dac3a"/>
+  </producedTypes>
+  <name>РеализацияПодарочныхСертификатов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c97412de-a890-4c4a-b83e-7c7b3bdcfab7" extendedConfigurationObject="e62f556c-9f72-4d4d-a25e-f543dbd694c7">
+    <name>КассоваяСмена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.КассоваяСмена</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

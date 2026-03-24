@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9228779c-ef37-4057-a637-a55476ee52c0" extendedConfigurationObject="7ad563d0-3ce9-404f-b76d-8eacf57335e1">
+  <producedTypes>
+    <objectType typeId="55b1c356-4993-424d-b28c-561bbe56c08b" valueTypeId="6e41cb6e-ab73-459e-858b-035e5d1fec13"/>
+    <refType typeId="e6a13d85-13da-4a13-ac97-51d2a0e0d9bc" valueTypeId="4720dfea-f31a-40f4-bcf1-f8589f8c4ed3"/>
+    <selectionType typeId="fce22fe9-e8a9-477e-b1de-23c50b679b28" valueTypeId="3167644e-f3f7-4df5-be03-d118d785c9dd"/>
+    <listType typeId="9d51c4e6-1f64-47dc-b63f-44912d8b33da" valueTypeId="d453b025-fe5d-4647-a538-a665925ea3bb"/>
+    <managerType typeId="05348b8d-f36f-482d-8bd0-6be03275cf17" valueTypeId="d42d8fe8-1844-4bb5-b740-0ea47c439459"/>
+  </producedTypes>
+  <name>УведомлениеОПланируемомИмпортеЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8e058595-a228-4d8c-8319-249028c06861" extendedConfigurationObject="a5390e8e-29d1-481f-b002-b2bb289f520b">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеУведомлениеОПланируемомИмпортеЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b99e8d6-9929-4931-b66b-3d1d9dca1ece" extendedConfigurationObject="5ec72725-5bf7-4838-abe4-008382cfd261">
+  <producedTypes>
+    <objectType typeId="0c25fd3d-cfb0-4f57-ab8e-6a309da070e2" valueTypeId="8f92f7b8-cc98-4ac6-9195-7e1bd8c3b631"/>
+    <refType typeId="c75d1160-4a31-4f31-9dad-224bbf01a844" valueTypeId="964c89e5-b922-4670-a39e-113bb11e60d5"/>
+    <selectionType typeId="c4bc2fc5-aacd-4c78-8db9-d1a58b25bbee" valueTypeId="b75868e5-e94c-498a-9c6a-cef3b2072eae"/>
+    <listType typeId="2c881319-7b37-4401-a5a8-79917834f9a8" valueTypeId="3c9717d8-29ec-4106-9a03-4203c6021f50"/>
+    <managerType typeId="749f3b1d-0d6b-4917-83cf-8b5e815c6a34" valueTypeId="15ee3835-a75d-409c-a669-6b44159be66b"/>
+  </producedTypes>
+  <name>АктПремииКлиенту</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="a8dddfa4-339d-417e-b647-5f6057a31d86" extendedConfigurationObject="ac3c0afd-8270-4714-92a5-96a71a32494a">
+    <producedTypes>
+      <objectType typeId="bf39f2a5-f089-4cd4-8de1-f082c0a04caa" valueTypeId="912a443f-0693-4165-9a78-f3d861ac0aa2"/>
+      <rowType typeId="8b59d1fc-f2b0-46fc-a0ab-4c5f841ac9be" valueTypeId="9f0175b9-fd48-4aa4-8d0f-ff709714f851"/>
+    </producedTypes>
+    <name>РетроБонусы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="95c90a74-0eba-4da0-833b-b1970d91f9ec" extendedConfigurationObject="50d0a98d-61f0-4d4b-9225-36104136e4d0">
+      <name>ДокументУсловий</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.УсловияРетроБонусовКлиентов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

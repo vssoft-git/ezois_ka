@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3768c0f9-3171-4ec6-b24c-1914fe738966" extendedConfigurationObject="e84c1bcc-9cc0-40bf-87dd-fc069f3d4a55">
+  <producedTypes>
+    <objectType typeId="5ced8e4d-b0e1-4cfc-844e-f8661c761b1f" valueTypeId="0521558d-3e72-43c1-b608-efcd68673316"/>
+    <refType typeId="c6f23c6f-8049-466a-9f33-374c2dd48555" valueTypeId="718e3d4b-7990-48b4-a106-80837feefb1e"/>
+    <selectionType typeId="2612d8df-9aef-4891-af81-79a9a4475dbf" valueTypeId="fb32ab35-0295-4845-8df5-2d0aa53a26f9"/>
+    <listType typeId="45d4b2b2-99a1-42f7-b2cb-983c7545d680" valueTypeId="1fc5b3be-82b3-40eb-8275-09e2c38d5fbb"/>
+    <managerType typeId="809f10ff-24ed-4f4c-bdde-5f6eb0bdae47" valueTypeId="e7a4cd96-866d-46b8-8dd0-f6312ab31857"/>
+  </producedTypes>
+  <name>СписаниеРасхожденийПоступлениеПриобретение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e44d410b-dc80-41a9-8e82-2789c14bd38c" extendedConfigurationObject="062b68c5-4c61-46f5-8c89-df6662120cb0">
+    <name>Распоряжение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.РаспоряжениеНаПоступление</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="1290e898-1e69-4c09-b479-c1dca57cf179" extendedConfigurationObject="10fb1689-1aec-431e-ba4a-a15ffbcd2150">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СписаниеРасхожденийПоступлениеПриобретение</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="9e39dced-82eb-44e7-859c-77d452631fd5" extendedConfigurationObject="2b883b00-e50f-4d4b-b05a-549f35aae44e">
+    <producedTypes>
+      <objectType typeId="5fba01d7-6943-4d86-813b-63cb5ceb7fad" valueTypeId="65ffc818-76f1-4470-b6c5-b8d0c114eafa"/>
+      <rowType typeId="616071da-2654-46dd-836b-91e7a02aac35" valueTypeId="b418587b-354a-42e0-91bb-cd3c9aed83f7"/>
+    </producedTypes>
+    <name>Расхождения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="47ba34fd-dc9d-490e-bd23-0fd40b39e8bc" extendedConfigurationObject="1636e45b-4efc-4d6b-b86b-288ea36e92f5">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

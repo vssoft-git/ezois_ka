@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37c4814f-799e-49a6-8c64-4b583d9c23f8" extendedConfigurationObject="3f95c756-4290-487c-9221-44ddd082bcd6">
+  <producedTypes>
+    <objectType typeId="1e55dee0-68f7-4304-a006-c1b9c0142b64" valueTypeId="6e15aac5-763d-4363-b45a-0475c3ca9029"/>
+    <refType typeId="5c93518c-c7e7-4fd9-913f-cc7f984600ec" valueTypeId="f761d92f-ecb6-40de-a41f-94e6bb6a17a2"/>
+    <selectionType typeId="41ed453c-596d-4eef-8ee9-837de276da98" valueTypeId="84c72d3e-973d-461a-9617-f4ae84e193d9"/>
+    <listType typeId="fa74eb07-69d6-4f7d-aa01-3989d7dad63f" valueTypeId="630684d5-ed57-4f7a-9541-f02adc36dad0"/>
+    <managerType typeId="24981de0-a1d0-4da3-9f37-abd472213bf1" valueTypeId="7405d6ce-7b7c-4e69-ad21-6e78e7d08711"/>
+  </producedTypes>
+  <name>ВыбытиеАрендованныхОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="14ee6ae0-806a-4202-ba98-a8e231e1dfa8" extendedConfigurationObject="31899aed-2cff-4c6d-9a69-56f83752175c">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияОС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

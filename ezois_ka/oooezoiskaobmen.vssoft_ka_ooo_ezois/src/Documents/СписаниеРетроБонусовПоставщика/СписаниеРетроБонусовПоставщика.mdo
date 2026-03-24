@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6ad77ec0-c502-4aaf-986f-ff78fd149ff0" extendedConfigurationObject="7ea1f05f-9765-4f84-89d9-90bfe25060f3">
+  <producedTypes>
+    <objectType typeId="8d80e0ff-f2df-44ea-afa2-25268962b5ca" valueTypeId="eaa36b25-b170-4f7f-8e2c-47649195371d"/>
+    <refType typeId="2bc04555-dc42-4377-a967-07085497be49" valueTypeId="410086a5-3959-4bd2-86af-b4abce4940c9"/>
+    <selectionType typeId="d9403021-a7d5-47cd-aca8-7dd9754a989a" valueTypeId="b87a847e-7827-499c-a0fc-d098b2452188"/>
+    <listType typeId="e19429ea-519c-4b3b-abda-c643bf0f6121" valueTypeId="73308d10-df4d-4f90-8df7-379508fdb227"/>
+    <managerType typeId="aa70f24e-c2b1-4030-b8ad-bbcfbacb0d11" valueTypeId="9c800008-f773-46f2-8548-cbb4a5d9d25c"/>
+  </producedTypes>
+  <name>СписаниеРетроБонусовПоставщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="be215c04-4e5f-42a4-9f65-9c6480162fb1" extendedConfigurationObject="0887cddf-162a-4d4a-a118-9a36e0f9e8cd">
+    <producedTypes>
+      <objectType typeId="cd40cfdf-bcfb-4c8b-9c01-62b81550d8a6" valueTypeId="40a1fc8a-6e77-4358-b1da-59496eb269e1"/>
+      <rowType typeId="2c120237-cffb-430e-8d01-c41b18f1e32f" valueTypeId="bd710057-bc29-4c68-9c73-fc46660d5d63"/>
+    </producedTypes>
+    <name>РасшифровкаСписаний</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="49ddbdef-6547-4b9d-930b-d9799db71363" extendedConfigurationObject="899b6ac6-edd1-40f0-9626-8aac4029585b">
+      <name>ДокументУсловий</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.УсловияРетроБонусовПоставщика</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ca3bc215-25b4-4392-ac1d-57087bd95adb" extendedConfigurationObject="1d477447-74f3-468d-bd21-44202b705ef7">
+  <producedTypes>
+    <objectType typeId="bc862d35-49fc-4488-a7e6-7c3ad622f80d" valueTypeId="418acd81-f420-4ab7-ae37-d4b3cd36bbe7"/>
+    <refType typeId="ab83af37-ce09-44cb-81a1-dc124d6d2a88" valueTypeId="264e68bb-501c-4140-b088-e5a33e62116b"/>
+    <selectionType typeId="f6290ae4-b0aa-4848-a7cb-3ba1032ae2f0" valueTypeId="23eeda15-67a9-490a-bb4a-d2a47ffff0a3"/>
+    <listType typeId="b7d88745-bc95-48ba-8c34-528e9922031c" valueTypeId="4be96c65-ee17-4c36-a00f-d8b87df835a7"/>
+    <managerType typeId="99a06982-60a3-470e-8e46-0d8f12d86132" valueTypeId="159670fb-4e86-421b-b4a6-a30e6d09c1c0"/>
+  </producedTypes>
+  <name>ПрогулНеявка</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="7aaec09e-028b-4dc4-a8f8-109b81ac7691" extendedConfigurationObject="76a81f91-0ccd-403b-92a2-cb86e918eedc">
+    <producedTypes>
+      <objectType typeId="4180c5d6-78cc-4e99-83a4-59dd3f00815f" valueTypeId="a1ac47ab-a977-4f29-b100-27d3834f57ac"/>
+      <rowType typeId="dc8793d4-afb6-49ae-9612-deb21ec224d5" valueTypeId="608c9bf0-ac4a-403a-b82f-2f1f9f63c8f4"/>
+    </producedTypes>
+    <name>НачисленияПерерасчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="496c7953-f532-4747-a5a4-67600cc0a677" extendedConfigurationObject="9c8462ca-8a9f-4bf4-a616-b6e4147bca4e">
+      <name>СторнируемыйДокумент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.СторнируемыйДокумент</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

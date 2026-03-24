@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87346687-b36f-45a8-b792-93c9703ca028">
+  <name>ПакетыДокументовЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты документов ЭДО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ПакетыДокументовЭДО</content>
+  <content>InformationRegister.СоставПакетовДокументовЭДО</content>
+  <content>CommonModule.ПакетыДокументовЭДО</content>
+  <content>CommonModule.ПакетыДокументовЭДОВызовСервера</content>
+  <content>CommonModule.ПакетыДокументовЭДОКлиент</content>
+  <content>StyleItem.ЦветФонаШапкиПакетаДокументовЭДО</content>
+  <content>CommonModule.ПакетыДокументовЭДОКлиентСервер</content>
+  <content>CommonModule.ПакетыДокументовЭДОПовтИспНаВызов</content>
+  <content>StyleItem.ЦветФонаПакетовДокументовБЭД</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.ОбменСКонтрагентами.Subsystem.ИнтерфейсДокументовЭДО</parentSubsystem>
+</mdclass:Subsystem>

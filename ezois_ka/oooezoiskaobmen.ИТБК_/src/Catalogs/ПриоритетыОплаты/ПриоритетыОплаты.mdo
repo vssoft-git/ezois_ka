@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1bc16421-39bd-4dd7-ade6-96f692bb5b97" extendedConfigurationObject="cb28d1bb-2674-41bf-bdc2-4dd1877acfb6">
+  <producedTypes>
+    <objectType typeId="ea17f1be-7c27-4162-a2ba-98c7b8347e8c" valueTypeId="c961c1f9-75ce-4085-9890-350e134e2502"/>
+    <refType typeId="3eccf561-263d-4673-9773-20693c4933dd" valueTypeId="7b3afc5b-4a23-4ae6-b0b8-cca426a18cc4"/>
+    <selectionType typeId="2bf638bf-00a2-46c0-8936-9a0d1ef44ec4" valueTypeId="570a3600-fbef-44c4-b043-206b59579a82"/>
+    <listType typeId="d5ddedfb-7e2b-49fe-8499-d2193d3744d8" valueTypeId="9cb008b2-c114-4756-9f08-243f4744ad9f"/>
+    <managerType typeId="b39937fb-7a12-4fe3-8645-51bfb753d541" valueTypeId="b6e83f7a-df4b-4c77-b436-75660354235f"/>
+  </producedTypes>
+  <name>ПриоритетыОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="ef45c7d8-5720-45e5-b9c2-01e8cfbfe105" extendedConfigurationObject="36a6932d-c789-4cac-a27a-7f4e165a033a">
+    <name>РеквизитДопУпорядочивания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

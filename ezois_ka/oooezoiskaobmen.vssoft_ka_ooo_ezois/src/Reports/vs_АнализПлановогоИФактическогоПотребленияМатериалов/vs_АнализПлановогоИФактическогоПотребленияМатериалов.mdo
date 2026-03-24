@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c776376-37b9-44ce-8be5-85bf38a1f2be">
+  <producedTypes>
+    <objectType typeId="eca09597-5af5-4475-8f9f-98563603f57d" valueTypeId="c518bc4d-070f-43ce-81a4-a80a3544d089"/>
+    <managerType typeId="0841094f-a228-47a1-9286-6d65c49ca6da" valueTypeId="2ed55e10-83b4-49d1-b0ad-f008c9e452f7"/>
+  </producedTypes>
+  <name>vs_АнализПлановогоИФактическогоПотребленияМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ планового и фактического потребления материалов (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_АнализПлановогоИФактическогоПотребленияМатериалов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="8537672c-3038-4aca-a076-608396055d79">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e87c5f80-7128-4d2f-a5fa-072776604005">
+    <name>СкладЦеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цеховая кладовая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="64a75199-1a65-4fc4-af1a-fc73ce4e4cb6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

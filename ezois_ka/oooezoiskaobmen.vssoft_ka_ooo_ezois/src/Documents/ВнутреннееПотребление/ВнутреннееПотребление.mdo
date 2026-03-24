@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="401dd3e4-ad9f-4dcd-87be-ac4a2e5b0c42" extendedConfigurationObject="b726b4a4-d691-4fa0-bef7-e6f1bd056cbf">
+  <producedTypes>
+    <objectType typeId="97cd6309-e6c7-44ff-9735-6ae7de3ce70e" valueTypeId="8081de54-a1fc-4df9-a66a-5b7be5b1c1fa"/>
+    <refType typeId="81c83fb5-320f-4c7f-832b-42a6c3d7a0c9" valueTypeId="0043fec1-de0a-4461-99ac-53eedad10270"/>
+    <selectionType typeId="51ec1704-785d-49d8-b954-33d93437a1ae" valueTypeId="d5d73d8e-130b-44f7-b62d-d93065cd9b8b"/>
+    <listType typeId="68adc0d2-ed83-4e6b-84b2-d85ed72fab2d" valueTypeId="be52a802-333b-40b2-950e-934f694500ea"/>
+    <managerType typeId="eaae4e1f-77f4-4a60-b708-41d539a7399f" valueTypeId="d7b845eb-b043-48dd-b43e-2f9ba34dd225"/>
+  </producedTypes>
+  <name>ВнутреннееПотребление</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <registerRecords>AccumulationRegister.vs_Доизготовление</registerRecords>
+  <registerRecords>AccumulationRegister.ИТБК_Доизготовление</registerRecords>
+  <attributes uuid="3ab1e7de-3425-43e3-ae26-03b72541ea6f">
+    <name>vs_СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов/активов (vssoft)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      <types>ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья, на которую списаны товары.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f330bc25-63d4-40fb-b853-f1f329991044" extendedConfigurationObject="8f13106d-31d1-441b-8330-ef025f55fdbf">
+    <name>ЗаказНаВнутреннееПотребление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаВнутреннееПотребление</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="bd64e17c-c902-43ad-b9f9-9cd9b4e7e6ab" extendedConfigurationObject="7bab1076-c626-4662-b814-ed3a1973efb8">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ВнутреннееПотребление</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="aed9119f-7af5-4ab8-a882-664f0dca5c56" extendedConfigurationObject="e12d08bd-1d79-40a7-b21c-f669b1a7094b">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПриобретениеТоваровУслуг</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d6361b64-d657-4db2-97b9-5d1c2adfe0b6" extendedConfigurationObject="930f6e33-ad27-42aa-847a-055d575b4e7a">
+    <name>ИТБК_АктИзготовления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8babc219-51d0-4745-8186-5603d5b32a59">
+    <name>vs_АктИзготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value># акт изготовления</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>DocumentRef.ЗаказНаСборку</types>
+      <types>DocumentRef.СборкаТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cfe783b-b909-4466-90a8-bade8f7f0967">
+    <name>vs_ЭтоДоизготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value># Доизготовление</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6b0dff7-ce3e-4c61-abfb-f45eb5115ef4">
+    <name>vs_Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value># статус</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>EnumRef.СтатусыСборокТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыСборокТоваров.EnumValue.ВРаботе</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbb09796-8445-4518-8d28-98844d2da889" extendedConfigurationObject="6ac93f4f-ec62-46e7-b4ca-38e795bf02db">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8af22053-36aa-4042-bb7a-aaaf6267a0a3" extendedConfigurationObject="4e50af2f-d7e6-4349-bd07-de9f379b59ea">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d37cb3bf-0882-471a-8c0a-d5b91be72b09" extendedConfigurationObject="9bf2417c-ed59-4c71-a254-2f2338f41425">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b599b630-1f94-411a-8194-90fbd648282f" extendedConfigurationObject="22ea815e-ceda-4730-8b5e-62907ac780b9">
+    <name>ХозяйственнаяОперация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ХозяйственныеОперации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="b4623674-ea5a-427c-8417-4db7cf3ace24">
+    <name>vs_ФормаДоизготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value># форма доизготовление</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79dea774-d821-4858-ae22-5ca6f2df3ec8">
+    <name>vs_ФормаСпискаДоизготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value># форма списка Доизготовление</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c7c4521-b5fb-4963-899b-6b9b9b827bc1" extendedConfigurationObject="96056f9f-2f04-48bf-a304-719efd0e8127">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="52806e59-5cb8-46f0-ac57-c679fdfa3460" extendedConfigurationObject="052a69a3-7f2f-4873-87d0-157ae94214b9">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="4120e670-a755-49dc-93c2-c59774e84e26" extendedConfigurationObject="385ab3ce-dd41-4c25-b89b-974bb478f380">
+    <producedTypes>
+      <objectType typeId="3aed2401-1a84-4831-b2e4-3e1a95eb0e4c" valueTypeId="f1900d4c-5f29-41d9-9e00-4acc9e674ed5"/>
+      <rowType typeId="a1dccd92-d344-4af8-9be4-6d3d2d9f0ac6" valueTypeId="25fdaf04-f46a-485c-a684-236d39d552aa"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="0d20a504-18b5-4692-aa05-881e9107fdd6" extendedConfigurationObject="0da3af76-0f90-43fc-bf8d-6d86f1169900">
+      <name>АналитикаРасходов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.СтатьиРасходов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="167081c8-edfb-472a-90f6-28ae6f1ec440" extendedConfigurationObject="a7dbbbcd-b6fb-4d47-96b7-edcd8cf2d437">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="8457e271-7560-4aae-beb4-23ab21fee719" extendedConfigurationObject="3dc4c4e8-1141-4c3c-95fd-9a8722f0d2d8">
+      <name>ЗаказНаВнутреннееПотребление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ЗаказНаВнутреннееПотребление</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1c7a80b0-c3dd-462a-a3c6-4fc8357cce7f">
+    <producedTypes>
+      <objectType typeId="805acd3e-2fdc-43d7-a23a-199776715d23" valueTypeId="a5988ab1-4dc1-4cf9-a558-c098a4cd4447"/>
+      <rowType typeId="a064813d-6007-410b-a33d-736a17e785f9" valueTypeId="cb5e2cb1-8a72-4b2e-9c7f-db9574943f47"/>
+    </producedTypes>
+    <name>vs_Доизготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value># доизготовление</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="01e0457c-09b9-4acb-b770-7df00faa2f7e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Необходимо выбрать номенклатуру с видом Товар.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара</value>
+          </values>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb65efa7-56f3-4d5f-8a06-f8ade649bc89">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной номенклатуры используются характеристики, то необходимо выбрать характеристику номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.ВнутреннееПотребление.TabularSection.Товары</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49785531-a665-4908-8cdc-195986ae42da">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a152f55f-39ab-46c2-940b-3a22e728cd7b">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов/активов</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+        <types>ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Статья, на которую списаны товары.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de48172b-29cf-4da5-b5e7-de9132217595">
+      <name>ТребуетсяДоизготовить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Требуется доизготовить</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="182eb63b-f48d-4e91-9f46-75c9ce9d53bd">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доизготовить</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a24a7fc1-1290-4917-aac7-2b2bbe872653">
+      <name>Отказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отказ</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f98eaf05-f7eb-48e3-9091-9d304013e6f7">
+      <name>АналитикаРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика расходов</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Characteristic.СтатьиРасходов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект аналитики прочих расходов.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ВнутреннееПотребление.TabularSection.vs_Доизготовление.Attribute.СтатьяРасходов</field>
+      </choiceParameterLinks>
+      <linkByType>
+        <field>Document.ВнутреннееПотребление.TabularSection.vs_Доизготовление.Attribute.СтатьяРасходов</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42d62a72-1fad-47d9-ba9f-6b0b4775cd5f">
+      <name>Назначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Назначение</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.Назначения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Назначение товара на складе отправителе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="530f167d-1249-4fa0-a71d-376414853fa8">
+    <name>vs_Доизготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value># доизготовление</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <synonym>Extended</synonym>
+      <group>Checked</group>
+    </extension>
+    <group>NavigationPanelSeeAlso</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

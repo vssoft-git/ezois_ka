@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8eaf904-d756-4bff-896d-98c15647d715" extendedConfigurationObject="8be7c775-bcc2-47dc-abc4-c8b19d7b08b9">
+  <producedTypes>
+    <objectType typeId="6da852b7-491f-4798-a122-54c8393651ff" valueTypeId="a6932e5c-de79-42f1-b952-479369b077e8"/>
+    <refType typeId="c5029fe0-a2ba-4d76-b81a-2d9dad932d79" valueTypeId="49dd0172-7f12-408c-b20e-901d261ea1a0"/>
+    <selectionType typeId="8b7641e2-f8bc-4d0f-a6f8-b218d394535d" valueTypeId="598822d5-395c-4758-99b0-0d835db8aaaf"/>
+    <listType typeId="5b5b4191-19ce-41cf-91d7-e4516c047b48" valueTypeId="eb449fc7-2e3a-42ca-aee4-b3f85590ae0f"/>
+    <managerType typeId="08076e0e-56e8-4943-b51b-243a7e0952d7" valueTypeId="1ab127cb-954b-4d80-abd1-d6e7d4c66b9d"/>
+  </producedTypes>
+  <name>ПроизводственнаяОперацияСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="1f33ec31-ce09-484e-95c7-115890ba317e" extendedConfigurationObject="6fe74a0b-771b-4092-ba6d-522b735b1543">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПроизводственнаяОперацияСАТУРН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

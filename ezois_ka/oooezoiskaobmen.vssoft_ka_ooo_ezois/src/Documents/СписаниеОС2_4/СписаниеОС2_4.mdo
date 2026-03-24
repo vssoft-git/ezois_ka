@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03b48194-99fa-47c5-9b40-1624abee86f6" extendedConfigurationObject="860e98ca-f89d-4564-b153-04121cbdb4fc">
+  <producedTypes>
+    <objectType typeId="d962a89e-519b-4996-88ea-d8ea5919f295" valueTypeId="bb6ac4d1-3a07-4ecd-b249-f245bf5fc8ab"/>
+    <refType typeId="6cfce819-8037-4e25-9084-8e01da2689e1" valueTypeId="0179ac23-54ae-4ed9-b7b7-1d455c39dc8b"/>
+    <selectionType typeId="d7152cad-9682-433c-b647-7c53b6399002" valueTypeId="fb54c2c6-59d4-4d8e-a894-0339258a0e9f"/>
+    <listType typeId="869dd63e-89dc-4dfc-aec7-f3b49088515f" valueTypeId="4f104c94-c7c5-4782-adfe-37c8295420bf"/>
+    <managerType typeId="cb8b828a-5883-4e50-9e2c-fe2880598a01" valueTypeId="2c380b8c-7c15-4c3b-abf6-edd72e787cee"/>
+  </producedTypes>
+  <name>СписаниеОС2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="92043ced-79bf-4879-882f-d449150c5ab8" extendedConfigurationObject="ef5f2da5-96e4-4be6-a06f-ce0ee8cd1abf">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="26a172cd-505a-404e-9858-d7d273df3ed3" extendedConfigurationObject="7d923bab-3448-4d93-8e4c-a6aa9670cbdf">
+    <name>ДокументВДругомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СписаниеОС2_4</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8da976f7-49f8-438f-9766-d120798ed4f3" extendedConfigurationObject="88cd0fcc-ba7e-4d29-a34a-a856908efb55">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="ecd44a14-4d70-49ab-8aca-2d2610a52e94" extendedConfigurationObject="4387aba9-9358-4418-9495-252ed4979054">
+    <producedTypes>
+      <objectType typeId="b2d08f00-52e4-4210-a37a-2007fbed1ff0" valueTypeId="62f90b62-5e79-42cf-94c7-705c9fd8aa95"/>
+      <rowType typeId="840c937c-dad0-49a2-b93b-6580c76b200c" valueTypeId="75185dc4-99e4-4071-8bfc-7fdfdc933f40"/>
+    </producedTypes>
+    <name>Основания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="6dbcfd4b-c876-4994-bfa6-2b6ec0b1311a" extendedConfigurationObject="877d1c8f-9bfc-498a-861e-6faa0851926f">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

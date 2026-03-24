@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="623b187f-22b7-4e18-aafa-07e21d5e993e" extendedConfigurationObject="d37639c3-3483-4b4b-9d6a-6afffe0adb66">
+  <producedTypes>
+    <objectType typeId="0fa076b3-da81-4eda-87ad-6c85be12b59b" valueTypeId="20333714-1bcc-4557-80a4-d855f4934d4a"/>
+    <refType typeId="9aad158b-ae5a-4cb4-ab06-242003cbfe4e" valueTypeId="635afd3c-7f73-4b61-ad89-88eb79bff4f0"/>
+    <selectionType typeId="972d7478-cc06-4b9c-9943-6a0ee011bc0f" valueTypeId="4c284202-eb55-49fb-aa4d-0f13fcd7aac6"/>
+    <listType typeId="6e3c7700-75d9-454d-b430-b485d0097d26" valueTypeId="4a2faba6-4586-415b-85e0-bf52a51522b1"/>
+    <managerType typeId="a079db0f-aee3-4486-807f-f02f0ffb2e63" valueTypeId="fa739177-140e-430d-b328-6371e2510530"/>
+  </producedTypes>
+  <name>ГруппыФинансовогоУчетаРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

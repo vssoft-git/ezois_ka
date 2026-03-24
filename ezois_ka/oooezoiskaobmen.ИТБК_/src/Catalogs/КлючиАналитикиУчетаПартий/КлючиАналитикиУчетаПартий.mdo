@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c89c7e36-9d8a-42eb-a31b-8ed6694afb72" extendedConfigurationObject="131935a8-3658-4855-867d-6b40325430d7">
+  <producedTypes>
+    <objectType typeId="fa99f3b7-4eb2-4dfe-bbb7-9fa3b067fc46" valueTypeId="0703ed15-e61f-4941-b3e4-7e60226b888d"/>
+    <refType typeId="237efc67-86c7-44f7-9fc5-cbfc3dcc0537" valueTypeId="13b6a5a0-b882-49a5-96dc-9272e757886d"/>
+    <selectionType typeId="0c2ea639-5480-472f-98e2-1e7775f59dc5" valueTypeId="4c3777f0-7aa7-4ebb-826d-8f38f414d9be"/>
+    <listType typeId="589d012a-3f17-4e6d-a3a5-fc56fd005bfb" valueTypeId="4037519f-6154-48a5-aed6-cd52715fbfcd"/>
+    <managerType typeId="dc49204b-b7b0-4db9-9d08-b708ac30d376" valueTypeId="317ffe88-c357-4b6e-aae6-494cb54f8911"/>
+  </producedTypes>
+  <name>КлючиАналитикиУчетаПартий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

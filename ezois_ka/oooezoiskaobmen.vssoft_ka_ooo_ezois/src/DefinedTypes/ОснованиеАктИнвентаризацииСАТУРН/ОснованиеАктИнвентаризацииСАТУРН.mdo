@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b26b4fa3-58af-4d0c-8302-7f2043e4fb7e" extendedConfigurationObject="711242b3-2738-4d71-aad1-5626fe658040">
+  <producedTypes>
+    <containerType typeId="3996180c-c3d9-4760-9a00-383899dc7de2" valueTypeId="4451d6d3-5d9f-4fe2-974e-48acdd8e01fc"/>
+  </producedTypes>
+  <name>ОснованиеАктИнвентаризацииСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

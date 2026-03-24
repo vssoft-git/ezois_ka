@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88262588-a762-4951-8b8a-a27a3bd62643" extendedConfigurationObject="060b2bb4-ca03-4da9-930f-7f91f6299a35">
+  <producedTypes>
+    <selectionType typeId="30e53d60-a13c-43a7-8cae-66afcb0fd501" valueTypeId="f601209a-b5cb-4ec2-9673-729e0c829065"/>
+    <listType typeId="4f687fe6-7ba9-4926-93ba-d84d49aea967" valueTypeId="be88a561-a789-4b01-928a-af1adc26364a"/>
+    <managerType typeId="a9be6fc4-ecef-4717-aa9d-02a7c00306a0" valueTypeId="470fadf2-a3db-42c3-85a3-26146d0920d5"/>
+    <recordSetType typeId="3cb64de5-95ce-455b-a266-9fcd7ba297f4" valueTypeId="90ad0845-16fd-488a-84cf-3285bc3d6a2b"/>
+    <recordKeyType typeId="5b11ed38-d276-4720-8ce4-c3e763dd19ad" valueTypeId="fe285155-39cb-4bd7-9934-652d5d3a2f98"/>
+    <recordType typeId="d2119344-4f91-4a79-b604-7b4ebcdf137a" valueTypeId="ba33249a-c9f8-4241-ba90-a52fc589c042"/>
+    <recordManagerType typeId="86c31eee-c49c-403a-bba0-70b43982a37e" valueTypeId="597df12b-a516-45f1-aff1-7673c07377da"/>
+  </producedTypes>
+  <name>НаличиеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:InformationRegister>

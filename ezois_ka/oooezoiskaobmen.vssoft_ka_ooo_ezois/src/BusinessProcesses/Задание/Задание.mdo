@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36a31954-0778-4171-b4bc-9d09b4c6bfcd" extendedConfigurationObject="dad11c2e-08fc-4a6b-8829-8be6c64c15fc">
+  <producedTypes>
+    <objectType typeId="4c7fb8ed-d863-45df-8453-513a275cefba" valueTypeId="d00e0d90-8e7c-4031-8566-355d70268d80"/>
+    <refType typeId="e64c39aa-93ba-48ea-aa5d-6baa0378f139" valueTypeId="82dd0ed4-0d82-454c-8305-e538be554003"/>
+    <selectionType typeId="1455078e-6187-4737-96b0-b1f5b7ccff0a" valueTypeId="eaf55931-4bc0-4cef-9a17-4fbad81331a7"/>
+    <listType typeId="49b8b582-2924-445b-9b69-c722522fc223" valueTypeId="2780a7f9-06f6-4909-8caf-aefceffafaf5"/>
+    <managerType typeId="7cb09c02-02c8-4f59-8e9a-4dfcf44a5598" valueTypeId="d07768d2-951b-4b0c-8a80-a24fd5bbba23"/>
+    <routePointRef typeId="6daf7825-4c0d-4816-a995-81c0e1c0a31f" valueTypeId="ae8f2dc1-39db-4010-a1c1-ed03f9d11a78"/>
+  </producedTypes>
+  <name>Задание</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BusinessProcessExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="63fc98fb-3aba-48cf-a8aa-5ffed22114d7">
+    <name>Сделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделка</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.СделкиСКлиентами</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Агрегирует все документы в рамках продажи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СделкиСКлиентами.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="886de830-16ad-4e27-b114-f9cbaae17179" extendedConfigurationObject="b58942ca-1367-4e1d-b5b4-7d973d0fecd8">
+    <name>ФормаБизнесПроцесса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="67d491e5-65da-4578-95c5-7c401db74931" extendedConfigurationObject="3e2f2ae1-c809-43fc-8276-b0a16a92858c">
+    <name>ДействиеПроверить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:BusinessProcess>

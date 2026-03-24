@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cba7469c-b4dc-4f62-b8ea-75e1336ae28f" extendedConfigurationObject="7b4aaf23-2266-4b5e-a96f-8a1d0625347c">
+  <producedTypes>
+    <objectType typeId="c24af0e2-216c-4b02-913a-71da3c2ac0c9" valueTypeId="3b510fe1-1a64-449c-a35c-a7362517af44"/>
+    <refType typeId="55bb5949-a8b4-4214-af32-fea74e5f2107" valueTypeId="5e3aede2-22e5-46dd-a3b6-06c88eb0d676"/>
+    <selectionType typeId="5072de03-9e69-4648-8d1f-19b99f4f7a39" valueTypeId="73d874f8-8e98-427a-8202-81940c7c027a"/>
+    <listType typeId="e4a58cbe-45c2-450f-8f3a-497cd9b0ff21" valueTypeId="ed3c8d55-aab8-4423-abbb-24ac64bf2912"/>
+    <managerType typeId="56917c14-ca97-47ea-9993-1b83580770d2" valueTypeId="28aa2709-9b91-4b48-9ffe-ef338c46883e"/>
+  </producedTypes>
+  <name>РаспределениеДоходовПоНаправлениямДеятельности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="8d59d9fc-4be7-4610-aed4-41f3a36fc82b" extendedConfigurationObject="77925bb3-8500-4692-9ac1-5cf5044ea8e9">
+    <producedTypes>
+      <objectType typeId="f368409c-665d-465c-9957-369af29013c3" valueTypeId="bfbbce5e-e52d-4981-909f-100889ff1f99"/>
+      <rowType typeId="0318e75b-9da1-4c89-9e63-bc07b3ce5df3" valueTypeId="9cbf43ab-bc4e-453c-91df-ac3144254d50"/>
+    </producedTypes>
+    <name>Расходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="26dac502-7068-4cfa-864c-8baedb33123e" extendedConfigurationObject="6a205d1d-b53d-4b06-b293-0573b76b6b1b">
+      <name>АналитикаРасходов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.СтатьиРасходов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

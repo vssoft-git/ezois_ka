@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51036a4b-4733-4a0f-8ac7-0c1cc9f44821" extendedConfigurationObject="7ecdbd0d-7dbf-443d-af41-e9cde537fb1b">
+  <producedTypes>
+    <objectType typeId="ad1a4282-b775-4818-a848-915c23097225" valueTypeId="3b71cdd1-a8cb-478f-93e7-80c818ae5422"/>
+    <refType typeId="9d5af767-02b0-4dc3-8cba-f39784e05692" valueTypeId="6f10b65c-a851-4b20-9f65-6c52d08b5c32"/>
+    <selectionType typeId="473158ca-192a-4f06-a82f-7cd8d75432b0" valueTypeId="5de7c605-4096-4fc4-a1d5-b8b3e031787c"/>
+    <listType typeId="8cee77df-6906-42c2-92b3-f57c448d1ace" valueTypeId="94279be7-05bc-4ca0-b1e2-c8e3e599d421"/>
+    <managerType typeId="299f62b6-5cbc-4e9c-9b81-0d125a42cccb" valueTypeId="31f7688a-ee4f-49cb-ac96-184b205c2bbe"/>
+  </producedTypes>
+  <name>РаспределениеПроизводственныхЗатрат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="68264702-f420-44f0-b856-123a9a60d36d" extendedConfigurationObject="17b47a19-6cb8-4c45-ad45-3c208dc175ea">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="6b527d43-33dd-4b85-a817-3d6c5536f39e" extendedConfigurationObject="1047dac4-4748-4e76-8492-e58af2253493">
+    <producedTypes>
+      <objectType typeId="9556d5ad-0532-4509-8ada-bcae9005c64f" valueTypeId="c110dee4-4115-4c55-b1dd-20df9948fc40"/>
+      <rowType typeId="afc8547e-24ed-41c4-a3e5-aa39a08496ed" valueTypeId="508c4521-8512-41b2-a2b3-c4c76e0d7ec2"/>
+    </producedTypes>
+    <name>ПартииПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="464f52a9-7827-48dd-a875-197746b255c4" extendedConfigurationObject="9986a210-c34d-4837-a67c-2a6e12914b0b">
+      <name>ПартияПроизводства</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ПартииПроизводства</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="429b2cee-872a-4657-aebd-5feb86c9f757" extendedConfigurationObject="040cd276-3c02-4801-9b6b-dd5273b5bb05">
+    <producedTypes>
+      <objectType typeId="13fc9be9-c838-42ac-9038-b2c3ef119e3d" valueTypeId="6625ee4c-0a6c-41aa-bff0-40fb72ac1a83"/>
+      <rowType typeId="c7ac154c-d0ae-44a6-b2c9-70dd64066d3c" valueTypeId="a97d9c5f-bff0-49e4-82b4-e95045111bc9"/>
+    </producedTypes>
+    <name>ВидыЗапасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="1c797b07-8a42-46f8-8ca9-390cf31a9821" extendedConfigurationObject="1212094a-2544-4ac4-84b6-e967526ab10a">
+      <name>ПартияПроизводства</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ПартииПроизводства</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

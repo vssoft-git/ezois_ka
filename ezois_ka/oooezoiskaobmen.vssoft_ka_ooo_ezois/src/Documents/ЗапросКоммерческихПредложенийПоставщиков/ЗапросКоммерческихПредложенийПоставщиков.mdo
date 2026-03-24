@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1120c55-7cbc-4b59-87e1-4c1aa30439f2" extendedConfigurationObject="4f2e38fd-c163-40bb-81e7-de89a4541409">
+  <producedTypes>
+    <objectType typeId="ca986152-f81d-4b60-8e84-0cc60e174de4" valueTypeId="5e8fd4bd-8eb8-4949-bccc-a523684e2cd1"/>
+    <refType typeId="67a812a7-29a8-4468-b9f9-91c1b1cbb186" valueTypeId="67cac5be-c9e4-4a12-a058-f456eaba6543"/>
+    <selectionType typeId="a89905ed-67f8-40ae-8565-3d66ef30ac2c" valueTypeId="195d15ec-8a35-4bb4-b17d-3d3d3ab7fec8"/>
+    <listType typeId="b82982a3-078c-4c52-9aa0-3a0a1d831f26" valueTypeId="df5abb7b-9a88-41d7-8aaa-034265da00eb"/>
+    <managerType typeId="03d6d26f-840e-427a-ac76-92a4b76cffa6" valueTypeId="ca1eff5e-08b4-4427-9a79-b55fa83adc5e"/>
+  </producedTypes>
+  <name>ЗапросКоммерческихПредложенийПоставщиков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="0fa0f5a6-f7a6-43f8-a1d8-fdedb9fb23b8" extendedConfigurationObject="37d8ff9a-1051-4c02-a771-1ca75ce35633">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияЗапросаКоммерческихПредложенийПоставщиков</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

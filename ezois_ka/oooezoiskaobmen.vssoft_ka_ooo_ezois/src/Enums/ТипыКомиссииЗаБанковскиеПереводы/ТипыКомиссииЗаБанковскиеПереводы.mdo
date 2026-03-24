@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f378b0ed-48ad-477a-ad6c-98d7a73dbe97" extendedConfigurationObject="2a6114db-ef78-420d-aa53-3be923e70d65">
+  <producedTypes>
+    <refType typeId="9f42eac7-5cc8-436d-9b57-daae5ee65be3" valueTypeId="7e94d6a7-f339-487c-8366-0c04df6bbc16"/>
+    <listType typeId="4d4fe290-d88b-41a5-9a24-498225072ca6" valueTypeId="d60a08c7-4bfd-4d4f-8db4-c5ef0965e51d"/>
+    <managerType typeId="6f7f3125-2346-4c5f-a5e0-dbd9cda251c7" valueTypeId="8d6befb2-ed87-4745-919b-46c027b0470e"/>
+  </producedTypes>
+  <name>ТипыКомиссииЗаБанковскиеПереводы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b363a45b-73fd-49dd-9da1-53f160b89f15" extendedConfigurationObject="79b19200-3819-40d9-b360-4f8298164166">
+    <name>SHA</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d13a08d7-d520-4589-b741-393d7871f672" extendedConfigurationObject="cfdd90c0-fa97-4af1-9dd2-ba542382d7d7">
+    <name>OUR</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="12f5dd48-9fa4-4eff-8627-6f13fc2c94cb" extendedConfigurationObject="21785977-ef12-4fca-b8a7-6b3619f163d3">
+    <name>BEN</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

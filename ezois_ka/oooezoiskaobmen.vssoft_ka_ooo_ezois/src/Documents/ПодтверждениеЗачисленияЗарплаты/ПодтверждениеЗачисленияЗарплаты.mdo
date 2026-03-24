@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d2391ec8-6014-4b62-8a81-e5a32bc47b27" extendedConfigurationObject="fd5f57fc-8aa4-4acb-b5c0-7f788f3cc480">
+  <producedTypes>
+    <objectType typeId="cba46828-c1bc-4812-900a-32f619a94b63" valueTypeId="6c8fe8d2-a633-4fee-a767-3cff86b47aef"/>
+    <refType typeId="9006b23a-c668-4196-bb9c-b0f099b779f2" valueTypeId="8c361c6c-0469-4dcc-8cb0-d9c198e9bff3"/>
+    <selectionType typeId="464a3ca8-ba44-4238-9cfb-1f6c0c23cb1f" valueTypeId="b22c928b-2085-48da-b031-c67ba02e9104"/>
+    <listType typeId="fb7ff683-fbd1-47c2-a1ee-2f280075d2f0" valueTypeId="9e3f7a3d-58ef-41c3-91b1-a6aef7a5d7c7"/>
+    <managerType typeId="f010dabb-2a34-4708-8144-949582b1986f" valueTypeId="93e6f91a-f107-4631-93d1-18aa5773e57c"/>
+  </producedTypes>
+  <name>ПодтверждениеЗачисленияЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="0aded8e1-1ff5-45d8-b803-8fd8344553c8" extendedConfigurationObject="9d9546fd-5e29-4edc-8056-b27f823105f9">
+    <name>ПервичныйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДокументЗачисленияЗарплаты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

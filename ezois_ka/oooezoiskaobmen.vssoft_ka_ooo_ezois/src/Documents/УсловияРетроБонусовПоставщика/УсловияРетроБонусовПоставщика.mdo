@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49039c08-e556-4d6a-8618-c555f2fed4bb" extendedConfigurationObject="764313f4-2f1a-4730-8b4c-2915e85829c5">
+  <producedTypes>
+    <objectType typeId="e5e3bfe4-139c-41ef-ae6d-9327eda09522" valueTypeId="f72e3f8a-ce78-4a0f-a0f1-00c192d561a7"/>
+    <refType typeId="6c5fdc1c-f9f7-442e-9c5a-b140857e91f5" valueTypeId="567e5bf0-1546-4794-a513-c73c534d8fa0"/>
+    <selectionType typeId="5e744867-791c-488a-8e1f-0faf00db86b5" valueTypeId="32542ca1-ff3b-4f3e-a39a-4be123e268f0"/>
+    <listType typeId="a982f82f-0543-4cbd-bcdb-0d5d07948444" valueTypeId="404c022b-d015-4558-86a9-6cc17955c8ed"/>
+    <managerType typeId="233788a3-fadd-4d9c-8cf8-52b5b1ff5974" valueTypeId="eaa72d96-5f6b-4e64-a2a0-9e0d2804a644"/>
+  </producedTypes>
+  <name>УсловияРетроБонусовПоставщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="fad3b840-5cfa-468b-9bb1-bf16e2f70e69" extendedConfigurationObject="5b905d24-4fc4-4e9e-b7f1-ac1c1a30f3ba">
+    <name>ИсправляемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.УсловияРетроБонусовПоставщика</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="129d3528-fe3b-4d03-8308-d76381bc334b" extendedConfigurationObject="7b23c9f0-09c5-4b72-aa4d-fffbd121cac8">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.УсловияРетроБонусовПоставщика</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

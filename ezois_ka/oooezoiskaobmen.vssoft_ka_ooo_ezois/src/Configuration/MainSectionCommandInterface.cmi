@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВнутреннееПотребление.Command.vs_Доизготовление</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.vs_Доизготовление</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ПолныеПрава</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Document.ВнутреннееПотребление.Command.vs_Доизготовление</commands>
+    </placementFragments>
+  </commandsPlacement>
+</cmi:CommandInterface>

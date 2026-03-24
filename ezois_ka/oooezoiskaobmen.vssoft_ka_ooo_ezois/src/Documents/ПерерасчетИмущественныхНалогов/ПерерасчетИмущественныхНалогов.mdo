@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6cb906b1-293b-4f79-8aea-02ebb187d191" extendedConfigurationObject="de2060dd-720c-4d2e-8cd9-7cd9df40180f">
+  <producedTypes>
+    <objectType typeId="45cd4d44-73a0-448f-bf1c-e2abeb6b66c0" valueTypeId="99cc583c-834d-42af-8e7a-5ea4fc20d9b2"/>
+    <refType typeId="c413e7b8-b480-401c-bf28-eead62f79014" valueTypeId="a8c4e016-1ebe-4c5a-b257-9fa7a1b9e2b7"/>
+    <selectionType typeId="292c374c-5e6b-4bd2-a5ff-24a161dc6a47" valueTypeId="2db5580d-6ca4-4aa9-aeb0-62fb1f124914"/>
+    <listType typeId="f244dcb5-ec7f-48c2-85cb-3129bb2536cf" valueTypeId="defefe41-2144-4e51-b317-d8da8d8b642a"/>
+    <managerType typeId="600b78f1-5a75-4462-af73-057f4cbb8acb" valueTypeId="51b76653-17e4-4f23-86cf-f977605aaf78"/>
+  </producedTypes>
+  <name>ПерерасчетИмущественныхНалогов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

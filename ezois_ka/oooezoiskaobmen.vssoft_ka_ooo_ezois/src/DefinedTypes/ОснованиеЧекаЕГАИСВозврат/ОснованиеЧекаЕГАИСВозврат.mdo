@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65bf5f2e-2c09-4d59-95dc-f7a9b95dcd61" extendedConfigurationObject="626c1bb7-6aef-497d-a2b5-78f391abbaaa">
+  <producedTypes>
+    <containerType typeId="eb757e72-de4f-484a-984a-fb357e20436d" valueTypeId="a5833c75-1f54-4dea-a46c-1a1556c456aa"/>
+  </producedTypes>
+  <name>ОснованиеЧекаЕГАИСВозврат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ВозвратТоваровОтКлиента</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

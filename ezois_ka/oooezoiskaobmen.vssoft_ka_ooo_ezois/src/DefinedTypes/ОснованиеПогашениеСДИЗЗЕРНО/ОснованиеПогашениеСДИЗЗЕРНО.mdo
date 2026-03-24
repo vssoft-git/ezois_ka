@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a38d5452-aa07-4895-87e5-d42895aa5a64" extendedConfigurationObject="08622454-8e4b-4b89-a60f-af4196c41353">
+  <producedTypes>
+    <containerType typeId="36c4c479-707f-4ce3-ba14-350e2c30e16e" valueTypeId="fbf77460-d836-4516-952b-6579699052c8"/>
+  </producedTypes>
+  <name>ОснованиеПогашениеСДИЗЗЕРНО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

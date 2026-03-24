@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aad65a4a-976f-4dd4-8dea-c92e9fe93f8e" extendedConfigurationObject="0a1533a7-88a0-43b7-9c97-027cf5d080e2">
+  <producedTypes>
+    <containerType typeId="62f622ba-62ae-4ec2-a324-428629c3f81b" valueTypeId="9543e76d-9987-4804-82d3-85e41d1d6ba8"/>
+  </producedTypes>
+  <name>ОснованиеСписаниеПартийЗЕРНО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

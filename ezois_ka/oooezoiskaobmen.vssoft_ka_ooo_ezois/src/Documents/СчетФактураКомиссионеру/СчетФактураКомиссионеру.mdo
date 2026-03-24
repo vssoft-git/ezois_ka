@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="df826d03-a74f-434d-9fa1-ce2ca68c738b" extendedConfigurationObject="f5661083-8399-4044-a48e-ea7c8c9d4933">
+  <producedTypes>
+    <objectType typeId="4f2a321f-7d22-4675-8381-5a073a08e466" valueTypeId="557799ec-e985-47c4-9cd8-7ce0ed04c731"/>
+    <refType typeId="ada9f0de-856e-4143-b2bb-9aca3fbcfd12" valueTypeId="69aa12f4-a79b-474e-bc2f-04efaebe8de6"/>
+    <selectionType typeId="957560f1-3ef1-4e28-bbfd-4db44260d6a7" valueTypeId="f533fd35-c02a-45a6-b649-00b442f9f208"/>
+    <listType typeId="6712f748-d54f-4bc8-92af-b4dff9def00a" valueTypeId="e81fb2f3-a3e5-40fd-ac54-79b44d750a20"/>
+    <managerType typeId="fead89ae-b079-41fd-95f1-ad74b7acd5b8" valueTypeId="562c161f-ca76-466e-8e36-8d64f34c7459"/>
+  </producedTypes>
+  <name>СчетФактураКомиссионеру</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="07acff63-6e0d-4a76-b35c-cd7671cbdaf3" extendedConfigurationObject="e85fa4df-5a45-41c7-b60c-a27f78d929cb">
+    <name>СчетФактураОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СчетФактураКомиссионеру</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="0b5c51ef-869f-42f8-bdee-e8bbc94cb54f" extendedConfigurationObject="31072c42-6b44-491c-b6aa-df853e39a721">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеСчетФактураКомиссионеру</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

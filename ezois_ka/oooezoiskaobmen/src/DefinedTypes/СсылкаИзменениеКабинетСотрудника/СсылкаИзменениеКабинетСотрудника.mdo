@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e31a9210-dbac-4000-81a2-176182a60114">
+  <producedTypes>
+    <containerType typeId="459f1f78-d780-49ab-937b-fa08d8539e2b" valueTypeId="3123176c-1216-4fa9-a3f7-d866fe839a52"/>
+  </producedTypes>
+  <name>СсылкаИзменениеКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылка изменение 1С:Кабинет сотрудника</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СборГрафиковОтпусков</types>
+    <types>DocumentRef.ЗаявкаКомпенсацияОтпускаКабинетСотрудника</types>
+    <types>CatalogRef.Должности</types>
+    <types>DocumentRef.ЗаявкаСправкаОстаткиОтпусковКабинетСотрудника</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправкаОстаткиОтпусков</types>
+    <types>DocumentRef.ЗаявкаСоциальноеПособиеКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаНалоговыеВычетыКабинетСотрудника</types>
+    <types>DocumentRef.ОбращениеКабинетСотрудника</types>
+    <types>CatalogRef.УдалитьМашиночитаемыеДоверенностиКЭДО</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтсутствиеПоБолезни</types>
+    <types>DocumentRef.СогласиеНаПрисоединениеКЭДОБЗК</types>
+    <types>DocumentRef.ЗаявкаОтпускБезОплатыКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаОтпускКабинетСотрудника</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправкаСМестаРаботы</types>
+    <types>CatalogRef.РабочиеМестаОхраныТруда</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    <types>CatalogRef.ШтатноеРасписание</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтсутствие</types>
+    <types>CatalogRef.МашиночитаемыеДоверенности</types>
+    <types>DocumentRef.ЗаявкаСправкаСМестаРаботыКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаОтсутствиеКабинетСотрудника</types>
+    <types>CatalogRef.ВидыОтпусков</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправка2НДФЛ</types>
+    <types>BusinessProcessRef.ОбращениеСотрудника</types>
+    <types>DocumentRef.ДанныеДляОформленияНаРаботу</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаИзменитьЛичныеДанные</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтпуск</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.ЗаявкаИзменениеЛичныхДанныхКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаСправка2НДФЛКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаУчебныйОтпускКабинетСотрудника</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаДобровольныеСтраховыеВзносы</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаНалоговыйВычет</types>
+    <types>DocumentRef.ДокументЭДОБЗК</types>
+    <types>DocumentRef.ЗаявкаДСВКабинетСотрудника</types>
+    <types>DocumentRef.ЗаявкаОтпускПоУходуЗаРебенкомКабинетСотрудника</types>
+    <types>CatalogRef.ШаблоныДокументов</types>
+  </type>
+</mdclass:DefinedType>

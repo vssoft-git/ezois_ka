@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+  <items xsi:type="form:FormGroup">
+    <name>СписокКритерииОтбора</name>
+    <id>43</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Список критерии отбора</value>
+    </title>
+    <extendedTooltip>
+      <name>СписокКритерииОтбораРасширеннаяПодсказка</name>
+      <id>44</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа пользовательских настроек</value>
+    </title>
+    <verticalStretch>false</verticalStretch>
+    <extendedTooltip>
+      <name>СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка</name>
+      <id>2</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>СписокНастройкиОтбора</name>
+    <id>47</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные условия</value>
+    </title>
+    <extendedTooltip>
+      <name>СписокНастройкиОтбораРасширеннаяПодсказка</name>
+      <id>48</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>КоманднаяПанельФормы</name>
+    <id>49</id>
+    <items xsi:type="form:FormGroup">
+      <name>СтандартныеКомандыФормы</name>
+      <id>51</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Стандартные команды формы</value>
+      </title>
+      <extendedTooltip>
+        <name>СтандартныеКомандыФормыРасширеннаяПодсказка</name>
+        <id>52</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <commandSource>Form</commandSource>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Справка</name>
+      <id>53</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СправкаРасширеннаяПодсказка</name>
+        <id>54</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.StandardCommand.Help</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель формы</value>
+    </title>
+    <extendedTooltip>
+      <name>КоманднаяПанельФормыРасширеннаяПодсказка</name>
+      <id>50</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Table">
+    <name>Список</name>
+    <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <titleLocation>None</titleLocation>
+    <excludedCommands>Copy</excludedCommands>
+    <items xsi:type="form:FormField">
+      <name>Дата</name>
+      <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Дата</segments>
+      </dataPath>
+      <defaultItem>true</defaultItem>
+      <extendedTooltip>
+        <name>ДатаРасширеннаяПодсказка</name>
+        <id>18</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаКонтекстноеМеню</name>
+        <id>17</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Номер</name>
+      <id>19</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Номер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НомерРасширеннаяПодсказка</name>
+        <id>21</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НомерКонтекстноеМеню</name>
+        <id>20</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СрокИсполнения</name>
+      <id>34</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СрокИсполнения</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СрокИсполненияРасширеннаяПодсказка</name>
+        <id>36</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СрокИсполненияКонтекстноеМеню</name>
+        <id>35</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Организация</name>
+      <id>22</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Организация</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОрганизацияРасширеннаяПодсказка</name>
+        <id>24</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОрганизацияКонтекстноеМеню</name>
+        <id>23</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФизическоеЛицо</name>
+      <id>25</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ФизическоеЛицо</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФизическоеЛицоРасширеннаяПодсказка</name>
+        <id>27</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФизическоеЛицоКонтекстноеМеню</name>
+        <id>26</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СостояниеДокумента</name>
+      <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>Состояние документа</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СостояниеДокумента</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СостояниеДокументаРасширеннаяПодсказка</name>
+        <id>60</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СостояниеДокументаКонтекстноеМеню</name>
+        <id>59</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДатаОтправки</name>
+      <id>31</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаОтправки</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаОтправкиРасширеннаяПодсказка</name>
+        <id>33</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаОтправкиКонтекстноеМеню</name>
+        <id>32</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Ссылка</name>
+      <id>61</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ссылка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СсылкаРасширеннаяПодсказка</name>
+        <id>63</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СсылкаКонтекстноеМеню</name>
+        <id>62</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>СписокКоманднаяПанель</name>
+      <id>5</id>
+      <horizontalAlign>Left</horizontalAlign>
+    </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
+    <searchStringAddition>
+      <name>СписокСтрокаПоиска</name>
+      <id>7</id>
+      <extendedTooltip>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>9</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСтрокаПоискаКонтекстноеМеню</name>
+        <id>8</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>Список</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <name>СписокСостояниеПросмотра</name>
+      <id>10</id>
+      <extendedTooltip>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>12</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>Список</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <name>СписокУправлениеПоиском</name>
+      <id>13</id>
+      <extendedTooltip>
+        <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>15</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокУправлениеПоискомКонтекстноеМеню</name>
+        <id>14</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>Список</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>СписокРасширеннаяПодсказка</name>
+      <id>6</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СписокКонтекстноеМеню</name>
+      <id>4</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <initialTreeView>ExpandTopLevel</initialTreeView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <fileDragMode>AsFileRef</fileDragMode>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>Список.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>BeforeLoadUserSettingsAtServer</event>
+        <name>СписокПередЗагрузкойПользовательскихНастроекНаСервере</name>
+      </handlers>
+      <handlers>
+        <event>OnUpdateUserSettingSetAtServer</event>
+        <name>СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</name>
+      </handlers>
+      <autoRefresh>true</autoRefresh>
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+      <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПоказыватьПринятыеДанные</name>
+    <id>55</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПоказыватьПринятыеДанные</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПоказыватьПринятыеДанныеПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПоказыватьПринятыеДанныеРасширеннаяПодсказка</name>
+      <id>57</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПоказыватьПринятыеДанныеКонтекстноеМеню</name>
+      <id>56</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <excludedCommands>Copy</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Список</name>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ДокументЗапросДанныхДляОформленияНаРаботу.Ссылка КАК Ссылка,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Номер КАК Номер,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Дата КАК Дата,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Проведен КАК Проведен,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Организация КАК Организация,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ФизическоеЛицо КАК ФизическоеЛицо,
+	ДокументЗапросДанныхДляОформленияНаРаботу.СрокИсполнения КАК СрокИсполнения,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ОснованиеДокумента КАК ОснованиеДокумента,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ИдентификаторДокумента КАК ИдентификаторДокумента,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Фамилия КАК Фамилия,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Имя КАК Имя,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Отчество КАК Отчество,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ОтчествоОтсутствует КАК ОтчествоОтсутствует,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДатаРождения КАК ДатаРождения,
+	ДокументЗапросДанныхДляОформленияНаРаботу.МобильныйТелефон КАК МобильныйТелефон,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ЭлектроннаяПочта КАК ЭлектроннаяПочта,
+	ДокументЗапросДанныхДляОформленияНаРаботу.СНИЛС КАК СНИЛС,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ИНН КАК ИНН,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Пол КАК Пол,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументВид КАК ДокументВид,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументСерия КАК ДокументСерия,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументНомер КАК ДокументНомер,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументДатаВыдачи КАК ДокументДатаВыдачи,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументКемВыдан КАК ДокументКемВыдан,
+	ДокументЗапросДанныхДляОформленияНаРаботу.ДокументКодПодразделения КАК ДокументКодПодразделения,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Ответственный КАК Ответственный,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Комментарий КАК Комментарий,
+	ДокументЗапросДанныхДляОформленияНаРаботу.МоментВремени КАК МоментВремени,
+	СостоянияЗапросовДанныхДляОформленияНаРаботу.Состояние КАК СостояниеЗапроса,
+	СостоянияЗапросовДанныхДляОформленияНаРаботу.ДатаОтправки КАК ДатаОтправки,
+	ДокументЗапросДанныхДляОформленияНаРаботу.Состояние КАК Состояние,
+	ВЫБОР
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.ПометкаУдаления
+			ТОГДА &quot;&quot;
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДанныхДляОформленияНаРаботу.Аннулирован)
+			ТОГДА &amp;Аннулирован
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДанныхДляОформленияНаРаботу.ДанныеПриняты)
+			ТОГДА &amp;ДанныеПриняты
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДанныхДляОформленияНаРаботу.ДанныеПолучены)
+			ТОГДА &amp;ДанныеПолучены
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДанныхДляОформленияНаРаботу.ТребуетсяУточнениеДанных)
+			ТОГДА ВЫБОР
+					КОГДА СостоянияЗапросовДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗапросовДанныхДляОформленияНаРаботу.ЗарегистрированаОтправка)
+						ТОГДА &amp;ТребуетсяУточнениеЗарегистрированаОтправка
+					КОГДА СостоянияЗапросовДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗапросовДанныхДляОформленияНаРаботу.ЗапросОтправлен)
+						ТОГДА &amp;ТребуетсяУточнениеЗапросОтправлен
+					ИНАЧЕ &amp;ТребуетсяУточнение
+				КОНЕЦ
+		КОГДА ДокументЗапросДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияДанныхДляОформленияНаРаботу.Новый)
+			ТОГДА ВЫБОР
+					КОГДА СостоянияЗапросовДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗапросовДанныхДляОформленияНаРаботу.ЗарегистрированаОтправка)
+						ТОГДА &amp;ЗарегистрированаОтправка
+					КОГДА СостоянияЗапросовДанныхДляОформленияНаРаботу.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗапросовДанныхДляОформленияНаРаботу.ЗапросОтправлен)
+						ТОГДА &amp;ЗапросОтправлен
+					ИНАЧЕ &quot;&quot;
+				КОНЕЦ
+		ИНАЧЕ &quot;&quot;
+	КОНЕЦ КАК СостояниеДокумента
+ИЗ
+	Документ.ДанныеДляОформленияНаРаботу КАК ДокументЗапросДанныхДляОформленияНаРаботу
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияЗапросовДанныхДляОформленияНаРаботу КАК СостоянияЗапросовДанныхДляОформленияНаРаботу
+		ПО ДокументЗапросДанныхДляОформленияНаРаботу.Ссылка = СостоянияЗапросовДанныхДляОформленияНаРаботу.Ссылка
+		{ГДЕ
+	(ИСТИНА В
+			(ВЫБРАТЬ ПЕРВЫЕ 1
+				ИСТИНА
+			ИЗ
+				РегистрСведений.СоставДокументовЗарплатаКадры КАК СоставДокументовЗарплатаКадры
+			ГДЕ
+				СоставДокументовЗарплатаКадры.ФизическоеЛицо = &amp;ФизическоеЛицо
+				И ДокументЗапросДанныхДляОформленияНаРаботу.Ссылка = СоставДокументовЗарплатаКадры.ДокументФизическогоЛица))
+	}</queryText>
+      <mainTable>Document.ДанныеДляОформленияНаРаботу</mainTable>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СНИЛС</dataPath>
+        <field>СНИЛС</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МестоРожденияПредставление</dataPath>
+        <field>МестоРожденияПредставление</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресМестаПроживанияПредставление</dataPath>
+        <field>АдресМестаПроживанияПредставление</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭлектроннаяПочта</dataPath>
+        <field>ЭлектроннаяПочта</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗарегистрированаОтправка</dataPath>
+        <field>ЗарегистрированаОтправка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеРеквизиты</dataPath>
+        <field>ДополнительныеРеквизиты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗапрашиваемыеДанные</dataPath>
+        <field>ЗапрашиваемыеДанные</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МобильныйТелефон</dataPath>
+        <field>МобильныйТелефон</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПовторноЗапрашиваемыеДанные</dataPath>
+        <field>ПовторноЗапрашиваемыеДанные</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Организация</dataPath>
+        <field>Организация</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФизическоеЛицо</dataPath>
+        <field>ФизическоеЛицо</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументКемВыдан</dataPath>
+        <field>ДокументКемВыдан</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СрокИсполнения</dataPath>
+        <field>СрокИсполнения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОснованиеДокумента</dataPath>
+        <field>ОснованиеДокумента</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИдентификаторДокумента</dataPath>
+        <field>ИдентификаторДокумента</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Фамилия</dataPath>
+        <field>Фамилия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Имя</dataPath>
+        <field>Имя</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отчество</dataPath>
+        <field>Отчество</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтчествоОтсутствует</dataPath>
+        <field>ОтчествоОтсутствует</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаРождения</dataPath>
+        <field>ДатаРождения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИНН</dataPath>
+        <field>ИНН</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Пол</dataPath>
+        <field>Пол</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументВид</dataPath>
+        <field>ДокументВид</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументСерия</dataPath>
+        <field>ДокументСерия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументНомер</dataPath>
+        <field>ДокументНомер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаОтправки</dataPath>
+        <field>ДатаОтправки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументДатаВыдачи</dataPath>
+        <field>ДокументДатаВыдачи</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДокументКодПодразделения</dataPath>
+        <field>ДокументКодПодразделения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ответственный</dataPath>
+        <field>Ответственный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Комментарий</dataPath>
+        <field>Комментарий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СостояниеЗапроса</dataPath>
+        <field>СостояниеЗапроса</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Состояние запроса</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Состояние</dataPath>
+        <field>Состояние</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресПроживанияСовпадаетСВременнойРегистрацией</dataPath>
+        <field>АдресПроживанияСовпадаетСВременнойРегистрацией</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СостояниеВБраке</dataPath>
+        <field>СостояниеВБраке</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗарегистрированаОтправкаУточнения</dataPath>
+        <field>ЗарегистрированаОтправкаУточнения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресПроживанияСовпадаетСРегистрацией</dataPath>
+        <field>АдресПроживанияСовпадаетСРегистрацией</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДанныеПолучены</dataPath>
+        <field>ДанныеПолучены</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УточнениеДанныхЗагружено</dataPath>
+        <field>УточнениеДанныхЗагружено</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СообщениеУточненияДанных</dataPath>
+        <field>СообщениеУточненияДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СостояниеДокумента</dataPath>
+        <field>СостояниеДокумента</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Состояние документа</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <parameters>
+        <name>ДанныеПолучены</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Данные получены</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ДанныеПриняты</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Данные приняты</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ЗапросОтправлен</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Запрос отправлен</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ЗарегистрированаОтправка</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Зарегистрирована отправка</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТребуетсяУточнение</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Требуется уточнение</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТребуетсяУточнениеЗапросОтправлен</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Требуется уточнение запрос отправлен</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТребуетсяУточнениеЗарегистрированаОтправка</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Требуется уточнение зарегистрирована отправка</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>Аннулирован</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Аннулирован</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <values xsi:type="core:StringValue">
+          <value></value>
+        </values>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ФизическоеЛицо</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Физическое лицо</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.ФизическиеЛица</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+      </parameters>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьПринятыеДанные</name>
+    <title>
+      <key>ru</key>
+      <value>Показывать принятые данные</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
+</form:Form>

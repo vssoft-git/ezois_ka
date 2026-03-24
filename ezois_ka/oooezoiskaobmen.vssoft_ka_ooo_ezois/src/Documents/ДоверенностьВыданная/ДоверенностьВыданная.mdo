@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4e23db79-9ead-4842-9350-d3542ea855de" extendedConfigurationObject="ac063c75-89dc-4887-b5a8-d36c32573ef7">
+  <producedTypes>
+    <objectType typeId="5c2339dd-45de-40ad-a279-0ad35176b274" valueTypeId="4b96be51-ec80-4a8d-8cf0-223a02e3dcf7"/>
+    <refType typeId="b3888893-7091-46af-a4e9-b88d3e0ae97a" valueTypeId="cc3ed271-4a60-4691-afa2-707b9daa1c3c"/>
+    <selectionType typeId="81711aed-8f97-4b38-9e8a-67b8cf29b891" valueTypeId="fae22ec0-c422-40d4-867a-c850d8edbeda"/>
+    <listType typeId="98f0ee5b-3457-4010-8cfb-a06c52fc968d" valueTypeId="29f062df-f531-49fe-b057-72c7f55ab576"/>
+    <managerType typeId="286bede2-28a0-45d4-8859-27b80af3865c" valueTypeId="950bf802-1ac9-4952-bd8a-484f31755c7a"/>
+  </producedTypes>
+  <name>ДоверенностьВыданная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="a0934d67-993d-4b9f-a046-c67a449473f4" extendedConfigurationObject="08f4fd6e-435a-43d3-b09b-a32ccb426187">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

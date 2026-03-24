@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b02b38e-e82a-4f14-9ec7-4829266de1fe" extendedConfigurationObject="52dc8990-2402-4fdd-92cb-e2db725ebd5b">
+  <producedTypes>
+    <objectType typeId="db8e8ce6-336d-4c28-8f5e-cd66227774fa" valueTypeId="40312b29-6534-4d9d-b87a-f33c113959c0"/>
+    <refType typeId="557b638d-b467-43c5-aabe-625b61702d64" valueTypeId="fe0078d2-900a-482a-ba07-5f757da799fa"/>
+    <selectionType typeId="86d0f708-4a5b-4c83-a84a-0614987b1401" valueTypeId="40d5e32b-32b9-4b3b-b6e6-bef7ed502996"/>
+    <listType typeId="96cc0530-8e94-48bd-91a7-9355de2631e1" valueTypeId="84334946-3991-4f85-bbfa-fd3e721c4832"/>
+    <managerType typeId="1b7af5de-4b5f-445b-924c-4b64dec6cfa0" valueTypeId="507d5acd-13b6-43d1-8892-717dc61b3ea5"/>
+  </producedTypes>
+  <name>Бронирование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="3a3bb695-243e-4478-899d-3ba964673d29" extendedConfigurationObject="db7bbd1d-42c3-4ee3-8eef-93a62e8c2f18">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаявкаНаКомандировку</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="fab5e9c6-e2d1-4a39-a27a-d95a386b70df" extendedConfigurationObject="82e95542-92be-4182-bdef-9955fc38d6b8">
+    <name>БронированиеЗамены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.Бронирование</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

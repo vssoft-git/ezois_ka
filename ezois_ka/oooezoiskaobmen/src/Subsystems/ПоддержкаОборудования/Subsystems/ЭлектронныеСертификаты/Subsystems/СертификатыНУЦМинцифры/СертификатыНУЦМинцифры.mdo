@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efe21ba3-1a98-4f60-a4a3-4ac6e3c2330a">
+  <name>СертификатыНУЦМинцифры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты НУЦ Минцифры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СертификатыНУЦМинцифры</content>
+  <content>CommonModule.СертификатыНУЦМинцифрыКлиент</content>
+  <content>CommonModule.СертификатыНУЦМинцифрыПовтИсп</content>
+  <content>CommonTemplate.СертификатыНУЦМинцифры_ru</content>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ЭлектронныеСертификаты</parentSubsystem>
+</mdclass:Subsystem>

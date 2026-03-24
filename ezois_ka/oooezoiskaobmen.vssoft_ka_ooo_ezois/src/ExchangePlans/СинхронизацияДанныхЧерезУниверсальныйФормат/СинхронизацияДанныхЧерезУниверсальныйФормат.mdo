@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="007abeea-dcff-487e-88a1-2d8cb9b66c99" extendedConfigurationObject="886887cd-8fd0-4bec-899c-100aab33747d" thisNode="781d6d49-b319-4fb7-865a-faa5232d2daa">
+  <producedTypes>
+    <objectType typeId="c7e61b02-62fa-4184-9e07-9701543371e3" valueTypeId="915f847a-3686-4c4f-93c5-1bc30cb93b86"/>
+    <refType typeId="5e7547e0-5a47-4b37-8cda-cf17a96c2295" valueTypeId="2c798591-0f14-489b-b6ad-a7c15de30ec0"/>
+    <selectionType typeId="1b3c551e-3794-434d-94a8-ed3b5a18514d" valueTypeId="b382e68d-6b63-4fbc-940f-6adcb20de0a3"/>
+    <listType typeId="83fc999a-d673-49dc-abf8-f78d76c32f55" valueTypeId="e2fa5273-4f44-4e87-a95c-151a3f35e674"/>
+    <managerType typeId="a68be6c1-2efe-44a9-b8aa-f68c8340c262" valueTypeId="c82c9891-d6ba-4614-8742-854319ab8c14"/>
+  </producedTypes>
+  <name>СинхронизацияДанныхЧерезУниверсальныйФормат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="6b142c86-37df-449a-b355-24e535212c32">
+    <name>vs_ИспользоватьОтборПоСтатьямРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по статьям расходов (vssoft)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fd88a6b-8ffa-4b03-a0bf-ef26d65e8b1d">
+    <name>vs_ИспользоватьОтборПоВидамНоменклатурыДляСборкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по видам номенклатуры для документа Сборка товаров (vssoft)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="869d950c-f5ae-49c8-9059-99bf8aad7fc3">
+    <producedTypes>
+      <objectType typeId="3ea6f024-ede7-4686-99ba-dd32bc66dea3" valueTypeId="f8b9cb46-0ed4-49cc-a48b-4e3ff948bea5"/>
+      <rowType typeId="9c2af71d-41c5-4a0f-b901-7e14ac31b8e3" valueTypeId="f1e0507a-7661-4817-b0c4-c86e1e834af4"/>
+    </producedTypes>
+    <name>vs_СтатьиРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи расходов (vssoft)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5bb7b775-284c-4512-af3c-504099b105c7">
+      <name>vs_СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов/активов (vssoft)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+        <types>ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Статья, на которую списаны товары.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="144d24c6-db33-4b2a-b12c-bf58c426e7d6">
+    <producedTypes>
+      <objectType typeId="5f61eca0-7c6c-43d9-94f0-9106e5b84753" valueTypeId="cd8bcd6c-20af-4794-9680-5a38e3aa2d26"/>
+      <rowType typeId="d3211bc1-6e00-4d97-8d85-7eabcb75091e" valueTypeId="38a94896-a85c-4890-b5c3-e77d88700933"/>
+    </producedTypes>
+    <name>vs_ВидыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды номенклатуры (vssoft)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="47e5a5b2-7dee-4731-865d-17e79a6c87a9">
+      <name>vs_ВидНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид номенклатуры (vssoft)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид номенклатуры, по которой списаны товары.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9029fbfe-9f30-4338-931c-d90ab7b93f2c" extendedConfigurationObject="a7640db7-72f1-450c-bae6-6f1ac20d40b6">
+    <name>ФормаСинхронизации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:ExchangePlan>

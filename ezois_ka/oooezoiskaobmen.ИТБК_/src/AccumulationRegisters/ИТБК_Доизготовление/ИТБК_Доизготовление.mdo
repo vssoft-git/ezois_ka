@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bfc13425-084c-4991-a12e-14edbcb2a321" extendedConfigurationObject="6cc4e35a-f35a-4ee0-bcad-2c14bfad02e7">
+  <producedTypes>
+    <selectionType typeId="a1889244-8c68-4a49-940b-b97f7e5709f4" valueTypeId="5b8af57f-e035-4004-9b99-b8e4f3d44dd8"/>
+    <listType typeId="77730469-48ca-4319-baaf-7cb6ed553633" valueTypeId="c551bc85-277c-4e3b-a5dc-1584a32f7841"/>
+    <managerType typeId="8fc56605-7463-405e-9dab-eaae0e06f645" valueTypeId="49fd00a7-9f52-4b66-80be-16d32b64c7a4"/>
+    <recordSetType typeId="ca685f18-8203-4337-851b-c78f0ab67b69" valueTypeId="dfb4a809-6886-46c0-9047-e1d3bf23b6c1"/>
+    <recordKeyType typeId="f61984ce-3934-4fb7-82fb-f09d42526264" valueTypeId="93b42d82-523d-4667-8d31-6404c1569705"/>
+    <recordType typeId="5a806e4b-8c3c-4242-8712-432d18f045a4" valueTypeId="b4e0b434-2238-40fb-aa7e-6432bcef1c98"/>
+  </producedTypes>
+  <name>ИТБК_Доизготовление</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="6491a4d6-7703-4892-8e16-74775ed366c5" extendedConfigurationObject="054946e0-b321-4a0a-a7d4-9e2a4518a176">
+    <name>Доизготовить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="26c04bac-9be0-4019-b5d9-b21f282de471" extendedConfigurationObject="0a3560cd-b27b-4410-931c-e3cec43e3c9e">
+    <name>АктИзготовления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="ba809935-a75e-4130-ba61-58f52e3338f7" extendedConfigurationObject="cc8115e6-fda0-4ac6-9fd8-6459f7625bf5">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

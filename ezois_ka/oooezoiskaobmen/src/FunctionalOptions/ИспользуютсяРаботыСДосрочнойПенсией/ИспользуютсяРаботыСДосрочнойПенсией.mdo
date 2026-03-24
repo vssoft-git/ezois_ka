@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ac534ce-1ad8-4a67-96ce-3aabf822a117">
+  <name>ИспользуютсяРаботыСДосрочнойПенсией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используются работы с досрочной пенсией</value>
+  </synonym>
+  <location>InformationRegister.НастройкиУчетаСтраховыхВзносов.Resource.ИспользуютсяРаботыСДосрочнойПенсией</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ВидыРаботСДосрочнойПенсией</content>
+  <content>AccumulationRegister.ИсчисленныеСтраховыеВзносы.Resource.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>AccumulationRegister.ИсчисленныеСтраховыеВзносы.Resource.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>AccumulationRegister.СведенияОДоходахСтраховыеВзносы.Dimension.ОблагаетсяВзносамиЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Document.ОперацияУчетаПоСтраховымВзносам.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>Document.ОперацияУчетаПоСтраховымВзносам.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.ОперацияУчетаПоСтраховымВзносам.TabularSection.СведенияОДоходах.Attribute.ОблагаетсяВзносамиЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Document.НачислениеЗарплаты.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.НачислениеЗарплаты.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>Catalog.Должности.Attribute.ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Document.ПачкаДокументовСПВ_2.TabularSection.Сотрудники.Attribute.НачисленоПоДополнительнымТарифам</content>
+  <content>Document.АктПроверкиСтраховыхВзносов.TabularSection.СведенияОДоходах.Attribute.ОблагаетсяВзносамиЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.СведенияОДоходах.Attribute.ОблагаетсяВзносамиЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Catalog.УдалитьОснованияДосрочногоНазначенияПенсии</content>
+  <content>Catalog.УдалитьОснованияДосрочногоНазначенияПенсииДляСЗВК</content>
+  <content>Catalog.УдалитьОсобыеУсловияТрудаДляСЗВКПФР</content>
+  <content>Catalog.УдалитьОсобыеУсловияТрудаПФР</content>
+  <content>Catalog.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</content>
+  <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>Document.АктПроверкиСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.АктПроверкиСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>Catalog.ОснованияДосрочногоНазначенияПенсии</content>
+  <content>Catalog.ОснованияДосрочногоНазначенияПенсииДляСЗВК</content>
+  <content>Catalog.ОсобыеУсловияТрудаДляСЗВКПФР</content>
+  <content>Catalog.ОсобыеУсловияТрудаПФР</content>
+  <content>InformationRegister.ТарифыВзносовЗаЗанятыхНаРаботахСДосрочнойПенсией</content>
+  <content>Document.СведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖ.TabularSection.ДосрочноеНазначениеПенсии</content>
+  <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+</mdclass:FunctionalOption>

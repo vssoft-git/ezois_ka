@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49556e29-ee27-4f57-8026-342af2ad4055" extendedConfigurationObject="e870a1bd-0c08-4d1e-832a-357922983c19">
+  <producedTypes>
+    <objectType typeId="506eacd2-dbf0-49c0-8e06-9923b0e72bf7" valueTypeId="c1ecca2b-ce80-4ada-a43c-34d5358be302"/>
+    <managerType typeId="c58f17de-f158-406e-bce5-6c921502c64a" valueTypeId="73131870-68a6-4e7e-baa7-230f554ba3aa"/>
+  </producedTypes>
+  <name>КонвертацияОбъектовXDTO</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c75b8d2b-d0f5-4dc8-8252-cf3e38b9d51b" extendedConfigurationObject="75316008-3969-4c56-915c-9f1fd0c75c92">
+  <producedTypes>
+    <objectType typeId="92a89ed7-9d46-4e36-a55d-02efd9b82b69" valueTypeId="aabb1299-4aa9-4274-86cf-2dc061c652e3"/>
+    <managerType typeId="447656bc-0f31-41d4-90de-8fa2ea64b0ca" valueTypeId="f79e88cc-c21a-4cb2-b94f-992cc15b569f"/>
+  </producedTypes>
+  <name>ПечатьЗаказовНаТоварыУслуги</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

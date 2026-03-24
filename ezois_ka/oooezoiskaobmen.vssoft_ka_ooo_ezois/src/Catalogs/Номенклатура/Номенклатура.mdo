@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33ada531-64a1-497f-9b71-ff6f771bd77b" extendedConfigurationObject="fc59acc3-f1f7-4e3f-96da-e580f2c5a88f">
+  <producedTypes>
+    <objectType typeId="28d51159-2ea7-4a35-ada0-cf1027f2a1ce" valueTypeId="106a7eac-84fe-4d92-9d1c-216eaf57541b"/>
+    <refType typeId="cb393a01-325d-4473-aeb3-ed70398ac07d" valueTypeId="f654b02b-d752-4d3d-b0e8-dc72a6d3ac3c"/>
+    <selectionType typeId="7e19d4e3-1e98-4df2-baf3-bcfb7e05dd81" valueTypeId="4c67e2b4-89b3-4540-837c-eca9d94a847d"/>
+    <listType typeId="c3e48e15-3151-4d50-9e8b-021c4deca02c" valueTypeId="5cbd1489-73e1-4905-944e-b99a76121ce9"/>
+    <managerType typeId="569364cc-3b6c-450a-85ce-a761dc07463d" valueTypeId="ba6f9555-703d-4480-9d59-31bed0f96a0b"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Extended</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <attributes uuid="dfa45ec7-a1a9-4c4d-9459-efc6474cbdb6">
+    <name>vs_КодСВУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код СВУ</value>
+    </synonym>
+    <comment>(vssoft) </comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7c28127-ee00-4149-965a-708fbc3a5411" extendedConfigurationObject="722c3d13-753d-4b4f-82b9-d41340f96d79">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Notify</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

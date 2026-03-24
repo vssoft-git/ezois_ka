@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяБюджетов</dataPath>
+			<field>СтатьяБюджетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья бюджетов</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтатьиБюджетов</v8:Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПоказателиБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоказательБюджетов</dataPath>
+			<field>ПоказательБюджетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель бюджетов</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПоказателиБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Правило</dataPath>
+			<field>Правило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Правило</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторИсточникаДанных</dataPath>
+			<field>ИдентификаторИсточникаДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор источника данных</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>d52d0bac-ddd8-4177-82b4-0b9455a276bd</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПравила</dataPath>
+			<field>ТипПравила</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип правила</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РазделИсточникаДанных</dataPath>
+			<field>РазделИсточникаДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Раздел источника данных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникДанных</dataPath>
+			<field>ИсточникДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник данных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХозяйственнаяОперация</dataPath>
+			<field>ХозяйственнаяОперация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хозяйственная операция</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникСуммыОперации</dataPath>
+			<field>ИсточникСуммыОперации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник суммы операции</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИтога</dataPath>
+			<field>ТипИтога</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип итога</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомпоновщикНастроек</dataPath>
+			<field>КомпоновщикНастроек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик настроек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХешНастроек</dataPath>
+			<field>ХешНастроек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хеш настроек</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяМакетаИсточникаДанных</dataPath>
+			<field>ИмяМакетаИсточникаДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя макета источника данных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СхемаИсточникаДанных</dataPath>
+			<field>СхемаИсточникаДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Схема источника данных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХешСхемыКомпоновкиДанных</dataPath>
+			<field>ХешСхемыКомпоновкиДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хеш схемы компоновки данных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОборотПоАналитикеРасхода</dataPath>
+			<field>ОборотПоАналитикеРасхода</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборот по аналитике расхода</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолеВалютыАналитики</dataPath>
+			<field>ПолеВалютыАналитики</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле валюты аналитики</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнениеВалюты</dataPath>
+			<field>ЗаполнениеВалюты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнение валюты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникВалютный</dataPath>
+			<field>ИсточникВалютный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник валютный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресАналитикиВалюта</dataPath>
+			<field>АдресАналитикиВалюта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес аналитики валюта</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнениеЕдиницыИзмерения</dataPath>
+			<field>ЗаполнениеЕдиницыИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнение единицы измерения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСчет</dataPath>
+			<field>КорСчет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кор. счет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресАналитикиЕдиницаИзмерения</dataPath>
+			<field>АдресАналитикиЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес аналитики единица измерения</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолеЕдиницыИзмеренияАналитики</dataPath>
+			<field>ПолеЕдиницыИзмеренияАналитики</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле единицы измерения аналитики</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единица измерения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПромежуточноеКэшированиеРезультатовРаботыПравил</dataPath>
+			<field>ПромежуточноеКэшированиеРезультатовРаботыПравил</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Промежуточное кэширование результатов работы правил</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Коэффициент</dataPath>
+			<field>Коэффициент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействуетПо</dataPath>
+			<field>ДействуетПо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действует по</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействуетС</dataPath>
+			<field>ДействуетС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действует с</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики1</dataPath>
+			<field>ВидАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики2</dataPath>
+			<field>ВидАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики3</dataPath>
+			<field>ВидАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики4</dataPath>
+			<field>ВидАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики5</dataPath>
+			<field>ВидАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики6</dataPath>
+			<field>ВидАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику1</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 1 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику2</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 2 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику3</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 3 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику4</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 4 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику5</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 5 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаполнятьУказаннымЗначениемАналитику6</dataPath>
+			<field>ЗаполнятьУказаннымЗначениемАналитику6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять аналитику 6 указанным значением</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики1</dataPath>
+			<field>ЗначениеАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики2</dataPath>
+			<field>ЗначениеАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики3</dataPath>
+			<field>ЗначениеАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики4</dataPath>
+			<field>ЗначениеАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики5</dataPath>
+			<field>ЗначениеАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеАналитики6</dataPath>
+			<field>ЗначениеАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики1</dataPath>
+			<field>ВыражениеЗаполненияАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики2</dataPath>
+			<field>ВыражениеЗаполненияАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики3</dataPath>
+			<field>ВыражениеЗаполненияАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики4</dataPath>
+			<field>ВыражениеЗаполненияАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики5</dataPath>
+			<field>ВыражениеЗаполненияАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыражениеЗаполненияАналитики6</dataPath>
+			<field>ВыражениеЗаполненияАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выражение заполнения аналитики 6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расход</dataPath>
+			<field>Расход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РасширенныйРежимНастройкиЗаполненияАналитики</dataPath>
+			<field>РасширенныйРежимНастройкиЗаполненияАналитики</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширенный режим настройки заполнения аналитики</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику3</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика5</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику1</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики5</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика1</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики2</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики4</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики6</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяБюджетовДляРасчетаПоказателя</dataPath>
+			<field>СтатьяБюджетовДляРасчетаПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья бюджетов для расчета показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику6</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика3</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику4</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики6</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика6</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика2</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_КоличествоИспользуемыхАналитик</dataPath>
+			<field>СвязиПоказателейБюджетов_КоличествоИспользуемыхАналитик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов количество используемых аналитик</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресАналитикиВалюта</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресАналитикиВалюта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес аналитики валюта</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику5</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ТранслироватьАналитику2</dataPath>
+			<field>СвязиПоказателейБюджетов_ТранслироватьАналитику2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов транслировать аналитику2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ПолеВалютыАналитики</dataPath>
+			<field>СвязиПоказателейБюджетов_ПолеВалютыАналитики</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов поле валюты аналитики</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики2</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики3</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики1</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики4</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВалютаОпределяетсяАналитикой</dataPath>
+			<field>СвязиПоказателейБюджетов_ВалютаОпределяетсяАналитикой</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов валюта определяется аналитикой</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики1</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_Аналитика4</dataPath>
+			<field>СвязиПоказателейБюджетов_Аналитика4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов аналитика4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_АдресТрансляцииАналитики5</dataPath>
+			<field>СвязиПоказателейБюджетов_АдресТрансляцииАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов адрес трансляции аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвязиПоказателейБюджетов_ВидАналитики3</dataPath>
+			<field>СвязиПоказателейБюджетов_ВидАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связи показателей бюджетов вид аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сценарий</dataPath>
+			<field>Сценарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДанныхУчетаПриход</dataPath>
+			<field>ТипДанныхУчетаПриход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип данных учета приход</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.ТипыДанныхУчета</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДанныхУчетаРасход</dataPath>
+			<field>ТипДанныхУчетаРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип данных учета расход</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.ТипыДанныхУчета</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникДанныхХО</dataPath>
+			<field>ИсточникДанныхХО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник данных ХО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>
+
+//++ Локализация
+// НЕ ПЕРЕЗАПОЛНЯТЬ КОНСТРУКТОРОМ - ЕСТЬ ТЕГИ ВЫРЕЗКИ
+//-- Локализация
+
+// Статьи бюджетов для получения оборотов, влияющих на показатели
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	СтатьиБюджетов.Ссылка КАК Ссылка,
+	СтатьиБюджетов.ВидАналитики1 КАК ВидАналитики1,
+	СтатьиБюджетов.ВидАналитики2 КАК ВидАналитики2,
+	СтатьиБюджетов.ВидАналитики3 КАК ВидАналитики3,
+	СтатьиБюджетов.ВидАналитики4 КАК ВидАналитики4,
+	СтатьиБюджетов.ВидАналитики5 КАК ВидАналитики5,
+	СтатьиБюджетов.ВидАналитики6 КАК ВидАналитики6,
+	СтатьиБюджетов.УчитыватьПоКоличеству КАК УчитыватьПоКоличеству,
+	СтатьиБюджетов.АдресАналитикиКоличество КАК АдресАналитикиКоличество,
+	СтатьиБюджетов.ЕдиницаИзмеренияОпределяетсяАналитикой КАК ЕдиницаИзмеренияОпределяетсяАналитикой,
+	СтатьиБюджетов.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СтатьиБюджетов.УчитыватьПоВалюте КАК УчитыватьПоВалюте,
+	СтатьиБюджетов.ВалютаОпределяетсяАналитикой КАК ВалютаОпределяетсяАналитикой,
+	СтатьиБюджетов.АдресАналитикиВалюта КАК АдресАналитикиВалюта,
+	СтатьиБюджетов.АналитикаВалюты.ЗаполнениеВалюты КАК ЗаполнениеВалюты,
+	СтатьиБюджетов.АналитикаЕдиницыИзмерения.ЗаполнениеЕдиницыИзмерения КАК ЗаполнениеЕдиницыИзмерения,
+	СвязиПоказателейБюджетов.Коэффициент КАК КоэффициентСвязи,
+	СвязиПоказателейБюджетов.СвязанныйПоказательБюджетов КАК ПоказательБюджетов,
+	СвязиПоказателейБюджетов.Расход КАК Расход,
+	ИСТИНА                              КАК СтатьяБюджетовДляРасчетаПоказателя,
+	СвязиПоказателейБюджетов.Аналитика1 КАК СвязиПоказателейБюджетов_Аналитика1,
+	СвязиПоказателейБюджетов.Аналитика2 КАК СвязиПоказателейБюджетов_Аналитика2,
+	СвязиПоказателейБюджетов.Аналитика3 КАК СвязиПоказателейБюджетов_Аналитика3,
+	СвязиПоказателейБюджетов.Аналитика4 КАК СвязиПоказателейБюджетов_Аналитика4,
+	СвязиПоказателейБюджетов.Аналитика5 КАК СвязиПоказателейБюджетов_Аналитика5,
+	СвязиПоказателейБюджетов.Аналитика6 КАК СвязиПоказателейБюджетов_Аналитика6,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику1 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику1,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику2 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику2,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику3 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику3,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику4 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику4,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику5 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику5,
+	СвязиПоказателейБюджетов.ТранслироватьАналитику6 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику6,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики1 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики1,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики2 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики2,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики3 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики3,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики4 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики4,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики5 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики5,
+	СвязиПоказателейБюджетов.АдресТрансляцииАналитики6 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики6
+ПОМЕСТИТЬ СтатьиБюджетов
+ИЗ
+	Справочник.СтатьиБюджетов КАК СтатьиБюджетов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.СвязиПоказателейБюджетов КАК СвязиПоказателейБюджетов
+		ПО СтатьиБюджетов.Ссылка = СвязиПоказателейБюджетов.СтатьяБюджетов
+{ГДЕ
+	СтатьиБюджетов.Ссылка.* КАК СтатьяБюджетов,
+	СвязиПоказателейБюджетов.СвязанныйПоказательБюджетов.* КАК ПоказательБюджетов}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+// Статьи бюджетов для получения оборотов
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	СтатьиБюджетов.Ссылка КАК Ссылка,
+	СтатьиБюджетов.ВидАналитики1 КАК ВидАналитики1,
+	СтатьиБюджетов.ВидАналитики2 КАК ВидАналитики2,
+	СтатьиБюджетов.ВидАналитики3 КАК ВидАналитики3,
+	СтатьиБюджетов.ВидАналитики4 КАК ВидАналитики4,
+	СтатьиБюджетов.ВидАналитики5 КАК ВидАналитики5,
+	СтатьиБюджетов.ВидАналитики6 КАК ВидАналитики6,
+	СтатьиБюджетов.УчитыватьПоКоличеству КАК УчитыватьПоКоличеству,
+	СтатьиБюджетов.АдресАналитикиКоличество КАК АдресАналитикиКоличество,
+	СтатьиБюджетов.ЕдиницаИзмеренияОпределяетсяАналитикой КАК ЕдиницаИзмеренияОпределяетсяАналитикой,
+	СтатьиБюджетов.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СтатьиБюджетов.УчитыватьПоВалюте КАК УчитыватьПоВалюте,
+	СтатьиБюджетов.ВалютаОпределяетсяАналитикой КАК ВалютаОпределяетсяАналитикой,
+	СтатьиБюджетов.АдресАналитикиВалюта КАК АдресАналитикиВалюта,
+	СтатьиБюджетов.АналитикаВалюты.ЗаполнениеВалюты КАК ЗаполнениеВалюты,
+	СтатьиБюджетов.АналитикаЕдиницыИзмерения.ЗаполнениеЕдиницыИзмерения КАК ЗаполнениеЕдиницыИзмерения,
+	1 КАК КоэффициентСвязи,
+	ЗНАЧЕНИЕ(Справочник.ПоказателиБюджетов.ПустаяСсылка) КАК ПоказательБюджетов,
+	ЛОЖЬ КАК Расход,
+	ЛОЖЬ         КАК СтатьяБюджетовДляРасчетаПоказателя,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика1,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика2,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика3,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика4,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика5,
+	НЕОПРЕДЕЛЕНО КАК СвязиПоказателейБюджетов_Аналитика6,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику1,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику2,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику3,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику4,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику5,
+	ЛОЖЬ КАК СвязиПоказателейБюджетов_ТранслироватьАналитику6,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики1,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики2,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики3,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики4,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики5,
+	0 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики6
+ИЗ
+	Справочник.СтатьиБюджетов КАК СтатьиБюджетов
+{ГДЕ
+	СтатьиБюджетов.Ссылка.* КАК СтатьяБюджетов,
+	(ЗНАЧЕНИЕ(Справочник.ПоказателиБюджетов.ПустаяСсылка)).* КАК ПоказательБюджетов}
+
+ИНДЕКСИРОВАТЬ ПО
+	СтатьиБюджетов.Ссылка
+
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ФактическиеДанные) КАК ТипПравила
+ПОМЕСТИТЬ ТипыПравил
+ИЗ
+	Справочник.Сценарии КАК Сценарии
+ГДЕ
+	Сценарии.Ссылка = ЗНАЧЕНИЕ(Справочник.Сценарии.ФактическиеДанные)
+{ГДЕ
+	Сценарии.Ссылка.* КАК Сценарий}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджета) КАК ТипПравила
+ИЗ
+	Справочник.Сценарии КАК Сценарии
+ГДЕ
+	Сценарии.Ссылка = ЗНАЧЕНИЕ(Справочник.Сценарии.ИсполнениеБюджета)
+{ГДЕ
+	Сценарии.Ссылка.* КАК Сценарий}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджетаИФактическиеДанные) КАК ТипПравила
+ИЗ
+	Справочник.Сценарии КАК Сценарии
+ГДЕ
+	Сценарии.Ссылка В (ЗНАЧЕНИЕ(Справочник.Сценарии.ФактическиеДанные), ЗНАЧЕНИЕ(Справочник.Сценарии.ИсполнениеБюджета))
+{ГДЕ
+	Сценарии.Ссылка.* КАК Сценарий}
+
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПравилаПолученияФакта.СтатьяБюджетов КАК СтатьяБюджетов,
+	ПравилаПолученияФакта.РазделИсточникаДанных КАК РазделИсточникаДанных,
+	ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций) КАК ИсточникДанных,
+	ВЫБОР
+		КОГДА &amp;ПоТаблицеКорреспонденций
+			ТОГДА ВЫБОР
+				КОГДА ПравилаПолученияФакта.ИсточникСуммыОперации В (ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплате),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеВРамкахЛимита),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеСверхЛимита))
+					ТОГДА "ДвиженияДенежныхСредствКВыплате"
+				ИНАЧЕ ""
+			КОНЕЦ
+		КОГДА &amp;ПоРегиструЛимитов
+			И ПравилаПолученияФакта.ТипПравила = ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджета)
+			ТОГДА "ДвиженияДенежныхСредствКВыплате"
+		ИНАЧЕ ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).ИсточникДанных
+	КОНЕЦ КАК ИмяМакетаИсточникаДанных,
+	ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).ХозяйственнаяОперация КАК ХозяйственнаяОперация,
+	ПравилаПолученияФакта.ИсточникСуммыОперации КАК ИсточникСуммыОперации,
+	НЕОПРЕДЕЛЕНО КАК КорСчет,
+	ПравилаПолученияФакта.КомпоновщикНастроек КАК КомпоновщикНастроек,
+	ПравилаПолученияФакта.ХешНастроек КАК ХешНастроек,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных КАК ХешСхемыКомпоновкиДанных,
+	ВЫБОР
+		КОГДА &amp;ПоТаблицеКорреспонденций
+			ТОГДА ВЫБОР
+				КОГДА ПравилаПолученияФакта.ИсточникСуммыОперации В (ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплате),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеВРамкахЛимита),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеСверхЛимита))
+					ТОГДА "ДвиженияДенежныхСредствКВыплате"
+				ИНАЧЕ ""
+			КОНЕЦ
+		КОГДА &amp;ПоРегиструЛимитов
+			И ПравилаПолученияФакта.ТипПравила = ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджета)
+			ТОГДА "ДвиженияДенежныхСредствКВыплате"
+		КОГДА ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных = ""
+			ТОГДА ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).ИсточникДанных
+		ИНАЧЕ ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных
+	КОНЕЦ КАК ИдентификаторИсточникаДанных,
+	NULL КАК Валютный,
+	НЕОПРЕДЕЛЕНО КАК ТипИтога,
+	ПравилаПолученияФакта.ОборотПоАналитикеРасхода КАК ОборотПоАналитикеРасхода,
+	NULL КАК СхемаИсточникаДанных,
+	ПравилаПолученияФакта.РасширенныйРежимНастройкиЗаполненияАналитики КАК РасширенныйРежимНастройкиЗаполненияАналитики,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики1 КАК ВыражениеЗаполненияАналитики1,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики2 КАК ВыражениеЗаполненияАналитики2,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики3 КАК ВыражениеЗаполненияАналитики3,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики4 КАК ВыражениеЗаполненияАналитики4,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики5 КАК ВыражениеЗаполненияАналитики5,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики6 КАК ВыражениеЗаполненияАналитики6,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику1 КАК ЗаполнятьУказаннымЗначениемАналитику1,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику2 КАК ЗаполнятьУказаннымЗначениемАналитику2,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику3 КАК ЗаполнятьУказаннымЗначениемАналитику3,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику4 КАК ЗаполнятьУказаннымЗначениемАналитику4,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику5 КАК ЗаполнятьУказаннымЗначениемАналитику5,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику6 КАК ЗаполнятьУказаннымЗначениемАналитику6,
+	ПравилаПолученияФакта.ЗначениеАналитики1 КАК ЗначениеАналитики1,
+	ПравилаПолученияФакта.ЗначениеАналитики2 КАК ЗначениеАналитики2,
+	ПравилаПолученияФакта.ЗначениеАналитики3 КАК ЗначениеАналитики3,
+	ПравилаПолученияФакта.ЗначениеАналитики4 КАК ЗначениеАналитики4,
+	ПравилаПолученияФакта.ЗначениеАналитики5 КАК ЗначениеАналитики5,
+	ПравилаПолученияФакта.ЗначениеАналитики6 КАК ЗначениеАналитики6,
+	ПравилаПолученияФакта.Ссылка КАК Ссылка,
+	ПравилаПолученияФакта.ТипПравила КАК ТипПравила,
+	ПравилаПолученияФакта.Коэффициент КАК Коэффициент,
+	ПравилаПолученияФакта.ДействуетС КАК ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо КАК ДействуетПо
+ПОМЕСТИТЬ ПравилаПолученияФакта
+ИЗ
+	Справочник.ПравилаПолученияФактаПоСтатьямБюджетов КАК ПравилаПолученияФакта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СтатьиБюджетов КАК СтатьиБюджетов
+		ПО ПравилаПолученияФакта.СтатьяБюджетов = СтатьиБюджетов.Ссылка
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ТипыПравил КАК ТипыПравил
+		ПО ПравилаПолученияФакта.ТипПравила = ТипыПравил.ТипПравила
+ГДЕ
+	НЕ ПравилаПолученияФакта.ПометкаУдаления
+	И ПравилаПолученияФакта.РазделИсточникаДанных = ЗНАЧЕНИЕ(Перечисление.РазделыИсточниковДанныхБюджетирования.ОперативныйУчет)
+{ГДЕ
+	ПравилаПолученияФакта.Ссылка.* КАК Правило,
+	ПравилаПолученияФакта.ИсточникДанных.*,
+	ПравилаПолученияФакта.РазделИсточникаДанных.*,
+	ПравилаПолученияФакта.ПромежуточноеКэшированиеРезультатовРаботыПравил,
+	(ВЫБОР
+		КОГДА &amp;ПоТаблицеКорреспонденций
+			ТОГДА ВЫБОР
+				КОГДА ПравилаПолученияФакта.ИсточникСуммыОперации В (ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплате),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеВРамкахЛимита),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеСверхЛимита))
+					ТОГДА "ДвиженияДенежныхСредствКВыплате"
+				ИНАЧЕ ""
+			КОНЕЦ
+		КОГДА &amp;ПоРегиструЛимитов
+			И ПравилаПолученияФакта.ТипПравила = ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджета)
+			ТОГДА "ДвиженияДенежныхСредствКВыплате"
+		ИНАЧЕ ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).ИсточникДанных
+	КОНЕЦ) КАК ИмяМакетаИсточникаДанных,
+	(ВЫБОР
+		КОГДА &amp;ПоТаблицеКорреспонденций
+			ТОГДА ВЫБОР
+				КОГДА ПравилаПолученияФакта.ИсточникСуммыОперации В (ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплате),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеВРамкахЛимита),
+					ЗНАЧЕНИЕ(Перечисление.ПоказателиАналитическихРегистров.СуммаКВыплатеСверхЛимита))
+					ТОГДА "ДвиженияДенежныхСредствКВыплате"
+				ИНАЧЕ ""
+			КОНЕЦ
+		КОГДА &amp;ПоРегиструЛимитов
+			И ПравилаПолученияФакта.ТипПравила = ЗНАЧЕНИЕ(Перечисление.ТипПравилаПолученияФактическихДанныхБюджетирования.ИсполнениеБюджета)
+			ТОГДА "ДвиженияДенежныхСредствКВыплате"
+		КОГДА ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных = ""
+			ТОГДА ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).ИсточникДанных
+		ИНАЧЕ ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных
+	КОНЕЦ) КАК ИдентификаторИсточникаДанных,
+	ПравилаПолученияФакта.ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо,
+	ПравилаПолученияФакта.ТипПравила.*}
+
+//++ Локализация
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПравилаПолученияФакта.СтатьяБюджетов,
+	ПравилаПолученияФакта.РазделИсточникаДанных,
+	ПравилаПолученияФакта.ИсточникДанных,
+	"РегламентированныйУчет",
+	NULL,
+	NULL,
+	ПравилаПолученияФакта.КорСчет,
+	ПравилаПолученияФакта.КомпоновщикНастроек,
+	ПравилаПолученияФакта.ХешНастроек,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных,
+	"РегламентированныйУчет",
+	ПравилаПолученияФакта.ИсточникДанных.Валютный,
+	ПравилаПолученияФакта.ТипИтога,
+	NULL,
+	NULL,
+	ПравилаПолученияФакта.РасширенныйРежимНастройкиЗаполненияАналитики,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики1,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики2,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики3,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики4,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики5,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики6,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику1,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику2,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику3,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику4,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику5,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику6,
+	ПравилаПолученияФакта.ЗначениеАналитики1,
+	ПравилаПолученияФакта.ЗначениеАналитики2,
+	ПравилаПолученияФакта.ЗначениеАналитики3,
+	ПравилаПолученияФакта.ЗначениеАналитики4,
+	ПравилаПолученияФакта.ЗначениеАналитики5,
+	ПравилаПолученияФакта.ЗначениеАналитики6,
+	ПравилаПолученияФакта.Ссылка,
+	ПравилаПолученияФакта.ТипПравила,
+	ПравилаПолученияФакта.Коэффициент,
+	ПравилаПолученияФакта.ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо
+ИЗ
+	Справочник.ПравилаПолученияФактаПоСтатьямБюджетов КАК ПравилаПолученияФакта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СтатьиБюджетов КАК СтатьиБюджетов
+		ПО ПравилаПолученияФакта.СтатьяБюджетов = СтатьиБюджетов.Ссылка
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ТипыПравил КАК ТипыПравил
+		ПО ПравилаПолученияФакта.ТипПравила = ТипыПравил.ТипПравила
+ГДЕ
+	НЕ ПравилаПолученияФакта.ПометкаУдаления
+	И ПравилаПолученияФакта.РазделИсточникаДанных = ЗНАЧЕНИЕ(Перечисление.РазделыИсточниковДанныхБюджетирования.РегламентированныйУчет)
+{ГДЕ
+	ПравилаПолученияФакта.Ссылка.* КАК Правило,
+	ПравилаПолученияФакта.РазделИсточникаДанных.*,
+	ПравилаПолученияФакта.ИсточникДанных.*,
+	ПравилаПолученияФакта.ПромежуточноеКэшированиеРезультатовРаботыПравил,
+	("РегламентированныйУчет") КАК ИмяМакетаИсточникаДанных,
+	("РегламентированныйУчет") КАК ИдентификаторИсточникаДанных,
+	ПравилаПолученияФакта.ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо,
+	ПравилаПолученияФакта.ТипПравила.*}
+//-- Локализация
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПравилаПолученияФакта.СтатьяБюджетов,
+	ПравилаПолученияФакта.РазделИсточникаДанных,
+	ПравилаПолученияФакта.ИсточникДанных,
+	"",
+	NULL,
+	NULL,
+	НЕОПРЕДЕЛЕНО,
+	ПравилаПолученияФакта.КомпоновщикНастроек,
+	ПравилаПолученияФакта.ХешНастроек,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных,
+	NULL,
+	NULL,
+	NULL,
+	ПравилаПолученияФакта.СхемаИсточникаДанных,
+	ПравилаПолученияФакта.РасширенныйРежимНастройкиЗаполненияАналитики,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики1,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики2,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики3,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики4,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики5,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики6,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику1,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику2,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику3,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику4,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику5,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику6,
+	ПравилаПолученияФакта.ЗначениеАналитики1,
+	ПравилаПолученияФакта.ЗначениеАналитики2,
+	ПравилаПолученияФакта.ЗначениеАналитики3,
+	ПравилаПолученияФакта.ЗначениеАналитики4,
+	ПравилаПолученияФакта.ЗначениеАналитики5,
+	ПравилаПолученияФакта.ЗначениеАналитики6,
+	ПравилаПолученияФакта.Ссылка,
+	ПравилаПолученияФакта.ТипПравила,
+	ПравилаПолученияФакта.Коэффициент,
+	ПравилаПолученияФакта.ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо
+ИЗ
+	Справочник.ПравилаПолученияФактаПоСтатьямБюджетов КАК ПравилаПолученияФакта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СтатьиБюджетов КАК СтатьиБюджетов
+		ПО ПравилаПолученияФакта.СтатьяБюджетов = СтатьиБюджетов.Ссылка
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ТипыПравил КАК ТипыПравил
+		ПО ПравилаПолученияФакта.ТипПравила = ТипыПравил.ТипПравила
+ГДЕ
+	НЕ ПравилаПолученияФакта.ПометкаУдаления
+	И ПравилаПолученияФакта.РазделИсточникаДанных = ЗНАЧЕНИЕ(Перечисление.РазделыИсточниковДанныхБюджетирования.ПроизвольныеДанные)
+{ГДЕ
+	ПравилаПолученияФакта.Ссылка.* КАК Правило,
+	ПравилаПолученияФакта.РазделИсточникаДанных.*,
+	ПравилаПолученияФакта.ИсточникДанных.*,
+	ПравилаПолученияФакта.ПромежуточноеКэшированиеРезультатовРаботыПравил,
+	("") КАК ИмяМакетаИсточникаДанных,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных КАК ИдентификаторИсточникаДанных,
+	ПравилаПолученияФакта.ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо,
+	ПравилаПолученияФакта.ТипПравила.*}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПравилаПолученияФакта.СтатьяБюджетов КАК СтатьяБюджетов,
+	ПравилаПолученияФакта.Ссылка КАК Правило,
+	СтатьиБюджетов.ВидАналитики1 КАК ВидАналитики1,
+	СтатьиБюджетов.ВидАналитики2 КАК ВидАналитики2,
+	СтатьиБюджетов.ВидАналитики3 КАК ВидАналитики3,
+	СтатьиБюджетов.ВидАналитики4 КАК ВидАналитики4,
+	СтатьиБюджетов.ВидАналитики5 КАК ВидАналитики5,
+	СтатьиБюджетов.ВидАналитики6 КАК ВидАналитики6,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.УчитыватьПоВалюте
+			ТОГДА ВЫБОР
+					КОГДА СтатьиБюджетов.ВалютаОпределяетсяАналитикой
+						ТОГДА "ОпределяетсяПоАналитике"
+					ИНАЧЕ "ОпределяетсяПоИсточникуДанных"
+				КОНЕЦ
+		ИНАЧЕ "ОпределяетсяВалютойОтчета"
+	КОНЕЦ КАК ЗаполнениеВалюты,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.УчитыватьПоКоличеству
+			ТОГДА ВЫБОР
+					КОГДА СтатьиБюджетов.ЕдиницаИзмеренияОпределяетсяАналитикой
+						ТОГДА "ОпределяетсяПоАналитике"
+					ИНАЧЕ "ФиксированноеЗначение"
+				КОНЕЦ
+		ИНАЧЕ "НеЗаполнять"
+	КОНЕЦ КАК ЗаполнениеЕдиницыИзмерения,
+	СтатьиБюджетов.АдресАналитикиКоличество КАК АдресАналитикиЕдиницаИзмерения,
+	СтатьиБюджетов.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СтатьиБюджетов.АдресАналитикиВалюта КАК АдресАналитикиВалюта,
+	СтатьиБюджетов.ЗаполнениеВалюты КАК ПолеВалютыАналитики,
+	СтатьиБюджетов.ЗаполнениеЕдиницыИзмерения КАК ПолеЕдиницыИзмеренияАналитики,
+	ПравилаПолученияФакта.РазделИсточникаДанных КАК РазделИсточникаДанных,
+	ВЫБОР
+		КОГДА ПравилаПолученияФакта.ИсточникДанных ССЫЛКА Справочник.НастройкиХозяйственныхОпераций
+			ТОГДА ПравилаПолученияФакта.ХозяйственнаяОперация
+		ИНАЧЕ ПравилаПолученияФакта.ИсточникДанных
+	КОНЕЦ КАК ИсточникДанных,
+	ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций) КАК ИсточникДанныхХО,
+	ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).Приход КАК ТипДанныхУчетаПриход,
+	ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).Расход КАК ТипДанныхУчетаРасход,
+	ПравилаПолученияФакта.ИмяМакетаИсточникаДанных КАК ИмяМакетаИсточникаДанных,
+	ПравилаПолученияФакта.ХозяйственнаяОперация КАК ХозяйственнаяОперация,
+	ПравилаПолученияФакта.ИсточникСуммыОперации КАК ИсточникСуммыОперации,
+	ПравилаПолученияФакта.КорСчет КАК КорСчет,
+	ПравилаПолученияФакта.КомпоновщикНастроек КАК КомпоновщикНастроек,
+	ПравилаПолученияФакта.ХешНастроек КАК ХешНастроек,
+	ПравилаПолученияФакта.ХешСхемыКомпоновкиДанных КАК ХешСхемыКомпоновкиДанных,
+	ПравилаПолученияФакта.ИдентификаторИсточникаДанных КАК ИдентификаторИсточникаДанных,
+	ПравилаПолученияФакта.Валютный КАК ИсточникВалютный,
+	ПравилаПолученияФакта.ТипИтога КАК ТипИтога,
+	ПравилаПолученияФакта.ОборотПоАналитикеРасхода КАК ОборотПоАналитикеРасхода,
+	ПравилаПолученияФакта.СхемаИсточникаДанных КАК СхемаИсточникаДанных,
+	ПравилаПолученияФакта.РасширенныйРежимНастройкиЗаполненияАналитики КАК РасширенныйРежимНастройкиЗаполненияАналитики,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики1 КАК ВыражениеЗаполненияАналитики1,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики2 КАК ВыражениеЗаполненияАналитики2,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики3 КАК ВыражениеЗаполненияАналитики3,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики4 КАК ВыражениеЗаполненияАналитики4,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики5 КАК ВыражениеЗаполненияАналитики5,
+	ПравилаПолученияФакта.ВыражениеЗаполненияАналитики6 КАК ВыражениеЗаполненияАналитики6,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику1 КАК ЗаполнятьУказаннымЗначениемАналитику1,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику2 КАК ЗаполнятьУказаннымЗначениемАналитику2,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику3 КАК ЗаполнятьУказаннымЗначениемАналитику3,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику4 КАК ЗаполнятьУказаннымЗначениемАналитику4,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику5 КАК ЗаполнятьУказаннымЗначениемАналитику5,
+	ПравилаПолученияФакта.ЗаполнятьУказаннымЗначениемАналитику6 КАК ЗаполнятьУказаннымЗначениемАналитику6,
+	ПравилаПолученияФакта.ЗначениеАналитики1 КАК ЗначениеАналитики1,
+	ПравилаПолученияФакта.ЗначениеАналитики2 КАК ЗначениеАналитики2,
+	ПравилаПолученияФакта.ЗначениеАналитики3 КАК ЗначениеАналитики3,
+	ПравилаПолученияФакта.ЗначениеАналитики4 КАК ЗначениеАналитики4,
+	ПравилаПолученияФакта.ЗначениеАналитики5 КАК ЗначениеАналитики5,
+	ПравилаПолученияФакта.ЗначениеАналитики6 КАК ЗначениеАналитики6,
+	ПравилаПолученияФакта.ТипПравила КАК ТипПравила,
+	СтатьиБюджетов.ПоказательБюджетов КАК ПоказательБюджетов,
+	ПравилаПолученияФакта.Коэффициент * ЕСТЬNULL(СтатьиБюджетов.КоэффициентСвязи, 1) КАК Коэффициент,
+	ПравилаПолученияФакта.ДействуетС КАК ДействуетС,
+	ПравилаПолученияФакта.ДействуетПо КАК ДействуетПо,
+	СтатьиБюджетов.Расход КАК Расход,
+	СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя КАК СтатьяБюджетовДляРасчетаПоказателя,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика1 КАК СвязиПоказателейБюджетов_Аналитика1,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика2 КАК СвязиПоказателейБюджетов_Аналитика2,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика3 КАК СвязиПоказателейБюджетов_Аналитика3,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика4 КАК СвязиПоказателейБюджетов_Аналитика4,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика5 КАК СвязиПоказателейБюджетов_Аналитика5,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_Аналитика6 КАК СвязиПоказателейБюджетов_Аналитика6,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику1 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику1,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику2 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику2,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику3 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику3,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику4 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику4,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику5 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику5,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_ТранслироватьАналитику6 КАК СвязиПоказателейБюджетов_ТранслироватьАналитику6,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики1 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики1,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики2 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики2,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики3 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики3,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики4 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики4,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики5 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики5,
+	СтатьиБюджетов.СвязиПоказателейБюджетов_АдресТрансляцииАналитики6 КАК СвязиПоказателейБюджетов_АдресТрансляцииАналитики6,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики1
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики1,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики2
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики2,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики3
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики3,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики4
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики4,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики5
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики5,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВидАналитики6
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВидАналитики6,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.КоличествоИспользуемыхАналитик
+		ИНАЧЕ 0
+	КОНЕЦ КАК СвязиПоказателейБюджетов_КоличествоИспользуемыхАналитик,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.ВалютаОпределяетсяАналитикой
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ВалютаОпределяетсяАналитикой,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.АдресАналитикиВалюта
+		ИНАЧЕ 0
+	КОНЕЦ КАК СвязиПоказателейБюджетов_АдресАналитикиВалюта,
+	ВЫБОР
+		КОГДА СтатьиБюджетов.СтатьяБюджетовДляРасчетаПоказателя
+			И СтатьиБюджетов.ПоказательБюджетов.ВалютаОпределяетсяАналитикой
+			ТОГДА СтатьиБюджетов.ПоказательБюджетов.АналитикаВалюты.ЗаполнениеВалюты
+		ИНАЧЕ """"
+	КОНЕЦ КАК СвязиПоказателейБюджетов_ПолеВалютыАналитики
+{ВЫБРАТЬ
+	СтатьяБюджетов,
+	ПоказательБюджетов,
+	Правило.*,
+	ВидАналитики1,
+	ВидАналитики2,
+	ВидАналитики3,
+	ВидАналитики4,
+	ВидАналитики5,
+	ВидАналитики6,
+	ЗаполнениеВалюты,
+	АдресАналитикиВалюта,
+	ПолеВалютыАналитики,
+	ЗаполнениеЕдиницыИзмерения,
+	АдресАналитикиЕдиницаИзмерения,
+	ЕдиницаИзмерения,
+	ПолеЕдиницыИзмеренияАналитики,
+	РазделИсточникаДанных,
+	ИсточникДанных,
+	ИсточникДанныхХО,
+	ТипДанныхУчетаПриход,
+	ТипДанныхУчетаРасход,
+	ИмяМакетаИсточникаДанных,
+	ХозяйственнаяОперация,
+	ИсточникСуммыОперации,
+	КорСчет,
+	КомпоновщикНастроек,
+	ХешНастроек,
+	ХешСхемыКомпоновкиДанных,
+	ИдентификаторИсточникаДанных,
+	ИсточникВалютный,
+	ТипИтога,
+	ОборотПоАналитикеРасхода,
+	СхемаИсточникаДанных,
+	РасширенныйРежимНастройкиЗаполненияАналитики,
+	ВыражениеЗаполненияАналитики1,
+	ВыражениеЗаполненияАналитики2,
+	ВыражениеЗаполненияАналитики3,
+	ВыражениеЗаполненияАналитики4,
+	ВыражениеЗаполненияАналитики5,
+	ВыражениеЗаполненияАналитики6,
+	ЗаполнятьУказаннымЗначениемАналитику1,
+	ЗаполнятьУказаннымЗначениемАналитику2,
+	ЗаполнятьУказаннымЗначениемАналитику3,
+	ЗаполнятьУказаннымЗначениемАналитику4,
+	ЗаполнятьУказаннымЗначениемАналитику5,
+	ЗаполнятьУказаннымЗначениемАналитику6,
+	ЗначениеАналитики1,
+	ЗначениеАналитики2,
+	ЗначениеАналитики3,
+	ЗначениеАналитики4,
+	ЗначениеАналитики5,
+	ЗначениеАналитики6,
+	ТипПравила,
+	Коэффициент,
+	ДействуетС,
+	ДействуетПо,
+	Расход,
+	СтатьяБюджетовДляРасчетаПоказателя,
+	СвязиПоказателейБюджетов_Аналитика1,
+	СвязиПоказателейБюджетов_Аналитика2,
+	СвязиПоказателейБюджетов_Аналитика3,
+	СвязиПоказателейБюджетов_Аналитика4,
+	СвязиПоказателейБюджетов_Аналитика5,
+	СвязиПоказателейБюджетов_Аналитика6,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику1,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику2,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику3,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику4,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику5,
+	СвязиПоказателейБюджетов_ТранслироватьАналитику6,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики1,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики2,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики3,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики4,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики5,
+	СвязиПоказателейБюджетов_АдресТрансляцииАналитики6,
+	СвязиПоказателейБюджетов_ВидАналитики1,
+	СвязиПоказателейБюджетов_ВидАналитики2,
+	СвязиПоказателейБюджетов_ВидАналитики3,
+	СвязиПоказателейБюджетов_ВидАналитики4,
+	СвязиПоказателейБюджетов_ВидАналитики5,
+	СвязиПоказателейБюджетов_ВидАналитики6,
+	СвязиПоказателейБюджетов_КоличествоИспользуемыхАналитик,
+	СвязиПоказателейБюджетов_ВалютаОпределяетсяАналитикой,
+	СвязиПоказателейБюджетов_АдресАналитикиВалюта,
+	СвязиПоказателейБюджетов_ПолеВалютыАналитики}
+ИЗ
+	ПравилаПолученияФакта КАК ПравилаПолученияФакта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СтатьиБюджетов КАК СтатьиБюджетов
+		ПО ПравилаПолученияФакта.СтатьяБюджетов = СтатьиБюджетов.Ссылка
+ГДЕ
+	ВЫБОР
+			КОГДА ПравилаПолученияФакта.ИдентификаторИсточникаДанных = "ДвиженияДенежныхСредствКВыплате"
+				ТОГДА ВЫРАЗИТЬ(ПравилаПолученияФакта.ИсточникДанных КАК Справочник.НастройкиХозяйственныхОпераций).Расход = ЗНАЧЕНИЕ(Перечисление.ТипыДанныхУчета.ДенежныеСредства)
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ИмяСправочникаИсточника</dataPath>
+		<expression>&amp;ИмяСправочникаИсточника</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя справочника источника</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыражениеПоказателяСуммаВалюта</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыражениеПоказателяСуммы(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных, "Валюта", РазделИсточникаДанных, ТипИтога, ИсточникСуммыОперации, ИсточникВалютный)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражение показателя сумма валюта</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыражениеПоказателяСуммаВалютаУпр</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыражениеПоказателяСуммы(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных, "ВалютаУпр", РазделИсточникаДанных, ТипИтога, ИсточникСуммыОперации, ИсточникВалютный)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражение показателя сумма валюта упр</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыражениеПоказателяСуммаВалютаРегл</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыражениеПоказателяСуммы(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных, "ВалютаРегл", РазделИсточникаДанных, ТипИтога, ИсточникСуммыОперации, ИсточникВалютный)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражение показателя сумма валюта регл</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыражениеПоказателяСуммаКорВалюта</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыражениеПоказателяСуммы(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных, "КорВалюта", РазделИсточникаДанных, ТипИтога, ИсточникСуммыОперации, ИсточникВалютный)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражение показателя сумма кор валюта</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыражениеПоказателяКоличество</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыражениеПоказателяКоличества(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных,  РазделИсточникаДанных, ТипИтога)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражение показателя количество</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВыраженияПоказателейСуммы</dataPath>
+		<expression>ИсточникиДанныхПовтИсп.ВыраженияПоказателейСуммы(&amp;ИмяСправочникаИсточника, ИдентификаторИсточникаДанных,  РазделИсточникаДанных, ТипИтога, ИсточникСуммыОперации, ИсточникВалютный)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выражения показателей суммы</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИдентификаторИсточникаДанных</dataPath>
+		<expression>ВЫБОР КОГДА ИдентификаторИсточникаДанных = "ДвиженияДенежныхСредствКВыплате" ТОГДА ИдентификаторИсточникаДанных + МониторингЦелевыхПоказателей.ПолучитьИмяЗначенияПеречисления(
+				ТипДанныхУчетаПриход) ИНАЧЕ ИдентификаторИсточникаДанных КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Идентификатор источника данных</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeId>d52d0bac-ddd8-4177-82b4-0b9455a276bd</v8:TypeId>
+		</valueType>
+	</calculatedField>
+	<parameter>
+		<name>ИспользуетсяМеждународныйУчет</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Используется международный учет</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<expression>БюджетированиеСервер.ИспользуетсяМеждународныйУчет()</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ИмяСправочникаИсточника</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя справочника источника</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">ПравилаПолученияФактаПоСтатьямБюджетов</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПоТаблицеКорреспонденций</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По таблице корреспонденций</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<expression>ПолучитьФункциональнуюОпцию("НастройкаПравилПолученияФактаПоКорреспондирующимРегистрам")</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПоРегиструЛимитов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По регистру лимитов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<expression>ПолучитьФункциональнуюОпцию("КонтрольЛимитовПоДаннымБюджетирования2_5")</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатьяБюджетов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПоказательБюджетов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяСправочникаИсточника</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Правило</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдентификаторИсточникаДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПравила</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Коэффициент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействуетС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействуетПо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Расход</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнениеВалюты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресАналитикиВалюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПолеВалютыАналитики</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнениеЕдиницыИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресАналитикиЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПолеЕдиницыИзмеренияАналитики</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РазделИсточникаДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсточникДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсточникДанныхХО</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипДанныхУчетаПриход</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипДанныхУчетаРасход</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяМакетаИсточникаДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ХозяйственнаяОперация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсточникСуммыОперации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КорСчет</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИсточникВалютный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОборотПоАналитикеРасхода</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипИтога</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ХешНастроек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ХешСхемыКомпоновкиДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомпоновщикНастроек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СхемаИсточникаДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАналитики6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасширенныйРежимНастройкиЗаполненияАналитики</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеЗаполненияАналитики6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаполнятьУказаннымЗначениемАналитику6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеАналитики6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеПоказателяКоличество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеПоказателяСуммаВалюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеПоказателяСуммаВалютаРегл</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеПоказателяСуммаВалютаУпр</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыражениеПоказателяСуммаКорВалюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыраженияПоказателейСуммы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

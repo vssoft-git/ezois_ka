@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80ba4c41-829c-4fcf-b65d-d51a7a26e17f" extendedConfigurationObject="a63f1b01-96fa-4e19-8ac7-8aacf56ffff8">
+  <producedTypes>
+    <containerType typeId="13be8129-ed21-4b1a-9a60-700bcac68be1" valueTypeId="20e67ef9-6232-46b9-af43-302f4a79a0e6"/>
+  </producedTypes>
+  <name>ОснованиеУведомленияОСписанииКиЗГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ВнутреннееПотребление</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

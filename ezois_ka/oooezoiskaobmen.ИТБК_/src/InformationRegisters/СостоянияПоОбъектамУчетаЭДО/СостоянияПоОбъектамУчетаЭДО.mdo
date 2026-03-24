@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1a02e042-c0f7-47e2-a463-ac04dc4f7864" extendedConfigurationObject="94cb8fd8-e78e-4367-870e-e56a7e5e245d">
+  <producedTypes>
+    <selectionType typeId="0a8de143-f273-4c88-b4fa-15450e02d2a9" valueTypeId="b2c5a4c9-dce7-4335-95b3-f98ced301827"/>
+    <listType typeId="b7080ad8-096d-43c4-9efb-01789f878400" valueTypeId="6c9bcf08-30f0-45e8-9876-7c996a61d4f8"/>
+    <managerType typeId="8e878d8d-0cf4-4060-a5b6-8c7ebee389cd" valueTypeId="71d4a81c-feb9-4c07-a9b8-5d7e9016beba"/>
+    <recordSetType typeId="492736c1-4b9b-43dc-9198-e8b48a217931" valueTypeId="3b723294-36cf-4219-9649-f1e4b5fe44da"/>
+    <recordKeyType typeId="ab9decab-772f-485d-979a-89c6dc33b92d" valueTypeId="ac04abfb-a6ef-4ba0-9f76-a52955b9bb27"/>
+    <recordType typeId="7116d8e2-1896-45e1-b833-ed70241b8215" valueTypeId="51d4cc30-ec16-4458-bd50-dfd1268c32d8"/>
+    <recordManagerType typeId="02c2cade-8a2d-4023-802b-77d9a9005b72" valueTypeId="06685915-e0ca-4b32-8ba2-c81b35bc6310"/>
+  </producedTypes>
+  <name>СостоянияПоОбъектамУчетаЭДО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="8025a16b-50b3-42e7-9b21-8f166a02bc0a" extendedConfigurationObject="9eb44008-3db8-4c27-940d-149dfe89ffe0">
+    <name>СостояниеЭДО</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияДокументовЭДО</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="3dc2cc11-092e-41fe-a981-7046cebb01cd" extendedConfigurationObject="cb90bdf4-c492-45ef-b596-12109e8f7847">
+    <name>ПредставлениеСостояния</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="226296a4-3287-4b4d-9292-1e589d1b1e4d" extendedConfigurationObject="bb074754-23ca-4d93-98f1-533aec10d349">
+    <name>СсылкаНаОбъект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияЭлектронныхДокументовЭДО</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

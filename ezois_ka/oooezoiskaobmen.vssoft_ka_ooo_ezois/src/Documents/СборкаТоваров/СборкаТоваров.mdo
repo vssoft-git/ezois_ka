@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8acd4362-e41f-45e6-8108-88b4650154de" extendedConfigurationObject="600ea876-962e-4c78-bacb-7368e2d7bd87">
+  <producedTypes>
+    <objectType typeId="ca643557-24df-476c-8cba-b1ba974c4846" valueTypeId="f48a3316-719e-4d7a-ac17-6462ad019700"/>
+    <refType typeId="6a6a3700-7657-4088-b656-31b03c3f8ff4" valueTypeId="12ff14da-2a78-4be1-a2ec-7d2f3e75530e"/>
+    <selectionType typeId="c2713ed8-c417-42cc-a8f6-cd14a4557732" valueTypeId="c8c1101e-bf82-4871-bb86-72d3df8b42ea"/>
+    <listType typeId="64f5f084-ffbe-41a2-8c56-a56770acdf91" valueTypeId="c8473dcb-e721-46ae-863f-83cd01b47438"/>
+    <managerType typeId="954d48cc-f396-434a-bb63-95925b9b5999" valueTypeId="960d5f6f-356f-4390-b8da-2268e9364f0d"/>
+  </producedTypes>
+  <name>СборкаТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <registerRecords>AccumulationRegister.vs_Доизготовление</registerRecords>
+  <registerRecords>AccumulationRegister.ИТБК_Доизготовление</registerRecords>
+  <attributes uuid="f1d503fa-e673-4bf0-9851-ae16eaf1b40a" extendedConfigurationObject="e7d6af32-9bc6-40c2-b3f1-f5d16ad67df9">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СборкаТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a2f67e19-9e75-4039-a2c0-afa3a607700c" extendedConfigurationObject="660a4c7d-a983-455d-8258-5307371c13f8">
+    <name>ЗаказНаСборку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаСборку</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3464dfc6-06c9-48f1-aa34-c9171059caec" extendedConfigurationObject="b16013d8-0227-4894-95d4-41b953964e2b">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="c356d74a-39ce-4b63-ae8f-1c45760f6181">
+    <name>vs_АктИзготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value># акт изготовления</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>DocumentRef.ЗаказНаСборку</types>
+      <types>DocumentRef.СборкаТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a8d6239-b700-49ee-a12c-29aef43df827">
+    <name>ПлановаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена плановая</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цена</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1b3d067-f1e6-4df3-ba72-c82ce5d7e5ea">
+    <name>СуммаПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма плановая</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма для номенклатуры</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="770036b0-24c3-46a7-b14c-dd42f66785c0" extendedConfigurationObject="52b01363-8774-4cb2-a192-b4017c48be6b">
+    <producedTypes>
+      <objectType typeId="77f681d3-344a-4a56-baa4-503aa3ba6165" valueTypeId="6f33ff71-9b97-4005-b3fb-de8b50d57eed"/>
+      <rowType typeId="180b8f93-d086-4f5b-b26f-05c20d11b7fc" valueTypeId="e9104ec9-3991-46cd-be14-7b39c93782cd"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующие</value>
+    </synonym>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="2ab3667f-b090-4b0d-8e25-9433358a8f92" extendedConfigurationObject="a25e3b0c-2647-4c12-aa53-991fe77955a6">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bcead973-8281-4e68-947c-acd082c0b6d0">
+    <producedTypes>
+      <objectType typeId="743a785b-3620-475f-b6af-61b2951788e9" valueTypeId="a0d9cbb6-45e6-4bee-abbc-9dfefe37c8a8"/>
+      <rowType typeId="167ea891-d759-4b1e-81e0-a133640c029c" valueTypeId="511daef0-c3f5-4227-9335-be975d707e87"/>
+    </producedTypes>
+    <name>vs_Доизготовить</name>
+    <synonym>
+      <key>ru</key>
+      <value># доизготовить</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7e264121-e959-4a4e-b9bf-287841f5a71a">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Необходимо выбрать номенклатуру с видом Товар </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара</value>
+          </values>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77ab71ed-8297-4eee-8618-1bdeeb03c235">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной номенклатуры используются характеристики, то необходимо выбрать характеристику номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c2b39e7-1b80-4ef2-bcaf-2f58e5aa176b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <tooltip>Extended</tooltip>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

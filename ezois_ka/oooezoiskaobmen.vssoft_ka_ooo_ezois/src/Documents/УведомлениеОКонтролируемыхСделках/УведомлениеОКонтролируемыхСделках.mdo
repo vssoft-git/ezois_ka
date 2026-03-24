@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9d291ec-d02b-4ac1-ab49-02cf607ba93d" extendedConfigurationObject="7e0efd01-8d35-4b81-9973-4e46749b1bd4">
+  <producedTypes>
+    <objectType typeId="d34c02dc-b3a5-4de4-9f9e-f808bea51d85" valueTypeId="5e4a1f86-7187-4f08-845f-ad49fc9492c6"/>
+    <refType typeId="34d5c8ac-63b6-44ae-9b8f-2e5c11b418a1" valueTypeId="4b974df7-5958-493c-9ec7-84ae501b1dae"/>
+    <selectionType typeId="2bfea392-7646-4916-bbfb-53cafc37096a" valueTypeId="0f017371-5452-491c-954d-41fe61a612d2"/>
+    <listType typeId="508c4e00-1c69-4507-b5e2-fa192f7abfde" valueTypeId="266a4360-09a3-47ac-86ee-eb39b3caf3f4"/>
+    <managerType typeId="dd6cdd25-dc4c-48ef-8a93-59124a8af992" valueTypeId="d77126b9-407d-47b9-80a0-18b0a1ebf8a2"/>
+  </producedTypes>
+  <name>УведомлениеОКонтролируемыхСделках</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

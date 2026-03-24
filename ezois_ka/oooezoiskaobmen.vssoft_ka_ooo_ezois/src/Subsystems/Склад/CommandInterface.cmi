@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВнутреннееПотребление.Command.vs_Доизготовление</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ВнутреннееПотребление.Command.vs_Доизготовление</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ВнутреннееПотребление.StandardCommand.OpenList</commands>
+      <commands>Document.ВнутреннееПотребление.Command.vs_Доизготовление</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.vs_МатериальныйОтчет.StandardCommand.Open</commands>
+      <commands>Report.vs_НевыполненныеОбязательстваПоЗаказуНаСборку.StandardCommand.Open</commands>
+      <commands>Report.vs_АнализПлановогоИФактическогоПотребленияМатериалов.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Склад.Subsystem.УправлениеДоставкой</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

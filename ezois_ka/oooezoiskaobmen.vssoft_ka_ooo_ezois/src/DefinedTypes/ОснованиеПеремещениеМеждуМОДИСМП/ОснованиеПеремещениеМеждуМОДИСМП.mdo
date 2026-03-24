@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="322d85d6-8ec2-49dc-aca4-488fa20b44de" extendedConfigurationObject="b5ab1b0d-568f-4daa-8aa1-45ae3c467f21">
+  <producedTypes>
+    <containerType typeId="1f8b29e3-197e-4ca4-a20d-82d0872b7e09" valueTypeId="51a00c5f-1b98-47a6-9fda-543fb0a9be34"/>
+  </producedTypes>
+  <name>ОснованиеПеремещениеМеждуМОДИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ПеремещениеТоваров</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

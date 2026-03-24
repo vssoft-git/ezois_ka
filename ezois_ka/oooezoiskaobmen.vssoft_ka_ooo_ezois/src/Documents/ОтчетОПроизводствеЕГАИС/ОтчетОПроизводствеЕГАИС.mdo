@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea5d572c-f9c1-4883-a59e-8493e3ed1961" extendedConfigurationObject="cf11fcdd-ff32-4329-a1f5-c726bc975a02">
+  <producedTypes>
+    <objectType typeId="192a7619-7240-41d0-aa91-b0db560b2fb3" valueTypeId="0536d0eb-b1ad-4b4a-92fd-f7e9baa95e07"/>
+    <refType typeId="6fcf9da3-9763-49e0-87ce-dbab06cc3321" valueTypeId="02b15851-adca-4004-8bf8-c61911af60cf"/>
+    <selectionType typeId="717981c3-8ded-47ae-8829-8709a33441b6" valueTypeId="801880bd-3920-4f45-988d-700274bfc08a"/>
+    <listType typeId="2854b1b1-b3f0-42dc-ba16-0c07d247fbe9" valueTypeId="5335c53d-04fa-475b-bdeb-c47f2511b2a1"/>
+    <managerType typeId="0536f127-90e3-4e7e-b531-460fe7d7a1ea" valueTypeId="002bc5f3-9f44-4dc9-a0fb-040da50e09a8"/>
+  </producedTypes>
+  <name>ОтчетОПроизводствеЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="7caa3c8c-315d-4898-a0b0-2c56a2cf44a8" extendedConfigurationObject="972fb1a1-aa66-4d8e-8e08-97f5d4934b25">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеОтчетОПроизводствеЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

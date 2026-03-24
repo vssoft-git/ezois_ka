@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4664aa8e-09ce-4d2f-a765-8d525904e400" extendedConfigurationObject="1b8b67c9-d102-4098-9ab2-841322b60f6e">
+  <producedTypes>
+    <objectType typeId="8f85ec77-3693-4754-9a50-6431def66171" valueTypeId="1e8a9643-45a8-4ecc-9397-9699ffa440f5"/>
+    <refType typeId="d5ff8e80-237c-4cef-b123-191fa29e6dfa" valueTypeId="c2ad6077-ea49-4d94-a5e5-49c3f5f46356"/>
+    <selectionType typeId="a256b1c6-5ea1-48f5-8d92-f8d2fedde21f" valueTypeId="272be718-11a0-46b6-a423-053f4747059a"/>
+    <listType typeId="8e67640f-4012-49cc-a7b8-739cdfe64e07" valueTypeId="19a012a1-26a2-4321-9b2a-b5f929a45a4e"/>
+    <managerType typeId="b261ffae-c280-4163-927d-34529aa3a5d9" valueTypeId="7c946a77-90e0-490f-b294-4135d9b9f05d"/>
+  </producedTypes>
+  <name>КоммерческоеПредложениеКлиенту</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="2d7a193b-fff9-4c00-a750-2f176a592267" extendedConfigurationObject="b596749b-e018-470f-817f-d9f00c5a20cc">
+    <name>УдалитьДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.КоммерческоеПредложениеКлиенту</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b53cdc80-0dab-4485-b07f-75f82c01b31c" extendedConfigurationObject="a33d75a9-4c3d-41b2-a687-37eb78c263ac">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияКоммерческогоПредложенияКлиенту</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="187ec1c3-3581-4550-b6c3-12feb3b65584" extendedConfigurationObject="5a5a13d2-e848-4179-a826-2ff1d2244b2b">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="0eca2ad1-dc58-484c-ac9a-dc3ced0acfd4" extendedConfigurationObject="6b43a713-3abc-4609-b9a8-e85fd984e6bc">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="a1c40f3a-13ce-4fc7-b220-0a205a0fd72e" extendedConfigurationObject="ebd3ada4-6ba1-478b-b147-49ae1623f2b3">
+    <producedTypes>
+      <objectType typeId="8a8af3db-21fd-4ab7-85ed-22215e053265" valueTypeId="c96a7c51-adf4-4406-b77e-ab67be374574"/>
+      <rowType typeId="c7cb6374-5861-4246-bec6-9abac588acde" valueTypeId="2c40f2e7-3ca0-408a-b972-0d8fd6554325"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="7a514fe2-3e5b-44d4-9356-56b8a6f62062" extendedConfigurationObject="ed56e32a-75e7-4dff-8dc1-1cac24ac97a9">
+      <name>КомментарийДляПокупателя</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Notify</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Extended</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="3d904233-fd3e-4bc3-88b5-1dd96c9bd80a" extendedConfigurationObject="46f97ce0-2c29-415d-89e7-c7750113ea4c">
+      <name>КомментарийВнутренний</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Notify</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Extended</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>1000</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <templates uuid="5e45ce0e-593a-436f-8aac-c2c29d4b3a96">
+    <name>vs_ПФ_DOC_КоммерческоеПредложение_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vs п ф DOC коммерческое предложение ru</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8bccf8ba-6c40-44a9-ab5b-46b34a8fb372">
+    <name>vs_ПФ_DOC_КоммерческоеПредложениеСПодписью_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Vs п ф DOC коммерческое предложение с подписью ru</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="9a3a5e8f-218c-4729-b243-80ffe0786409">
+    <name>vs_ВводНаОснованииСогласованияПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <synonym>Extended</synonym>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.КоммерческоеПредложениеКлиенту</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

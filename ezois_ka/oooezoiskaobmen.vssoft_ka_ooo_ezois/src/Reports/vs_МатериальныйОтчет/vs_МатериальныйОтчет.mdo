@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="633a4418-7c70-4aa6-88b5-a2fffda77816">
+  <producedTypes>
+    <objectType typeId="9a353c91-69e6-4991-b1df-637d24bf365f" valueTypeId="69ade04a-31f5-4744-9b04-2ca19b85f183"/>
+    <managerType typeId="aaa7534d-c193-4784-94c3-4197023cadc5" valueTypeId="c48cb1f0-4bce-4dcd-a4f3-648690084a5f"/>
+  </producedTypes>
+  <name>vs_МатериальныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материальный отчет (vssoft)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.vs_МатериальныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="fc9f5e8a-521a-4d07-9dbc-0ebedfe55fad">
+    <name>ФормироватьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать документы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9cd7acff-ce8c-4bf9-94c4-03be4ff14b8b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27ef6e13-0e63-45d4-a708-43418c05d56c">
+    <name>СкладЦеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цеховая кладовая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="555f770b-bc10-4c0a-8e1a-c03ff418fecf">
+    <name>ФормаПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма передачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="55982e18-fedd-4a21-b24b-7e9d2b93ee5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="ce56a40b-d3a3-4ec5-8021-e918bbe4c1f3">
+    <name>vs_ЗаполнитьМатериальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить материальный отчет (vssoft)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ceb47fec-1fea-403e-bdc9-25cc88fdba51" extendedConfigurationObject="be326876-c16a-4ada-aec2-70b3788883ce">
+  <producedTypes>
+    <objectType typeId="e20b35d8-bd64-492d-be56-7e6a2d6b8cc5" valueTypeId="3e3ae1ee-ad40-464b-85c2-cc52cdabbd42"/>
+    <refType typeId="3dc2d6fb-ce45-4fb5-9338-d24425381630" valueTypeId="347f7a23-8584-48b0-935b-889b17fe6c07"/>
+    <selectionType typeId="b988aef6-757f-485b-9a5e-01eb513328e2" valueTypeId="bb0c1240-5209-40e6-bb3b-0ed5b1a2672c"/>
+    <listType typeId="2e528740-f2e2-4db2-b1da-63de9b1d116b" valueTypeId="ec7f0ad6-4ea4-4fc2-8abf-e2688539beac"/>
+    <managerType typeId="1c91b0e5-3760-49ff-8ab8-e7818fa60a20" valueTypeId="fc0918a4-67a5-4f8b-8862-be8019e5fb21"/>
+  </producedTypes>
+  <name>НачислениеЕНП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="977c38aa-0155-4584-a449-16734c63cb94" extendedConfigurationObject="70b53f7b-1108-4f41-8b52-29beab5ce048">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПерерасчетИмущественныхНалогов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

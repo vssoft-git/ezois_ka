@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАктивовИОбязательств</dataPath>
+			<field>ВидАктивовИОбязательств</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Филиал</dataPath>
+			<field>Филиал</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеДеятельности</dataPath>
+			<field>НаправлениеДеятельности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто3</dataPath>
+			<field>Субконто3</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОперацийНачало</dataPath>
+			<field>СуммаОперацийНачало</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма операций (на начало периода)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалогНачало</dataPath>
+			<field>НалогНачало</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Налог на прибыль (на начало периода)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОперацийКонец</dataPath>
+			<field>СуммаОперацийКонец</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма операций (на конец периода)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалогКонец</dataPath>
+			<field>НалогКонец</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Налог на прибыль (на конец периода)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль</dataPath>
+			<field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект включения суммы операции в нераспределенную прибыль</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектИзмененияСтавкиТекущегоНалога</dataPath>
+			<field>ЭффектИзмененияСтавкиТекущегоНалога</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект изменения ставки текущего налога</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектИзмененияСтавкиБудущегоНалога</dataPath>
+			<field>ЭффектИзмененияСтавкиБудущегоНалога</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект изменения ставки будущего налога</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц</dataPath>
+			<field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект включения суммы операции в нераспределенную прибыль (за месяц)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц</dataPath>
+			<field>ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект изменения ставки текущего налога (за месяц)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц</dataPath>
+			<field>ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффект изменения ставки будущего налога (за месяц)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВариантНО</dataPath>
+			<field>ВариантНО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант НО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредыдущийПериодСуммаОперацийКонец</dataPath>
+			<field>ПредыдущийПериодСуммаОперацийКонец</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма операций (на конец предыдущего месяца)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредыдущийПериодНалогКонец</dataPath>
+			<field>ПредыдущийПериодНалогКонец</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Налог на прибыль (на конец предыдущего месяца)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль</dataPath>
+			<field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Налог на прибыль от операций, результат которых не включается в чистую прибыль (убыток) периода</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц</dataPath>
+			<field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Налог на прибыль от операций, результат которых не включается в чистую прибыль (убыток) периода (за месяц)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	РазвернутоПоВидамРазниц.ВидАктивовИОбязательств КАК ВидАктивовИОбязательств,
+	РазвернутоПоВидамРазниц.Счет КАК Счет,
+	РазвернутоПоВидамРазниц.Филиал КАК Филиал,
+	РазвернутоПоВидамРазниц.Подразделение КАК Подразделение,
+	РазвернутоПоВидамРазниц.НаправлениеДеятельности КАК НаправлениеДеятельности,
+	РазвернутоПоВидамРазниц.Субконто1 КАК Субконто1,
+	РазвернутоПоВидамРазниц.Субконто2 КАК Субконто2,
+	РазвернутоПоВидамРазниц.Субконто3 КАК Субконто3,
+	СУММА(РазвернутоПоВидамРазниц.СуммаОперацийНачало) КАК СуммаОперацийНачало,
+	СУММА(РазвернутоПоВидамРазниц.СуммаОперацийКонец) КАК СуммаОперацийКонец,
+	СУММА(РазвернутоПоВидамРазниц.ПредыдущийПериодСуммаОперацийКонец) КАК ПредыдущийПериодСуммаОперацийКонец,
+	СУММА(РазвернутоПоВидамРазниц.НалогНачало) КАК НалогНачало,
+	СУММА(РазвернутоПоВидамРазниц.НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль) КАК НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль,
+	СУММА(РазвернутоПоВидамРазниц.НалогКонец) КАК НалогКонец,
+	СУММА(РазвернутоПоВидамРазниц.ПредыдущийПериодНалогКонец) КАК ПредыдущийПериодНалогКонец,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль) КАК ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектИзмененияСтавкиТекущегоНалога) КАК ЭффектИзмененияСтавкиТекущегоНалога,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектИзмененияСтавкиБудущегоНалога) КАК ЭффектИзмененияСтавкиБудущегоНалога,
+	СУММА(РазвернутоПоВидамРазниц.НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц) КАК НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц) КАК ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц) КАК ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц,
+	СУММА(РазвернутоПоВидамРазниц.ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц) КАК ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц
+{ВЫБРАТЬ
+	ВидАктивовИОбязательств.*,
+	Счет.*,
+	Филиал.*,
+	Подразделение.*,
+	НаправлениеДеятельности.*,
+	Субконто1.*,
+	Субконто2.*,
+	Субконто3.*,
+	СуммаОперацийНачало,
+	НалогНачало,
+	НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль,
+	СуммаОперацийКонец,
+	ПредыдущийПериодСуммаОперацийКонец,
+	НалогКонец,
+	ПредыдущийПериодНалогКонец,
+	ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+	ЭффектИзмененияСтавкиТекущегоНалога,
+	ЭффектИзмененияСтавкиБудущегоНалога,
+	НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц,
+	ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц,
+	ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц,
+	ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц}
+ИЗ
+	(ВЫБРАТЬ
+		НачалоПериода.ВидАктивовИОбязательств КАК ВидАктивовИОбязательств,
+		НачалоПериода.Счет КАК Счет,
+		НачалоПериода.Филиал КАК Филиал,
+		НачалоПериода.Подразделение КАК Подразделение,
+		НачалоПериода.Субконто1 КАК Субконто1,
+		НачалоПериода.Субконто2 КАК Субконто2,
+		НачалоПериода.Субконто3 КАК Субконто3,
+		ВЫБОР
+			КОГДА НачалоПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА НачалоПериода.ВременнаяРазница
+			ИНАЧЕ -НачалоПериода.ВременнаяРазница
+		КОНЕЦ КАК СуммаОперацийНачало,
+		0 КАК СуммаОперацийКонец,
+		0 КАК ПредыдущийПериодСуммаОперацийКонец,
+		ВЫБОР
+			КОГДА НачалоПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -НачалоПериода.ОтложенныйНалог
+			ИНАЧЕ НачалоПериода.ОтложенныйНалог
+		КОНЕЦ КАК НалогНачало,
+		0 КАК НалогКонец,
+		0 КАК ПредыдущийПериодНалогКонец,
+		0 КАК НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль,
+		0 КАК ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+		0 КАК ЭффектИзмененияСтавкиТекущегоНалога,
+		0 КАК ЭффектИзмененияСтавкиБудущегоНалога,
+		0 КАК НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц,
+		0 КАК ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц,
+		0 КАК ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц,
+		0 КАК ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц,
+		НачалоПериода.НаправлениеДеятельности КАК НаправлениеДеятельности
+	ИЗ
+		РегистрСведений.РасчетОтложенногоНалога КАК НачалоПериода
+	ГДЕ
+		НачалоПериода.ОтчетнаяДата = &amp;НачальныеДанныеОтчетнаяДата
+		И НачалоПериода.ПериодРасчета = &amp;НачальныеДанныеПериодРасчета
+		И НачалоПериода.Активность
+		И НачалоПериода.СчетОтложенногоНалога В ИЕРАРХИИ (ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.НалогНаПрибыльОтОперацийПереоценки))
+	{ГДЕ
+		НачалоПериода.ВидАктивовИОбязательств.* КАК ВидАктивовИОбязательств,
+		НачалоПериода.Счет.* КАК Счет,
+		НачалоПериода.Филиал.* КАК Филиал,
+		НачалоПериода.Организация.* КАК Организация,
+		НачалоПериода.Субконто1.*,
+		НачалоПериода.Субконто2.*,
+		НачалоПериода.Субконто3.*,
+		НачалоПериода.Подразделение.*,
+		НачалоПериода.НаправлениеДеятельности.*,
+		НачалоПериода.ВариантНалогообложенияПрибыли КАК ВариантНО}
+ 
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ПредыдущийРасчет.ВидАктивовИОбязательств,
+		ПредыдущийРасчет.Счет,
+		ПредыдущийРасчет.Филиал,
+		ПредыдущийРасчет.Подразделение,
+		ПредыдущийРасчет.Субконто1,
+		ПредыдущийРасчет.Субконто2,
+		ПредыдущийРасчет.Субконто3,
+		0,
+		0,
+		ВЫБОР
+			КОГДА ПредыдущийРасчет.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА ПредыдущийРасчет.ВременнаяРазница
+			ИНАЧЕ -ПредыдущийРасчет.ВременнаяРазница
+		КОНЕЦ,
+		0,
+		0,
+		ВЫБОР
+			КОГДА ПредыдущийРасчет.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -ПредыдущийРасчет.ОтложенныйНалог
+			ИНАЧЕ ПредыдущийРасчет.ОтложенныйНалог
+		КОНЕЦ,
+		0,
+		0,
+		0,
+		0,
+		ВЫБОР
+			КОГДА ПредыдущийРасчет.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА ПредыдущийРасчет.ЭффектУменьшенияВременныхРазниц
+			ИНАЧЕ -ПредыдущийРасчет.ЭффектУвеличенияВременныхРазниц
+		КОНЕЦ
+		+ ВЫБОР
+			КОГДА ПредыдущийРасчет.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -ПредыдущийРасчет.ЭффектУвеличенияВременныхРазниц
+			ИНАЧЕ ПредыдущийРасчет.ЭффектУменьшенияВременныхРазниц
+		КОНЕЦ - ПредыдущийРасчет.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,         
+		-ПредыдущийРасчет.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+		-ПредыдущийРасчет.ЭффектИзмененияСтавкиТекущегоНалога,
+		-ПредыдущийРасчет.ЭффектИзмененияСтавкиБудущегоНалога,
+		ПредыдущийРасчет.НаправлениеДеятельности
+	ИЗ
+		РегистрСведений.РасчетОтложенногоНалога КАК ПредыдущийРасчет
+	ГДЕ
+		ПредыдущийРасчет.ОтчетнаяДата = &amp;ПредыдущийРасчетОтчетнаяДата
+		И ПредыдущийРасчет.ПериодРасчета = &amp;ПредыдущийРасчетПериодРасчета
+		И ПредыдущийРасчет.Активность
+		И ПредыдущийРасчет.СчетОтложенногоНалога В ИЕРАРХИИ (ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.НалогНаПрибыльОтОперацийПереоценки))
+	{ГДЕ
+		ПредыдущийРасчет.ВидАктивовИОбязательств.* КАК ВидАктивовИОбязательств,
+		ПредыдущийРасчет.Счет.* КАК Счет,
+		ПредыдущийРасчет.Филиал.* КАК Филиал,
+		ПредыдущийРасчет.Организация.* КАК Организация,
+		ПредыдущийРасчет.Субконто1.*,
+		ПредыдущийРасчет.Субконто2.*,
+		ПредыдущийРасчет.Субконто3.*,
+		ПредыдущийРасчет.Подразделение.*,
+		ПредыдущийРасчет.НаправлениеДеятельности.*,
+		ПредыдущийРасчет.ВариантНалогообложенияПрибыли КАК ВариантНО}
+		
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		КонецПериода.ВидАктивовИОбязательств,
+		КонецПериода.Счет,
+		КонецПериода.Филиал,
+		КонецПериода.Подразделение,
+		КонецПериода.Субконто1,
+		КонецПериода.Субконто2,
+		КонецПериода.Субконто3,
+		0,
+		ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА КонецПериода.ВременнаяРазница
+			ИНАЧЕ -КонецПериода.ВременнаяРазница
+		КОНЕЦ,
+		0,
+		0,
+		ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -КонецПериода.ОтложенныйНалог
+			ИНАЧЕ КонецПериода.ОтложенныйНалог
+		КОНЕЦ,
+		0,
+		ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -КонецПериода.ЭффектУменьшенияВременныхРазниц
+			ИНАЧЕ КонецПериода.ЭффектУвеличенияВременныхРазниц
+		КОНЕЦ + 
+		ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА КонецПериода.ЭффектУвеличенияВременныхРазниц
+			ИНАЧЕ -КонецПериода.ЭффектУменьшенияВременныхРазниц
+		КОНЕЦ + КонецПериода.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,         
+		КонецПериода.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+		КонецПериода.ЭффектИзмененияСтавкиТекущегоНалога,
+		КонецПериода.ЭффектИзмененияСтавкиБудущегоНалога,
+		ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА -КонецПериода.ЭффектУменьшенияВременныхРазниц
+			ИНАЧЕ КонецПериода.ЭффектУвеличенияВременныхРазниц
+		КОНЕЦ
+		+ ВЫБОР
+			КОГДА КонецПериода.СчетОтложенногоНалога.Вид = ЗНАЧЕНИЕ(ВидСчета.Пассивный)
+				ТОГДА КонецПериода.ЭффектУвеличенияВременныхРазниц
+			ИНАЧЕ -КонецПериода.ЭффектУменьшенияВременныхРазниц
+		КОНЕЦ + КонецПериода.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,         
+		КонецПериода.ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль,
+		КонецПериода.ЭффектИзмененияСтавкиТекущегоНалога,
+		КонецПериода.ЭффектИзмененияСтавкиБудущегоНалога,
+		КонецПериода.НаправлениеДеятельности
+	ИЗ
+		РегистрСведений.РасчетОтложенногоНалога КАК КонецПериода
+	ГДЕ
+		КонецПериода.ОтчетнаяДата = &amp;ОтчетнаяДата
+		И КонецПериода.ПериодРасчета = &amp;ПериодРасчета
+		И КонецПериода.Активность
+		И КонецПериода.СчетОтложенногоНалога В ИЕРАРХИИ (ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.НалогНаПрибыльОтОперацийПереоценки))
+	{ГДЕ
+		КонецПериода.ВидАктивовИОбязательств.* КАК ВидАктивовИОбязательств,
+		КонецПериода.Счет.* КАК Счет,
+		КонецПериода.Филиал.* КАК Филиал,
+		КонецПериода.Организация.* КАК Организация,
+		КонецПериода.Субконто1.*,
+		КонецПериода.Субконто2.*,
+		КонецПериода.Субконто3.*,
+		КонецПериода.Подразделение.*,
+		КонецПериода.НаправлениеДеятельности.*,
+		КонецПериода.ВариантНалогообложенияПрибыли КАК ВариантНО}) КАК РазвернутоПоВидамРазниц
+
+СГРУППИРОВАТЬ ПО
+	РазвернутоПоВидамРазниц.ВидАктивовИОбязательств,
+	РазвернутоПоВидамРазниц.Счет,
+	РазвернутоПоВидамРазниц.Филиал,
+	РазвернутоПоВидамРазниц.Подразделение,
+	РазвернутоПоВидамРазниц.Субконто1,
+	РазвернутоПоВидамРазниц.Субконто2,
+	РазвернутоПоВидамРазниц.Субконто3,
+	РазвернутоПоВидамРазниц.НаправлениеДеятельности</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ИзменениеСуммыОпераций</dataPath>
+		<expression>СуммаОперацийКонец - СуммаОперацийНачало</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Изменение суммы операций</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<condition>true</condition>
+			<group>true</group>
+		</useRestriction>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзменениеСуммыОперацийЗаМесяц</dataPath>
+		<expression>СуммаОперацийКонец -ПредыдущийПериодСуммаОперацийКонец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Изменение суммы операций за месяц</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<condition>true</condition>
+			<group>true</group>
+		</useRestriction>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ГруппаСчетов</dataPath>
+		<expression>Счет</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Счет</v8:content>
+			</v8:item>
+		</title>
+		<presentationExpression>Представление(Счет)</presentationExpression>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзменениеСуммыНалога</dataPath>
+		<expression>НалогКонец -НалогНачало</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Изменение налога</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<condition>true</condition>
+			<group>true</group>
+		</useRestriction>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзменениеСуммыНалогаЗаМесяц</dataPath>
+		<expression>НалогКонец -ПредыдущийПериодНалогКонец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Изменение налога за месяц</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<condition>true</condition>
+			<group>true</group>
+		</useRestriction>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>ИзменениеСуммыОпераций</dataPath>
+		<expression>Сумма(ИзменениеСуммыОпераций)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИзменениеСуммыОперацийЗаМесяц</dataPath>
+		<expression>Сумма(ИзменениеСуммыОперацийЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НалогКонец</dataPath>
+		<expression>Сумма(НалогКонец)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НалогНачало</dataPath>
+		<expression>Сумма(НалогНачало)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПредыдущийПериодСуммаОперацийКонец</dataPath>
+		<expression>Сумма(ПредыдущийПериодСуммаОперацийКонец)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОперацийКонец</dataPath>
+		<expression>Сумма(СуммаОперацийКонец)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОперацийНачало</dataPath>
+		<expression>Сумма(СуммаОперацийНачало)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль</dataPath>
+		<expression>Сумма(ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц</dataPath>
+		<expression>Сумма(ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектИзмененияСтавкиБудущегоНалога</dataPath>
+		<expression>Сумма(ЭффектИзмененияСтавкиБудущегоНалога)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц</dataPath>
+		<expression>Сумма(ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектИзмененияСтавкиТекущегоНалога</dataPath>
+		<expression>Сумма(ЭффектИзмененияСтавкиТекущегоНалога)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц</dataPath>
+		<expression>Сумма(ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИзменениеСуммыНалога</dataPath>
+		<expression>Сумма(ИзменениеСуммыНалога)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИзменениеСуммыНалогаЗаМесяц</dataPath>
+		<expression>Сумма(ИзменениеСуммыНалогаЗаМесяц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПредыдущийПериодНалогКонец</dataPath>
+		<expression>Сумма(ПредыдущийПериодНалогКонец)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль</dataPath>
+		<expression>Сумма(НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц</dataPath>
+		<expression>Сумма(НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц)</expression>
+	</totalField>
+	<parameter>
+		<name>ПериодРасчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период расчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ОтчетнаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчетная дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>НачальныеДанныеОтчетнаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начальные данные отчетная дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>НачальныеДанныеПериодРасчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начальные данные период расчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>СтавкаТекущегоНалога</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ставка текущего налога</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>1</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>СтавкаПредыдущаяОценка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ставка предыдущая оценка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>1</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПредыдущийРасчетОтчетнаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Предыдущий расчет отчетная дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПредыдущийРасчетПериодРасчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Предыдущий расчет период расчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xsi:nil="true"/>
+	</template>
+	<groupTemplate>
+		<groupName>БалансовыйОбъектОбъединенныйЗаголовок</groupName>
+		<templateType>Header</templateType>
+		<template>Макет1</template>
+	</groupTemplate>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Налог на прибыль от операций, результат которых не включается в чистую прибыль</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ОформлениеОтчетовЗеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:name>НаНачалоПериода</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>На начало периода</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СуммаОперацийНачало</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сумма операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>НалогНачало</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Налог</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:column>
+					<dcsset:name>НаКонецПериода</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>На конец периода</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>СуммаОперацийКонец</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сумма операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>НалогКонец</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Налог</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:column>
+					<dcsset:name>ЗаОтчетныйПериод</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>За отчетный период</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыОпераций</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение суммы операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыНалога</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектИзмененияСтавкиТекущегоНалога</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектИзмененияСтавкиБудущегоНалога</dcsset:field>
+								</dcsset:item>
+								<dcsset:placement>Horizontally</dcsset:placement>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:column>
+					<dcsset:name>ЗаМесяц</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>За месяц</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыОперацийЗаМесяц</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение суммы операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыНалогаЗаМесяц</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Налог на прибыль от операций, результат которых не включается в чистую прибыль (убыток) периода</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Эффект включения суммы операции в нераспределенную прибыль</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектИзмененияСтавкиТекущегоНалогаЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Эффект изменения ставки текущего налога</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектИзмененияСтавкиБудущегоНалогаЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Эффект изменения ставки будущего налога</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:placement>Horizontally</dcsset:placement>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:column>
+					<dcsset:name>ЗаОтчетныйПериодКратко</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>За отчетный период</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыОпераций</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение суммы операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыНалога</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыль</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыль</dcsset:field>
+								</dcsset:item>
+								<dcsset:placement>Horizontally</dcsset:placement>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:column>
+					<dcsset:name>ЗаМесяцКратко</dcsset:name>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>За месяц</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыОперацийЗаМесяц</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение суммы операций</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemField">
+								<dcsset:field>ИзменениеСуммыНалогаЗаМесяц</dcsset:field>
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+								<dcsset:lwsTitle>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изменение налога</v8:content>
+									</v8:item>
+								</dcsset:lwsTitle>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>НалогНаПрибыльОтОперацийКоторыеНеВключаютсяВЧистуюПрибыльЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Налог на прибыль от операций, результат которых не включается в чистую прибыль (убыток) периода</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>ЭффектВключенияСуммыОперацииВНераспределеннуюПрибыльЗаМесяц</dcsset:field>
+									<dcsset:lwsTitle>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Эффект включения суммы операции в нераспределенную прибыль</v8:content>
+										</v8:item>
+									</dcsset:lwsTitle>
+								</dcsset:item>
+								<dcsset:placement>Horizontally</dcsset:placement>
+							</dcsset:item>
+							<dcsset:placement>Auto</dcsset:placement>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидАктивовИОбязательств</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:name>БалансовыйОбъектОбъединенныйЗаголовок</dcsset:name>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ГруппаСчетов</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Филиал</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item>
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>НаправлениеДеятельности</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">НаправлениеДеятельности</dcsset:left>
+										<dcsset:comparisonType>Filled</dcsset:comparisonType>
+										<dcsset:application>Hierarchy</dcsset:application>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+								<dcsset:outputParameters>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+										<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+									</dcscor:item>
+								</dcsset:outputParameters>
+								<dcsset:item>
+									<dcsset:groupItems>
+										<dcsset:item xsi:type="dcsset:GroupItemField">
+											<dcsset:field>Подразделение</dcsset:field>
+											<dcsset:groupType>Items</dcsset:groupType>
+											<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+											<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+											<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+										</dcsset:item>
+									</dcsset:groupItems>
+									<dcsset:filter>
+										<dcsset:item xsi:type="dcsset:FilterItemComparison">
+											<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+											<dcsset:comparisonType>Filled</dcsset:comparisonType>
+											<dcsset:application>Hierarchy</dcsset:application>
+										</dcsset:item>
+									</dcsset:filter>
+									<dcsset:order>
+										<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+									</dcsset:order>
+									<dcsset:selection>
+										<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+									</dcsset:selection>
+									<dcsset:outputParameters>
+										<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+											<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+											<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+										</dcscor:item>
+									</dcsset:outputParameters>
+									<dcsset:item>
+										<dcsset:groupItems>
+											<dcsset:item xsi:type="dcsset:GroupItemField">
+												<dcsset:field>Субконто1</dcsset:field>
+												<dcsset:groupType>Items</dcsset:groupType>
+												<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+												<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+												<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+											</dcsset:item>
+										</dcsset:groupItems>
+										<dcsset:filter>
+											<dcsset:item xsi:type="dcsset:FilterItemComparison">
+												<dcsset:left xsi:type="dcscor:Field">Субконто1</dcsset:left>
+												<dcsset:comparisonType>Filled</dcsset:comparisonType>
+												<dcsset:application>Hierarchy</dcsset:application>
+											</dcsset:item>
+										</dcsset:filter>
+										<dcsset:order>
+											<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+										</dcsset:order>
+										<dcsset:selection>
+											<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+										</dcsset:selection>
+										<dcsset:outputParameters>
+											<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+												<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+												<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+											</dcscor:item>
+										</dcsset:outputParameters>
+										<dcsset:item>
+											<dcsset:groupItems>
+												<dcsset:item xsi:type="dcsset:GroupItemField">
+													<dcsset:field>Субконто2</dcsset:field>
+													<dcsset:groupType>Items</dcsset:groupType>
+													<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+													<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+													<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+												</dcsset:item>
+											</dcsset:groupItems>
+											<dcsset:filter>
+												<dcsset:item xsi:type="dcsset:FilterItemComparison">
+													<dcsset:left xsi:type="dcscor:Field">Субконто2</dcsset:left>
+													<dcsset:comparisonType>Filled</dcsset:comparisonType>
+													<dcsset:application>Hierarchy</dcsset:application>
+												</dcsset:item>
+											</dcsset:filter>
+											<dcsset:order>
+												<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+											</dcsset:order>
+											<dcsset:selection>
+												<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+											</dcsset:selection>
+											<dcsset:outputParameters>
+												<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+													<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+													<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+												</dcscor:item>
+											</dcsset:outputParameters>
+											<dcsset:item>
+												<dcsset:groupItems>
+													<dcsset:item xsi:type="dcsset:GroupItemField">
+														<dcsset:field>Субконто3</dcsset:field>
+														<dcsset:groupType>Items</dcsset:groupType>
+														<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+														<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+														<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+													</dcsset:item>
+												</dcsset:groupItems>
+												<dcsset:filter>
+													<dcsset:item xsi:type="dcsset:FilterItemComparison">
+														<dcsset:left xsi:type="dcscor:Field">Субконто3</dcsset:left>
+														<dcsset:comparisonType>Filled</dcsset:comparisonType>
+														<dcsset:application>Hierarchy</dcsset:application>
+													</dcsset:item>
+												</dcsset:filter>
+												<dcsset:order>
+													<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+												</dcsset:order>
+												<dcsset:selection>
+													<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+												</dcsset:selection>
+												<dcsset:outputParameters>
+													<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+														<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+														<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+													</dcscor:item>
+												</dcsset:outputParameters>
+											</dcsset:item>
+										</dcsset:item>
+									</dcsset:item>
+								</dcsset:item>
+							</dcsset:item>
+							<dcsset:groupState>Disabled</dcsset:groupState>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7967a417-68ae-48bb-b41d-d950fa9f4fb8" extendedConfigurationObject="d0765d3b-bd01-4d7b-90f6-cb4e6e11c433">
+  <producedTypes>
+    <objectType typeId="7b786c66-4790-4c37-a817-24197c473e71" valueTypeId="c9e5db81-7707-4eb7-871a-c8b5046cfa73"/>
+    <refType typeId="458224b2-737c-402b-8667-b4cd54518c0a" valueTypeId="775c6906-9476-4c24-87db-21f754b909ee"/>
+    <selectionType typeId="d42367fd-21cb-475b-ac9b-63f3cd09f15b" valueTypeId="63f3b69e-c2df-45ef-b3a6-0ca0abc18a59"/>
+    <listType typeId="c0f273f1-5496-4935-8577-cad7441b5693" valueTypeId="1346fb39-ebfe-4381-a194-332846a56552"/>
+    <managerType typeId="80a0c073-8b00-41ad-84e5-64de81ee21f8" valueTypeId="b76df2eb-fdeb-4662-8f62-c17e8341a395"/>
+  </producedTypes>
+  <name>ИсходящаяТранспортнаяОперацияВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f0843441-e9f3-49b3-a1a2-e227958c36b1" extendedConfigurationObject="296972e7-fb84-477f-8b19-938086e5f2cd">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеИсходящаяТранспортнаяОперацияВЕТИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

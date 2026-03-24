@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="396b4b76-f219-4506-a564-b8dcbb2e1ba6" extendedConfigurationObject="7f8e3e63-2880-4042-a776-0d456cbb9491">
+  <producedTypes>
+    <objectType typeId="292c0885-017a-4160-932a-37ecf8f2baa6" valueTypeId="1d81aa8b-0979-4e3b-84ce-fe9fc977c5c3"/>
+    <refType typeId="8bd3b7b1-b915-491e-aada-d474ca99765d" valueTypeId="3be763c1-7123-47da-969a-2e55fe9a746d"/>
+    <selectionType typeId="0355f1f4-c806-4bb0-b132-de2d2350157e" valueTypeId="ad65c281-eb1e-48d0-bf35-b079551dde9a"/>
+    <listType typeId="d2306bcd-db33-4d66-8573-a3dc26251c3c" valueTypeId="878f156a-4bd2-4bac-944e-3d99461544e9"/>
+    <managerType typeId="efb9ab68-cb48-40ee-8c9e-b84c9bc44819" valueTypeId="1b716a8a-70f8-466b-b06e-293ca1fceaf8"/>
+  </producedTypes>
+  <name>АктИнвентаризацииСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="0fab7f3e-e74f-4c45-af3a-cd2870dbac2a" extendedConfigurationObject="a58da589-3517-447b-822c-6220a0059525">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеАктИнвентаризацииСАТУРН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

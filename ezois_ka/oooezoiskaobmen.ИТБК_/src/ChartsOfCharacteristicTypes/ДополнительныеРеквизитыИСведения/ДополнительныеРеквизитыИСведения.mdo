@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ac3adca-6025-4531-966b-bdc3a0b561c1" extendedConfigurationObject="1055d15b-8cb5-4ff0-a526-7fd20a08a96c">
+  <producedTypes>
+    <objectType typeId="a271794a-8b00-4d75-9dee-7a707eee80a2" valueTypeId="256fcf82-42ae-40da-a8cd-83b9f16973a3"/>
+    <refType typeId="d69cc21e-6a46-45cc-a8ff-e7dc508bd31b" valueTypeId="a145405e-558b-44f2-89ac-1fb846e8a453"/>
+    <selectionType typeId="5be5afa5-19f5-454d-b997-6a5d59963601" valueTypeId="cfa87bf3-2b86-4351-a9c2-c4cbb4d746e8"/>
+    <listType typeId="336a6ff5-e4f1-4ea3-b9cd-c637187fc6a5" valueTypeId="678de563-338e-489b-80dc-87621930b882"/>
+    <managerType typeId="b1f2a898-0565-4602-accc-bd01d246ef29" valueTypeId="324ec88e-94bf-4ce1-91c3-51b6640b40f0"/>
+    <containerType typeId="d64138a9-efd9-408b-8250-f71271af8e2b" valueTypeId="fb1242ea-53cf-45f0-81b4-d3afba0ee9b1"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <attributes uuid="d6a40cde-81fa-4546-b588-6bd642ba9840" extendedConfigurationObject="8adebe50-a946-40c2-9258-b17efe787e0e">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

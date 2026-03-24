@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7f2fca85-8afc-42dd-a280-a6dd15067b4d" extendedConfigurationObject="7b86cf07-7253-4afb-8d2f-98e82aae1194">
+  <producedTypes>
+    <objectType typeId="6f76a389-b569-4ce4-9d89-479fc8a86ed5" valueTypeId="d15aa8eb-9e90-4d44-acfc-11a84a5ca1d9"/>
+    <refType typeId="0592e1ef-8837-46b1-9364-1717ec0b6ede" valueTypeId="a148514b-c81e-4194-b123-1f96cc389159"/>
+    <selectionType typeId="0849210f-1033-45a7-8dfb-6eafa8da9234" valueTypeId="ec5fd6b2-f646-4c4d-930e-609a3dd185c9"/>
+    <listType typeId="8c9e5cf4-e97e-4439-ba93-85a19c1d6fec" valueTypeId="94807ec0-f795-4d1f-8239-7296c4a022c8"/>
+    <managerType typeId="9235fd9d-27a8-4db9-86aa-0c06d92cf99e" valueTypeId="660ab878-e6f9-4fc1-bf23-43296e626549"/>
+  </producedTypes>
+  <name>ОтчетКомиссионераОСписании</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="da9f4a0f-d64b-4f5b-af77-959752b4221a" extendedConfigurationObject="1db5986e-6a49-4d8c-85a3-463d37242f50">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОтчетКомиссионераОСписании</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="b28f224a-2af5-4ed1-ab53-a4ef074ade58" extendedConfigurationObject="5c0bbdf0-ee22-47b7-a790-c28782f74b85">
+    <producedTypes>
+      <objectType typeId="b40d4361-bc69-46b4-a0a1-64cdbefbbb5e" valueTypeId="e92b8345-6b33-4117-8796-8a465e7de95f"/>
+      <rowType typeId="787d878b-6732-490e-90aa-760e73052826" valueTypeId="cec3acab-9582-4a41-8d04-d15410fb4191"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="c758ef59-2856-456c-a036-9d6901bd1e62" extendedConfigurationObject="4fdf48b4-d7a1-4803-95ea-8a5b7ed5ce87">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

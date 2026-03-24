@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e7bb61b9-f741-4f9d-8348-37348a7e82d2" extendedConfigurationObject="fef0f72a-5073-4a2e-a103-de0d4a055a89">
+  <producedTypes>
+    <containerType typeId="84a5c7b4-9fad-4dfe-8617-0f8ea154a8e2" valueTypeId="7818172d-45f2-4ff5-9ded-2ad48c06e7af"/>
+  </producedTypes>
+  <name>ОснованияЗапросаКоммерческихПредложенийПоставщиков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ЗаказКлиента</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9273f2d-1891-4191-afff-c4931d6ce587" extendedConfigurationObject="fed06ebd-7382-42c7-a4a0-f0ee84c5220c">
+  <producedTypes>
+    <objectType typeId="13aa15a9-bcf6-4ec5-a3e0-a13cfdac7669" valueTypeId="ed29543e-6b73-49fb-957c-e1c30ff64ac3"/>
+    <refType typeId="5a073c17-bda4-4da4-9021-3df67f590799" valueTypeId="0f772092-d95b-494c-844d-be6e3495c6e3"/>
+    <selectionType typeId="62ce35f9-a4b8-4c72-be81-72e7d86be160" valueTypeId="9ed5e350-5c57-4710-ac7a-0cc976d7dfc1"/>
+    <listType typeId="8dd47e9d-7bac-4e8d-893d-3bc499b489e4" valueTypeId="cda7bbdf-f720-459d-91d6-bd79e7efc8ff"/>
+    <managerType typeId="683e75fc-02e5-4f3f-85f1-61b469e31e5a" valueTypeId="1712f84e-28e3-45c8-93fb-3f5d37022241"/>
+  </producedTypes>
+  <name>ВозвратВОборотИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="aad7c93a-7611-4522-8910-b4bb69174b4c" extendedConfigurationObject="67a07004-7b53-4fd0-8f0b-9a2158f71fcc">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеВозвратВОборотИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="49533912-096d-4b89-b251-7333d90be7a3" extendedConfigurationObject="1019d3d3-16ef-4973-bfdb-38c34ec6ab41">
+    <producedTypes>
+      <objectType typeId="1bcdd229-a477-4044-9ee5-33038c397bff" valueTypeId="0eee29e8-14bc-42c9-9cb5-e2beaa099bf9"/>
+      <rowType typeId="1390c8d0-5e65-4677-8920-b2eb2c2df60d" valueTypeId="4292db6a-5b68-4907-8c24-04141fed9fdf"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="30e52d6f-3a52-4442-98f2-5beafa69e255" extendedConfigurationObject="8886980f-d1f8-4dff-9e07-d019e9cd8448">
+      <name>ПервичныйДокумент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДокументПродажиИСМП</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

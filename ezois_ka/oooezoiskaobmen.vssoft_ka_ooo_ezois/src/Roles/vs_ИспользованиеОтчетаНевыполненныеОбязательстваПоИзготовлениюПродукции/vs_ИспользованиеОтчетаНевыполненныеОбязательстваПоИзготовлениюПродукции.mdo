@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c2435ec-5963-4ae2-941b-d9e985c27bf3">
+  <name>vs_ИспользованиеОтчетаНевыполненныеОбязательстваПоИзготовлениюПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ииспользование отчета Невыполненные обязательства по изготовлению продукции (vssoft)</value>
+  </synonym>
+</mdclass:Role>

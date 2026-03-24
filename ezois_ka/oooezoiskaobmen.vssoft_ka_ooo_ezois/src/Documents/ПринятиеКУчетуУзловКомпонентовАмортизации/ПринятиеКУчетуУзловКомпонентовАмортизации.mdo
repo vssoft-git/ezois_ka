@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="615b29db-337f-475b-8394-3ac5e609ddea" extendedConfigurationObject="6473dcd4-9c5a-4ded-9cb5-9d4cf1be2cff">
+  <producedTypes>
+    <objectType typeId="6ba97399-2a8e-45dd-8643-ce9872100a6f" valueTypeId="436cc52d-8886-4c7f-a7e3-4f439fd5ae61"/>
+    <refType typeId="710595dd-00be-41ca-9897-d4bf2684fd31" valueTypeId="10dea37f-58c4-4526-aa55-49fe36409bfc"/>
+    <selectionType typeId="a19ea10a-01f5-44f5-a847-b5b2b353e6be" valueTypeId="7496706f-903c-49a6-8821-19470d48c322"/>
+    <listType typeId="a60eacab-1804-49e6-8357-402e5263cb8e" valueTypeId="e1427050-258a-445c-8ade-e2232bdbf4a3"/>
+    <managerType typeId="74011885-4895-4542-84dc-355583af020c" valueTypeId="6a620f65-9af1-4226-91a7-46117cb6c4e3"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуУзловКомпонентовАмортизации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e8618f22-a875-4480-9c72-5ce3aed928a9" extendedConfigurationObject="4b94701d-73d2-4a46-9db2-b88feb69ad44">
+    <name>ДокументВДругомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

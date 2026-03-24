@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="612d3f9c-5c1e-4455-8c0b-dfb82f5c83ce" extendedConfigurationObject="22eba3bf-759c-463a-bb08-f0d1b4910ac9">
+  <producedTypes>
+    <refType typeId="75c40fa7-d808-4272-a99d-b63e75dde47c" valueTypeId="168007b3-7a93-474e-b8c4-b9b2d04f0c05"/>
+    <listType typeId="3b66e75b-f3ae-45a7-936a-0219866f5840" valueTypeId="2fee396b-82f7-402a-8cc0-6c4364f1885e"/>
+    <managerType typeId="f83078e5-e291-4e2b-b3fd-80d8ed78fd8d" valueTypeId="b8e09632-7b85-4e07-bf5a-41e738eb15e3"/>
+  </producedTypes>
+  <name>СтатусыЗаявокНаРасходованиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="e140503a-a0c9-45ee-a478-35cde48df97c" extendedConfigurationObject="97bb9b6a-7fb1-4a97-a53b-783fb8e84c2d">
+    <name>НеСогласована</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="645c39ee-f6a8-47c8-9590-e48e34c1193c" extendedConfigurationObject="fd602008-2753-4368-9638-8d3803d0e2b2">
+    <name>Согласована</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6ae85634-f97e-4d2d-be5a-ebc498218190" extendedConfigurationObject="a2703597-0f89-452e-b22a-4a3c82f7b70d">
+    <name>КОплате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2e1d27d6-540e-406e-b308-d25bd9c65153" extendedConfigurationObject="7ede1cab-9143-42b4-9eb3-fd405c68c64c">
+    <name>Отклонена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

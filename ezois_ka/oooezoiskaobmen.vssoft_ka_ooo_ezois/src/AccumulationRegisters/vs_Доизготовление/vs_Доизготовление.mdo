@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd631f66-8066-45e8-846e-8ff23043b2a3">
+  <producedTypes>
+    <selectionType typeId="b86ef1aa-d730-4c91-86a5-a747a7769c12" valueTypeId="99abebc8-f430-48d9-bc97-984f431c82ee"/>
+    <listType typeId="0d3fd96d-af28-43ce-9f16-00a179ce7663" valueTypeId="cfaaffba-69ed-44d8-814a-a6ca7ef5a13b"/>
+    <managerType typeId="c6263d5d-99ed-4116-a036-066a3fc36d51" valueTypeId="5ac96c19-629b-4729-a753-3c1b9e6ab9b1"/>
+    <recordSetType typeId="485bf6ef-66cb-4715-92ff-e3b9e0c40ac6" valueTypeId="cfc236d7-e3db-4a31-9c6d-fc0e5c8400fb"/>
+    <recordKeyType typeId="5dad1b32-fbc0-4f69-b31d-7977af9aa8e0" valueTypeId="3a28f107-dcef-4af8-be44-691152136c97"/>
+    <recordType typeId="ae770925-c09c-425b-9c7a-0254a87087b8" valueTypeId="80d1573f-c16f-485c-b15e-f5598b20ddd7"/>
+  </producedTypes>
+  <name>vs_Доизготовление</name>
+  <synonym>
+    <key>ru</key>
+    <value># доизготовление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ee06c4e0-cad6-4f28-8715-bd7b7eb5e75d">
+    <name>Доизготовить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доизготовить</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f2544a56-5096-4a5c-afa8-ebd5766b6e46">
+    <name>АктИзготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value># акт изготовления</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаСборку</types>
+      <types>DocumentRef.СборкаТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a4f5b2d5-47eb-4231-a7eb-aae7c2af14c4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для номенклатурной позиции может быть назначено фиксированное значение цены по данному специальному предложению. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

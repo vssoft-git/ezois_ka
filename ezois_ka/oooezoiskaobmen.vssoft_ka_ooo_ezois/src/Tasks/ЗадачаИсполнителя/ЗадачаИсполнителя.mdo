@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a27e4982-234d-41c5-856c-d894cc5191f5" extendedConfigurationObject="3ad08f4a-6202-4099-b6cc-bc116e6731a0">
+  <producedTypes>
+    <objectType typeId="df183d4d-aa78-43c0-bb79-1f0fa8818ac5" valueTypeId="bd1e8bbb-d2cf-41a7-b970-7187dccbcbf5"/>
+    <refType typeId="30feb36a-e8f7-4881-b332-378b4eb5d34a" valueTypeId="cb082d0b-26f2-499f-9077-901498ac5b8d"/>
+    <selectionType typeId="bb21582b-31c8-4063-94bd-438e9d33bafe" valueTypeId="04348f00-7e0b-4005-b7e9-10c9d62be62a"/>
+    <listType typeId="e5731834-5f97-40c6-ba7a-26f3af92a415" valueTypeId="6cc1d668-d1b1-4f21-9940-90cb978061ff"/>
+    <managerType typeId="b76dc865-4e07-4ab6-a1e3-f7553c551f20" valueTypeId="4eb507c7-6153-42f3-8606-55f30c7db2cc"/>
+  </producedTypes>
+  <name>ЗадачаИсполнителя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TaskExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="14de5ab4-8f4c-48fb-bd52-8d0f1d7cb52d">
+    <name>Сделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделка</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <tooltip>Extended</tooltip>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.СделкиСКлиентами</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Агрегирует все документы в рамках продажи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СделкиСКлиентами.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Task>

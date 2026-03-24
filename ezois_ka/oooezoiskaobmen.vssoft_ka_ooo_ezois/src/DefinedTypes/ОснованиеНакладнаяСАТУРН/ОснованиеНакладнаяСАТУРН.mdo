@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e048806a-785e-49d7-af58-cd9777154292" extendedConfigurationObject="910dde25-f9c0-45a3-a741-ab45270b61b3">
+  <producedTypes>
+    <containerType typeId="580a2534-0ffa-40bd-8264-fe91ad0c9d6e" valueTypeId="4720d069-3551-45ad-919e-ebcf153c6c5d"/>
+  </producedTypes>
+  <name>ОснованиеНакладнаяСАТУРН</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

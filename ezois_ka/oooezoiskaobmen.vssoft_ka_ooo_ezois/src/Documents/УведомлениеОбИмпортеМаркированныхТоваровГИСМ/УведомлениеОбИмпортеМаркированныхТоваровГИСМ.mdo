@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8a9d4dc-2011-4824-aa5f-0fe4eea4df00" extendedConfigurationObject="7f745629-f601-49cc-bd1f-d3eaf78fb535">
+  <producedTypes>
+    <objectType typeId="fed073c5-2412-4d0d-ae6c-426acb658f32" valueTypeId="707d655e-70bc-4042-a2f9-381417f6995b"/>
+    <refType typeId="b1ab2313-f061-4bc2-8b36-919e90997326" valueTypeId="b261bf67-8826-4606-b9c6-1a02ef1266ac"/>
+    <selectionType typeId="c9cdd417-b1fd-4a31-8ff1-140769d0da06" valueTypeId="db0a3853-c60c-4a1c-8ad4-e0a8c15efe47"/>
+    <listType typeId="66ba5f3c-6164-4365-9f6d-65054c87f81c" valueTypeId="63208541-2750-4026-b07a-eefec8d0fd1c"/>
+    <managerType typeId="2cd954b3-ed28-44d1-a7dd-638a985fbb3c" valueTypeId="5857f16b-519c-497d-b587-3c266063132f"/>
+  </producedTypes>
+  <name>УведомлениеОбИмпортеМаркированныхТоваровГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="12a9677b-61dd-43c8-92eb-21abe433e125" extendedConfigurationObject="164fc4dd-5da7-4322-863b-f7f065ec8846">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеУведомленияОбИмпортеГИСМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>
