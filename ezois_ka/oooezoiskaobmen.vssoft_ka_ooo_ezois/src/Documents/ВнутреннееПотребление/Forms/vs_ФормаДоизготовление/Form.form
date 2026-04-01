@@ -44,14 +44,18 @@
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
       <choiceList>
-        <value xsi:type="core:ReferenceValue"/>
+        <value xsi:type="core:ReferenceValue">
+          <value>3f33d9fa-e620-4640-a219-ee30e6c1bc0d.cd60c1e1-f40f-4252-8d13-a856ac4be72d</value>
+        </value>
       </choiceList>
       <choiceList>
         <presentation>
           <key>ru</key>
           <value>Выполнено</value>
         </presentation>
-        <value xsi:type="core:ReferenceValue"/>
+        <value xsi:type="core:ReferenceValue">
+          <value>3f33d9fa-e620-4640-a219-ee30e6c1bc0d.d18c20d7-9f4f-461b-8a74-04e569384c29</value>
+        </value>
       </choiceList>
     </extInfo>
   </items>
@@ -440,7 +444,9 @@
                   <key>ru</key>
                   <value>Списание на расходы / активы</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>cbc171ef-2fb8-4613-9174-0c20ffc1eedb.d618d199-175b-4f5a-a51a-c9aa2dd5a96a</value>
+                </value>
               </choiceList>
             </extInfo>
           </items>

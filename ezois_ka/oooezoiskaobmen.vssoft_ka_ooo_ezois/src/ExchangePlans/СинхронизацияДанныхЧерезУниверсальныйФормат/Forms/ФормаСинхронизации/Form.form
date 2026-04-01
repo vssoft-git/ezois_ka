@@ -1974,10 +1974,10 @@
           <id>854</id>
           <items xsi:type="form:FormGroup">
             <name>ГруппаФильтрПоКассеККМ</name>
-            <id>1198</id>
+            <id>1059</id>
             <items xsi:type="form:FormGroup">
               <name>ГруппаФильтрПоКассеКК</name>
-              <id>1196</id>
+              <id>1068</id>
               <items xsi:type="form:FormField">
                 <name>ПолеКассаККМ</name>
                 <id>1070</id>
@@ -2039,7 +2039,7 @@
               </toolTip>
               <extendedTooltip>
                 <name>ГруппаФильтрПоКассеККРасширеннаяПодсказка</name>
-                <id>1201</id>
+                <id>1069</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2096,7 +2096,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>КнопкаУказатьСписокКассККМ</name>
-                <id>1220</id>
+                <id>1201</id>
                 <title>
                   <key>ru</key>
                   <value>Выбрать кассы ККМ</value>
@@ -2172,7 +2172,7 @@
             </toolTip>
             <extendedTooltip>
               <name>ГруппаФильтрПоКассеККМРасширеннаяПодсказка</name>
-              <id>1200</id>
+              <id>1060</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2191,10 +2191,10 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаВыгружатьДанныеМаркировки</name>
-            <id>1016</id>
+            <id>1054</id>
             <items xsi:type="form:FormField">
               <name>ВыгружатьДанныеМаркировки</name>
-              <id>1018</id>
+              <id>1056</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2203,7 +2203,7 @@
               <titleLocation>Right</titleLocation>
               <extendedTooltip>
                 <name>ВыгружатьДанныеМаркировкиРасширеннаяПодсказка</name>
-                <id>1020</id>
+                <id>1058</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2213,7 +2213,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВыгружатьДанныеМаркировкиКонтекстноеМеню</name>
-                <id>1019</id>
+                <id>1057</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>CheckBoxField</type>
@@ -2234,7 +2234,7 @@
             </title>
             <extendedTooltip>
               <name>ГруппаВыгружатьДанныеМаркировкиРасширеннаяПодсказка</name>
-              <id>1017</id>
+              <id>1055</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2505,7 +2505,7 @@
                   <id>1011</id>
                   <items xsi:type="form:Decoration">
                     <name>Декорация5</name>
-                    <id>1046</id>
+                    <id>1013</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -2513,7 +2513,7 @@
                     </userVisible>
                     <extendedTooltip>
                       <name>Декорация5РасширеннаяПодсказка</name>
-                      <id>1054</id>
+                      <id>1015</id>
                       <type>Label</type>
                       <autoMaxWidth>true</autoMaxWidth>
                       <autoMaxHeight>true</autoMaxHeight>
@@ -2523,7 +2523,7 @@
                     </extendedTooltip>
                     <contextMenu>
                       <name>Декорация5КонтекстноеМеню</name>
-                      <id>1053</id>
+                      <id>1014</id>
                       <autoFill>true</autoFill>
                     </contextMenu>
                     <type>Label</type>
@@ -3497,7 +3497,7 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаФильтрПоКассамККМ</name>
-            <id>1059</id>
+            <id>1182</id>
             <items xsi:type="form:FormGroup">
               <name>ГруппаВыравниваниеФильтраПоКассамККМ</name>
               <id>1184</id>
@@ -3625,7 +3625,7 @@
             </toolTip>
             <extendedTooltip>
               <name>ГруппаФильтрПоКассамККМРасширеннаяПодсказка</name>
-              <id>1060</id>
+              <id>1183</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4061,7 +4061,11 @@
               </contextMenu>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
+                </picture>
+              </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
               <name>ГруппаУстановитьДатуЗапретаРедактирования</name>
@@ -4422,7 +4426,11 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ИнформацияБЭД</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияНадписьИнформацияНастройкаСоставаПолучаемыхДанных</name>
@@ -4524,7 +4532,11 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>false</horizontalStretch>
           <verticalStretch>false</verticalStretch>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаУстановитьДатуЗапретаПолученияДанных</name>

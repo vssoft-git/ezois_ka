@@ -56,9 +56,20 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>SelectAll</excludedCommands>
+        <excludedCommands>ShowMultipleSelection</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыОбъект</name>
           <id>29</id>
+          <title>
+            <key>ru</key>
+            <value>Объект</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -96,6 +107,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыВерсия</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Версия</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -133,6 +148,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыОтправка</name>
           <id>35</id>
+          <title>
+            <key>ru</key>
+            <value>Отправка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -163,6 +182,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыПолучение</name>
           <id>38</id>
+          <title>
+            <key>ru</key>
+            <value>Получение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -312,7 +335,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Объекты формата в этой программе</value>
+        <value>Объекты формата в этом приложении</value>
       </title>
       <extendedTooltip>
         <name>СтраницаНастройкиРасширеннаяПодсказка</name>
@@ -346,9 +369,20 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>SelectAll</excludedCommands>
+        <excludedCommands>ShowMultipleSelection</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыКорреспондентаОбъект</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Объект</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -386,6 +420,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыКорреспондентаВерсия</name>
           <id>57</id>
+          <title>
+            <key>ru</key>
+            <value>Версия</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -423,6 +461,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыКорреспондентаОтправка</name>
           <id>60</id>
+          <title>
+            <key>ru</key>
+            <value>Отправка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -453,6 +495,10 @@
         <items xsi:type="form:FormField">
           <name>ПоддерживаемыеОбъектыКорреспондентаПолучение</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Получение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

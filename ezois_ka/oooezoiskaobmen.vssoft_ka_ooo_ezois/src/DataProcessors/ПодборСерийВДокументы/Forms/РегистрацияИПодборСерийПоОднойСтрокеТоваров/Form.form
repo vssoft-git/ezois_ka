@@ -460,6 +460,9 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.СоздатьЭлементСпискаЗаполненныйАвтоматически</picture>
+            </picture>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
@@ -814,6 +817,9 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
         <items xsi:type="form:FormField">
           <name>СерииСтатусРаботыRFID</name>
           <id>222</id>
@@ -847,6 +853,9 @@
           </contextMenu>
           <type>PictureField</type>
           <editMode>EnterOnInput</editMode>
+          <headerPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.RFID</picture>
+          </headerPicture>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -855,6 +864,9 @@
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
+            <valuesPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.RFIDКоллекция</picture>
+            </valuesPicture>
             <border xsi:type="core:BorderDef">
               <style>Single</style>
               <width>1</width>
@@ -1131,6 +1143,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceForm>Catalog.ПредприятияВЕТИС.Form.ФормаСписка</choiceForm>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1738,6 +1751,16 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>OutputList</excludedCommands>
+        <excludedCommands>SortListAsc</excludedCommands>
+        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ОстаткиСерийНомер</name>
           <id>138</id>

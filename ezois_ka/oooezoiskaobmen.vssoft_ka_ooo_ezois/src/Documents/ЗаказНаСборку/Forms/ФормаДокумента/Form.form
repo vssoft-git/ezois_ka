@@ -3678,6 +3678,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Товары.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -4483,34 +4486,8 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.vs_Доизготовление.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>0</index>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>AccumulationRegister.ИТБК_Доизготовление.StandardCommand.OpenByRecorder</command>
-        <group>FormNavigationPanelGoTo</group>
-        <index>1</index>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>Document.ЗаказНаСборку.Command.vs_Доизготовить</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>DataProcessor.vs_Автоизготовление.Command.vs_ОткрытьИзготовление</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-    </commandBar>
+    <navigationPanel/>
+    <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers xsi:type="form:EventHandlerExtension">

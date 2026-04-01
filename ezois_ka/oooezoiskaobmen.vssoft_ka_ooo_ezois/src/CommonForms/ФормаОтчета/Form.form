@@ -756,7 +756,7 @@
         </items>
         <items xsi:type="form:FormGroup">
           <name>ПодменюОтправить</name>
-          <id>1228</id>
+          <id>1123</id>
           <items xsi:type="form:Button">
             <name>СохранитьОтчет</name>
             <id>1101</id>
@@ -854,7 +854,7 @@
           </title>
           <extendedTooltip>
             <name>ПодменюОтправитьРасширеннаяПодсказка</name>
-            <id>1230</id>
+            <id>1124</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1065,6 +1065,9 @@
         <autoMaxHeight>true</autoMaxHeight>
         <groupVerticalAlign>Center</groupVerticalAlign>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Сумма</picture>
+          </picture>
           <hyperlink>true</hyperlink>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
@@ -6278,5 +6281,8 @@
   </commandInterface>
   <extInfo xsi:type="form:ReportFormExtInfo">
     <showState>DontShow</showState>
+    <reportResult>ОтчетТабличныйДокумент</reportResult>
+    <detailsInformation>ОтчетДанныеРасшифровки</detailsInformation>
+    <currentVariantPresentationField>ОтчетНаименованиеТекущегоВарианта</currentVariantPresentationField>
   </extInfo>
 </form:Form>

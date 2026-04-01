@@ -126,7 +126,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ИТБК_СерияРасширеннаяПодсказка</name>
-        <id>98</id>
+        <id>101</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -316,7 +316,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ПредставлениеСостояния</name>
-      <id>103</id>
+      <id>98</id>
       <title>
         <key>ru</key>
         <value>Состояние ЭДО</value>
@@ -616,7 +616,7 @@
         <id>82</id>
         <items xsi:type="form:FormGroup">
           <name>ПодменюЭДО</name>
-          <id>101</id>
+          <id>96</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -632,7 +632,7 @@
           </toolTip>
           <extendedTooltip>
             <name>ПодменюЭДОРасширеннаяПодсказка</name>
-            <id>104</id>
+            <id>97</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>

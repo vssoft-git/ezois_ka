@@ -38,7 +38,7 @@
   </items>
   <items xsi:type="form:Button">
     <name>ПоказатьСведенияОЗадолженности</name>
-    <id>3355</id>
+    <id>3344</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -46,7 +46,7 @@
     </userVisible>
     <extendedTooltip>
       <name>ПоказатьСведенияОЗадолженностиРасширеннаяПодсказка</name>
-      <id>3357</id>
+      <id>3345</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -149,6 +149,20 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>HierarchicalList</excludedCommands>
+        <excludedCommands>List</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>OutputList</excludedCommands>
+        <excludedCommands>SortListAsc</excludedCommands>
+        <excludedCommands>SortListDesc</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ГруппаКолонок</name>
           <id>1539</id>
@@ -496,6 +510,21 @@
           <common>true</common>
         </userVisible>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>Find</excludedCommands>
+        <excludedCommands>FindByCurrentValue</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>OutputList</excludedCommands>
+        <excludedCommands>SearchEverywhere</excludedCommands>
+        <excludedCommands>SelectAll</excludedCommands>
+        <excludedCommands>SortListAsc</excludedCommands>
+        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>БыстрыеОтборыПредставлениеПараметра</name>
           <id>646</id>
@@ -784,7 +813,7 @@
         <id>1526</id>
         <items xsi:type="form:Button">
           <name>Техподдержка</name>
-          <id>3013</id>
+          <id>3297</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -836,7 +865,7 @@
         </items>
         <items xsi:type="form:Button">
           <name>ПолезныеСсылки</name>
-          <id>3358</id>
+          <id>3354</id>
           <title>
             <key>ru</key>
             <value>Ссылки</value>
@@ -848,7 +877,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ПолезныеСсылкиРасширеннаяПодсказка</name>
-            <id>3360</id>
+            <id>3355</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -893,7 +922,11 @@
             <autoMaxWidth>true</autoMaxWidth>
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.Идея</picture>
+              </picture>
+            </extInfo>
           </items>
           <items xsi:type="form:Decoration">
             <name>ДекорацияСсылкаИдея</name>
@@ -1962,7 +1995,7 @@
           </items>
           <items xsi:type="form:Button">
             <name>ПерейтиНаЛегкийИнтерфейс</name>
-            <id>3339</id>
+            <id>3285</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1970,7 +2003,7 @@
             </userVisible>
             <extendedTooltip>
               <name>ПерейтиНаЛегкийИнтерфейсРасширеннаяПодсказка</name>
-              <id>3343</id>
+              <id>3286</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2095,7 +2128,7 @@
             </userVisible>
             <extendedTooltip>
               <name>ПравилаПоискаПоЧастиНаименованияРасширеннаяПодсказка</name>
-              <id>3293</id>
+              <id>3290</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2272,7 +2305,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаПредупреждениеАвтоматическогоПолученияЭДО</name>
-        <id>3354</id>
+        <id>3346</id>
         <items xsi:type="form:Decoration">
           <name>КартинкаПредупреждениеАвтоматическогоПолученияЭДО</name>
           <id>3348</id>
@@ -2303,6 +2336,9 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.Предупреждение</picture>
+            </picture>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
@@ -2392,6 +2428,18 @@
               <common>true</common>
             </userVisible>
             <titleLocation>None</titleLocation>
+            <excludedCommands>Change</excludedCommands>
+            <excludedCommands>ChangeHistory</excludedCommands>
+            <excludedCommands>Copy</excludedCommands>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>Create</excludedCommands>
+            <excludedCommands>Delete</excludedCommands>
+            <excludedCommands>DynamicListStandardSettings</excludedCommands>
+            <excludedCommands>ListSettings</excludedCommands>
+            <excludedCommands>LoadDynamicListSettings</excludedCommands>
+            <excludedCommands>Refresh</excludedCommands>
+            <excludedCommands>SaveDynamicListSettings</excludedCommands>
+            <excludedCommands>ShowMultipleSelection</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ВходящиеЭДПрочтен</name>
               <id>3259</id>
@@ -3381,6 +3429,17 @@
               <common>true</common>
             </userVisible>
             <titleLocation>None</titleLocation>
+            <excludedCommands>Change</excludedCommands>
+            <excludedCommands>ChangeHistory</excludedCommands>
+            <excludedCommands>Copy</excludedCommands>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>Create</excludedCommands>
+            <excludedCommands>Delete</excludedCommands>
+            <excludedCommands>DynamicListStandardSettings</excludedCommands>
+            <excludedCommands>ListSettings</excludedCommands>
+            <excludedCommands>LoadDynamicListSettings</excludedCommands>
+            <excludedCommands>Refresh</excludedCommands>
+            <excludedCommands>SaveDynamicListSettings</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ИсходящиеЭДПрочтен</name>
               <id>3262</id>
@@ -4341,6 +4400,12 @@
               <common>true</common>
             </userVisible>
             <titleLocation>None</titleLocation>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>DynamicListStandardSettings</excludedCommands>
+            <excludedCommands>ListSettings</excludedCommands>
+            <excludedCommands>LoadDynamicListSettings</excludedCommands>
+            <excludedCommands>Refresh</excludedCommands>
+            <excludedCommands>SaveDynamicListSettings</excludedCommands>
             <items xsi:type="form:FormField">
               <name>СформироватьЭДДокумент</name>
               <id>2617</id>
@@ -4748,6 +4813,13 @@
               <common>true</common>
             </userVisible>
             <titleLocation>None</titleLocation>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>DynamicListStandardSettings</excludedCommands>
+            <excludedCommands>ListSettings</excludedCommands>
+            <excludedCommands>LoadDynamicListSettings</excludedCommands>
+            <excludedCommands>Refresh</excludedCommands>
+            <excludedCommands>SaveDynamicListSettings</excludedCommands>
+            <excludedCommands>SetDateInterval</excludedCommands>
             <items xsi:type="form:FormField">
               <name>КонтейнерыЭДДата</name>
               <id>2644</id>
@@ -5086,6 +5158,12 @@
               <common>true</common>
             </userVisible>
             <titleLocation>None</titleLocation>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>DynamicListStandardSettings</excludedCommands>
+            <excludedCommands>ListSettings</excludedCommands>
+            <excludedCommands>LoadDynamicListSettings</excludedCommands>
+            <excludedCommands>Refresh</excludedCommands>
+            <excludedCommands>SaveDynamicListSettings</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ПриглашенияЭДКонтрагент</name>
               <id>2710</id>
@@ -6578,7 +6656,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ОзнакомитьсяЭДОписаниеКонтекстноеМеню</name>
-                <id>3365</id>
+                <id>3360</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -6841,7 +6919,7 @@
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
               <name>НоменклатураКонтрагентовКонтрагент</name>
-              <id>3336</id>
+              <id>2839</id>
               <title>
                 <key>ru</key>
                 <value>Контрагент</value>
@@ -6853,7 +6931,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>НоменклатураКонтрагентовКонтрагентРасширеннаяПодсказка</name>
-                <id>3345</id>
+                <id>2841</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6863,7 +6941,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>НоменклатураКонтрагентовКонтрагентКонтекстноеМеню</name>
-                <id>3344</id>
+                <id>2840</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -7427,7 +7505,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ОтправитьЭДОписаниеРасширеннаяПодсказка</name>
-                <id>3367</id>
+                <id>3358</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -7437,7 +7515,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ОтправитьЭДОписаниеКонтекстноеМеню</name>
-                <id>3366</id>
+                <id>3357</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -7727,7 +7805,7 @@
           </items>
           <items xsi:type="form:Decoration">
             <name>ПоказатьКомментарийСостоянияЭДОУчет</name>
-            <id>3341</id>
+            <id>3291</id>
             <title>
               <key>ru</key>
               <value>Показать комментарий состояния ЭДОУчет</value>
@@ -7739,7 +7817,7 @@
             <toolTipRepresentation>None</toolTipRepresentation>
             <extendedTooltip>
               <name>ПоказатьКомментарийСостоянияЭДОУчетРасширеннаяПодсказка</name>
-              <id>3346</id>
+              <id>3293</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -7756,6 +7834,9 @@
             <autoMaxHeight>true</autoMaxHeight>
             <groupHorizontalAlign>Left</groupHorizontalAlign>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>StdPicture.Find</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <fileDragMode>AsFileRef</fileDragMode>
             </extInfo>
@@ -7971,6 +8052,9 @@
             <autoMaxHeight>true</autoMaxHeight>
             <groupHorizontalAlign>Left</groupHorizontalAlign>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>StdPicture.Find</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <fileDragMode>AsFileRef</fileDragMode>
             </extInfo>
@@ -8116,6 +8200,9 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.ДлительнаяОперация48</picture>
+                  </picture>
                   <fileDragMode>AsFileRef</fileDragMode>
                 </extInfo>
               </items>
@@ -8217,10 +8304,10 @@
               <id>3250</id>
               <items xsi:type="form:Decoration">
                 <name>НадписьОшибкаФормированияПредставления</name>
-                <id>3287</id>
+                <id>3252</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;font Arial, Verdana, sans-serif>&lt;color #333333>&lt;bgcolor #FFFFFF>При формировании представления электронного документа возникли ошибки. Подробности в &lt;/>&lt;/>&lt;/>&lt;link ОткрытьЖурналРегистрации>&lt;font Arial, Verdana, sans-serif>&lt;color #1C55AE>журнале регистрации&lt;/>&lt;/>&lt;/>&lt;font Arial, Verdana, sans-serif>&lt;color #333333>&lt;bgcolor #FFFFFF>.&lt;/>&lt;/>&lt;/>
+                  <value>&lt;color #333333>&lt;bgcolor #ffffff>&lt;font Arial, Verdana, sans-serif>При формировании представления электронного документа возникли ошибки. Подробности в &lt;/>&lt;/>&lt;/>&lt;link ОткрытьЖурналРегистрации>&lt;color #1c55ae>&lt;font Arial, Verdana, sans-serif>журнале регистрации&lt;/>&lt;/>&lt;/>&lt;color #333333>&lt;bgcolor #ffffff>&lt;font Arial, Verdana, sans-serif>.&lt;/>&lt;/>&lt;/>
 </value>
                 </title>
                 <visible>true</visible>
@@ -8230,7 +8317,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>НадписьОшибкаФормированияПредставленияРасширеннаяПодсказка</name>
-                  <id>3291</id>
+                  <id>3254</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -8240,7 +8327,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>НадписьОшибкаФормированияПредставленияКонтекстноеМеню</name>
-                  <id>3290</id>
+                  <id>3253</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <formatted>true</formatted>
@@ -8516,7 +8603,11 @@
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ПредупреждениеБЭД</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ЛегендаСоздатьУчетныйДокумент</name>
@@ -8552,7 +8643,11 @@
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.CreateListItem</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ЛегендаПровестиУчетныйДокумент</name>
@@ -8588,7 +8683,11 @@
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.Post</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ЛегендаГотово</name>
@@ -8624,7 +8723,11 @@
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.ExecuteTask</picture>
+            </picture>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -8971,6 +9074,9 @@
   <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <mobileDeviceCommandBarContent>
+    <value xsi:type="core:StringValue"/>
+  </mobileDeviceCommandBarContent>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

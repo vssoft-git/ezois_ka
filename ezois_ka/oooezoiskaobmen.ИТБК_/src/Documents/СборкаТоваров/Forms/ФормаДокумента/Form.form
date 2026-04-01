@@ -65,7 +65,11 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>ДекорацияНеобходимыСтатусы</name>
@@ -821,7 +825,7 @@
             </items>
             <items xsi:type="form:FormField">
               <name>Обособленно</name>
-              <id>564</id>
+              <id>510</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -830,7 +834,7 @@
               <titleLocation>Right</titleLocation>
               <extendedTooltip>
                 <name>ОбособленноРасширеннаяПодсказка</name>
-                <id>581</id>
+                <id>512</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -840,7 +844,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ОбособленноКонтекстноеМеню</name>
-                <id>580</id>
+                <id>511</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>CheckBoxField</type>
@@ -1903,13 +1907,13 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаПрослеживаемыйКомплект</name>
-            <id>591</id>
+            <id>526</id>
             <items xsi:type="form:Decoration">
               <name>ПрослеживаемыйКомплект</name>
-              <id>593</id>
+              <id>528</id>
               <title>
                 <key>ru</key>
-                <value>По комплекту ведется учет прослеживаемых импортных товаров. Для информации можно указать основную комплектующую.</value>
+                <value>По комплекту ведется учет прослеживаемых импортных товаров.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1918,7 +1922,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ПрослеживаемыйКомплектРасширеннаяПодсказка</name>
-                <id>598</id>
+                <id>530</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1928,7 +1932,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ПрослеживаемыйКомплектКонтекстноеМеню</name>
-                <id>597</id>
+                <id>529</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>Label</type>
@@ -1951,7 +1955,7 @@
             </title>
             <extendedTooltip>
               <name>ГруппаПрослеживаемыйКомплектРасширеннаяПодсказка</name>
-              <id>596</id>
+              <id>527</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2304,6 +2308,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Артикул</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураАртикулExtendedTooltip</name>
             <id>368</id>
@@ -2412,19 +2419,22 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыОбособленно</name>
-          <id>571</id>
+          <id>507</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Обособленно</segments>
+          </dataPath>
           <toolTip>
             <key>ru</key>
             <value>Отгружать номенклатуру обособленно по направлению деятельности</value>
           </toolTip>
           <extendedTooltip>
             <name>ТоварыОбособленноРасширеннаяПодсказка</name>
-            <id>583</id>
+            <id>509</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2434,7 +2444,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыОбособленноКонтекстноеМеню</name>
-            <id>582</id>
+            <id>508</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -2817,6 +2827,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Товары.ДоляСтоимостиПроцент</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ТоварыДоляСтоимостиПроцентРасширеннаяПодсказка</name>
                 <id>490</id>
@@ -2853,6 +2866,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Товары.ЕстьОшибкиЗаполненияДолиСтоимости</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ТоварыЕстьОшибкиЗаполненияДолиСтоимостиРасширеннаяПодсказка</name>
                 <id>495</id>
@@ -2893,6 +2909,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Товары группа доля стоимости процент</value>
+            </title>
             <extendedTooltip>
               <name>ТоварыГруппаДоляСтоимостиПроцентРасширеннаяПодсказка</name>
               <id>497</id>
@@ -2946,6 +2966,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.ВедетсяУчетПоГТД</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыВедетсяУчетПоГТДExtendedTooltip</name>
             <id>379</id>
@@ -3275,10 +3298,10 @@
             </items>
             <items xsi:type="form:FormGroup">
               <name>ТоварыГруппаКомандыОбособленно</name>
-              <id>569</id>
+              <id>501</id>
               <items xsi:type="form:Button">
                 <name>ТоварыУстановитьОтметкуОбособленно</name>
-                <id>576</id>
+                <id>503</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3286,7 +3309,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТоварыУстановитьОтметкуОбособленноРасширеннаяПодсказка</name>
-                  <id>585</id>
+                  <id>504</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -3302,7 +3325,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТоварыСнятьОтметкуОбособленно</name>
-                <id>574</id>
+                <id>505</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3310,7 +3333,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТоварыСнятьОтметкуОбособленноРасширеннаяПодсказка</name>
-                  <id>586</id>
+                  <id>506</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -3336,7 +3359,7 @@
               <enableContentChange>true</enableContentChange>
               <extendedTooltip>
                 <name>ТоварыГруппаКомандыОбособленноРасширеннаяПодсказка</name>
-                <id>584</id>
+                <id>502</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3710,7 +3733,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ИТБК_ДоизготовитьНомерСтрокиКонтекстноеМеню</name>
-            <id>520</id>
+            <id>605</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -3725,7 +3748,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ИТБК_ДоизготовитьНоменклатура</name>
-          <id>522</id>
+          <id>600</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3823,7 +3846,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ИТБК_ДоизготовитьКоличествоКонтекстноеМеню</name>
-            <id>526</id>
+            <id>606</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -3871,10 +3894,10 @@
         </searchStringAddition>
         <viewStatusAddition>
           <name>ИТБК_ДоизготовитьСостояниеПросмотра</name>
-          <id>513</id>
+          <id>599</id>
           <extendedTooltip>
             <name>ИТБК_ДоизготовитьСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>515</id>
+            <id>604</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3884,7 +3907,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ИТБК_ДоизготовитьСостояниеПросмотраКонтекстноеМеню</name>
-            <id>514</id>
+            <id>603</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
@@ -3908,7 +3931,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ИТБК_ДоизготовитьУправлениеПоискомКонтекстноеМеню</name>
-            <id>517</id>
+            <id>602</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
@@ -3929,7 +3952,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ИТБК_ДоизготовитьКонтекстноеМеню</name>
-          <id>507</id>
+          <id>598</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>
@@ -4227,7 +4250,7 @@
           </items>
           <items xsi:type="form:FormField">
             <name>ДатаПоступления</name>
-            <id>558</id>
+            <id>523</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4238,7 +4261,7 @@
             </dataPath>
             <extendedTooltip>
               <name>ДатаПоступленияРасширеннаяПодсказка</name>
-              <id>588</id>
+              <id>525</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4248,7 +4271,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>ДатаПоступленияКонтекстноеМеню</name>
-              <id>587</id>
+              <id>524</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -4443,10 +4466,10 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСостояниеЭДО</name>
-    <id>556</id>
+    <id>513</id>
     <items xsi:type="form:FormField">
       <name>ДекорацияСостояниеЭДО</name>
-      <id>561</id>
+      <id>520</id>
       <title>
         <key>ru</key>
         <value>Состояние ЭДО</value>
@@ -4458,7 +4481,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ДекорацияСостояниеЭДОРасширеннаяПодсказка</name>
-        <id>590</id>
+        <id>522</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4468,7 +4491,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДекорацияСостояниеЭДОКонтекстноеМеню</name>
-        <id>589</id>
+        <id>521</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -4493,7 +4516,7 @@
     </title>
     <extendedTooltip>
       <name>ГруппаСостояниеЭДОРасширеннаяПодсказка</name>
-      <id>578</id>
+      <id>515</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4749,7 +4772,7 @@
     </items>
     <items xsi:type="form:FormGroup">
       <name>ПодменюЭДО</name>
-      <id>567</id>
+      <id>514</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -4765,7 +4788,7 @@
       </toolTip>
       <extendedTooltip>
         <name>ПодменюЭДОРасширеннаяПодсказка</name>
-        <id>579</id>
+        <id>517</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>

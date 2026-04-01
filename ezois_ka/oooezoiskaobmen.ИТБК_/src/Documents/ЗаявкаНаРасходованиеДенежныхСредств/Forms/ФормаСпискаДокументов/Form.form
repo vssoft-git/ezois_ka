@@ -643,7 +643,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>СостояниеЭДО</name>
-      <id>252</id>
+      <id>240</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -654,7 +654,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СостояниеЭДОРасширеннаяПодсказка</name>
-        <id>258</id>
+        <id>242</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -664,7 +664,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СостояниеЭДОКонтекстноеМеню</name>
-        <id>257</id>
+        <id>241</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -969,6 +969,10 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьВыплатаЗаработнойПлаты</name>
             <id>124</id>
+            <title>
+              <key>ru</key>
+              <value>Выплату по ведомости</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -992,7 +996,7 @@
           </items>
           <items xsi:type="form:Button">
             <name>СписокСоздатьОплатуАрендодателю</name>
-            <id>255</id>
+            <id>232</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1000,7 +1004,7 @@
             </userVisible>
             <extendedTooltip>
               <name>СписокСоздатьОплатуАрендодателюРасширеннаяПодсказка</name>
-              <id>259</id>
+              <id>233</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
