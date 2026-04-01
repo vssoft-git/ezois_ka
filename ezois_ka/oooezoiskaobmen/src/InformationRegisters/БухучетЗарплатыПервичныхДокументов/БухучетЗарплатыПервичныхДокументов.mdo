@@ -136,6 +136,7 @@
       <types>DocumentRef.ВыплатаБывшимСотрудникам</types>
       <types>DocumentRef.РегистрацияПрочихДоходов</types>
       <types>DocumentRef.Отпуск</types>
+      <types>DocumentRef.БольничныйЛист</types>
       <types>DocumentRef.ОплатаПоСреднемуЗаработку</types>
       <types>DocumentRef.Премия</types>
       <types>DocumentRef.РазовоеНачисление</types>

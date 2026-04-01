@@ -22,6 +22,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:ac533bb8-a35d-49ee-84ee-75e8a936d0a2</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Constant.ВариантОбособленияМатериаловВПереработке.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -80,6 +84,7 @@
       <commands>Document.ЗаказПереработчику.StandardCommand.OpenList</commands>
       <commands>Document.ЗаказПереработчику.Command.ЗаказыПереработчикам</commands>
       <commands>CommonCommand.ЖурналДокументовПередачиВПереработку</commands>
+      <commands>0:ac533bb8-a35d-49ee-84ee-75e8a936d0a2</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

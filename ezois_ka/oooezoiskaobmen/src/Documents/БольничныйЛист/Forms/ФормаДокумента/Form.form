@@ -9106,6 +9106,10 @@
                 <segments>Объект.СпособРасчетовСФизическимиЛицами</segments>
               </dataPath>
               <toolTipRepresentation>Button</toolTipRepresentation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СпособРасчетовСФизическимиЛицамиПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СпособРасчетовСФизическимиЛицамиРасширеннаяПодсказка</name>
                 <id>2154</id>
@@ -21107,6 +21111,23 @@
       <value>Полностью оплачивается за счет СФР</value>
     </title>
     <id>86</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьСтатьиФинансирования</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать статьи финансирования</value>
+    </title>
+    <id>87</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

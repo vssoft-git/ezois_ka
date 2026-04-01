@@ -1787,11 +1787,68 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ДопФайлы</name>
-        <id>12262</id>
+        <name>Пояснения</name>
+        <id>93750</id>
         <items xsi:type="form:FormGroup">
-          <name>ДопФайлыПЗ</name>
-          <id>12264</id>
+          <name>ГруппаВыбораВариантаПояснений</name>
+          <id>93755</id>
+          <items xsi:type="form:FormField">
+            <name>ВариантПояснений</name>
+            <id>93752</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ВариантПояснений</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВариантПоясненийПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВариантПоясненийРасширеннаяПодсказка</name>
+              <id>93754</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВариантПоясненийКонтекстноеМеню</name>
+              <id>93753</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>RadioButtonField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+              <radioButtonsType>Tumbler</radioButtonsType>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>из отчета</value>
+                </presentation>
+                <value xsi:type="core:NumberValue">
+                  <value>0</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>из файла</value>
+                </presentation>
+                <value xsi:type="core:NumberValue">
+                  <value>1</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
           <items xsi:type="form:FormField">
             <name>ИмяФайлаПояснительнойЗаписки</name>
             <id>93598</id>
@@ -1807,6 +1864,7 @@
             <dataPath xsi:type="form:DataPath">
               <segments>ИмяФайлаПояснительнойЗаписки</segments>
             </dataPath>
+            <titleLocation>None</titleLocation>
             <handlers>
               <event>OnChange</event>
               <name>ИмяФайлаПояснительнойЗапискиПриИзменении</name>
@@ -1865,9 +1923,13 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа выбора варианта пояснений</value>
+          </title>
           <extendedTooltip>
-            <name>ДопФайлыПЗРасширеннаяПодсказка</name>
-            <id>12265</id>
+            <name>ГруппаВыбораВариантаПоясненийРасширеннаяПодсказка</name>
+            <id>93756</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1877,13 +1939,332 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>Vertical</group>
+            <group>AlwaysHorizontal</group>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаСтраницыОтображенияПояснений</name>
+          <id>93757</id>
+          <items xsi:type="form:FormGroup">
+            <name>СтраницаВводаПояснений</name>
+            <id>93759</id>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаКоманднаяПанельФорматированияПояснений</name>
+              <id>93764</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа командная панель форматирования пояснений</value>
+              </title>
+              <extendedTooltip>
+                <name>ГруппаКоманднаяПанельФорматированияПоясненийРасширеннаяПодсказка</name>
+                <id>93765</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>CommandBar</type>
+              <extInfo xsi:type="form:CommandBarExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+                <commandSource>Item.ТекстПояснений</commandSource>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>ТекстПояснений</name>
+              <id>93761</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТекстПояснений</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>ТекстПоясненийПриИзменении</name>
+              </handlers>
+              <extendedTooltip>
+                <name>ТекстПоясненийРасширеннаяПодсказка</name>
+                <id>93763</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ТекстПоясненийКонтекстноеМеню</name>
+                <id>93762</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>FormattedDocumentField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:FormattedDocFieldExtInfo">
+                <width>50</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <height>10</height>
+                <autoMaxHeight>true</autoMaxHeight>
+                <horizontalStretch>true</horizontalStretch>
+                <verticalStretch>true</verticalStretch>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страница ввода пояснений</value>
+            </title>
+            <extendedTooltip>
+              <name>СтраницаВводаПоясненийРасширеннаяПодсказка</name>
+              <id>93760</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>СтраницаОтображенияПояснений</name>
+            <id>93766</id>
+            <items xsi:type="form:FormField">
+              <name>ВнешниеПояснения</name>
+              <id>93768</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ВнешниеПояснения</segments>
+              </dataPath>
+              <titleLocation>None</titleLocation>
+              <extendedTooltip>
+                <name>ВнешниеПоясненияРасширеннаяПодсказка</name>
+                <id>93770</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ВнешниеПоясненияКонтекстноеМеню</name>
+                <id>93769</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>PDFDocumentField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:PDFDocumentFieldExtInfo">
+                <viewStatusAddition>
+                  <name>ВнешниеПоясненияСостояниеПросмотра</name>
+                  <id>93771</id>
+                  <extendedTooltip>
+                    <name>ВнешниеПоясненияСостояниеПросмотраРасширеннаяПодсказка</name>
+                    <id>93773</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ВнешниеПоясненияСостояниеПросмотраКонтекстноеМеню</name>
+                    <id>93772</id>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>ViewStatusAddition</type>
+                  <source>ВнешниеПояснения</source>
+                  <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                  </extInfo>
+                </viewStatusAddition>
+                <width>50</width>
+                <autoMaxWidth>true</autoMaxWidth>
+                <height>10</height>
+                <autoMaxHeight>true</autoMaxHeight>
+                <horizontalStretch>true</horizontalStretch>
+                <verticalStretch>true</verticalStretch>
+                <scale>100</scale>
+                <currentPageNumber>1</currentPageNumber>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страница отображения пояснений</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Страница отображения пояснений</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>СтраницаОтображенияПоясненийРасширеннаяПодсказка</name>
+              <id>93767</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>СтраницаОтображенияПоясненийВебКлиент</name>
+            <id>93776</id>
+            <items xsi:type="form:Decoration">
+              <name>ДекорацияОтображениеНеПредусмотрено</name>
+              <id>93778</id>
+              <title>
+                <key>ru</key>
+                <value> </value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ДекорацияОтображениеНеПредусмотреноРасширеннаяПодсказка</name>
+                <id>93780</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ДекорацияОтображениеНеПредусмотреноКонтекстноеМеню</name>
+                <id>93779</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страница отображения пояснений веб клиент</value>
+            </title>
+            <extendedTooltip>
+              <name>СтраницаОтображенияПоясненийВебКлиентРасширеннаяПодсказка</name>
+              <id>93777</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа страницы отображения пояснений</value>
+          </title>
+          <enableContentChange>true</enableContentChange>
+          <extendedTooltip>
+            <name>ГруппаСтраницыОтображенияПоясненийРасширеннаяПодсказка</name>
+            <id>93758</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Pages</type>
+          <extInfo xsi:type="form:PagesGroupExtInfo">
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Пояснения</value>
+        </title>
+        <extendedTooltip>
+          <name>ПоясненияРасширеннаяПодсказка</name>
+          <id>93751</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Page</type>
+        <extInfo xsi:type="form:PageGroupExtInfo">
+          <group>Vertical</group>
+          <showTitle>true</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ДопФайлы</name>
+        <id>12262</id>
         <items xsi:type="form:FormGroup">
           <name>ДопФайлыАЗ</name>
           <id>12283</id>
@@ -4697,7 +5078,7 @@
     <name>ИмяФайлаПояснительнойЗаписки</name>
     <title>
       <key>ru</key>
-      <value>Имя файла пояснительной записки бухгалтерской отчетности</value>
+      <value>Имя файла пояснений</value>
     </title>
     <id>22</id>
     <valueType>
@@ -6422,6 +6803,61 @@
     <id>70</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВариантПояснений</name>
+    <title>
+      <key>ru</key>
+      <value>Отправка пояснений</value>
+    </title>
+    <id>71</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекстПояснений</name>
+    <title>
+      <key>ru</key>
+      <value>Текст пояснений</value>
+    </title>
+    <id>72</id>
+    <valueType>
+      <types>FormattedDocument</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВнешниеПояснения</name>
+    <title>
+      <key>ru</key>
+      <value>Внешние пояснения</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>PDFDocument</types>
     </valueType>
     <view>
       <common>true</common>

@@ -73,6 +73,13 @@
       <value>Уведомление о постановке объекта НВОС</value>
     </synonym>
   </templates>
+  <templates uuid="8762160c-f1c4-4008-ae10-d4bd92612f8e">
+    <name>Печать_Форма2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
   <templates uuid="49df3941-3682-4517-b698-788752345549">
     <name>ORG_INFO</name>
     <synonym>
@@ -134,13 +141,6 @@
     <synonym>
       <key>ru</key>
       <value>Экранная форма</value>
-    </synonym>
-  </templates>
-  <templates uuid="8762160c-f1c4-4008-ae10-d4bd92612f8e">
-    <name>Печать_Форма2022_1</name>
-    <synonym>
-      <key>ru</key>
-      <value>Печатный бланк</value>
     </synonym>
   </templates>
   <templates uuid="a8c71ff1-23bf-4a54-9f39-a8b29869fdb6">

@@ -172,6 +172,12 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:151126f1-c8ab-4f7e-bb22-b50325fca4ad</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.ПрайсЛист.Command.ПрайсЛист</command>
       <visible>
         <common>true</common>
@@ -260,8 +266,28 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.РесурсныеСпецификации.StandardCommand.OpenList</command>
       <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:3ac9c3df-f8b6-4380-aec4-beacf61e2377</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:3a98388a-303a-4aab-b75f-dc1f7521ae4e</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:939385ff-1389-457c-9e83-771ad554ce25</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</command>
@@ -330,6 +356,18 @@
       <visible>
         <common>true</common>
       </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:593c9110-ae30-4fab-b01e-41cfd0e7c5bc</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:88ef9aba-d7d6-4afa-add2-a917191e5c4d</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:8000f84a-cac7-4961-804e-bb1f06dc17e8</command>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Партнеры.Command.Клиенты</command>
@@ -449,6 +487,12 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>CommonCommand.ПанельОтчетовГлавноеРегламентированныйУчет</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:553beb07-2da9-4ef5-946d-86cf4cffff31</command>
       <visible>
         <common>true</common>
       </visible>
@@ -704,7 +748,6 @@
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.БанковскиеСчета</commands>
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.Претензии</commands>
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.Планы</commands>
-      <commands>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РазделГлавное000_ПочтаЗадачи</group>
@@ -724,6 +767,7 @@
       <group>CommandGroup.РазделГлавное010_Бюджетирование</group>
       <commands>Catalog.МоделиБюджетирования.StandardCommand.OpenList</commands>
       <commands>CommonCommand.БюджетныеОтчеты</commands>
+      <commands>0:151126f1-c8ab-4f7e-bb22-b50325fca4ad</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РазделГлавное020_CRM</group>
@@ -758,7 +802,15 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РазделГлавное060_Производство</group>
+      <commands>0:04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</commands>
       <commands>Catalog.РесурсныеСпецификации.StandardCommand.OpenList</commands>
+      <commands>0:3ac9c3df-f8b6-4380-aec4-beacf61e2377</commands>
+      <commands>0:3a98388a-303a-4aab-b75f-dc1f7521ae4e</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>00000000-0000-0000-0000-000000000000</group>
+      <commands>0:939385ff-1389-457c-9e83-771ad554ce25</commands>
+      <commands>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РазделГлавное080_Кадры</group>
@@ -791,6 +843,12 @@
       <commands>CommonCommand.ПанельОтчетовСтандартныеБухгалтерскиеОтчеты</commands>
     </placementFragments>
     <placementFragments>
+      <group>CommandGroup.РазделГлавное130_МеждународныйФинансовыйУчет</group>
+      <commands>0:593c9110-ae30-4fab-b01e-41cfd0e7c5bc</commands>
+      <commands>0:88ef9aba-d7d6-4afa-add2-a917191e5c4d</commands>
+      <commands>0:8000f84a-cac7-4961-804e-bb1f06dc17e8</commands>
+    </placementFragments>
+    <placementFragments>
       <group>CommandGroup.РазделГлавное200_НСИ</group>
       <commands>Catalog.Партнеры.Command.Клиенты</commands>
       <commands>Catalog.Партнеры.Command.Поставщики</commands>
@@ -820,6 +878,7 @@
       <commands>CommonCommand.ПанельОтчетовГлавноеКазначейство</commands>
       <commands>CommonCommand.ПанельОтчетовГлавноеФинансовыйРезультатИКонтроллинг</commands>
       <commands>CommonCommand.ПанельОтчетовГлавноеРегламентированныйУчет</commands>
+      <commands>0:553beb07-2da9-4ef5-946d-86cf4cffff31</commands>
       <commands>CommonCommand.ВсеОтчеты</commands>
       <commands>CommonCommand.ДополнительныеОбработкиФинансовыйРезультатИКонтроллинг</commands>
       <commands>CommonCommand.ДополнительныеОтчетыФинансовыйРезультатИКонтроллинг</commands>
@@ -916,7 +975,6 @@
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.БанковскиеСчета</commands>
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.Претензии</commands>
       <commands>DataProcessor.СамообслуживаниеПартнеров.Command.Планы</commands>
-      <commands>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.РазделГлавное000_ПочтаЗадачи</group>
@@ -936,6 +994,7 @@
       <group>CommandGroup.РазделГлавное010_Бюджетирование</group>
       <commands>Catalog.МоделиБюджетирования.StandardCommand.OpenList</commands>
       <commands>CommonCommand.БюджетныеОтчеты</commands>
+      <commands>0:151126f1-c8ab-4f7e-bb22-b50325fca4ad</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.РазделГлавное020_CRM</group>
@@ -970,7 +1029,15 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.РазделГлавное060_Производство</group>
+      <commands>0:04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</commands>
       <commands>Catalog.РесурсныеСпецификации.StandardCommand.OpenList</commands>
+      <commands>0:3ac9c3df-f8b6-4380-aec4-beacf61e2377</commands>
+      <commands>0:3a98388a-303a-4aab-b75f-dc1f7521ae4e</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>00000000-0000-0000-0000-000000000000</group>
+      <commands>0:939385ff-1389-457c-9e83-771ad554ce25</commands>
+      <commands>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.РазделГлавное080_Кадры</group>
@@ -1003,6 +1070,12 @@
       <commands>CommonCommand.ПанельОтчетовСтандартныеБухгалтерскиеОтчеты</commands>
     </orderFragments>
     <orderFragments>
+      <group>CommandGroup.РазделГлавное130_МеждународныйФинансовыйУчет</group>
+      <commands>0:593c9110-ae30-4fab-b01e-41cfd0e7c5bc</commands>
+      <commands>0:88ef9aba-d7d6-4afa-add2-a917191e5c4d</commands>
+      <commands>0:8000f84a-cac7-4961-804e-bb1f06dc17e8</commands>
+    </orderFragments>
+    <orderFragments>
       <group>CommandGroup.РазделГлавное200_НСИ</group>
       <commands>Catalog.Партнеры.Command.Клиенты</commands>
       <commands>Catalog.Партнеры.Command.Поставщики</commands>
@@ -1027,6 +1100,7 @@
       <commands>CommonCommand.ПанельОтчетовГлавноеКазначейство</commands>
       <commands>CommonCommand.ПанельОтчетовГлавноеФинансовыйРезультатИКонтроллинг</commands>
       <commands>CommonCommand.ПанельОтчетовГлавноеРегламентированныйУчет</commands>
+      <commands>0:553beb07-2da9-4ef5-946d-86cf4cffff31</commands>
       <commands>CommonCommand.ВсеОтчеты</commands>
       <commands>CommonCommand.ДополнительныеОбработкиФинансовыйРезультатИКонтроллинг</commands>
       <commands>CommonCommand.ДополнительныеОтчетыФинансовыйРезультатИКонтроллинг</commands>

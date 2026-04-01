@@ -2628,6 +2628,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.РегламентированноеУведомлениеДокументОПредстоящейПоставке</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.РегламентированнаяОтчетность.Subsystem.ОтчетностьВФонды</name>
 		<right>
 			<name>View</name>

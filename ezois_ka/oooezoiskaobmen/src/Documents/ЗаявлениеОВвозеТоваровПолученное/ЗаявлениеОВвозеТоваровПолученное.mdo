@@ -64,6 +64,7 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ЗаявлениеОВвозеТоваровПолученное</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>

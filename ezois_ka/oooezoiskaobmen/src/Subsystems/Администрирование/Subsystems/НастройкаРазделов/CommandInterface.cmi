@@ -37,6 +37,7 @@
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.УчетНДСИмпортЭкспорт</commands>
       <commands>DataProcessor.ПанельАдминистрированияКА.Command.ВнеоборотныеАктивы</commands>
       <commands>DataProcessor.ПанельАдминистрированияКА.Command.РегламентированныйУчет</commands>
+      <commands>0:6127b364-9d05-4cdc-b99b-47acc9440adb</commands>
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.РМКИОборудование</commands>
       <commands>DataProcessor.ПанельНастроекЗарплатаКадры.Command.ОсобенностиПредприятия</commands>
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.Интерфейс</commands>

@@ -219,6 +219,7 @@
 		</valueType>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
 		<availableAsField>false</availableAsField>
 	</parameter>
 	<settingsVariant>

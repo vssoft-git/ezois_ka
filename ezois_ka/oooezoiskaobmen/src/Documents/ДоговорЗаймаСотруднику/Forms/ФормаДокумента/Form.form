@@ -873,50 +873,6 @@
                   <items xsi:type="form:FormGroup">
                     <name>ДатаВыдачиГоризонтальная</name>
                     <id>303</id>
-                    <items xsi:type="form:FormField">
-                      <name>ДатаВыдачи</name>
-                      <id>181</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <dataPath xsi:type="form:DataPath">
-                        <segments>Объект.ДатаВыдачи</segments>
-                      </dataPath>
-                      <handlers>
-                        <event>OnChange</event>
-                        <name>ДатаВыдачиПриИзменении</name>
-                      </handlers>
-                      <extendedTooltip>
-                        <name>ДатаВыдачиРасширеннаяПодсказка</name>
-                        <id>238</id>
-                        <type>Label</type>
-                        <autoMaxWidth>true</autoMaxWidth>
-                        <autoMaxHeight>true</autoMaxHeight>
-                        <extInfo xsi:type="form:LabelDecorationExtInfo">
-                          <horizontalAlign>Left</horizontalAlign>
-                        </extInfo>
-                      </extendedTooltip>
-                      <contextMenu>
-                        <name>ДатаВыдачиКонтекстноеМеню</name>
-                        <id>182</id>
-                        <autoFill>true</autoFill>
-                      </contextMenu>
-                      <type>InputField</type>
-                      <editMode>Enter</editMode>
-                      <showInHeader>true</showInHeader>
-                      <headerHorizontalAlign>Left</headerHorizontalAlign>
-                      <showInFooter>true</showInFooter>
-                      <extInfo xsi:type="form:InputFieldExtInfo">
-                        <autoMaxWidth>true</autoMaxWidth>
-                        <autoMaxHeight>true</autoMaxHeight>
-                        <wrap>true</wrap>
-                        <chooseType>true</chooseType>
-                        <typeDomainEnabled>true</typeDomainEnabled>
-                        <textEdit>true</textEdit>
-                      </extInfo>
-                    </items>
                     <items xsi:type="form:FormGroup">
                       <name>ДатаВыдачиСписокДокументовСтраницы</name>
                       <id>193</id>
@@ -976,37 +932,6 @@
                       <items xsi:type="form:FormGroup">
                         <name>ДатаВыдачиДокументыПустаяСтраница</name>
                         <id>196</id>
-                        <items xsi:type="form:Decoration">
-                          <name>ДатаВыдачиДокументыПустаяСтрока</name>
-                          <id>197</id>
-                          <visible>true</visible>
-                          <enabled>true</enabled>
-                          <userVisible>
-                            <common>true</common>
-                          </userVisible>
-                          <extendedTooltip>
-                            <name>ДатаВыдачиДокументыПустаяСтрокаРасширеннаяПодсказка</name>
-                            <id>243</id>
-                            <type>Label</type>
-                            <autoMaxWidth>true</autoMaxWidth>
-                            <autoMaxHeight>true</autoMaxHeight>
-                            <extInfo xsi:type="form:LabelDecorationExtInfo">
-                              <horizontalAlign>Left</horizontalAlign>
-                            </extInfo>
-                          </extendedTooltip>
-                          <contextMenu>
-                            <name>ДатаВыдачиДокументыПустаяСтрокаКонтекстноеМеню</name>
-                            <id>198</id>
-                            <autoFill>true</autoFill>
-                          </contextMenu>
-                          <type>Label</type>
-                          <autoMaxWidth>true</autoMaxWidth>
-                          <height>1</height>
-                          <autoMaxHeight>true</autoMaxHeight>
-                          <extInfo xsi:type="form:LabelDecorationExtInfo">
-                            <horizontalAlign>Left</horizontalAlign>
-                          </extInfo>
-                        </items>
                         <visible>true</visible>
                         <enabled>true</enabled>
                         <userVisible>
@@ -1325,7 +1250,7 @@
               <id>185</id>
               <items xsi:type="form:Decoration">
                 <name>ДекорацияПустаяСтрока</name>
-                <id>186</id>
+                <id>397</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1333,7 +1258,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ДекорацияПустаяСтрокаРасширеннаяПодсказка</name>
-                  <id>251</id>
+                  <id>399</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1343,7 +1268,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>ДекорацияПустаяСтрокаКонтекстноеМеню</name>
-                  <id>187</id>
+                  <id>398</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>Label</type>
@@ -1399,6 +1324,50 @@
             <type>Pages</type>
             <extInfo xsi:type="form:PagesGroupExtInfo">
               <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДатаВыдачи</name>
+            <id>181</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ДатаВыдачи</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ДатаВыдачиПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ДатаВыдачиРасширеннаяПодсказка</name>
+              <id>238</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДатаВыдачиКонтекстноеМеню</name>
+              <id>182</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">

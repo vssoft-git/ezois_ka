@@ -2290,20 +2290,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <attributes>
-    <name>КаталогВременныФайлов</name>
-    <id>19</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <formCommands>
     <name>Загрузить</name>
     <title>

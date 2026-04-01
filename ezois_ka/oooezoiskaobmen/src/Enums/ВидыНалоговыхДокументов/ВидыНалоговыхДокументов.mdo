@@ -651,6 +651,27 @@
       <value>Запрос о представлении документов и информации</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="dd0fce85-335e-42cf-ae03-c6cb60da1c76">
+    <name>АктПроверкиСделокМеждуВзаимозависимымиЛицами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт проверки сделок между взаимозависимыми лицами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5f3ca62-4f57-4748-8846-df3ff76e1fb9">
+    <name>РешениеОПривлеченииКОтветственностиПоРезультатамПроверкиСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение о привлечении к ответственности по результатам проверки сделок между взаимозависимыми лицами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b62756d1-a86f-4e5c-ac37-9b8e5fad353f">
+    <name>РешениеОбОтказеВПривлеченииКОтветственностиПоРезультатамПроверкиСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение об отказе в привлечении к ответственности по результатам проверки сделок между взаимозависимыми лицами</value>
+    </synonym>
+  </enumValues>
   <templates uuid="dbe05827-82ae-4352-9a62-f81bebde22d5">
     <name>СоответствиеВидовКНД</name>
     <synonym>

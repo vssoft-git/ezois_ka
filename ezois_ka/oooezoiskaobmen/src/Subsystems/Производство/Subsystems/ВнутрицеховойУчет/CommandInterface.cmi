@@ -22,7 +22,19 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:852d746a-65fb-49e2-856d-9f06c9dda76b</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:f56e4a8f-91d4-4b3a-a071-830f3b2fcda9</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonCommand.ВозвратыМатериаловИзПроизводства21</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:8f049289-146d-4b4b-b6b2-de4d6b36ad0d</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -56,7 +68,19 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:ff42e9e0-9774-4f96-8f1e-1fce199c061e</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.ГруппыАналитическогоУчетаНоменклатуры.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:9db82e58-8526-4c69-875c-8d30f2182fa2</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:636968f0-0296-4e61-81d1-25223ab06f98</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
@@ -76,6 +100,7 @@
       <commands>CommonCommand.РаспределениеМатериаловИРабот</commands>
       <commands>Document.РаспределениеПрочихЗатрат.Command.РаспределениеРасходовНаСебестоимостьПродукции</commands>
       <commands>Catalog.ПравилаРаспределенияРасходов.Command.ВводПоказателейДляРаспределенияРасходов</commands>
+      <commands>0:ff42e9e0-9774-4f96-8f1e-1fce199c061e</commands>
       <commands>Catalog.ГруппыАналитическогоУчетаНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>

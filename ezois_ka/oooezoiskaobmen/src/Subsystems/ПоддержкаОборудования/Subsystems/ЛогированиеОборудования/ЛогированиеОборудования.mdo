@@ -6,6 +6,7 @@
     <value>Логирование оборудования</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>a0f8c954-9877-4b52-9172-02b76aebb903</content>
   <content>ScheduledJob.ОчисткаИсторииОперацийСОборудованием</content>
   <content>Constant.СрокХраненияОперацийСОборудованием</content>
   <content>InformationRegister.ОперацииСПодключаемымОборудованием</content>

@@ -11511,10 +11511,14 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <choiceList>
-                      <value xsi:type="core:ReferenceValue"/>
+                      <value xsi:type="core:ReferenceValue">
+                        <value>7585f68b-795b-4914-b675-c113a368ef70.63f4b1fe-62b4-4c54-955b-c2ec77e2793c</value>
+                      </value>
                     </choiceList>
                     <choiceList>
-                      <value xsi:type="core:ReferenceValue"/>
+                      <value xsi:type="core:ReferenceValue">
+                        <value>7585f68b-795b-4914-b675-c113a368ef70.8ba4f1b5-d257-43c3-b4b5-1075708a5fb2</value>
+                      </value>
                     </choiceList>
                   </extInfo>
                 </items>
@@ -11639,10 +11643,14 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <choiceList>
-                      <value xsi:type="core:ReferenceValue"/>
+                      <value xsi:type="core:ReferenceValue">
+                        <value>7585f68b-795b-4914-b675-c113a368ef70.63f4b1fe-62b4-4c54-955b-c2ec77e2793c</value>
+                      </value>
                     </choiceList>
                     <choiceList>
-                      <value xsi:type="core:ReferenceValue"/>
+                      <value xsi:type="core:ReferenceValue">
+                        <value>7585f68b-795b-4914-b675-c113a368ef70.8ba4f1b5-d257-43c3-b4b5-1075708a5fb2</value>
+                      </value>
                     </choiceList>
                   </extInfo>
                 </items>

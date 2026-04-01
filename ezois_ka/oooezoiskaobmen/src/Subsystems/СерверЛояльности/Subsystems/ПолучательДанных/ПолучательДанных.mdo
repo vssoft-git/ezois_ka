@@ -16,5 +16,6 @@
   <content>Role.ДобавлениеИзменениеСерверЛояльности</content>
   <content>Role.ЧтениеСерверЛояльности</content>
   <content>Enum.ВидыОплатСерверЛояльности</content>
+  <content>dd5e02e0-b17a-4dfd-b7a1-7c1ee761c3b0</content>
   <parentSubsystem>Subsystem.СерверЛояльности</parentSubsystem>
 </mdclass:Subsystem>

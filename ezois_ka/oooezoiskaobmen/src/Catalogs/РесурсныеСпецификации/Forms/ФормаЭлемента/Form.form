@@ -17475,7 +17475,9 @@
           <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
             <columnsCount>1</columnsCount>
             <choiceList>
-              <value xsi:type="core:ReferenceValue"/>
+              <value xsi:type="core:ReferenceValue">
+                <value>0ed831be-3a1b-422d-aad9-7d22e014d5a2.77d354dd-e834-4be8-bce5-1864d40cad0d</value>
+              </value>
             </choiceList>
           </extInfo>
         </items>
@@ -17521,7 +17523,9 @@
           <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
             <columnsCount>1</columnsCount>
             <choiceList>
-              <value xsi:type="core:ReferenceValue"/>
+              <value xsi:type="core:ReferenceValue">
+                <value>0ed831be-3a1b-422d-aad9-7d22e014d5a2.b8e52448-0d27-4506-baac-037e125283c4</value>
+              </value>
             </choiceList>
           </extInfo>
         </items>

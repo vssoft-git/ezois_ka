@@ -1079,6 +1079,16 @@
         <changeMode>DontChange</changeMode>
         <field>Document.ДвижениеПродукцииИМатериалов.Attribute.Организация</field>
       </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ОрганизацияДавалец</name>
+        <changeMode>DontChange</changeMode>
+        <field>0</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ВнутренняяПереработка</name>
+        <changeMode>DontChange</changeMode>
+        <field>0</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

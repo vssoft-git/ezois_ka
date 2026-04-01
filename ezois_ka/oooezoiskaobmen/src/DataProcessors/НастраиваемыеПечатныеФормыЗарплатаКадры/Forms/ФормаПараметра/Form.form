@@ -413,6 +413,10 @@
       <segments>Значение</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ЗначениеПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ЗначениеРасширеннаяПодсказка</name>
       <id>45</id>

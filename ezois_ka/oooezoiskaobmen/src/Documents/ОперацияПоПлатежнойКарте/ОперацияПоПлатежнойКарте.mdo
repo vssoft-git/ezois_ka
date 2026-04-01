@@ -129,6 +129,7 @@
   <registerRecords>InformationRegister.ОтражениеДокументовВРеглУчете</registerRecords>
   <registerRecords>AccumulationRegister.ДвиженияДенежныеСредстваКонтрагент</registerRecords>
   <registerRecords>AccumulationRegister.ПартииРасходовНаСебестоимостьТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.РасходыПриУСН</registerRecords>
   <registerRecords>AccumulationRegister.ДенежныеСредстваВПути</registerRecords>
   <registerRecords>AccumulationRegister.ФактическиеДанныеБюджетирования</registerRecords>
   <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>

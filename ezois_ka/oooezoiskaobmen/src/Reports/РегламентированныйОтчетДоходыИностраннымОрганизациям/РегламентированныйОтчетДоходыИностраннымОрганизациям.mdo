@@ -188,6 +188,14 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="d8a2dfe4-7ad6-4263-929e-1647d6cb6251">
+    <name>НастройкиЗагрузкиXML2025Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2025 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
   <templates uuid="5a9d3c21-eb72-40b8-9c2a-081985c8055a">
     <name>НастройкиСравнения2016Кв1</name>
     <synonym>
@@ -209,6 +217,14 @@
     <synonym>
       <key>ru</key>
       <value>Настройки сравнения отчетов 2023 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="139786bf-0f1e-4ccf-b9cc-63fed806f521">
+    <name>НастройкиСравнения2025Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2025 (кв.4)</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>

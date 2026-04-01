@@ -7,11 +7,14 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Catalog.БанковскиеКартыКонтрагентов</content>
+  <content>e594ee18-b30a-4a5a-948e-0e4a40933101</content>
   <content>Role.ДобавлениеИзменениеБанковскихКарт</content>
   <content>CommonModule.БанковскиеКартыСлужебныйКлиентСервер</content>
+  <content>e77ed360-6476-4054-b987-3f095f195763</content>
   <content>StyleItem.ШрифтНомераБанковскойКартыМоноширинный</content>
   <content>Role.ПросмотрБанковскихКарт</content>
   <content>Role.ЧтениеБанковскихКарт</content>
+  <content>e71fd5cf-7fb9-4676-a2f6-8b86a5c6ca82</content>
   <content>CommonModule.БанковскиеКарты</content>
   <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

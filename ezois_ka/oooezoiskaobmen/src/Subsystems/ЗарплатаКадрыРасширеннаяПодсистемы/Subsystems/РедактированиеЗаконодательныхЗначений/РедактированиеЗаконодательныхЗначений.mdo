@@ -6,6 +6,7 @@
     <value>Редактирование законодательных значений</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>5e713fd7-8329-44fb-91e6-1b27d9e0e203</content>
   <content>Constant.РазрешеноРедактированиеОбщихДанных</content>
   <content>DataProcessor.РедактированиеЗаконодательныхЗначений</content>
   <content>Role.ИспользованиеОбработкиРедактированиеЗаконодательныхЗначений</content>

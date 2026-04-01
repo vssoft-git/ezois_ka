@@ -837,10 +837,10 @@
           <name>ИндексируемыеПоказателиПослеУдаления</name>
         </handlers>
         <searchStringAddition>
-          <name>ИндексируемыеПоказателиSearchString</name>
+          <name>ИндексируемыеПоказателиСтрокаПоиска</name>
           <id>81</id>
           <extendedTooltip>
-            <name>ИндексируемыеПоказателиSearchStringExtendedTooltip</name>
+            <name>ИндексируемыеПоказателиСтрокаПоискаРасширеннаяПодсказка</name>
             <id>83</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -850,7 +850,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИндексируемыеПоказателиSearchStringContextMenu</name>
+            <name>ИндексируемыеПоказателиСтрокаПоискаКонтекстноеМеню</name>
             <id>82</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -860,10 +860,10 @@
           </extInfo>
         </searchStringAddition>
         <viewStatusAddition>
-          <name>ИндексируемыеПоказателиViewStatus</name>
+          <name>ИндексируемыеПоказателиСостояниеПросмотра</name>
           <id>84</id>
           <extendedTooltip>
-            <name>ИндексируемыеПоказателиViewStatusExtendedTooltip</name>
+            <name>ИндексируемыеПоказателиСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>86</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -873,7 +873,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИндексируемыеПоказателиViewStatusContextMenu</name>
+            <name>ИндексируемыеПоказателиСостояниеПросмотраКонтекстноеМеню</name>
             <id>85</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -884,10 +884,10 @@
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
-          <name>ИндексируемыеПоказателиSearchControl</name>
+          <name>ИндексируемыеПоказателиУправлениеПоиском</name>
           <id>87</id>
           <extendedTooltip>
-            <name>ИндексируемыеПоказателиSearchControlExtendedTooltip</name>
+            <name>ИндексируемыеПоказателиУправлениеПоискомРасширеннаяПодсказка</name>
             <id>89</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -897,7 +897,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИндексируемыеПоказателиSearchControlContextMenu</name>
+            <name>ИндексируемыеПоказателиУправлениеПоискомКонтекстноеМеню</name>
             <id>88</id>
             <autoFill>true</autoFill>
           </contextMenu>

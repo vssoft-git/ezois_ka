@@ -11410,10 +11410,6 @@
               <extendedTooltip>
                 <name>КатегорияСтатистическогоНаблюдения57ТРасширеннаяПодсказка</name>
                 <id>1450</id>
-                <title>
-                  <key>ru</key>
-                  <value>Определяет, в какую из колонок форм П-4, 57-Т попадут суммы этого начисления</value>
-                </title>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -11466,6 +11462,105 @@
             <extendedTooltip>
               <name>ГруппаКатегорияСтатистическогоНаблюдения57ТРасширеннаяПодсказка</name>
               <id>1504</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>Vertical</group>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаКатегорияСтатистическогоНаблюденияФорма1РабочаяСила</name>
+            <id>1570</id>
+            <items xsi:type="form:FormField">
+              <name>КатегорияСтатистическогоНаблюдения57Т1</name>
+              <id>1572</id>
+              <title>
+                <key>ru</key>
+                <value>В форме №1 (рабочая сила)</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.КатегорияСтатистическогоНаблюденияФорма1РабочаяСила</segments>
+              </dataPath>
+              <titleLocation>Top</titleLocation>
+              <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+              <extendedTooltip>
+                <name>КатегорияСтатистическогоНаблюдения57Т1РасширеннаяПодсказка</name>
+                <id>1574</id>
+                <title>
+                  <key>ru</key>
+                  <value>Определяет, в какую из колонок форм П-4, 57-Т, Форма №1 (рабочая сила) попадут суммы этого начисления</value>
+                </title>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>КатегорияСтатистическогоНаблюдения57Т1КонтекстноеМеню</name>
+                <id>1573</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <clearButton>true</clearButton>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+                <choiceList>
+                  <presentation>
+                    <key>ru</key>
+                    <value>Не учитывается</value>
+                  </presentation>
+                  <value xsi:type="core:ReferenceValue">
+                    <value>Enum.КатегорииСтатистическогоНаблюдения57Т.EmptyRef</value>
+                  </value>
+                </choiceList>
+                <inputHint>
+                  <key>ru</key>
+                  <value>Не учитывается</value>
+                </inputHint>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Статистическая отчетность</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Группа категория статистического наблюдения форма1 рабочая сила</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>ГруппаКатегорияСтатистическогоНаблюденияФорма1РабочаяСилаРасширеннаяПодсказка</name>
+              <id>1571</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>

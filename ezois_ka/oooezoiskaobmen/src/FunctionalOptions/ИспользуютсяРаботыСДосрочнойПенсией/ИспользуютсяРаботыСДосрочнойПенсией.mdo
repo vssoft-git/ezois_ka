@@ -37,4 +37,6 @@
   <content>Document.СведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖ.TabularSection.ДосрочноеНазначениеПенсии</content>
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</content>
 </mdclass:FunctionalOption>

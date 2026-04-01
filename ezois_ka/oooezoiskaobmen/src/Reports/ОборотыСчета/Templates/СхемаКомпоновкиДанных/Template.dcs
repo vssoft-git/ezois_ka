@@ -698,7 +698,6 @@
 			</title>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
-				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
 			</role>
 			<presentationExpression>Выбор Когда Не ЗначениеЗаполнено(Подразделение) Тогда "&lt;...&gt;" Иначе ПодразделениеПредставление Конец</presentationExpression>
 			<appearance>

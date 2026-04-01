@@ -163,6 +163,9 @@
     <mdObject>InformationRegister.ЗоныДоставкиКурьеров</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПлановыйФОТИтоги</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ТранспортныеСредства</mdObject>
   </content>
   <content>
@@ -511,6 +514,9 @@
     <mdObject>Constant.ИспользоватьАвтоматическуюОтправкуПолучениеДанныхЕГАИС</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.РабочиеМестаСотрудниковИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ДанныеОтчетаПроизводственнойЛинииИСМП</mdObject>
   </content>
   <content>
@@ -775,6 +781,9 @@
     <mdObject>Document.ВводОстатковРасходовПриУСН</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ДистанционнаяРаботаСотрудниковИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВидыОбязательствНалогоплательщика</mdObject>
   </content>
   <content>
@@ -800,6 +809,9 @@
   </content>
   <content>
     <mdObject>Constant.СпособФормированияИнтервальныхРегистров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>Constant.УчитыватьОплачиваемоеНерабочееВремяИСуммыВСреднемЗаработке</mdObject>
@@ -2404,6 +2416,9 @@
     <mdObject>Catalog.СДИЗЗЕРНО</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПлановыйФОТ</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьПроизводствоНаСтороне2_5</mdObject>
   </content>
   <content>
@@ -2554,6 +2569,9 @@
     <mdObject>Catalog.Патенты</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПлановыеАвансыИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>AccumulationRegister.ЛимитыПоДаннымБюджетирования</mdObject>
   </content>
   <content>
@@ -2648,6 +2666,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.БухучетЗарплатыСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОтражениеДокументовВРеглУчете</mdObject>
@@ -3448,6 +3469,9 @@
     <mdObject>Document.Совмещение</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПлановыеНачисленияИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.МаркетинговыеМероприятия</mdObject>
   </content>
   <content>
@@ -3707,6 +3731,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОстаткиПродукцииВЕТИС</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ТерриторииСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>Document.СчетФактураПолученный</mdObject>
@@ -4223,6 +4250,9 @@
   </content>
   <content>
     <mdObject>Catalog.КомандировкиСотрудниковПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВидыЗанятостиСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.МестаВыплатыЗарплатыПодразделений</mdObject>
@@ -6349,6 +6379,9 @@
     <mdObject>InformationRegister.ВспомогательнаяИнформацияВзаиморасчетов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗанятостьПозицийШтатногоРасписанияИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.РасчетПоказателейОтложенногоНалога</mdObject>
   </content>
   <content>
@@ -7174,6 +7207,9 @@
     <mdObject>InformationRegister.ТерриторииСотрудников</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.БухучетНачисленийСотрудниковИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>Document.ВводВыводДенежныхСредствПоНаправлению</mdObject>
   </content>
   <content>
@@ -7358,6 +7394,9 @@
   </content>
   <content>
     <mdObject>Catalog.Назначения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГрафикРаботыСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьВнутреннееСогласованиеКоммерческихПредложений</mdObject>
@@ -9076,6 +9115,9 @@
     <mdObject>InformationRegister.БухучетНачисленийСотрудников</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПриостановленияТрудовыхДоговоровКонтрактовИнтервальный</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьНесколькоКасс</mdObject>
   </content>
   <content>
@@ -9938,6 +9980,9 @@
   </content>
   <content>
     <mdObject>Constant.ИспользоватьАвтоматическиеСкидкиВПродажах</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КадроваяИсторияСотрудниковИнтервальный</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ВедомостьПрочихДоходовВКассуПрисоединенныеФайлы</mdObject>

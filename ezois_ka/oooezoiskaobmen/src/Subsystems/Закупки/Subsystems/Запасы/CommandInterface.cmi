@@ -18,6 +18,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:5f396d43-5784-49e8-8fbe-c7c2085f0d38</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Report.ВедомостьПоТоварамОрганизаций.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>

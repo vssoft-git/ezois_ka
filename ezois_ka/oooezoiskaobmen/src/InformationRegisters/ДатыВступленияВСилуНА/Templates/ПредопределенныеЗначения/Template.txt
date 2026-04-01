@@ -1,9 +1,9 @@
 <Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Structure">
 	<Property name="Версия">
-		<Value xsi:type="xs:decimal">22</Value>
+		<Value xsi:type="xs:decimal">25</Value>
 	</Property>
 	<Property name="ОписаниеВерсии">
-		<Value xsi:type="xs:string">Установлена Дата начала заполнения регистрационного номера СФР.</Value>
+		<Value xsi:type="xs:string">Установлена Дата начала применения формата 2026 года для форм перс.учета.</Value>
 	</Property>
 	<Property name="ПолноеИмя">
 		<Value xsi:type="xs:string">РегистрСведений.ДатыВступленияВСилуНА</Value>
@@ -204,8 +204,8 @@
 				<Value>2023-10-01T00:00:00</Value>
 				<Value>2024-11-01T00:00:00</Value>
 				<Value>2025-09-25T00:00:00</Value>
-				<Value>2026-01-01T00:00:00</Value>
-				<Value>2026-02-01T00:00:00</Value>
+				<Value>2026-03-01T00:00:00</Value>
+				<Value>2026-03-01T00:00:00</Value>
 			</row>
 		</Value>
 	</Property>

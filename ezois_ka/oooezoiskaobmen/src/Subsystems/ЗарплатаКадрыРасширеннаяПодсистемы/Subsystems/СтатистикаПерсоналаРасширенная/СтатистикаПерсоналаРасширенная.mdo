@@ -27,5 +27,6 @@
   <content>FunctionalOption.РассчитыватьЧисленностьПоОтработанномуВремени</content>
   <content>CommonTemplate.КлассификаторОКПДТРСтатистика</content>
   <content>Role.ИзменениеФорма57ТРаздел2Сотрудники</content>
+  <content>Enum.КатегорииСтатистическогоНаблюденияФорма1РабочаяСила</content>
   <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

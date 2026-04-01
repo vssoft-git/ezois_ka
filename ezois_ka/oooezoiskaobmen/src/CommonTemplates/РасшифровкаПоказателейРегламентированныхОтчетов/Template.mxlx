@@ -50,7 +50,6 @@
 				<i>1</i>
 				<c>
 					<f>5</f>
-					<v xsi:type="xs:string"/>
 				</c>
 			</c>
 		</row>
@@ -70,7 +69,6 @@
 				<i>1</i>
 				<c>
 					<f>7</f>
-					<v xsi:type="xs:string"/>
 				</c>
 			</c>
 			<c>
@@ -94,13 +92,11 @@
 				<i>1</i>
 				<c>
 					<f>10</f>
-					<v xsi:type="xs:string"/>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>11</f>
-					<v xsi:type="xs:decimal">0</v>
 				</c>
 			</c>
 		</row>
@@ -129,7 +125,6 @@
 			<c>
 				<c>
 					<f>13</f>
-					<v xsi:type="xs:decimal">0</v>
 				</c>
 			</c>
 		</row>
@@ -349,7 +344,6 @@
 				<i>1</i>
 				<c>
 					<f>24</f>
-					<v xsi:type="xs:string"/>
 				</c>
 			</c>
 			<c>
@@ -416,10 +410,39 @@
 			<empty>true</empty>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<formatIndex>29</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>29</defaultFormatIndex>
-	<height>35</height>
-	<vgRows>35</vgRows>
+	<defaultFormatIndex>31</defaultFormatIndex>
+	<height>37</height>
+	<vgRows>37</vgRows>
 	<merge>
 		<r>2</r>
 		<c>1</c>
@@ -437,6 +460,16 @@
 	</merge>
 	<merge>
 		<r>26</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>35</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>36</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
@@ -641,6 +674,26 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>РазделительТаблиц</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>35</beginRow>
+			<endRow>36</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>РазделительТаблицТекст</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>36</beginRow>
+			<endRow>36</endRow>
+			<beginColumn>1</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>Разъяснение</name>
 		<area>
 			<type>Rows</type>
@@ -745,7 +798,7 @@
 		<width>568</width>
 	</format>
 	<format>
-		<width>108</width>
+		<width>136</width>
 		<horizontalAlignment>Right</horizontalAlignment>
 	</format>
 	<format>
@@ -1083,6 +1136,23 @@
 		<topBorder>3</topBorder>
 		<bottomBorder>0</bottomBorder>
 		<backColor>#E8F4E9</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<containsValue>true</containsValue>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
+	</format>
+	<format>
+		<height>20</height>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<containsValue>true</containsValue>
 		<valueType>
 			<v8:Type>xs:string</v8:Type>

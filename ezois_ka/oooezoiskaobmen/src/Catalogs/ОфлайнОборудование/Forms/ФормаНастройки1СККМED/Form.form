@@ -15,7 +15,7 @@
         <segments>Драйвер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДрайверExtendedTooltip</name>
+        <name>ДрайверРасширеннаяПодсказка</name>
         <id>92</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -55,7 +55,7 @@
         <segments>Версия</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВерсияExtendedTooltip</name>
+        <name>ВерсияРасширеннаяПодсказка</name>
         <id>95</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -93,7 +93,7 @@
       <value>Драйвер и версия</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДрайверExtendedTooltip</name>
+      <name>ГруппаДрайверРасширеннаяПодсказка</name>
       <id>89</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -310,7 +310,7 @@
       <value>Параметры обмена</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОбменExtendedTooltip</name>
+      <name>ГруппаОбменРасширеннаяПодсказка</name>
       <id>97</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -341,7 +341,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -367,7 +367,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ТестУстройстваExtendedTooltip</name>
+        <name>ТестУстройстваРасширеннаяПодсказка</name>
         <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

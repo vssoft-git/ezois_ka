@@ -115,7 +115,9 @@
             <key>ru</key>
             <value>Любой</value>
           </presentation>
-          <value xsi:type="core:ReferenceValue"/>
+          <value xsi:type="core:ReferenceValue">
+            <value>76b72bad-15a5-4ee8-9a8a-0a8587c00468.00000000-0000-0000-0000-000000000000</value>
+          </value>
         </choiceList>
         <choiceList>
           <value xsi:type="core:ReferenceValue">

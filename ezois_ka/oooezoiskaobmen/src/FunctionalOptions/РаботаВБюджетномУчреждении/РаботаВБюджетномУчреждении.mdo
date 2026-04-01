@@ -84,7 +84,6 @@
   <content>DataProcessor.ПанельНастроекЗарплатаКадры.Command.ОсобенностиПредприятия</content>
   <content>Document.КомпенсацияЗаЗадержкуЗарплаты.Attribute.СтатьяРасходов</content>
   <content>InformationRegister.БухучетНачисленийСотрудников.Resource.СтатьяРасходов</content>
-  <content>ChartOfCalculationTypes.Удержания.Attribute.СтатьяРасходов</content>
   <content>Document.УдержаниеВСчетРасчетовПоПрочимОперациям.Attribute.СтатьяРасходов</content>
   <content>Document.УдержаниеДобровольныхСтраховыхВзносов.Attribute.СтатьяРасходов</content>
   <content>Document.НачислениеЗаПервуюПоловинуМесяца.TabularSection.РаспределениеРезультатовУдержаний.Attribute.СтатьяРасходов</content>

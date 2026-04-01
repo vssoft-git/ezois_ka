@@ -171,6 +171,7 @@
       <types>DocumentRef.РасходныйКассовыйОрдер</types>
       <types>DocumentRef.ДвижениеПрочихАктивовПассивов</types>
       <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+      <types>DocumentRef.ОперацияПоПлатежнойКарте</types>
       <types>DocumentRef.ТаможеннаяДекларацияИмпорт</types>
       <types>DocumentRef.ПоступлениеУслугПоАренде</types>
       <types>DocumentRef.ОтчетКомиссионера</types>

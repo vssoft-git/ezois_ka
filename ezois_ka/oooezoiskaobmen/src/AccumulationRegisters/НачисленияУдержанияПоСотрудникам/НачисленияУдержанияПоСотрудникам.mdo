@@ -320,6 +320,18 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="c7f18bd7-e003-4ac8-9eb8-bc4a436983cc">
+    <name>ИсходныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СторнируемыйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="a12d5cbf-b3d4-4c60-ae39-092a481346c7">
     <name>Организация</name>
     <synonym>

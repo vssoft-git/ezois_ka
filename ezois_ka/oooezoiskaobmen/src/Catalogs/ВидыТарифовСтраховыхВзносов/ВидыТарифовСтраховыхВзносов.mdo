@@ -133,7 +133,7 @@
     </items>
     <items id="83b0e7a2-8c9f-4e0d-8ba5-897f936a5b01">
       <name>ДляСубъектовМСПЗанятыхДеятельностьюИзПеречняПравительства</name>
-      <description>Для субъектов МСП, занятых в ВЭД по перечню, утв. Правительством РФ</description>
+      <description>Для субъектов МСП, занятых в деятельности по перечню, утв. Правительством РФ</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>

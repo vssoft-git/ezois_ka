@@ -632,6 +632,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceForm>87d5cc56-1cd1-461b-8087-fcaeaa73ce6a</choiceForm>
             <choiceParameterLinks>
               <name>Отбор.Владелец</name>
               <datapath xsi:type="form:DataPath">

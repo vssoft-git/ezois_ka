@@ -6,6 +6,7 @@
     <value>Работа с клиентами</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>4f6cebed-72e9-4253-93f6-2b9013fcbef2</content>
   <content>DataProcessor.ОбменСКонтрагентами</content>
   <content>Document.УдалитьПроизвольныйЭД</content>
   <content>CommonCommand.ТорговыеПредложения</content>

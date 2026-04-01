@@ -19,4 +19,5 @@
   <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРНаДоплатуЛетчикам</content>
   <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.СведенияОДоходах.Attribute.ОблагаетсяВзносамиНаДоплатуЛетчикам</content>
   <content>Document.СведенияДляИсчисленияДоплатыКПенсииСЗВ_ДСО</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРНаДоплатуЛетчикам</content>
 </mdclass:FunctionalOption>

@@ -29,6 +29,7 @@
     <types>DocumentObject.РаботаВВыходныеИПраздничныеДни</types>
     <types>DocumentObject.НазначениеРабочихМестСотрудникам</types>
     <types>DocumentObject.ПачкаДокументовДСВ_1</types>
+    <types>DocumentObject.ЛистокСообщенияДляВоенкомата</types>
     <types>DocumentObject.ЗаявкаОтпускКабинетСотрудника</types>
     <types>DocumentObject.НазначениеПлановогоНачисления</types>
     <types>DocumentObject.РаспределениеОсновногоЗаработка</types>

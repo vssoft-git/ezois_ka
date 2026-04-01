@@ -11,6 +11,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПанельАдминистрированияБРД.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <forms uuid="b35f4723-134d-49f4-adc0-aff070a28696">
     <name>НастройкиРаспознаванияДокументов</name>
     <synonym>

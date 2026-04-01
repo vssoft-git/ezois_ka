@@ -124,9 +124,11 @@
     </synonym>
     <type>
       <types>DocumentRef.СторнированиеНачислений</types>
+      <types>DocumentRef.КадровыйПеревод</types>
       <types>DocumentRef.ПростойСотрудников</types>
       <types>DocumentRef.ОтпускБезСохраненияОплатыСписком</types>
       <types>DocumentRef.ДанныеСФРДляРасчетаПособия</types>
+      <types>DocumentRef.ИзменениеГрафикаРаботыСписком</types>
       <types>DocumentRef.Отпуск</types>
       <types>DocumentRef.ВходящаяСправкаОЗаработкеДляРасчетаПособий</types>
       <types>DocumentRef.БольничныйЛист</types>
@@ -141,6 +143,7 @@
       <types>DocumentRef.ОтпускБезСохраненияОплаты</types>
       <types>DocumentRef.ПрогулНеявка</types>
       <types>DocumentRef.ДоходВНатуральнойФорме</types>
+      <types>DocumentRef.КадровыйПереводСписком</types>
       <types>DocumentRef.ПрогулНеявкаСписком</types>
       <types>DocumentRef.Командировка</types>
       <types>DocumentRef.УвольнениеСписком</types>

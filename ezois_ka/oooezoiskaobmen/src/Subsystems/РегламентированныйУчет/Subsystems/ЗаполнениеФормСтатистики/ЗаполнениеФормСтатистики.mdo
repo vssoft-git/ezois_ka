@@ -6,11 +6,13 @@
     <value>Заполнение форм статистики</value>
   </synonym>
   <content>CommonModule.ЗаполнениеФормСтатистики</content>
+  <content>96d82b7e-10b2-4294-8806-cefdc738cde2</content>
   <content>Enum.ИсточникиДанныхСтатистическихПоказателей</content>
   <content>Enum.ОтносительныеПериодыОтчетности</content>
   <content>InformationRegister.НастройкаЗаполненияФормСтатистики</content>
   <content>Catalog.КлассификаторВидовЭкономическойДеятельности</content>
   <content>XDTOPackage.СтатистическиеПоказатели</content>
+  <content>647ea1cf-3795-49ad-9c8b-a6d084c6a39e</content>
   <content>Enum.ВидыСвободныхСтрокФормСтатистики</content>
   <content>CommonForm.ДобавлениеЭлементовВКлассификатор</content>
   <content>Catalog.КлассификаторПродукцииПоВидамДеятельности</content>

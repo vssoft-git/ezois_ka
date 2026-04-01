@@ -1649,7 +1649,7 @@
                 <textEdit>true</textEdit>
                 <inputHint>
                   <key>ru</key>
-                  <value>Выберите из списка или введите произвольный текст</value>
+                  <value>Введите произвольный текст</value>
                 </inputHint>
               </extInfo>
             </items>

@@ -1600,14 +1600,14 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>
-Приказ Росстата:
+							<v8:content>Приказ Росстата:
 Об утверждении формы
 от 31.07.2023 № 364
 О внесении изменений (при наличии)
 от 11.01.2024 № 3
 от 30.01.2025 № 34
-от 02.02.2026 № 48</v8:content>
+от 02.02.2026 № 48
+от 20.02.2026 № 76</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -5904,7 +5904,7 @@
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
-		<height>368</height>
+		<height>380</height>
 	</format>
 	<format>
 		<height>267</height>
@@ -5937,7 +5937,7 @@
 		<height>267</height>
 		<width>64</width>
 		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<font>3</font>

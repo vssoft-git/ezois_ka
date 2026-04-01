@@ -60,4 +60,12 @@
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРСПревышенияЕНВД</content>
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ТФОМСЕНВД</content>
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРПоСуммарномуТарифуЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ФССЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРСПревышенияЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРПоСуммарномуТарифуЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРНакопительнаяЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРСтраховаяЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ТФОМСЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРДоПредельнойВеличиныЕНВД</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ФФОМСЕНВД</content>
 </mdclass:FunctionalOption>

@@ -113,7 +113,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Среднего качества (типовые)</v8:content>
+							<v8:content>Квартиры среднего качества (типовые)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -167,7 +167,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Элитные</v8:content>
+							<v8:content>Элитные квартиры</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -236,7 +236,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Однокомнатные с отделкой</v8:content>
+							<v8:content>Однокомнатные квартиры с отделкой</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -263,7 +263,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Однокомнатные без отделки</v8:content>
+							<v8:content>Однокомнатные квартиры без отделки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -290,7 +290,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Двухкомнатные с отделкой</v8:content>
+							<v8:content>Двухкомнатные квартиры с отделкой</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -317,7 +317,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Двухкомнатные без отделки</v8:content>
+							<v8:content>Двухкомнатные квартиры без отделки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -344,7 +344,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Трехкомнатные с отделкой</v8:content>
+							<v8:content>Трехкомнатные квартиры с отделкой</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -371,7 +371,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Трехкомнатные без отделки</v8:content>
+							<v8:content>Трехкомнатные квартиры без отделки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -398,7 +398,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>4-х и более комнатные с отделкой</v8:content>
+							<v8:content>Четырехкомнатные и более квартиры с отделкой</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -425,7 +425,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>4-х и более комнатные без отделки</v8:content>
+							<v8:content>Четырехкомнатные и более квартиры без отделки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -494,7 +494,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Однокомнатные </v8:content>
+							<v8:content>Однокомнатные квартиры</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -521,7 +521,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Двухкомнатные</v8:content>
+							<v8:content>Двухкомнатные квартиры</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -548,7 +548,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Трехкомнатные </v8:content>
+							<v8:content>Трехкомнатные квартиры</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -575,7 +575,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>4-х и более комнатные</v8:content>
+							<v8:content>Четырехкомнатные и более квартиры</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -633,7 +633,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>2</v8:content>
+							<v8:content>5</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -644,7 +644,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Центр субъекта Российской Федерации</v8:content>
+							<v8:content>Населенный пункт, относящийся к Арктической зоне</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -653,33 +653,6 @@
 	</rowsItem>
 	<rowsItem>
 		<index>25</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>3</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>2</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Городской населенный пункт, кроме центра субъекта Российской Федерации³</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>26</index>
 		<row>
 			<c>
 				<c>
@@ -698,7 +671,34 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Территория массовой застройки жилья за пределами городской черты³</v8:content>
+							<v8:content>Территория массовой застройки жилья за пределами городской черты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Городской населенный пункт, кроме центра субъекта Российской Федерации</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -714,7 +714,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>5</v8:content>
+							<v8:content>2</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -725,7 +725,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Населенный пункт, относящийся к Арктической зоне</v8:content>
+							<v8:content>Центр субъекта Российской Федерации</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -864,33 +864,6 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>12</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>2</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Акции, скидки, распродажи</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>34</index>
-		<row>
-			<c>
-				<c>
-					<f>5</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>10</v8:content>
 						</v8:item>
 					</tl>
@@ -910,11 +883,65 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акции, скидки, распродажи</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>35</index>
 		<row>
 			<c>
 				<c>
 					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>13</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отсутствует изменение цены или изменение незначительно</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -938,8 +965,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>5</defaultFormatIndex>
-	<height>36</height>
-	<vgRows>36</vgRows>
+	<height>37</height>
+	<vgRows>37</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>МесторасположениеЖилья</name>
 		<area>
@@ -955,7 +982,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>29</beginRow>
-			<endRow>35</endRow>
+			<endRow>36</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

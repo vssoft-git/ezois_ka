@@ -11,7 +11,9 @@
   <content>CommonModule.РассылкаЭлектронныхЧековВызовСервера</content>
   <content>CommonModule.РассылкаЭлектронныхЧековКлиент</content>
   <content>CommonModule.РассылкаЭлектронныхЧековКлиентПереопределяемый</content>
+  <content>2c298cf9-b3eb-44ff-a9f6-b6b6728abdad</content>
   <content>CommonModule.РассылкаЭлектронныхЧековПереопределяемый</content>
+  <content>1442e640-5862-4628-9b25-319f59c4fc20</content>
   <content>ScheduledJob.РассылкаЭлектронныхЧеков</content>
   <content>Constant.ОтправкаЭлектронныхЧековПослеПробитияЧека</content>
   <content>Catalog.ОчередьЭлектронныхЧековКОтправке</content>

@@ -267,14 +267,18 @@
             <key>ru</key>
             <value>Конечная дата</value>
           </presentation>
-          <value xsi:type="core:ReferenceValue"/>
+          <value xsi:type="core:ReferenceValue">
+            <value>292ebd7d-ee23-4872-9bd0-428eb37f28dd.4b770c6e-253d-4b86-9820-5022d5449903</value>
+          </value>
         </choiceList>
         <choiceList>
           <presentation>
             <key>ru</key>
             <value>Наименование</value>
           </presentation>
-          <value xsi:type="core:ReferenceValue"/>
+          <value xsi:type="core:ReferenceValue">
+            <value>292ebd7d-ee23-4872-9bd0-428eb37f28dd.051a9161-9760-4d6a-9548-1bd93716f6da</value>
+          </value>
         </choiceList>
       </extInfo>
     </items>

@@ -1418,7 +1418,8 @@
 от 17.12.2021 № 925
 от 11.01.2024 № 3
 от 30.01.2025 № 34
-от 02.02.2026 № 48</v8:content>
+от 02.02.2026 № 48
+от 20.02.2026 № 76</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2557,7 +2558,7 @@
 		<protection>true</protection>
 	</format>
 	<format>
-		<height>345</height>
+		<height>388</height>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
 		<protection>true</protection>
@@ -2596,7 +2597,7 @@
 		<protection>true</protection>
 	</format>
 	<format>
-		<height>200</height>
+		<height>180</height>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
 		<protection>true</protection>

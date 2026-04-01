@@ -812,6 +812,45 @@
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
+      <items xsi:type="form:FormField">
+        <name>УчетСтраховыхВзносовАвтоматическиДополнятьБазуРуководителя</name>
+        <id>437</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>УчетСтраховыхВзносов.АвтоматическиДополнятьБазуРуководителя</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Для руководителей, не имеющих в организации трудового договора, следует использовать документ &quot;Регистрация облагаемой базы руководителя&quot;.</value>
+        </toolTip>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <extendedTooltip>
+          <name>УчетСтраховыхВзносовАвтоматическиДополнятьБазуРуководителяРасширеннаяПодсказка</name>
+          <id>439</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>УчетСтраховыхВзносовАвтоматическиДополнятьБазуРуководителяКонтекстноеМеню</name>
+          <id>438</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаВзносыНСиПЗ</name>
         <id>424</id>

@@ -63,9 +63,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ИзменениеУсловийПередачиВАренду</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Объект</typeField>
+    <valueField>0</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <help>

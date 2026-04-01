@@ -423,7 +423,14 @@
     <name>КлассификаторЛьгот_ЗемельныйНалог</name>
     <synonym>
       <key>ru</key>
-      <value>Классификатор льгот: налог на имущество</value>
+      <value>Классификатор льгот: земельный налог</value>
+    </synonym>
+  </templates>
+  <templates uuid="7f1edae7-de5d-4a8b-bf76-d18995a0580f">
+    <name>КлассификаторЛьгот_ТранспортныйНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор льгот: транспортный налог</value>
     </synonym>
   </templates>
 </mdclass:Catalog>

@@ -326,6 +326,22 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="346fe2b6-cce5-43b7-9558-25922865938f">
+    <name>ЭтоВладелецЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это владелец ЭП (для дист. подписания)</value>
+    </synonym>
+    <comment>Имеет смысл только для дистанционного подписания</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="44f8611c-c3fa-44b2-ae03-96c64cf045eb">
     <name>УчетнаяЗапись</name>
     <synonym>

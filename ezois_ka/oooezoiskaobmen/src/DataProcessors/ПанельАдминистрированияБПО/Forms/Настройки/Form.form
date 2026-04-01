@@ -23,7 +23,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОписаниеРазделаExtendedTooltip</name>
+          <name>ОписаниеРазделаРасширеннаяПодсказка</name>
           <id>2508</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -53,7 +53,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияЗаголовкаExtendedTooltip</name>
+          <name>ДекорацияЗаголовкаРасширеннаяПодсказка</name>
           <id>2511</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -146,7 +146,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>2505</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -182,7 +182,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьРабочиеМестаExtendedTooltip</name>
+            <name>ОткрытьРабочиеМестаРасширеннаяПодсказка</name>
             <id>2272</id>
             <title>
               <key>ru</key>
@@ -351,7 +351,7 @@
       <value>Рабочие места</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРабочиеМестаExtendedTooltip</name>
+      <name>ГруппаРабочиеМестаРасширеннаяПодсказка</name>
       <id>2270</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -392,7 +392,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьПодключаемоеОборудованиеExtendedTooltip</name>
+            <name>ОткрытьПодключаемоеОборудованиеРасширеннаяПодсказка</name>
             <id>2268</id>
             <title>
               <key>ru</key>
@@ -987,7 +987,7 @@
       <value>Подключаемое оборудование</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаУправлениеПодключаемымОборудованиемExtendedTooltip</name>
+      <name>ГруппаУправлениеПодключаемымОборудованиемРасширеннаяПодсказка</name>
       <id>2263</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

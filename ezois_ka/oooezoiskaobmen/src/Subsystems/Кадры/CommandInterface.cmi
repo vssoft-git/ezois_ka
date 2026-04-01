@@ -270,6 +270,7 @@
       <commands>DocumentJournal.ЭлектронныеТрудовыеКнижки.StandardCommand.OpenList</commands>
       <commands>DocumentJournal.ДанныеНаНачалоЭксплуатации.StandardCommand.OpenList</commands>
       <commands>Document.НачальнаяШтатнаяРасстановка.StandardCommand.OpenList</commands>
+      <commands>DocumentJournal.ЗаявкиКабинетСотрудника.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -352,6 +353,7 @@
       <commands>Document.ПереводКДругомуРаботодателю.StandardCommand.OpenList</commands>
       <commands>DocumentJournal.АнкетыПерсонифицированногоУчета.StandardCommand.OpenList</commands>
       <commands>DocumentJournal.ЭлектронныеТрудовыеКнижки.StandardCommand.OpenList</commands>
+      <commands>DocumentJournal.ЗаявкиКабинетСотрудника.StandardCommand.OpenList</commands>
       <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
       <commands>Catalog.Файлы.Command.Файлы</commands>
       <commands>DocumentJournal.СогласияНаОбработкуПерсональныхДанных.StandardCommand.OpenList</commands>

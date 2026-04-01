@@ -328,6 +328,19 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="697fc4fe-f46f-4202-a9c1-ee375e5395fb">
+    <name>ЗарегистрированоДляПередачиВБанкНаАУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано для передачи в банк на АУСН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="c2d1fa76-6f88-4ec3-a437-b5c9db8912ed">
     <name>ГоловнаяОрганизация</name>
     <synonym>

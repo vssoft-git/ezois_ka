@@ -3269,6 +3269,10 @@
             <items xsi:type="form:FormField">
               <name>СтатьяРасходов</name>
               <id>419</id>
+              <title>
+                <key>ru</key>
+                <value>Статья</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3277,7 +3281,6 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.СтатьяРасходов</segments>
               </dataPath>
-              <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>СтатьяРасходовРасширеннаяПодсказка</name>
                 <id>421</id>
@@ -3997,7 +4000,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <functionalOptions>FunctionalOption.ИспользоватьСтатьиФинансированияЗарплатаРасширенный</functionalOptions>
   </attributes>
   <attributes>
     <name>ИспользоватьСтатьиФинансирования</name>

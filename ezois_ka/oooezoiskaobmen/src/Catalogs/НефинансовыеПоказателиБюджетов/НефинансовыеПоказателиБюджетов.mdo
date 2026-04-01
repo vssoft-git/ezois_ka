@@ -102,10 +102,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_НефинансовыеПоказателиБюджетов</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>Catalog.НефинансовыеПоказателиБюджетов.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.НефинансовыеПоказателиБюджетов.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.НефинансовыеПоказателиБюджетов.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.НефинансовыеПоказателиБюджетов.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -114,10 +118,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_НефинансовыеПоказателиБюджетов</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <help>

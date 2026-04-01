@@ -779,7 +779,7 @@
       <id>12343</id>
       <title>
         <key>ru</key>
-        <value>Пакет с доп. документами используется для передачи в ФНС подтверждающих документов к ранее отправленным отчетам, уведомлениям, запросам, пояснениям, а так же ответов на требования, аудиторских заключений и банковских гарантий.</value>
+        <value>Пакет с доп. документами используется для передачи в ФНС подтверждающих документов к ранее отправленным отчетам, уведомлениям, запросам, пояснениям, а также ответов на требования, аудиторских заключений и банковских гарантий.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2849,7 +2849,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Текстовое пояснение</value>
+        <value>Текст пояснения</value>
       </title>
       <toolTip>
         <key>ru</key>
@@ -2872,6 +2872,7 @@
         <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -3968,11 +3969,11 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Документы</value>
+        <value>Вложения</value>
       </title>
       <toolTip>
         <key>ru</key>
-        <value>Документы</value>
+        <value>Вложения</value>
       </toolTip>
       <extendedTooltip>
         <name>ДокументыРасширеннаяПодсказка</name>
@@ -3990,6 +3991,7 @@
         <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>

@@ -300,6 +300,14 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="32596608-7185-43c6-9481-1556d92ef53e">
+    <name>НастройкиЗагрузкиXML2025Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2025 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
   <templates uuid="c8bb999a-0d0d-4edf-a718-d26348816a28">
     <name>НастройкиСравнения2011Кв4</name>
     <synonym>
@@ -313,6 +321,14 @@
     <synonym>
       <key>ru</key>
       <value>Настройки сравнения отчетов 2019 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4f1a64c8-15ed-42a3-a0eb-34bda17d6f32">
+    <name>НастройкиСравнения2025Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2025 (кв.1)</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>

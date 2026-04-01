@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>2.5.22.159</version>
+  <version>2.5.22.166</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
@@ -8042,6 +8042,7 @@
   <commonModules>CommonModule.РасчетЗарплатыРасширенныйПовтИсп</commonModules>
   <commonModules>CommonModule.РасчетЗарплатыРасширенныйСобытия</commonModules>
   <commonModules>CommonModule.РасчетЗарплатыРасширенныйФормы</commonModules>
+  <commonModules>CommonModule.РасчетЗарплатыСобытия</commonModules>
   <commonModules>CommonModule.РасчетЗарплатыФормы</commonModules>
   <commonModules>CommonModule.РасчетИмущественныхНалогов</commonModules>
   <commonModules>CommonModule.РасчетИмущественныхНалоговКлиентСервер</commonModules>
@@ -8164,8 +8165,8 @@
   <commonModules>CommonModule.РеглУчетКлиент</commonModules>
   <commonModules>CommonModule.РеглУчетКлиентСервер</commonModules>
   <commonModules>CommonModule.РеглУчетПроведениеСервер</commonModules>
-  <commonModules>CommonModule.РеглУчетСервер</commonModules>
   <commonModules>CommonModule.vs_УстановкаЦенПереопределяемый</commonModules>
+  <commonModules>CommonModule.РеглУчетСервер</commonModules>
   <commonModules>CommonModule.РегулярнаяОтправкаСотрудников</commonModules>
   <commonModules>CommonModule.РегулярнаяОтправкаСотрудниковБазовый</commonModules>
   <commonModules>CommonModule.РегулярнаяОтправкаСотрудниковВнутренний</commonModules>
@@ -10030,6 +10031,7 @@
   <eventSubscriptions>EventSubscription.ПриПодписанииФайловПечатныхФорм</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтГлавного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтПодчиненного</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПриПримененииТарифаСтраховыхВзносов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПроведенииДокументовОтгрузки</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</eventSubscriptions>
@@ -17680,6 +17682,7 @@
   <reports>Report.РегламентированноеУведомлениеГибельТС</reports>
   <reports>Report.РегламентированноеУведомлениеДекларацияХарактеристикаОбъекта</reports>
   <reports>Report.РегламентированноеУведомлениеДобычаЦифровойВалюты</reports>
+  <reports>Report.РегламентированноеУведомлениеДокументОПредстоящейПоставке</reports>
   <reports>Report.РегламентированноеУведомлениеДосрочноеИсполнениеОтсрочки</reports>
   <reports>Report.РегламентированноеУведомлениеДоступГИРБО</reports>
   <reports>Report.РегламентированноеУведомлениеДубликатСвидетельстваПереработкаНефти</reports>

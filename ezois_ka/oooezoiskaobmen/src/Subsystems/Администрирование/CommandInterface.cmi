@@ -78,6 +78,14 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:41ae68d3-fd79-40b5-b755-8d423ce55a28</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:d07cddd1-9fe9-48de-b100-acd4c9fc525f</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.СверкаНачальныхОстатковПоСкладу.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
@@ -482,6 +490,8 @@
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.Интерфейс</commands>
       <commands>InformationRegister.НастройкиВерсионированияОбъектов.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.УчетНДСИмпортЭкспорт</commands>
+      <commands>0:41ae68d3-fd79-40b5-b755-8d423ce55a28</commands>
+      <commands>0:d07cddd1-9fe9-48de-b100-acd4c9fc525f</commands>
       <commands>Document.СверкаНачальныхОстатковПоСкладу.StandardCommand.OpenList</commands>
       <commands>DataProcessor.ПомощникПереходаНаЦенообразованиеВерсии25.Command.ПерейтиНаНовоеЦенообразование</commands>
       <commands>DataProcessor.ПанельАдминистрированияУТ.Command.ОписанияПроцессов</commands>

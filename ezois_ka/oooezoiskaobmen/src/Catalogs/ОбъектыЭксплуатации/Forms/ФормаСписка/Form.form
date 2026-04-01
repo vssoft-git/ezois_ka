@@ -232,6 +232,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceParameterLinks>
+          <name>Отбор.Владелец</name>
+          <datapath xsi:type="form:DataPath">
+            <segments>4/-8</segments>
+          </datapath>
+        </choiceParameterLinks>
         <inputHint>
           <key>ru</key>
           <value>Все</value>

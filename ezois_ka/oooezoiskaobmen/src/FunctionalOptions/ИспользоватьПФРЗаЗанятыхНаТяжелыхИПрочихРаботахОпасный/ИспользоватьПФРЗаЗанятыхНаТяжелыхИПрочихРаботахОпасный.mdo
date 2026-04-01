@@ -13,4 +13,5 @@
   <content>Document.ПерерасчетСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахОпасный</content>
   <content>Document.АктПроверкиСтраховыхВзносов.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахОпасный</content>
   <content>Document.Увольнение.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахОпасный</content>
+  <content>Document.РегистрацияОблагаемойБазыРуководителя.TabularSection.Взносы.Attribute.ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахОпасный</content>
 </mdclass:FunctionalOption>

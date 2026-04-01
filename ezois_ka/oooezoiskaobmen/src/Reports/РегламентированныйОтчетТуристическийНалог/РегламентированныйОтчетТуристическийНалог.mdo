@@ -44,6 +44,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9ed27476-1be1-4177-901b-1a2978744d38">
+    <name>ФормаОтчета2026Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация по туристическому налогу</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="5598d3ff-9edc-4fa6-93db-49831e82f5c4">
     <name>МБ_1153008_5_01000_01_tif</name>
     <synonym>
@@ -60,11 +74,27 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="c70a4634-d112-46fb-8033-39824c5ce077">
+    <name>НастройкиЗагрузкиXML2026Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2026 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
   <templates uuid="0fde00d6-c5cb-4c02-b7ed-c1deb434bb79">
     <name>НастройкиСравнения2025Кв1</name>
     <synonym>
       <key>ru</key>
       <value>Настройки сравнения отчетов 2025 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0f20d9c4-7cf5-48c7-99a1-1a6eeb2e08e4">
+    <name>НастройкиСравнения2026Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2026 (кв.1)</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
@@ -96,6 +126,34 @@
       <value>Титульный лист</value>
     </synonym>
   </templates>
+  <templates uuid="f6e08d72-6398-4c57-9351-eb9f6fe34d8b">
+    <name>ПечатныйБланк2026Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5da41725-5f00-402e-8647-dff9fd9dc86b">
+    <name>ПечатныйБланк2026Кв1_Раздел2_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="bfc4667d-f030-4b40-84d3-f1dcd4e1fe6d">
+    <name>ПечатныйБланк2026Кв1_Раздел2_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2 (продолжение)</value>
+    </synonym>
+  </templates>
+  <templates uuid="6a9d9320-53cc-4196-9d87-cfede5d081b0">
+    <name>ПечатныйБланк2026Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
   <templates uuid="9971f957-962c-4aa6-8dd0-710def43d9c8">
     <name>СпискиВыбора2025Кв1</name>
     <synonym>
@@ -103,8 +161,22 @@
       <value>Списки выбора значений</value>
     </synonym>
   </templates>
+  <templates uuid="6f7ca9b2-60b5-45fb-b627-6e6520fd72e1">
+    <name>СпискиВыбора2026Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
   <templates uuid="b2be1340-81e7-4340-bd57-a8f4420014f8">
     <name>СхемаВыгрузки501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки версии 5.01</value>
+    </synonym>
+  </templates>
+  <templates uuid="0e2ba0ea-8aad-4f9f-a95b-503e9f052e72">
+    <name>СхемаВыгрузки502</name>
     <synonym>
       <key>ru</key>
       <value>Схема выгрузки версии 5.01</value>
@@ -126,6 +198,27 @@
   </templates>
   <templates uuid="99d4c6df-ef7e-4963-97f5-459bb3ae6096">
     <name>ФормаОтчета2025Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="99d31ea5-e16a-434c-9c10-2a40235cbe84">
+    <name>ФормаОтчета2026Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d59c99f4-3765-484a-817f-d6449dc6183c">
+    <name>ФормаОтчета2026Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="74cd536d-91b4-46fc-b193-d46ce711d602">
+    <name>ФормаОтчета2026Кв1_Титульный</name>
     <synonym>
       <key>ru</key>
       <value>Титульный лист</value>

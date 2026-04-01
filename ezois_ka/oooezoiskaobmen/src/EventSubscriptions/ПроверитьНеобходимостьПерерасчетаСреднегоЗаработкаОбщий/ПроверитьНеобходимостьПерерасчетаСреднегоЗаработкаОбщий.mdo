@@ -9,6 +9,7 @@
     <types>AccumulationRegisterRecordSet.ДанныеОНачисленияхДляРасчетаСреднегоЗаработкаОбщий</types>
     <types>AccumulationRegisterRecordSet.ДанныеОВремениДляРасчетаСреднегоОбщий</types>
     <types>InformationRegisterRecordSet.КоэффициентыПовышенияЗаработкаУчитываемыеПриИндексации</types>
+    <types>InformationRegisterRecordSet.ГрафикРаботыСотрудников</types>
     <types>InformationRegisterRecordSet.КоэффициентИндексацииЗаработка</types>
   </source>
   <event>OnWrite</event>

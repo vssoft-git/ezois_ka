@@ -1,9 +1,9 @@
 <Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Structure">
 	<Property name="Версия">
-		<Value xsi:type="xs:decimal">42</Value>
+		<Value xsi:type="xs:decimal">43</Value>
 	</Property>
 	<Property name="ОписаниеВерсии">
-		<Value xsi:type="xs:string">Изменение ключевой ставки с 22.12.2025 в соответствии с Информацией Банка России от 19.12.2025.</Value>
+		<Value xsi:type="xs:string">Изменение ключевой ставки с 16.02.2026 в соответствии с Информацией Банка России от 13.02.2026.</Value>
 	</Property>
 	<Property name="ПолноеИмя">
 		<Value xsi:type="xs:string">РегистрСведений.СтавкаРефинансированияЦБ</Value>
@@ -380,6 +380,10 @@
 			<row>
 				<Value>2025-12-22T00:00:00</Value>
 				<Value>16</Value>
+			</row>
+			<row>
+				<Value>2026-02-16T00:00:00</Value>
+				<Value>15.5</Value>
 			</row>
 		</Value>
 	</Property>

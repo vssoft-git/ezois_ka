@@ -80,6 +80,7 @@
       <commands>CommonCommand.НастройкиМаркетплейсов</commands>
       <commands>CommonCommand.НастройкиБидзаар</commands>
       <commands>CommonCommand.УстановитьРасширениеМаг1С</commands>
+      <commands>0:313096ef-02e8-418b-a280-89fee405033d</commands>
       <commands>DataProcessor.РаботаСНоменклатурой.Command.РаботаСНоменклатурой</commands>
       <commands>DataProcessor.ПанельАдминистрированияЕГАИС.Command.ПанельАдминистрированияЕГАИС</commands>
       <commands>DataProcessor.ПанельАдминистрированияГИСМ.Command.ПанельАдминистрированияГИСМ</commands>

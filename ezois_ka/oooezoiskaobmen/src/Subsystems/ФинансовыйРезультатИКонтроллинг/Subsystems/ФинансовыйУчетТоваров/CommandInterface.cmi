@@ -122,6 +122,7 @@
       <group>NavigationPanelOrdinary</group>
       <commands>DataProcessor.ЖурналДокументовИнтеркампани.Command.ПередачиКОформлению</commands>
       <commands>DataProcessor.ЖурналДокументовИнтеркампани.Command.ОтчетыПоКомиссииКОформлению</commands>
+      <commands>0:567eea11-ae20-46d8-9fab-ac9680ad3249</commands>
       <commands>Catalog.ДоговорыМеждуОрганизациями.Command.ДоговорыМеждуОрганизациями</commands>
       <commands>Document.КорректировкаОбособленногоУчетаЗапасов.StandardCommand.OpenList</commands>
       <commands>Catalog.ПартииПроизводства.StandardCommand.OpenList</commands>

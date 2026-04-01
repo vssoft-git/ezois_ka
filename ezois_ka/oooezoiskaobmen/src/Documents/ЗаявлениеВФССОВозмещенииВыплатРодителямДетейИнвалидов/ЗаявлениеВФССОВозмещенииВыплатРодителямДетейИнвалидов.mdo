@@ -1141,6 +1141,10 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.ГоловнаяОрганизация</name>
+        <field>Document.ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидов.Attribute.Организация</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1494,7 +1498,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>10</length>
+          <length>20</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

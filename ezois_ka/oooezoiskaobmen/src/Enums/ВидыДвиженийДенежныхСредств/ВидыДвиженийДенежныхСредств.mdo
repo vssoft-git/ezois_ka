@@ -428,6 +428,13 @@
       <value>Единый налоговый платеж</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="13076d35-de4a-4d85-85dc-fd887f8e06a6">
+    <name>УплатаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уплата НДС</value>
+    </synonym>
+  </enumValues>
   <forms uuid="1bb13e12-12ee-4f9a-bf58-cb973b2fd3bd">
     <name>ФормаВыбора</name>
     <synonym>

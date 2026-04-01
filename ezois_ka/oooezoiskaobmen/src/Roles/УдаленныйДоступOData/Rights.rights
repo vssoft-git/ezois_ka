@@ -8858,6 +8858,25 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ТСПИоТ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>BusinessProcess.ЗаявкаСотрудникаСправкаСМестаРаботы</name>
 		<right>
 			<name>Read</name>

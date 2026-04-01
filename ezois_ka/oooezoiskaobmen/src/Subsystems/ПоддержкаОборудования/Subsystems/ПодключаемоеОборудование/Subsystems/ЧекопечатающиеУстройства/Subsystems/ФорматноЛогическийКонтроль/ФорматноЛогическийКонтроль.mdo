@@ -9,6 +9,7 @@
   <content>Enum.СпособыФорматноЛогическогоКонтроля</content>
   <content>CommonModule.ФорматноЛогическийКонтрольВызовСервера</content>
   <content>CommonModule.ФорматноЛогическийКонтрольКлиентСервер</content>
+  <content>85bebb69-4c64-4030-860f-2a6440644404</content>
   <content>CommonModule.ФорматноЛогическийКонтроль</content>
   <content>CommonModule.ФорматноЛогическийКонтрольПереопределяемый</content>
   <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование.Subsystem.ЧекопечатающиеУстройства</parentSubsystem>

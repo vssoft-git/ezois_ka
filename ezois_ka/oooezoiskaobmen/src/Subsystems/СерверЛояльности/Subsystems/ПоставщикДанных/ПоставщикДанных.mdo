@@ -24,6 +24,7 @@
   <content>CommonModule.ОбщегоНазначенияСерверЛояльностиКлиентСервер</content>
   <content>CommonModule.СерверЛояльностиПоставщикДанныхУТ</content>
   <content>Enum.ВидыОплатСерверЛояльности</content>
+  <content>dd5e02e0-b17a-4dfd-b7a1-7c1ee761c3b0</content>
   <subsystems>БонусныеПрограммы</subsystems>
   <subsystems>ПодарочныеСертификаты</subsystems>
   <subsystems>Промокоды</subsystems>

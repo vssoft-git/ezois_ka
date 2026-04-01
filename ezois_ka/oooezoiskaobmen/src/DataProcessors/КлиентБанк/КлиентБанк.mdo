@@ -2089,6 +2089,19 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="dc6df8ff-55d4-4441-924b-f55e060d8164">
+      <name>ОрганизацияЮрФизЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация юр физ лицо</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЮрФизЛицо</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="7366c22f-5098-4e87-97eb-dbad1129afd3">
     <producedTypes>

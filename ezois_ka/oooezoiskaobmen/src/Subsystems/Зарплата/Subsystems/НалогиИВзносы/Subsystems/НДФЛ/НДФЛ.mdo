@@ -11,6 +11,7 @@
   <content>Report.АнализНДФЛДетальный</content>
   <content>Report.АнализОбязательствПоНДФЛ</content>
   <content>Report.АнализУплатыНДФЛ</content>
+  <content>9958627c-29cd-4a09-9701-c4f2ab6e93fd</content>
   <content>Report.РегистрНалоговогоУчетаПоНДФЛ</content>
   <parentSubsystem>Subsystem.Зарплата.Subsystem.НалогиИВзносы</parentSubsystem>
 </mdclass:Subsystem>

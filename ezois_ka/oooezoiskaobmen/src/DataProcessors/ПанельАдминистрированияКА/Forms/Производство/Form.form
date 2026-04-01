@@ -2039,16 +2039,24 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.2cdfa4ec-4081-43fc-8e54-9362c6cb14f4</value>
+                </value>
               </choiceList>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.b3207713-59f0-4cef-8b32-a3fdacc7299c</value>
+                </value>
               </choiceList>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.44feba87-a5d2-451e-aaee-96b97ab3702c</value>
+                </value>
               </choiceList>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.8b6c5337-b900-42bc-bac2-059174e62ce5</value>
+                </value>
               </choiceList>
             </extInfo>
           </items>
@@ -2340,10 +2348,14 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.2cdfa4ec-4081-43fc-8e54-9362c6cb14f4</value>
+                </value>
               </choiceList>
               <choiceList>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>d0202aaf-0d9d-4a56-a019-50bf2507d213.b3207713-59f0-4cef-8b32-a3fdacc7299c</value>
+                </value>
               </choiceList>
             </extInfo>
           </items>

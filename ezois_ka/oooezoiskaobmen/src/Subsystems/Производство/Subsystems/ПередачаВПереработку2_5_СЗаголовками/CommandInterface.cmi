@@ -2,6 +2,10 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>0:ac533bb8-a35d-49ee-84ee-75e8a936d0a2</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Constant.ВариантОбособленияВПередачеПереработчику2_5.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -141,6 +145,7 @@
       <group>NavigationPanelImportant</group>
       <commands>Document.ЗаказПереработчику2_5.StandardCommand.OpenList</commands>
       <commands>CommonCommand.ЖурналДокументовПередачиВПереработку</commands>
+      <commands>0:ac533bb8-a35d-49ee-84ee-75e8a936d0a2</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>

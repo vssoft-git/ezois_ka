@@ -117,6 +117,7 @@
   <content>Document.ДанныеДляОформленияНаРаботу</content>
   <content>CommonCommand.РешенияОПриемахНаРаботу</content>
   <content>Document.ОтменаСовмещения</content>
+  <content>DocumentJournal.ЗаявкиКабинетСотрудника</content>
   <subsystems>АнализВоинскогоУчета</subsystems>
   <subsystems>ВоинскийУчет</subsystems>
   <subsystems>ОтчетностьДляВоенкоматов</subsystems>

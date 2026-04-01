@@ -82,6 +82,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>0:5372ef13-f11d-49d1-8e8b-e32c6908a272</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Report.ПлановаяПотребностьВТрудовыхРесурсах.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -129,6 +133,7 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
+      <commands>0:fc586d73-1bd0-4a20-98b0-28e97d3e2d07</commands>
       <commands>DataProcessor.ФормированиеЗаказовНаСборкуРазборкуПоПлану.StandardCommand.Open</commands>
       <commands>DataProcessor.ФормированиеЗаказовПоставщикуПоПлану.StandardCommand.Open</commands>
       <commands>DataProcessor.ФормированиеЗаказовНаПередачуВПроизводствоПоПлану.StandardCommand.Open</commands>
@@ -160,6 +165,7 @@
       <commands>Report.ИсполнениеПланаПроизводства.StandardCommand.Open</commands>
       <commands>Report.ИсполнениеПланаСборкиРазборки.StandardCommand.Open</commands>
       <commands>Report.ИсполнениеПланаВнутреннихПотреблений.StandardCommand.Open</commands>
+      <commands>0:5372ef13-f11d-49d1-8e8b-e32c6908a272</commands>
       <commands>Report.ПлановаяПотребностьВТрудовыхРесурсах.StandardCommand.Open</commands>
       <commands>Report.СбалансированностьПлановУП.StandardCommand.Open</commands>
       <commands>Report.СбалансированностьПлановУТ.StandardCommand.Open</commands>

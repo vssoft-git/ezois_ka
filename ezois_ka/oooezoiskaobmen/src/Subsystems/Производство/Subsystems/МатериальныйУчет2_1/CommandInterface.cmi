@@ -2,6 +2,10 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>0:7d5ac528-fafd-4587-9325-2207f7a91f23</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonCommand.ФормированиеЗаказовНаПередачуВПроизводствоПоПлану</command>
       <visible>
         <common>true</common>
@@ -27,10 +31,12 @@
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>
+      <commands>0:7d5ac528-fafd-4587-9325-2207f7a91f23</commands>
       <commands>CommonCommand.ФормированиеЗаказовНаПередачуВПроизводствоПоПлану</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
+      <commands>0:ae7705dc-4de8-4712-89e1-c2b5f1653813</commands>
       <commands>Document.ЗаказМатериаловВПроизводство.StandardCommand.OpenList</commands>
       <commands>Document.ПередачаМатериаловВПроизводство.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеМатериаловВПроизводстве.StandardCommand.OpenList</commands>

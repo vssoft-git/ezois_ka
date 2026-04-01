@@ -85,6 +85,7 @@
       <key>ru</key>
       <value>Применяются льготные тарифы для отдельных территорий</value>
     </synonym>
+    <comment>АПК:58</comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -205,6 +206,22 @@
       <key>ru</key>
       <value>Используется труд иностранцев с особыми взносами</value>
     </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a8f55f3d-98ec-4845-a59c-a18867d64017">
+    <name>АвтоматическиДополнятьБазуРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически дополнять облагаемую базу сотрудника-руководителя до МРОТ (для коммерческой организации)</value>
+    </synonym>
+    <comment>АПК:58</comment>
     <type>
       <types>Boolean</types>
     </type>

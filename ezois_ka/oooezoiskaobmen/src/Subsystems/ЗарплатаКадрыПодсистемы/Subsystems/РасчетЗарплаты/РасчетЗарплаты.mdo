@@ -39,5 +39,7 @@
   <content>Enum.РолиСотрудников</content>
   <content>Role.ДобавлениеИзменениеПВРНачисления</content>
   <content>Role.ЧтениеПВРНачисления</content>
+  <content>CommonModule.РасчетЗарплатыСобытия</content>
+  <content>EventSubscription.ПриПримененииТарифаСтраховыхВзносов</content>
   <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

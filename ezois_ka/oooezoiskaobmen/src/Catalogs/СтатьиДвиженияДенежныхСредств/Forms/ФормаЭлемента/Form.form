@@ -506,6 +506,11 @@
           <value>Enum.ВидыДвиженийДенежныхСредств.EnumValue.ЕдиныйНалоговыйПлатеж</value>
         </value>
       </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыДвиженийДенежныхСредств.EnumValue.УплатаНДС</value>
+        </value>
+      </choiceList>
       <dropListWidth>80</dropListWidth>
     </extInfo>
   </items>
